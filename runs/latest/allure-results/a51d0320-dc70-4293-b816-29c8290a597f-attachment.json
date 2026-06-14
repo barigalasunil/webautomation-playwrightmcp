@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi Giganet: A smart network powered with AI from Vi",
+  "pageUrl": "https://www.myvi.in/giganet",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\firefox\\Verify_that_Vi_Giganet_A_smart_network_powered_with_AI_from_Vi_loads_successfully_Vi_Giganet__A_smart_network_powered_with_AI_from_V_1781176157395.png"
+  ],
+  "status": "passed"
+}

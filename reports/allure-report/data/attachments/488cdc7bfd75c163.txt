@@ -1,0 +1,100 @@
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  284 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:252:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that 2 Menus are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression (14.5s)
+[PASS] Test 288/918 passed: Verify that Vodafone Idea Foundation – An initiative to change India with Mobile Technology loads successfully @regression
+[2026-06-12 09:50:26 IST] [PASS] Test 288/918 passed: Verify that Vodafone Idea Foundation – An initiative to change India with Mobile Technology loads successfully @regression
+  ✓  286 [chromium] › tests\generated\www-myvi-in\VodafoneIdeaFoundationAnInitiativeToChangeIndiaWithMobileTechnology.spec.ts:15:3 › https://www.myvi.in/ - Vodafone Idea Foundation – An initiative to change India with Mobile Technology - Regression Tests › Verify that Vodafone Idea Foundation – An initiative to change India with Mobile Technology loads successfully @regression (22.1s)
+[PROGRESS] chromium: Test 289/306 running: Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 09:50:26 IST] [PROGRESS] chromium: Test 289/306 running: Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[PROGRESS] chromium: Test 290/306 running: Verify that Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates loads successfully @regression
+[2026-06-12 09:50:26 IST] [PROGRESS] chromium: Test 290/306 running: Verify that Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates loads successfully @regression
+[VERIFY] Verify that the heading 'Vi (Vodafone Idea) Media Releases' exists in the DOM
+[2026-06-12 09:50:27 IST] [VERIFY] Verify that the heading 'Vi (Vodafone Idea) Media Releases' exists in the DOM
+[VERIFY] Verify that the heading 'Vodafone Idea (Vi) News & Press Releases' exists in the DOM
+[2026-06-12 09:50:27 IST] [VERIFY] Verify that the heading 'Vodafone Idea (Vi) News & Press Releases' exists in the DOM
+[VERIFY] Verify that the heading 'Vi launches 5G services in Coimbatore' exists in the DOM
+[2026-06-12 09:50:27 IST] [VERIFY] Verify that the heading 'Vi launches 5G services in Coimbatore' exists in the DOM
+[VERIFY] Verify that the heading 'Vi launches 5G services in Bhopal' exists in the DOM
+[2026-06-12 09:50:28 IST] [VERIFY] Verify that the heading 'Vi launches 5G services in Bhopal' exists in the DOM
+[VERIFY] Verify that the heading 'Vi expands 5G footprint in Punjab' exists in the DOM
+[2026-06-12 09:50:28 IST] [VERIFY] Verify that the heading 'Vi expands 5G footprint in Punjab' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:50:28 IST] [STEP] Capture screenshot evidence
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:50:30 IST] [STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:50:30 IST] [VERIFY] Verify the URL is correct
+[VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:50:30 IST] [STEP] Capture screenshot evidence
+[PASS] Test 290/918 passed: Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 09:50:31 IST] [PASS] Test 290/918 passed: Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+  ✓  289 [chromium] › tests\generated\www-myvi-in\VodafoneIdeaNewsViLatestViNewsPressReleasesAmpUpdates.spec.ts:50:3 › https://www.myvi.in/ - Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates - Regression Tests › Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression (4.9s)
+[PROGRESS] chromium: Test 291/306 running: Verify that 109 Links are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 09:50:31 IST] [PROGRESS] chromium: Test 291/306 running: Verify that 109 Links are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[FAIL] Test 291/918 failed: Verify that 105 Links are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[2026-06-12 09:50:32 IST] [FAIL] Test 291/918 failed: Verify that 105 Links are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:50:32 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  287 [chromium] › tests\generated\www-myvi-in\VodafoneIdeaFoundationAnInitiativeToChangeIndiaWithMobileTechnology.spec.ts:96:3 › https://www.myvi.in/ - Vodafone Idea Foundation – An initiative to change India with Mobile Technology - Regression Tests › Verify that 105 Links are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression (10.5s)
+[FAIL] Test 291/918 failed: Verify that 3 Menus are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[2026-06-12 09:50:32 IST] [FAIL] Test 291/918 failed: Verify that 3 Menus are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:50:32 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  288 [chromium] › tests\generated\www-myvi-in\VodafoneIdeaFoundationAnInitiativeToChangeIndiaWithMobileTechnology.spec.ts:142:3 › https://www.myvi.in/ - Vodafone Idea Foundation – An initiative to change India with Mobile Technology - Regression Tests › Verify that 3 Menus are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression (9.8s)
+[PASS] Test 291/918 passed: Verify that Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates loads successfully @regression
+[2026-06-12 09:50:33 IST] [PASS] Test 291/918 passed: Verify that Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates loads successfully @regression
+  ✓  290 [chromium] › tests\generated\www-myvi-in\VodafoneIdeaNewsViLatestViNewsPressReleasesAmpUpdates.spec.ts:15:3 › https://www.myvi.in/ - Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates - Regression Tests › Verify that Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates loads successfully @regression (5.8s)
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:50:33 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PROGRESS] chromium: Test 292/306 running: Verify that 3 Menus are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 09:50:33 IST] [PROGRESS] chromium: Test 292/306 running: Verify that 3 Menus are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[VERIFY] Verify that the link 'Personal' exists in the DOM
+[2026-06-12 09:50:33 IST] [VERIFY] Verify that the link 'Personal' exists in the DOM
+[VERIFY] Verify that the link 'Business' exists in the DOM
+[2026-06-12 09:50:33 IST] [VERIFY] Verify that the link 'Business' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:50:33 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'Company Overview' exists in the DOM
+[2026-06-12 09:50:33 IST] [VERIFY] Verify that the link 'Company Overview' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:50:33 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 293/306 running: Verify that 6 Buttons are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 09:50:34 IST] [PROGRESS] chromium: Test 293/306 running: Verify that 6 Buttons are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[PROGRESS] chromium: Test 294/306 running: Verify that 1 Input is present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 09:50:34 IST] [PROGRESS] chromium: Test 294/306 running: Verify that 1 Input is present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:50:34 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[PASS] Test 294/918 passed: Verify that 109 Links are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 09:50:36 IST] [PASS] Test 294/918 passed: Verify that 109 Links are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression

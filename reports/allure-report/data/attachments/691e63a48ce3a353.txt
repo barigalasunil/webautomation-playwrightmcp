@@ -1,0 +1,100 @@
+[PROGRESS] chromium: Test 134/306 running: Verify that Privacy Policy | Vi loads successfully @regression
+[2026-06-12 09:40:41 IST] [PROGRESS] chromium: Test 134/306 running: Verify that Privacy Policy | Vi loads successfully @regression
+[PROGRESS] chromium: Test 135/306 running: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:41 IST] [PROGRESS] chromium: Test 135/306 running: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+[PASS] Test 135/918 passed: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 09:40:43 IST] [PASS] Test 135/918 passed: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+  ✓  132 [chromium] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:234:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (8.5s)
+[PROGRESS] chromium: Test 136/306 running: Verify that 185 Links are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:43 IST] [PROGRESS] chromium: Test 136/306 running: Verify that 185 Links are present on Privacy Policy | Vi @regression
+[VERIFY] Verify that the heading 'Privacy Matters' exists in the DOM
+[2026-06-12 09:40:48 IST] [VERIFY] Verify that the heading 'Privacy Matters' exists in the DOM
+[VERIFY] Verify that the heading 'privacy policy' exists in the DOM
+[2026-06-12 09:40:48 IST] [VERIFY] Verify that the heading 'privacy policy' exists in the DOM
+[2026-06-12 09:40:48 IST] [VERIFY] Verify that the heading 'Who we are :' exists in the DOM
+[VERIFY] Verify that the heading 'Who we are :' exists in the DOM
+[VERIFY] Verify that the heading 'Collection of personal information' exists in the DOM
+[2026-06-12 09:40:48 IST] [VERIFY] Verify that the heading 'Collection of personal information' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:40:48 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the heading 'Use of Personal Information' exists in the DOM
+[2026-06-12 09:40:48 IST] [VERIFY] Verify that the heading 'Use of Personal Information' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:40:48 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 136/918 failed: Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 09:40:49 IST] [FAIL] Test 136/918 failed: Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()[22m
+[2026-06-12 09:40:49 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()
+  ✘  133 [chromium] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:264:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (13.1s)
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:40:50 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:40:50 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 137/306 running: Verify that 15 Buttons are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:50 IST] [PROGRESS] chromium: Test 137/306 running: Verify that 15 Buttons are present on Privacy Policy | Vi @regression
+[PASS] Test 137/918 passed: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:50 IST] [PASS] Test 137/918 passed: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+  ✓  135 [chromium] › tests\generated\www-myvi-in\PrivacyPolicyVi.spec.ts:50:3 › https://www.myvi.in/ - Privacy Policy | Vi - Regression Tests › Verify that 39 Headings are present on Privacy Policy | Vi @regression (7.8s)
+[PROGRESS] chromium: Test 138/306 running: Verify that 58 Inputs are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:51 IST] [PROGRESS] chromium: Test 138/306 running: Verify that 58 Inputs are present on Privacy Policy | Vi @regression
+[PASS] Test 138/918 passed: Verify that Privacy Policy | Vi loads successfully @regression
+[2026-06-12 09:40:53 IST] [PASS] Test 138/918 passed: Verify that Privacy Policy | Vi loads successfully @regression
+  ✓  134 [chromium] › tests\generated\www-myvi-in\PrivacyPolicyVi.spec.ts:15:3 › https://www.myvi.in/ - Privacy Policy | Vi - Regression Tests › Verify that Privacy Policy | Vi loads successfully @regression (11.6s)
+[PROGRESS] chromium: Test 139/306 running: Verify that 1 Form is present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:53 IST] [PROGRESS] chromium: Test 139/306 running: Verify that 1 Form is present on Privacy Policy | Vi @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:40:55 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:40:56 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:40:56 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:40:56 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:40:56 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:40:56 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:40:56 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:40:56 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 09:40:56 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:40:56 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:40:56 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:40:56 IST] [STEP] Capture screenshot evidence
+[PASS] Test 139/918 passed: Verify that 58 Inputs are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:59 IST] [PASS] Test 139/918 passed: Verify that 58 Inputs are present on Privacy Policy | Vi @regression
+  ✓  138 [chromium] › tests\generated\www-myvi-in\PrivacyPolicyVi.spec.ts:188:3 › https://www.myvi.in/ - Privacy Policy | Vi - Regression Tests › Verify that 58 Inputs are present on Privacy Policy | Vi @regression (8.1s)
+[PROGRESS] chromium: Test 140/306 running: Verify that 3 Menus are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:59 IST] [PROGRESS] chromium: Test 140/306 running: Verify that 3 Menus are present on Privacy Policy | Vi @regression
+[PASS] Test 140/918 passed: Verify that 15 Buttons are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:59 IST] [PASS] Test 140/918 passed: Verify that 15 Buttons are present on Privacy Policy | Vi @regression
+  ✓  137 [chromium] › tests\generated\www-myvi-in\PrivacyPolicyVi.spec.ts:142:3 › https://www.myvi.in/ - Privacy Policy | Vi - Regression Tests › Verify that 15 Buttons are present on Privacy Policy | Vi @regression (7.8s)
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:40:59 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:41:00 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 141/306 running: Verify that Register for Postpaid EBill Online | Vi loads successfully @regression
+[2026-06-12 09:41:00 IST] [PROGRESS] chromium: Test 141/306 running: Verify that Register for Postpaid EBill Online | Vi loads successfully @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:41:01 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PASS] Test 141/918 passed: Verify that 1 Form is present on Privacy Policy | Vi @regression
+[2026-06-12 09:41:02 IST] [PASS] Test 141/918 passed: Verify that 1 Form is present on Privacy Policy | Vi @regression

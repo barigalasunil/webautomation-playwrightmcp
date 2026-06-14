@@ -1,0 +1,300 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: www-myvi-in\GetViNewPostpaidSimCardOnlineBuyMobileSimCardInIndia.spec.ts >> https://www.myvi.in/ - Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india - Regression Tests >> Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression
+- Location: tests\generated\www-myvi-in\GetViNewPostpaidSimCardOnlineBuyMobileSimCardInIndia.spec.ts:15:3
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e5]:
+    - link "Vi" [ref=e6] [cursor=pointer]:
+      - /url: https://www.myvi.in/
+      - img "Vi" [ref=e7]
+  - paragraph [ref=e10]:
+    - img
+    - text: Strong network. Sabka haq. Join Vi today!
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13] [cursor=pointer]:
+        - link "postpaid plans" [ref=e14]:
+          - /url: /new-connection/buy-postpaid-sim-connection-online?show=postpaidonly
+        - img
+      - generic [ref=e16] [cursor=pointer]: family plans
+    - generic [ref=e19]:
+      - paragraph [ref=e20]: Please enter your pincode to view plans
+      - generic [ref=e21]:
+        - textbox [ref=e22]
+        - generic: please enter pincode
+  - generic [ref=e24]:
+    - generic [ref=e26]:
+      - heading "Get a Vi Max Postpaid SIM delivered in 3 easy steps" [level=1] [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - img "Postpaid SIM" [ref=e30]
+          - paragraph [ref=e31]: select a plan
+        - generic [ref=e33]:
+          - img "Postpaid sim card delivery" [ref=e34]
+          - paragraph [ref=e35]: enter/choose a number
+        - generic [ref=e37]:
+          - img "Buy postpaid sim online" [ref=e38]
+          - paragraph [ref=e39]: Postpaid SIM delivery confirmed
+    - toolbar [ref=e41]:
+      - listbox [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e46]: T&C Apply
+          - img [ref=e47]
+        - option [ref=e48] [cursor=pointer]:
+          - generic [ref=e49]:
+            - heading [level=2]
+            - paragraph
+          - img [ref=e50]
+        - option [ref=e51]:
+          - generic [ref=e53]: T&C Apply
+          - img [ref=e54]
+        - link [ref=e55] [cursor=pointer]:
+          - /url: https://www.myvi.in/new-connection/buy-postpaid-sim-connection-online?utm_source=Newconnectionlandingpage&utm_campaign=StaticFilmframe
+          - img [ref=e57]
+      - tablist [ref=e58]:
+        - listitem [ref=e59] [cursor=pointer]:
+          - button "1" [ref=e60]
+        - listitem [ref=e61] [cursor=pointer]:
+          - button [ref=e62]: "2"
+  - generic [ref=e64]:
+    - heading "why join Vi?" [level=3] [ref=e65]
+    - paragraph [ref=e66]:
+      - text: We believe that reliable connectivity is everyone’s right and not a premium privilege. A great network should simply work – for everyone, everywhere, every time.
+      - text: And we are making that real.
+      - text: We have added 2,20,000 new towers
+      - text: We are expanding our 5G presence rapidly and our 5G is now live in 110+ top cities Our ever-expanding 5G and 4G network ensures every customer gets the best network experience everywhere
+      - text: Vi’s network is designed for all your needs, whether you’re on the move, working remotely, at a concert or a match, creating or just chilling at home, Vi has you covered with the use of AI-based self optimizing network technology
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - img [ref=e69]
+        - link "Switch to the Vi 5G experience" [ref=e70] [cursor=pointer]:
+          - /url: https://www.myvi.in/giganet
+          - paragraph [ref=e71]:
+            - text: Switch to
+            - text: the Vi 5G experience
+      - generic [ref=e72]:
+        - img [ref=e73]
+        - link "Port to unlimited data+calls+ entertainment.." [ref=e74] [cursor=pointer]:
+          - /url: /new-connection/mobile-number-portability-mnp-online
+          - paragraph [ref=e75]:
+            - text: Port to unlimited
+            - text: data+calls+
+            - text: entertainment..
+      - generic [ref=e76]:
+        - img [ref=e77]
+        - link "Join Vi without changing your number" [ref=e78] [cursor=pointer]:
+          - /url: /new-connection/mobile-number-portability-mnp-online
+          - paragraph [ref=e79]:
+            - text: Join Vi
+            - text: without changing your number
+      - generic [ref=e80]:
+        - img [ref=e81]
+        - link "Choose a number of your choice" [ref=e82] [cursor=pointer]:
+          - /url: /new-connection/choose-your-fancy-mobile-numbers-online
+          - paragraph [ref=e83]:
+            - text: Choose a
+            - text: number of
+            - text: your choice
+    - generic [ref=e84]:
+      - paragraph
+  - generic [ref=e86]:
+    - img "Vi Postpaid SIM Delivery" [ref=e87]
+    - generic [ref=e88]:
+      - heading [level=3]
+      - paragraph
+  - generic [ref=e90]:
+    - heading "trusted across the nation" [level=4] [ref=e91]
+    - paragraph [ref=e92]: Know why our customers love us
+    - toolbar [ref=e93]:
+      - text: ←
+      - listbox [ref=e95]:
+        - option "Ordering my Vi postpaid SIM online was extremely easy. The delivery was right on time and completely hassle-free. Activating the SIM was smooth, and I was pleasantly surprised by the OTT benefits like JioHotstar and more. Overall, it was a seamless and satisfying experience — highly recommended! Rajashree Sathe Mumbai" [ref=e96]:
+          - img [ref=e98]
+          - generic [ref=e99]:
+            - paragraph [ref=e100]: Ordering my Vi postpaid SIM online was extremely easy. The delivery was right on time and completely hassle-free. Activating the SIM was smooth, and I was pleasantly surprised by the OTT benefits like JioHotstar and more. Overall, it was a seamless and satisfying experience — highly recommended!
+            - generic [ref=e101]:
+              - paragraph [ref=e102]: Rajashree Sathe
+              - paragraph [ref=e103]: Mumbai
+        - option [ref=e104]:
+          - img [ref=e106]
+          - generic [ref=e107]:
+            - paragraph [ref=e108]: The whole process was incredibly smooth—from ordering to delivery. The delivery person was polite and took the time to clearly explain all the features and benefits of the Vi SIM. It really made me feel confident in my choice. I'm genuinely happy with the Vi brand—great service, clear communication, and a product that delivers exactly what it promises
+            - generic [ref=e109]:
+              - paragraph [ref=e110]: Mohd Shakib
+              - paragraph [ref=e111]: Mumbai
+        - option [ref=e112]:
+          - img [ref=e114]
+          - generic [ref=e115]:
+            - paragraph [ref=e116]: Ordered an online Vi SIM, got it within 4 hrs. The services and packs offered are just great and the customer service is brilliant. I especially love the latest data rollover benefit. Would happily recommend Vi
+            - generic [ref=e117]:
+              - paragraph [ref=e118]: Juhi Kale
+              - paragraph [ref=e119]: Mumbai
+      - button "Next" [ref=e120] [cursor=pointer]: →Next
+      - tablist [ref=e121]:
+        - listitem [ref=e122] [cursor=pointer]:
+          - button "1" [ref=e123]
+        - listitem [ref=e124] [cursor=pointer]:
+          - button [ref=e125]: "2"
+        - listitem [ref=e126] [cursor=pointer]:
+          - button [ref=e127]: "3"
+  - generic [ref=e129]:
+    - heading "Vi new postpaid SIM faqs" [level=2] [ref=e130]
+    - generic [ref=e131]:
+      - button "How to get postpaid SIM delivered for free?" [ref=e132] [cursor=pointer]:
+        - heading "How to get postpaid SIM delivered for free?" [level=3] [ref=e133]
+      - generic [ref=e134]:
+        - paragraph [ref=e135]: "Follow these simple steps to buy a Vi Postpaid connection online for free:"
+        - list [ref=e136]:
+          - listitem [ref=e137]: Visit Postpaid Connection page and enter your contact details.
+          - listitem [ref=e138]:
+            - text: Select a Vi max
+            - link "postpaid plan" [ref=e139] [cursor=pointer]:
+              - /url: https://www.myvi.in/postpaid/vi-postpaid-plans
+            - text: "& mobile number of your choice."
+          - listitem [ref=e140]: Enter delivery details and get your SIM delivered at your doorstep.
+      - separator [ref=e141]
+      - button "What is a postpaid SIM?" [ref=e142] [cursor=pointer]:
+        - heading "What is a postpaid SIM?" [level=3] [ref=e143]
+      - paragraph [ref=e145]: Postpaid SIM is a postpaid connection in which the customers need not pay anything in advance but are billed at the end of every month for the services availed by them in that whole month.
+      - separator [ref=e146]
+      - button "What is the price of a new postpaid SIM?" [ref=e147] [cursor=pointer]:
+        - heading "What is the price of a new postpaid SIM?" [level=3] [ref=e148]
+      - paragraph [ref=e150]: A new Vi postpaid SIM price is zero. That is, there are no charges for a new SIM and the SIM card is delivered to your doorstep absolutely free of cost.
+      - separator [ref=e151]
+      - button "What are the documents required to get a new postpaid connection?" [ref=e152] [cursor=pointer]:
+        - heading "What are the documents required to get a new postpaid connection?" [level=3] [ref=e153]
+      - generic [ref=e154]:
+        - paragraph [ref=e155]: "To get a new postpaid connection, you will need a valid Proof of Identity (POI) or Proof of Address (POA):"
+        - paragraph [ref=e156]: "The documents valid are original copy of Aadhar card, E-Aadhar (color copy with digitally verified signature with a green tick mark), Passport, Voter ID & Driving License (Please note : Driving License of Mumbai & Maharashtra will not be accepted as proof of address across India)"
+      - separator [ref=e157]
+      - button "How do I activate my new Vi postpaid SIM card online?" [ref=e158] [cursor=pointer]:
+        - heading "How do I activate my new Vi postpaid SIM card online?" [level=3] [ref=e159]
+      - paragraph [ref=e161]:
+        - text: Dial 59059 to complete your tele-verification and avail our
+        - link "postpaid" [ref=e162] [cursor=pointer]:
+          - /url: https://www.myvi.in/new-connection/buy-postpaid-sim-connection-online
+        - text: services.
+      - separator [ref=e163]
+      - button "Is free postpaid SIM delivery available on all Vi plans?" [ref=e164] [cursor=pointer]:
+        - heading "Is free postpaid SIM delivery available on all Vi plans?" [level=3] [ref=e165]
+      - paragraph [ref=e167]: Yes, there are no charges on postpaid SIM, on any Vi max postpaid plan.
+      - separator [ref=e168]
+      - button "What are the charges applicable for a new SIM card?" [ref=e169] [cursor=pointer]:
+        - heading "What are the charges applicable for a new SIM card?" [level=3] [ref=e170]
+      - paragraph [ref=e172]: There are no charges applied for a free number on a postpaid connection. If you opt for a premium number, it will be chargeable. You can make the payment while placing the order or get it added to your first monthly bill. Premium numbers and their rates are displayed on the website.
+      - separator [ref=e173]
+      - button "How long does it take for a new SIM card to get activated?" [ref=e174] [cursor=pointer]:
+        - heading "How long does it take for a new SIM card to get activated?" [level=3] [ref=e175]
+      - paragraph [ref=e177]: Once all the set of correct documents and information are received, the new Postpaid SIM will be activated within few hours.
+      - separator [ref=e178]
+      - button "What benefits will I get with a new SIM having Vi Postpaid connection?" [ref=e179] [cursor=pointer]:
+        - heading "What benefits will I get with a new SIM having Vi Postpaid connection?" [level=3] [ref=e180]
+      - generic [ref=e181]:
+        - paragraph [ref=e182]: You can enjoy a host of benefits with Vi Postpaid, along with the EXCLUSIVE POWER OF CHOICE you can choose your preferred exclusive entertainment & lifestyle benefits from the options available in your postpaid plan.
+        - list [ref=e183]:
+          - listitem [ref=e184]: 6 months Amazon Prime membership on plans starting Rs551 and above
+        - list [ref=e185]:
+          - listitem [ref=e186]: 12 months SonyLIV mobile subscription on plans starting Rs451 and above.
+        - list [ref=e187]:
+          - listitem [ref=e188]: 1 Year JioHotstar Membership on plans starting Rs451 and above.
+        - list [ref=e189]:
+          - listitem [ref=e190]: 1 Year Norton Anti-Virus subscription on plans starting Rs 451 and above.
+        - list
+        - list [ref=e191]:
+          - listitem [ref=e192]: 6 months Eazydiner & Swiggy One membership subscription on individual plans starting Rs551 and above & on family plans starting Rs 1201 & above.
+        - list [ref=e193]:
+          - listitem [ref=e194]: Complimentary access to Netflix Basic subscription with REDX 1201 Plan
+        - list [ref=e195]:
+          - listitem [ref=e196]: 3 months Vi Movies & TV app subscription on all plans except REDX 1201
+        - paragraph [ref=e197]: "Also enjoy:"
+        - paragraph [ref=e198]: Unlimited calls, Unlimited Night Data and Data rollover.
+      - separator [ref=e199]
+      - button "Are there any charges applicable on home delivery of a new SIM card?" [ref=e200] [cursor=pointer]:
+        - heading "Are there any charges applicable on home delivery of a new SIM card?" [level=3] [ref=e201]
+      - paragraph [ref=e203]: There are no charges applicable for home delivery of your SIM card for the new postpaid connection.
+      - separator [ref=e204]
+      - button "How can I buy a new Vodafone or Idea postpaid Connection?" [ref=e205] [cursor=pointer]:
+        - heading "How can I buy a new Vodafone or Idea postpaid Connection?" [level=3] [ref=e206]
+      - paragraph [ref=e208]: Vodafone and Idea are now Vi. Users looking for a new Vodafone or Idea postpaid SIM can visit the Vi Postpaid Connection page.
+      - separator [ref=e209]
+      - button "What is Vi Priority Service ?" [ref=e210] [cursor=pointer]:
+        - heading "What is Vi Priority Service ?" [level=3] [ref=e211]
+      - generic [ref=e212]:
+        - paragraph [ref=e213]: "Vi Priority is a distinctive service experience for our high valued Postpaid customers. Vi Priority members have the following exclusive privileges, including :"
+        - list [ref=e214]:
+          - listitem [ref=e215]: Direct access to 24x7 Vi customer care team
+          - listitem [ref=e216]: Swift resolution of your complaints, if any
+          - listitem [ref=e217]: Priority service at Vi Stores
+          - listitem [ref=e218]: Sim exchange facility at doorstep for Senior citizens
+          - listitem [ref=e219]: Effortless Bill Payment and so much more.
+      - separator [ref=e220]
+      - button "Who is eligible for Vi Priority Service ?" [ref=e221] [cursor=pointer]:
+        - heading "Who is eligible for Vi Priority Service ?" [level=3] [ref=e222]
+      - generic [ref=e223]:
+        - paragraph [ref=e224]: "Vi Priority is a distinctive service experience for the following high valued Postpaid customers:"
+        - list [ref=e225]:
+          - listitem [ref=e226]: Customers on Individual Rental plans of Rs. 699 and above
+          - listitem [ref=e227]: Vi REDX Customers
+          - listitem [ref=e228]: Customers on Vi Family plans with more than 3 members
+          - listitem [ref=e229]: Senior citizens *
+          - listitem [ref=e230]: Customers who have been with our network for 10 years or more *
+          - listitem [ref=e231]: Frequent IR travellers *
+          - listitem [ref=e232]: 5G Handset users *
+        - paragraph [ref=e233]: "*Subject to eligibility"
+      - separator [ref=e234]
+  - list [ref=e237]:
+    - listitem [ref=e238]:
+      - link "home" [ref=e239] [cursor=pointer]:
+        - /url: https://www.myvi.in/
+    - listitem [ref=e240]:
+      - link "new connection" [ref=e241] [cursor=pointer]:
+        - /url: https://www.myvi.in/new-connection/buy-postpaid-sim-connection-online
+    - listitem [ref=e242]:
+      - link "postpaid connection" [ref=e243] [cursor=pointer]:
+        - /url: https://www.myvi.in/new-connection/buy-postpaid-sim-connection-online
+  - generic [ref=e247]:
+    - heading "Vi New postpaid SIM and connection" [level=2] [ref=e248]
+    - separator [ref=e249]
+  - contentinfo [ref=e251]:
+    - generic [ref=e252]:
+      - generic [ref=e254]:
+        - link "Postpaid Connection" [ref=e255] [cursor=pointer]:
+          - /url: /new-connection/buy-postpaid-sim-connection-online
+        - link "MNP" [ref=e256] [cursor=pointer]:
+          - /url: https://www.myvi.in/new-connection/mobile-number-portability-mnp-online
+        - link "Premium Number" [ref=e257] [cursor=pointer]:
+          - /url: https://www.myvi.in/new-connection/choose-your-fancy-mobile-numbers-online
+        - link "Prepaid Connection" [ref=e258] [cursor=pointer]:
+          - /url: https://www.myvi.in/new-connection/buy-prepaid-sim-connection-online
+        - link "Track Your SIM" [ref=e259] [cursor=pointer]:
+          - /url: https://www.myvi.in/new-connection/track-your-sim-online
+        - link "SIM Card Home Delivery" [ref=e260] [cursor=pointer]:
+          - /url: https://www.myvi.in/new-connection/vi-free-sim-home-delivery
+        - link "Best Postpaid Plans" [ref=e261] [cursor=pointer]:
+          - /url: https://www.myvi.in/postpaid/vi-postpaid-plans
+        - link "New SIM Card" [ref=e262] [cursor=pointer]:
+          - /url: https://www.myvi.in/new-connection/buy-new-4g-sim-card-online
+        - link "Family Plans" [ref=e263] [cursor=pointer]:
+          - /url: https://www.myvi.in/postpaid/family-postpaid-plans
+      - generic [ref=e264]:
+        - paragraph
+        - paragraph [ref=e265]: This website uses own third-party cookies. Find out more about usage in our Privacy Policy page. Copyright Reserved with Vodafone Idea Limited (formerly Idea Cellular Limited).
+        - paragraph [ref=e266]: "Vodafone Idea Limited (Formerly Idea Cellular Limited), An Aditya Birla Group & Vodafone partnership, Suman Towers, Plot No.18, Sector 11, Gandhinagar – 382011, Gujarat.CIN L32100GJ1996PLC030976, T: +91-79 6671 4000, F: +91-79 2323 2251"
+        - paragraph
+```

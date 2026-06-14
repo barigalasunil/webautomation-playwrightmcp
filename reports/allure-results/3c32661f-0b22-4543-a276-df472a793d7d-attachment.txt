@@ -1,0 +1,100 @@
+  ✘   33 [chromium] › tests\generated\www-myvi-in\BuyFancyNumbersOnlineChoosePremiumVipNumberOrFreeOptionsViIndia.spec.ts:188:3 › https://www.myvi.in/ - Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India - Regression Tests › Verify that 168 Inputs are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression (23.5s)
+[VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[2026-06-12 09:35:17 IST] [VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[VERIFY] Verify that the menu 'home new connection buy fancy mobile numbers online' exists in the DOM
+[2026-06-12 09:35:17 IST] [VERIFY] Verify that the menu 'home new connection buy fancy mobile numbers online' exists in the DOM
+[PROGRESS] chromium: Test 40/306 running: Verify that 55 Inputs are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:35:17 IST] [PROGRESS] chromium: Test 40/306 running: Verify that 55 Inputs are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[VERIFY] Verify that the button 'send OTP' exists in the DOM
+[2026-06-12 09:35:20 IST] [VERIFY] Verify that the button 'send OTP' exists in the DOM
+[VERIFY] Verify that the button 'show' exists in the DOM
+[2026-06-12 09:35:20 IST] [VERIFY] Verify that the button 'show' exists in the DOM
+[FAIL] Test 40/918 failed: Verify that 25 Links are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:35:20 IST] [FAIL] Test 40/918 failed: Verify that 25 Links are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'go back to order tracking' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'go back to order tracking' }).first()[22m
+[2026-06-12 09:35:20 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'go back to order tracking' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'go back to order tracking' }).first()
+  ✘   38 [chromium] › tests\generated\www-myvi-in\CheckViSimStatusOnlineTrackYourConnectionOrders.spec.ts:96:3 › https://www.myvi.in/ - Check Vi SIM Status Online | Track Your Connection & Orders - Regression Tests › Verify that 25 Links are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression (10.3s)
+[PROGRESS] chromium: Test 41/306 running: Verify that 2 Menus are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:35:22 IST] [PROGRESS] chromium: Test 41/306 running: Verify that 2 Menus are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[VERIFY] Verify that the input 'enter 4 digit OTP' exists in the DOM
+[2026-06-12 09:35:23 IST] [VERIFY] Verify that the input 'enter 4 digit OTP' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:35:23 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[FAIL] Test 41/918 failed: Verify that 2 Menus are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 09:35:24 IST] [FAIL] Test 41/918 failed: Verify that 2 Menus are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'home new connection buy fancy mobile numbers online' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'home new connection buy fancy mobile numbers online' }).first()[22m
+[2026-06-12 09:35:24 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'home new connection buy fancy mobile numbers online' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'home new connection buy fancy mobile numbers online' }).first()
+  ✘   35 [chromium] › tests\generated\www-myvi-in\BuyFancyNumbersOnlineChoosePremiumVipNumberOrFreeOptionsViIndia.spec.ts:264:3 › https://www.myvi.in/ - Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India - Regression Tests › Verify that 2 Menus are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression (22.8s)
+[PROGRESS] chromium: Test 42/306 running: Verify that Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi loads successfully @regression
+[2026-06-12 09:35:26 IST] [PROGRESS] chromium: Test 42/306 running: Verify that Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi loads successfully @regression
+[VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[2026-06-12 09:35:27 IST] [VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[FAIL] Test 42/918 failed: Verify that 9 Buttons are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:35:27 IST] [FAIL] Test 42/918 failed: Verify that 9 Buttons are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'show' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'show' }).first()[22m
+[2026-06-12 09:35:27 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'show' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'show' }).first()
+  ✘   39 [chromium] › tests\generated\www-myvi-in\CheckViSimStatusOnlineTrackYourConnectionOrders.spec.ts:142:3 › https://www.myvi.in/ - Check Vi SIM Status Online | Track Your Connection & Orders - Regression Tests › Verify that 9 Buttons are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression (11.4s)
+[VERIFY] Verify that the menu 'home new connection track your SIM delivery' exists in the DOM
+[2026-06-12 09:35:28 IST] [VERIFY] Verify that the menu 'home new connection track your SIM delivery' exists in the DOM
+[PROGRESS] chromium: Test 43/306 running: Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:35:29 IST] [PROGRESS] chromium: Test 43/306 running: Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[FAIL] Test 43/918 failed: Verify that 55 Inputs are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:35:30 IST] [FAIL] Test 43/918 failed: Verify that 55 Inputs are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="otpStatus"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="otpStatus"]').first()[22m
+[2026-06-12 09:35:30 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="otpStatus"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="otpStatus"]').first()

@@ -1,0 +1,100 @@
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:59:38 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:59:38 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:59:38 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:59:39 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:59:39 IST] [STEP] Capture screenshot evidence
+[PROGRESS] firefox: Test 179/306 running: Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression
+[2026-06-12 09:59:39 IST] [PROGRESS] firefox: Test 179/306 running: Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression
+[PASS] Test 485/918 passed: Verify that 26 Buttons are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:40 IST] [PASS] Test 485/918 passed: Verify that 26 Buttons are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 27m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 27m 0s
+  ✓  482 [firefox] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:142:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that 26 Buttons are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression (5.1s)
+[PROGRESS] firefox: Test 180/306 running: Verify that 1 Heading is present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:59:40 IST] [PROGRESS] firefox: Test 180/306 running: Verify that 1 Heading is present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:59:43 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:59:43 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 486/918 failed: Verify that 3 Menus are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:43 IST] [FAIL] Test 486/918 failed: Verify that 3 Menus are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:59:43 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  483 [firefox] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:248:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that 3 Menus are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression (7.0s)
+[VERIFY] Verify that the heading 'pay your electricity bill in seconds' exists in the DOM
+[2026-06-12 09:59:44 IST] [VERIFY] Verify that the heading 'pay your electricity bill in seconds' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:59:44 IST] [STEP] Capture screenshot evidence
+[PASS] Test 486/918 passed: Verify that 1 Form is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:44 IST] [PASS] Test 486/918 passed: Verify that 1 Form is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+  ✓  484 [firefox] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:218:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that 1 Form is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression (5.8s)
+[PROGRESS] firefox: Test 181/306 running: Verify that 19 Buttons are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:59:44 IST] [PROGRESS] firefox: Test 181/306 running: Verify that 19 Buttons are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[PASS] Test 487/918 passed: Verify that 1 Heading is present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:59:45 IST] [PASS] Test 487/918 passed: Verify that 1 Heading is present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+  ✓  486 [firefox] › tests\generated\www-myvi-in\ViElectricityBillPaymentQuickSecureOnlinePayment.spec.ts:50:3 › https://www.myvi.in/ - Vi Electricity Bill Payment | Quick & Secure Online Payment - Regression Tests › Verify that 1 Heading is present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression (4.7s)
+[PROGRESS] firefox: Test 182/306 running: Verify that 37 Inputs are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:59:45 IST] [PROGRESS] firefox: Test 182/306 running: Verify that 37 Inputs are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[PROGRESS] firefox: Test 183/306 running: Verify that 158 Links are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:59:46 IST] [PROGRESS] firefox: Test 183/306 running: Verify that 158 Links are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:59:47 IST] [STEP] Open URL: https://www.myvi.in/
+[STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:59:49 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:59:49 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:59:50 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:59:50 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:59:50 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[PASS] Test 489/918 passed: Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression
+[2026-06-12 09:59:50 IST] [PASS] Test 489/918 passed: Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression
+  ✓  485 [firefox] › tests\generated\www-myvi-in\ViElectricityBillPaymentQuickSecureOnlinePayment.spec.ts:15:3 › https://www.myvi.in/ - Vi Electricity Bill Payment | Quick & Secure Online Payment - Regression Tests › Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression (8.8s)
+[2026-06-12 09:59:50 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[PROGRESS] firefox: Test 184/306 running: Verify that 2 Forms are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:59:50 IST] [PROGRESS] firefox: Test 184/306 running: Verify that 2 Forms are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:59:50 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:59:50 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:59:50 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:59:50 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:59:50 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:59:50 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[PASS] Test 490/918 passed: Verify that 19 Buttons are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:59:50 IST] [PASS] Test 490/918 passed: Verify that 19 Buttons are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+  ✓  487 [firefox] › tests\generated\www-myvi-in\ViElectricityBillPaymentQuickSecureOnlinePayment.spec.ts:126:3 › https://www.myvi.in/ - Vi Electricity Bill Payment | Quick & Secure Online Payment - Regression Tests › Verify that 19 Buttons are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression (5.9s)
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:59:50 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[PROGRESS] firefox: Test 185/306 running: Verify that 1 Menu is present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:59:51 IST] [PROGRESS] firefox: Test 185/306 running: Verify that 1 Menu is present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[STEP] Capture screenshot evidence
+[2026-06-12 09:59:51 IST] [STEP] Capture screenshot evidence
+[PASS] Test 491/918 passed: Verify that 37 Inputs are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:59:51 IST] [PASS] Test 491/918 passed: Verify that 37 Inputs are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression

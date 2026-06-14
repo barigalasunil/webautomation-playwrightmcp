@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India",
+  "pageUrl": "https://www.myvi.in/esim-activation",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'how to get started?' exists in the DOM",
+    "Verify that the heading 'what is Vi eSIM?' exists in the DOM",
+    "Verify that the heading 'frequently asked questions' exists in the DOM",
+    "Verify that the heading 'what is eSIM?' exists in the DOM",
+    "Verify that the heading 'what does it mean when a device has a dual SIM with an eSIM?' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_53_Headings_are_present_on_How_to_Activate_Vi_eSIM_Card_Easy_Online_Setup_Steps_Vi_India_How_to_Activate_Vi_eSIM_Card___Easy_Online_Setup___1781237308052.png"
+  ],
+  "status": "passed"
+}

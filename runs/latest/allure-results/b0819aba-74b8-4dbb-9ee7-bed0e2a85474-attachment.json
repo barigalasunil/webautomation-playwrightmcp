@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Data Packs - Mobile Data Recharge Plans | Vi India",
+  "pageUrl": "https://www.myvi.in/prepaid/mobile-data-packs",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_Vi_Data_Packs_-_Mobile_Data_Recharge_Plans_Vi_India_loads_successfully_Vi_Data_Packs_-_Mobile_Data_Recharge_Plans___Vi_In_1781175089749.png"
+  ],
+  "status": "passed"
+}

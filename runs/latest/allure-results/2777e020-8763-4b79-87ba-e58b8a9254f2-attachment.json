@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India",
+  "pageUrl": "https://www.myvi.in/prepaid/best-prepaid-plans",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'Best Prepaid Plans' exists in the DOM",
+    "Verify that the heading 'prepaid recharge plans FAQs' exists in the DOM",
+    "Verify that the heading 'Vi (Vodafone Idea) best prepaid plans' exists in the DOM",
+    "Verify that the heading 'Different Benefits of Vi (Vodafone Idea) Prepaid Recharge Plans Based on Pack Va' exists in the DOM",
+    "Verify that the heading 'All SIM Recharge Plans List' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_17_Headings_are_present_on_Explore_the_Best_Prepaid_Plans_Top_Prepaid_Recharge_Options_V_Explore_the_Best_Prepaid_Plans___Top_Prepaid_Recha_1781174689170.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,100 @@
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:05:46 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:05:46 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:05:46 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:05:46 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:05:46 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:05:46 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:05:46 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:05:46 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:05:46 IST] [STEP] Capture screenshot evidence
+[PASS] Test 660/918 passed: Verify that 2 Forms are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 10:05:47 IST] [PASS] Test 660/918 passed: Verify that 2 Forms are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+  ✓  659 [webkit] › tests\generated\www-myvi-in\CreditCardBillPaymentQuickSecureOnlineBillPaymentsVi.spec.ts:218:3 › https://www.myvi.in/ - Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi - Regression Tests › Verify that 2 Forms are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression (4.2s)
+[PASS] Test 660/918 passed: Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 10:05:47 IST] [PASS] Test 660/918 passed: Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+  ✓  658 [webkit] › tests\generated\www-myvi-in\CreditCardBillPaymentQuickSecureOnlineBillPaymentsVi.spec.ts:172:3 › https://www.myvi.in/ - Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi - Regression Tests › Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression (4.7s)
+[PROGRESS] webkit: Test 49/306 running: Verify that Enjoy Netflix Subscription Plans with Vi at No Extra Cost loads successfully @regression
+[2026-06-12 10:05:47 IST] [PROGRESS] webkit: Test 49/306 running: Verify that Enjoy Netflix Subscription Plans with Vi at No Extra Cost loads successfully @regression
+[PROGRESS] webkit: Test 50/306 running: Verify that 46 Headings are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 10:05:47 IST] [PROGRESS] webkit: Test 50/306 running: Verify that 46 Headings are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 10:05:47 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[FAIL] Test 662/918 failed: Verify that 158 Links are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 10:05:48 IST] [FAIL] Test 662/918 failed: Verify that 158 Links are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/utilities/credit-card-bill-payment#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/utilities/credit-card-bill-payment#"]').first()[22m
+[2026-06-12 10:05:48 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/utilities/credit-card-bill-payment#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/utilities/credit-card-bill-payment#"]').first()
+  ✘  656 [webkit] › tests\generated\www-myvi-in\CreditCardBillPaymentQuickSecureOnlineBillPaymentsVi.spec.ts:80:3 › https://www.myvi.in/ - Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi - Regression Tests › Verify that 158 Links are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression (9.9s)
+[PROGRESS] webkit: Test 51/306 running: Verify that 175 Links are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 10:05:49 IST] [PROGRESS] webkit: Test 51/306 running: Verify that 175 Links are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:05:51 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the heading 'Enjoy Netflix Subscription Plans with Vi' exists in the DOM
+[2026-06-12 10:05:51 IST] [VERIFY] Verify that the heading 'Enjoy Netflix Subscription Plans with Vi' exists in the DOM
+[VERIFY] Verify that the heading 'check out our plans' exists in the DOM
+[2026-06-12 10:05:51 IST] [VERIFY] Verify that the heading 'check out our plans' exists in the DOM
+[VERIFY] Verify that the heading 'your current location' exists in the DOM
+[2026-06-12 10:05:52 IST] [VERIFY] Verify that the heading 'your current location' exists in the DOM
+[FAIL] Test 663/918 failed: Verify that 1 Menu is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 10:05:53 IST] [FAIL] Test 663/918 failed: Verify that 1 Menu is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 10:05:53 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  660 [webkit] › tests\generated\www-myvi-in\CreditCardBillPaymentQuickSecureOnlineBillPaymentsVi.spec.ts:252:3 › https://www.myvi.in/ - Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi - Regression Tests › Verify that 1 Menu is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression (9.0s)
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:05:54 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PROGRESS] webkit: Test 52/306 running: Verify that 37 Buttons are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 10:05:54 IST] [PROGRESS] webkit: Test 52/306 running: Verify that 37 Buttons are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[FAIL] Test 664/918 failed: Verify that 46 Headings are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 10:05:57 IST] [FAIL] Test 664/918 failed: Verify that 46 Headings are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'your current location' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'your current location' }).first()[22m
+[2026-06-12 10:05:57 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'your current location' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'your current location' }).first()

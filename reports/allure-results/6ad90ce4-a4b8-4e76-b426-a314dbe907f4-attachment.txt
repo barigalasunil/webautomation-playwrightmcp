@@ -1,0 +1,100 @@
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  399 [firefox] › tests\generated\www-myvi-in\HowToActivateViEsimCardEasyOnlineSetupStepsViIndia.spec.ts:294:3 › https://www.myvi.in/ - How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India - Regression Tests › Verify that 1 Menu is present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression (10.9s)
+[PROGRESS] firefox: Test 101/306 running: Verify that 90 Links are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 09:56:52 IST] [PROGRESS] firefox: Test 101/306 running: Verify that 90 Links are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[VERIFY] Verify that the heading 'online mobile recharge' exists in the DOM
+[2026-06-12 09:56:52 IST] [VERIFY] Verify that the heading 'online mobile recharge' exists in the DOM
+[VERIFY] Verify that the heading 'FAQs for Vi online mobile recharge' exists in the DOM
+[2026-06-12 09:56:53 IST] [VERIFY] Verify that the heading 'FAQs for Vi online mobile recharge' exists in the DOM
+[VERIFY] Verify that the heading 'Vi Prepaid Online Recharge' exists in the DOM
+[2026-06-12 09:56:53 IST] [VERIFY] Verify that the heading 'Vi Prepaid Online Recharge' exists in the DOM
+[VERIFY] Verify that the heading 'Key Features of Vi Online Mobile Recharge:' exists in the DOM
+[2026-06-12 09:56:53 IST] [VERIFY] Verify that the heading 'Key Features of Vi Online Mobile Recharge:' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:56:53 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PROGRESS] firefox: Test 102/306 running: Verify that 29 Buttons are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 09:56:54 IST] [PROGRESS] firefox: Test 102/306 running: Verify that 29 Buttons are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[FAIL] Test 408/918 failed: Verify that 3 Menus are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[2026-06-12 09:56:54 IST] [FAIL] Test 408/918 failed: Verify that 3 Menus are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:56:54 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  404 [firefox] › tests\generated\www-myvi-in\InvestorsSupportInformationOfViVodafoneIdeaLimited.spec.ts:142:3 › https://www.myvi.in/ - Investors Support Information Of Vi (Vodafone Idea Limited) - Regression Tests › Verify that 3 Menus are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression (7.1s)
+[PROGRESS] firefox: Test 103/306 running: Verify that 3 Inputs are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 09:56:56 IST] [PROGRESS] firefox: Test 103/306 running: Verify that 3 Inputs are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[VERIFY] Verify that the button 'Maharashtra & Goa' exists in the DOM
+[2026-06-12 09:56:59 IST] [VERIFY] Verify that the button 'Maharashtra & Goa' exists in the DOM
+[VERIFY] Verify that the button 'popular recharge packs' exists in the DOM
+[2026-06-12 09:56:59 IST] [VERIFY] Verify that the button 'popular recharge packs' exists in the DOM
+[VERIFY] Verify that the button 'unlimited 5G' exists in the DOM
+[2026-06-12 09:56:59 IST] [VERIFY] Verify that the button 'unlimited 5G' exists in the DOM
+[VERIFY] Verify that the button 'nonstop hero' exists in the DOM
+[2026-06-12 09:56:59 IST] [VERIFY] Verify that the button 'nonstop hero' exists in the DOM
+[VERIFY] Verify that the button 'super hero' exists in the DOM
+[2026-06-12 09:56:59 IST] [VERIFY] Verify that the button 'super hero' exists in the DOM
+[FAIL] Test 409/918 failed: Verify that 11 Headings are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 09:56:59 IST] [FAIL] Test 409/918 failed: Verify that 11 Headings are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Key Features of Vi Online Mobile Recharge:' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Key Features of Vi Online Mobile Recharge:' }).first()[22m
+[2026-06-12 09:56:59 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Key Features of Vi Online Mobile Recharge:' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Key Features of Vi Online Mobile Recharge:' }).first()
+  ✘  406 [firefox] › tests\generated\www-myvi-in\OnlineMobileRechargeBestPrepaidPlansTopUpsViIndia.spec.ts:50:3 › https://www.myvi.in/ - Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India - Regression Tests › Verify that 11 Headings are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression (7.3s)
+[STEP] Capture screenshot evidence
+[2026-06-12 09:57:00 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 409/918 failed: Verify that 90 Links are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 09:57:00 IST] [FAIL] Test 409/918 failed: Verify that 90 Links are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:57:00 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  407 [firefox] › tests\generated\www-myvi-in\OnlineMobileRechargeBestPrepaidPlansTopUpsViIndia.spec.ts:96:3 › https://www.myvi.in/ - Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India - Regression Tests › Verify that 90 Links are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression (6.9s)
+[VERIFY] Verify that the input 'Enter mobile number' exists in the DOM
+[2026-06-12 09:57:00 IST] [VERIFY] Verify that the input 'Enter mobile number' exists in the DOM
+[2026-06-12 09:57:00 IST] [VERIFY] Verify that the input 'Search by price' exists in the DOM
+[VERIFY] Verify that the input 'Search by price' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:57:00 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:57:01 IST] [STEP] Capture screenshot evidence
+[PASS] Test 409/918 passed: Verify that 29 Buttons are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 09:57:01 IST] [PASS] Test 409/918 passed: Verify that 29 Buttons are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression

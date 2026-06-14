@@ -1,0 +1,100 @@
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:34:20 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘   22 [chromium] › tests\generated\www-myvi-in\BestViSmsPacksAndSmsPlansForPrepaidRechargeViIndia.spec.ts:248:3 › https://www.myvi.in/ - Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India - Regression Tests › Verify that 3 Menus are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression (7.6s)
+[PROGRESS] chromium: Test 26/306 running: Verify that 66 Inputs are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:34:21 IST] [PROGRESS] chromium: Test 26/306 running: Verify that 66 Inputs are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[VERIFY] Verify that the button 'get OTP to complete order' exists in the DOM
+[2026-06-12 09:34:22 IST] [VERIFY] Verify that the button 'get OTP to complete order' exists in the DOM
+[VERIFY] Verify that the button 'Previous' exists in the DOM
+[2026-06-12 09:34:22 IST] [VERIFY] Verify that the button 'Previous' exists in the DOM
+[FAIL] Test 26/918 failed: Verify that 16 Headings are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:34:25 IST] [FAIL] Test 26/918 failed: Verify that 16 Headings are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'individual plan' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'individual plan' }).first()[22m
+[2026-06-12 09:34:25 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'individual plan' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'individual plan' }).first()
+  ✘   23 [chromium] › tests\generated\www-myvi-in\BuyANewVi4gSimCardOnlineAndGetAFreeDelivery.spec.ts:50:3 › https://www.myvi.in/ - Buy a New Vi 4g SIM Card Online and Get a Free Delivery - Regression Tests › Verify that 16 Headings are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression (10.9s)
+[PROGRESS] chromium: Test 27/306 running: Verify that 1 Form is present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:34:26 IST] [PROGRESS] chromium: Test 27/306 running: Verify that 1 Form is present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[FAIL] Test 27/918 failed: Verify that 28 Buttons are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:34:29 IST] [FAIL] Test 27/918 failed: Verify that 28 Buttons are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'Previous' }).first()[22m
+[2026-06-12 09:34:29 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'Previous' }).first()
+  ✘   25 [chromium] › tests\generated\www-myvi-in\BuyANewVi4gSimCardOnlineAndGetAFreeDelivery.spec.ts:142:3 › https://www.myvi.in/ - Buy a New Vi 4g SIM Card Online and Get a Free Delivery - Regression Tests › Verify that 28 Buttons are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression (10.7s)
+[PROGRESS] chromium: Test 28/306 running: Verify that 2 Menus are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:34:30 IST] [PROGRESS] chromium: Test 28/306 running: Verify that 2 Menus are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:34:31 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:34:32 IST] [STEP] Capture screenshot evidence
+[PASS] Test 28/918 passed: Verify that 1 Form is present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:34:33 IST] [PASS] Test 28/918 passed: Verify that 1 Form is present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+  ✓   27 [chromium] › tests\generated\www-myvi-in\BuyANewVi4gSimCardOnlineAndGetAFreeDelivery.spec.ts:234:3 › https://www.myvi.in/ - Buy a New Vi 4g SIM Card Online and Get a Free Delivery - Regression Tests › Verify that 1 Form is present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression (5.3s)
+[PROGRESS] chromium: Test 29/306 running: Verify that Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India loads successfully @regression
+[2026-06-12 09:34:33 IST] [PROGRESS] chromium: Test 29/306 running: Verify that Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India loads successfully @regression
+[VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[2026-06-12 09:34:35 IST] [VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[VERIFY] Verify that the menu 'Home New Connection Buy New 4G SIM Online' exists in the DOM
+[2026-06-12 09:34:35 IST] [VERIFY] Verify that the menu 'Home New Connection Buy New 4G SIM Online' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:34:38 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:34:39 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 2m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 2m 0s
+[FAIL] Test 29/918 failed: Verify that 2 Menus are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:34:42 IST] [FAIL] Test 29/918 failed: Verify that 2 Menus are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'Home New Connection Buy New 4G SIM Online' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'Home New Connection Buy New 4G SIM Online' }).first()[22m
+[2026-06-12 09:34:42 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'Home New Connection Buy New 4G SIM Online' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'Home New Connection Buy New 4G SIM Online' }).first()

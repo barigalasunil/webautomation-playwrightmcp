@@ -1,0 +1,100 @@
+Locator: locator('a[href="https://www.myvi.in/help-support/vi-customer-care-number#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/help-support/vi-customer-care-number#"]').first()
+  ✘  272 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:96:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 172 Links are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (12.2s)
+[PASS] Test 274/918 passed: Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:32 IST] [PASS] Test 274/918 passed: Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+  ✓  274 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:142:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (5.5s)
+[PROGRESS] chromium: Test 275/306 running: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:32 IST] [PROGRESS] chromium: Test 275/306 running: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[PROGRESS] chromium: Test 276/306 running: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:32 IST] [PROGRESS] chromium: Test 276/306 running: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:48:36 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:48:38 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:48:38 IST] [VERIFY] Verify the URL is correct
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:48:38 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:38 IST] [STEP] Capture screenshot evidence
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:38 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:48:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 16m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 16m 0s
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:48:40 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:48:40 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:48:40 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:48:40 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:48:40 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:40 IST] [STEP] Capture screenshot evidence
+[PASS] Test 276/918 passed: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:42 IST] [PASS] Test 276/918 passed: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+  ✓  276 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:234:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (8.3s)
+[PASS] Test 276/918 passed: Verify that Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number loads successfully @regression
+[2026-06-12 09:48:42 IST] [PASS] Test 276/918 passed: Verify that Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number loads successfully @regression
+  ✓  269 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:15:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number loads successfully @regression (30.7s)
+[PROGRESS] chromium: Test 277/306 running: Verify that 1 Menu is present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:42 IST] [PROGRESS] chromium: Test 277/306 running: Verify that 1 Menu is present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[PROGRESS] chromium: Test 278/306 running: Verify that Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More loads successfully @regression
+[2026-06-12 09:48:42 IST] [PROGRESS] chromium: Test 278/306 running: Verify that Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More loads successfully @regression
+[PASS] Test 278/918 passed: Verify that 75 Inputs are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:44 IST] [PASS] Test 278/918 passed: Verify that 75 Inputs are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+  ✓  273 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:188:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 75 Inputs are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (18.9s)
+[PROGRESS] chromium: Test 279/306 running: Verify that 23 Headings are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:48:44 IST] [PROGRESS] chromium: Test 279/306 running: Verify that 23 Headings are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:48:45 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:48:45 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:45 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the heading 'recharge / pay bill' exists in the DOM
+[2026-06-12 09:48:47 IST] [VERIFY] Verify that the heading 'recharge / pay bill' exists in the DOM
+[VERIFY] Verify that the heading 'utility payments' exists in the DOM
+[2026-06-12 09:48:47 IST] [VERIFY] Verify that the heading 'utility payments' exists in the DOM
+[VERIFY] Verify that the heading 'credit card bill' exists in the DOM
+[2026-06-12 09:48:47 IST] [VERIFY] Verify that the heading 'credit card bill' exists in the DOM
+[VERIFY] Verify that the heading 'electricity payment' exists in the DOM
+[2026-06-12 09:48:47 IST] [VERIFY] Verify that the heading 'electricity payment' exists in the DOM
+[VERIFY] Verify that the heading 'insurance premium' exists in the DOM
+[2026-06-12 09:48:47 IST] [VERIFY] Verify that the heading 'insurance premium' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:47 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:48:48 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:48:48 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:48:48 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:48:48 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:48:48 IST] [STEP] Capture screenshot evidence
+[STEP] Capture screenshot evidence
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:48:50 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[PASS] Test 279/918 passed: Verify that Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More loads successfully @regression
+[2026-06-12 09:48:50 IST] [PASS] Test 279/918 passed: Verify that Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More loads successfully @regression
+  ✓  278 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:15:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More loads successfully @regression (7.8s)
+[PROGRESS] chromium: Test 280/306 running: Verify that 126 Links are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:48:51 IST] [PROGRESS] chromium: Test 280/306 running: Verify that 126 Links are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:48:53 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PASS] Test 280/918 passed: Verify that 23 Headings are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:48:55 IST] [PASS] Test 280/918 passed: Verify that 23 Headings are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+  ✓  279 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:50:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that 23 Headings are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression (11.0s)
+[2026-06-12 09:48:55 IST] [PROGRESS] chromium: Test 281/306 running: Verify that 8 Buttons are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[PROGRESS] chromium: Test 281/306 running: Verify that 8 Buttons are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[PASS] Test 281/918 passed: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:56 IST] [PASS] Test 281/918 passed: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression

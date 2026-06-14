@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Buy a New Vi 4g SIM Card Online and Get a Free Delivery",
+  "pageUrl": "https://www.myvi.in/new-connection/buy-new-4g-sim-card-online",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_Buy_a_New_Vi_4g_SIM_Card_Online_and_Get_a_Free_Delivery_loads_successfully_Buy_a_New_Vi_4g_SIM_Card_Online_and_Get_a_Free_Del_1781238890439.png"
+  ],
+  "status": "passed"
+}

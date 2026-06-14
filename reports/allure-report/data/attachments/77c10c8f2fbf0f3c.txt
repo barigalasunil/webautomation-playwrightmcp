@@ -1,0 +1,100 @@
+[2026-06-12 09:54:13 IST] [VERIFY] Verify that the heading 'pay your credit card bill in seconds' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:54:13 IST] [STEP] Capture screenshot evidence
+[PASS] Test 351/918 passed: Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:54:14 IST] [PASS] Test 351/918 passed: Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+  ✓  349 [firefox] › tests\generated\www-myvi-in\CreditCardBillPaymentQuickSecureOnlineBillPaymentsVi.spec.ts:50:3 › https://www.myvi.in/ - Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi - Regression Tests › Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression (9.7s)
+[PROGRESS] firefox: Test 46/306 running: Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:54:14 IST] [PROGRESS] firefox: Test 46/306 running: Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[FAIL] Test 352/918 failed: Verify that 2 Menus are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:54:15 IST] [FAIL] Test 352/918 failed: Verify that 2 Menus are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'home new connection track your SIM delivery' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'home new connection track your SIM delivery' }).first()[22m
+[2026-06-12 09:54:15 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'home new connection track your SIM delivery' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'home new connection track your SIM delivery' }).first()
+  ✘  347 [firefox] › tests\generated\www-myvi-in\CheckViSimStatusOnlineTrackYourConnectionOrders.spec.ts:234:3 › https://www.myvi.in/ - Check Vi SIM Status Online | Track Your Connection & Orders - Regression Tests › Verify that 2 Menus are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression (13.5s)
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:54:18 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:54:18 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 09:54:18 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:54:18 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:54:18 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:54:18 IST] [STEP] Capture screenshot evidence
+[PASS] Test 352/918 passed: Verify that 19 Buttons are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:54:19 IST] [PASS] Test 352/918 passed: Verify that 19 Buttons are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+  ✓  351 [firefox] › tests\generated\www-myvi-in\CreditCardBillPaymentQuickSecureOnlineBillPaymentsVi.spec.ts:126:3 › https://www.myvi.in/ - Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi - Regression Tests › Verify that 19 Buttons are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression (6.8s)
+[PROGRESS] firefox: Test 47/306 running: Verify that 2 Forms are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:54:19 IST] [PROGRESS] firefox: Test 47/306 running: Verify that 2 Forms are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[PROGRESS] firefox: Test 48/306 running: Verify that 1 Menu is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:54:19 IST] [PROGRESS] firefox: Test 48/306 running: Verify that 1 Menu is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:54:20 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:54:20 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:54:20 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:54:21 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:54:21 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:54:21 IST] [STEP] Capture screenshot evidence
+[PASS] Test 354/918 passed: Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:54:22 IST] [PASS] Test 354/918 passed: Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+  ✓  352 [firefox] › tests\generated\www-myvi-in\CreditCardBillPaymentQuickSecureOnlineBillPaymentsVi.spec.ts:172:3 › https://www.myvi.in/ - Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi - Regression Tests › Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression (7.4s)
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:54:22 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PROGRESS] firefox: Test 49/306 running: Verify that Enjoy Netflix Subscription Plans with Vi at No Extra Cost loads successfully @regression
+[2026-06-12 09:54:22 IST] [PROGRESS] firefox: Test 49/306 running: Verify that Enjoy Netflix Subscription Plans with Vi at No Extra Cost loads successfully @regression
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:54:28 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:54:29 IST] [STEP] Open URL: https://www.myvi.in/
+[FAIL] Test 355/918 failed: Verify that 158 Links are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:54:31 IST] [FAIL] Test 355/918 failed: Verify that 158 Links are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/utilities/credit-card-bill-payment#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/utilities/credit-card-bill-payment#"]').first()[22m
+[2026-06-12 09:54:31 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/utilities/credit-card-bill-payment#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/utilities/credit-card-bill-payment#"]').first()
+  ✘  350 [firefox] › tests\generated\www-myvi-in\CreditCardBillPaymentQuickSecureOnlineBillPaymentsVi.spec.ts:80:3 › https://www.myvi.in/ - Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi - Regression Tests › Verify that 158 Links are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression (14.9s)
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:54:32 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:54:32 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:54:32 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:54:32 IST] [STEP] Capture screenshot evidence
+[STEP] Capture screenshot evidence
+[2026-06-12 09:54:33 IST] [STEP] Capture screenshot evidence
+[PASS] Test 355/918 passed: Verify that 2 Forms are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:54:33 IST] [PASS] Test 355/918 passed: Verify that 2 Forms are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression

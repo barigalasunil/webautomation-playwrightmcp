@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Electricity Bill Payment | Quick & Secure Online Payment",
+  "pageUrl": "https://www.myvi.in/utilities/electricity-bill-payment",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_37_Inputs_are_present_on_Vi_Electricity_Bill_Payment_Quick_Secure_Online_Payment_Vi_Electricity_Bill_Payment___Quick___Secure_Onlin_1781239212601.png"
+  ],
+  "status": "passed"
+}

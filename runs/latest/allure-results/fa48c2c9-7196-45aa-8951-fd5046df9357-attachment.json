@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Pay Vi Postpaid Bill Online - Quick & Secure | Vi India",
+  "pageUrl": "https://www.myvi.in/postpaid/quick-online-bill-payment",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_Pay_Vi_Postpaid_Bill_Online_-_Quick_Secure_Vi_India_loads_successfully_Pay_Vi_Postpaid_Bill_Online_-_Quick___Secure___Vi__1781176842637.png"
+  ],
+  "status": "passed"
+}

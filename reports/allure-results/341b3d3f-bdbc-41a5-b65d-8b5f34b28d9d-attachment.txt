@@ -1,0 +1,100 @@
+[2026-06-12 09:55:46 IST] [PROGRESS] firefox: Test 75/306 running: Verify that 3 Menus are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[PROGRESS] firefox: Test 76/306 running: Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:55:46 IST] [PROGRESS] firefox: Test 76/306 running: Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:55:47 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:55:48 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:55:48 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:55:48 IST] [STEP] Capture screenshot evidence
+[PASS] Test 382/918 passed: Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:55:49 IST] [PASS] Test 382/918 passed: Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+  ✓  380 [firefox] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:218:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (3.4s)
+[PROGRESS] firefox: Test 77/306 running: Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression
+[2026-06-12 09:55:49 IST] [PROGRESS] firefox: Test 77/306 running: Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:55:52 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:55:52 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:55:53 IST] [STEP] Capture screenshot evidence
+[PASS] Test 383/918 passed: Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression
+[2026-06-12 09:55:54 IST] [PASS] Test 383/918 passed: Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression
+  ✓  383 [firefox] › tests\generated\www-myvi-in\GetViNewPostpaidSimCardOnlineBuyMobileSimCardInIndia.spec.ts:15:3 › https://www.myvi.in/ - Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india - Regression Tests › Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression (4.2s)
+[FAIL] Test 383/918 failed: Verify that 3 Menus are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:55:54 IST] [FAIL] Test 383/918 failed: Verify that 3 Menus are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:55:54 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  381 [firefox] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:248:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 3 Menus are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (6.9s)
+[PROGRESS] firefox: Test 78/306 running: Verify that 21 Headings are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 09:55:54 IST] [PROGRESS] firefox: Test 78/306 running: Verify that 21 Headings are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[FAIL] Test 384/918 failed: Verify that 99 Links are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:55:54 IST] [FAIL] Test 384/918 failed: Verify that 99 Links are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:55:54 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  378 [firefox] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:96:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 99 Links are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (10.0s)
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:55:55 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:55:55 IST] [STEP] Capture screenshot evidence
+[PASS] Test 384/918 passed: Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:55:56 IST] [PASS] Test 384/918 passed: Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+  ✓  382 [firefox] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:188:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (5.3s)
+[PROGRESS] firefox: Test 79/306 running: Verify that 19 Inputs are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 09:55:56 IST] [PROGRESS] firefox: Test 79/306 running: Verify that 19 Inputs are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[PROGRESS] firefox: Test 80/306 running: Verify that 25 Links are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 09:55:56 IST] [PROGRESS] firefox: Test 80/306 running: Verify that 25 Links are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[PROGRESS] firefox: Test 81/306 running: Verify that 24 Buttons are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 09:55:56 IST] [PROGRESS] firefox: Test 81/306 running: Verify that 24 Buttons are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 09:55:57 IST] [VERIFY] Verify that the heading 'Vi Max family postpaid plans' exists in the DOM
+[VERIFY] Verify that the heading 'Vi Max family postpaid plans' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:55:58 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[FAIL] Test 387/918 failed: Verify that 21 Headings are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 09:56:04 IST] [FAIL] Test 387/918 failed: Verify that 21 Headings are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Vi Max family postpaid plans' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Vi Max family postpaid plans' }).first()[22m
+[2026-06-12 09:56:04 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Vi Max family postpaid plans' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Vi Max family postpaid plans' }).first()

@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments",
+  "pageUrl": "https://www.myvi.in/postpaid/auto-bill-payment",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_106_Inputs_are_present_on_Vi_Postpaid_Auto_Bill_Payment_-_Setup_Manage_Automatic_Payment_Vi_Postpaid_Auto_Bill_Payment_-_Setup___Manage_Aut_1781177291240.png"
+  ],
+  "status": "passed"
+}

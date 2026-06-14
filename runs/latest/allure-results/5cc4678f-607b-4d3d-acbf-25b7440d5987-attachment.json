@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi Electricity Bill Payment | Quick & Secure Online Payment",
+  "pageUrl": "https://www.myvi.in/utilities/electricity-bill-payment",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\firefox\\Verify_that_Vi_Electricity_Bill_Payment_Quick_Secure_Online_Payment_loads_successfully_Vi_Electricity_Bill_Payment___Quick___Secure_Onlin_1781176102871.png"
+  ],
+  "status": "passed"
+}

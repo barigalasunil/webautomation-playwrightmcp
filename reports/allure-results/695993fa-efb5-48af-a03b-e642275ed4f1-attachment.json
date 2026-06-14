@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today",
+  "pageUrl": "https://www.myvi.in/prepaid/unlimited-calls-and-data-plans",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_45_Buttons_are_present_on_Vi_Unlimited_Data_Calls_Internet_Plans_Choose_Vi_Unlimited_Pla_Vi_Unlimited_Data__Calls___Internet_Plans___Choose_1781238740095.png"
+  ],
+  "status": "passed"
+}

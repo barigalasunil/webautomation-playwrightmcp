@@ -1,0 +1,100 @@
+[2026-06-12 09:48:05 IST] [VERIFY] Verify that the heading 'Be a part of India's leading telecom company' exists in the DOM
+[VERIFY] Verify that the heading 'Life at VIL' exists in the DOM
+[2026-06-12 09:48:05 IST] [VERIFY] Verify that the heading 'Life at VIL' exists in the DOM
+[VERIFY] Verify that the heading 'Love what you do!' exists in the DOM
+[2026-06-12 09:48:05 IST] [VERIFY] Verify that the heading 'Love what you do!' exists in the DOM
+[VERIFY] Verify that the heading 'perks of being with VIL' exists in the DOM
+[2026-06-12 09:48:05 IST] [VERIFY] Verify that the heading 'perks of being with VIL' exists in the DOM
+[VERIFY] Verify that the heading 'Agility' exists in the DOM
+[2026-06-12 09:48:05 IST] [VERIFY] Verify that the heading 'Agility' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:05 IST] [STEP] Capture screenshot evidence
+[PASS] Test 266/918 passed: Verify that Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) loads successfully @regression
+[2026-06-12 09:48:06 IST] [PASS] Test 266/918 passed: Verify that Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) loads successfully @regression
+  ✓  265 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCareersExploreCareerOpportunitiesAtVodafoneIdeaVi.spec.ts:15:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) - Regression Tests › Verify that Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) loads successfully @regression (5.7s)
+[PROGRESS] chromium: Test 267/306 running: Verify that 94 Links are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 09:48:06 IST] [PROGRESS] chromium: Test 267/306 running: Verify that 94 Links are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[PASS] Test 267/918 passed: Verify that 24 Headings are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 09:48:07 IST] [PASS] Test 267/918 passed: Verify that 24 Headings are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+  ✓  266 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCareersExploreCareerOpportunitiesAtVodafoneIdeaVi.spec.ts:50:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) - Regression Tests › Verify that 24 Headings are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression (4.1s)
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:48:07 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PROGRESS] chromium: Test 268/306 running: Verify that 5 Buttons are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 09:48:07 IST] [PROGRESS] chromium: Test 268/306 running: Verify that 5 Buttons are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[2026-06-12 09:48:09 IST] [VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[2026-06-12 09:48:09 IST] [VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[2026-06-12 09:48:09 IST] [VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[2026-06-12 09:48:09 IST] [VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[2026-06-12 09:48:09 IST] [VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:09 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:48:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 15m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 15m 30s
+[FAIL] Test 268/918 failed: Verify that 1 Menu is present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 09:48:11 IST] [FAIL] Test 268/918 failed: Verify that 1 Menu is present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:48:11 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  264 [chromium] › tests\generated\www-myvi-in\ViUtilityBillPaymentsWaterGasElectricityMore.spec.ts:260:3 › https://www.myvi.in/ - Vi Utility Bill Payments | Water, Gas, Electricity & More - Regression Tests › Verify that 1 Menu is present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression (12.4s)
+[PASS] Test 268/918 passed: Verify that 5 Buttons are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 09:48:11 IST] [PASS] Test 268/918 passed: Verify that 5 Buttons are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+  ✓  268 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCareersExploreCareerOpportunitiesAtVodafoneIdeaVi.spec.ts:142:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) - Regression Tests › Verify that 5 Buttons are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression (3.4s)
+[PROGRESS] chromium: Test 269/306 running: Verify that Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number loads successfully @regression
+[2026-06-12 09:48:11 IST] [PROGRESS] chromium: Test 269/306 running: Verify that Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number loads successfully @regression
+[PROGRESS] chromium: Test 270/306 running: Verify that 3 Menus are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 09:48:12 IST] [PROGRESS] chromium: Test 270/306 running: Verify that 3 Menus are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[FAIL] Test 270/918 failed: Verify that 172 Links are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 09:48:14 IST] [FAIL] Test 270/918 failed: Verify that 172 Links are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/utilities#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/utilities#"]').first()[22m
+[2026-06-12 09:48:14 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/utilities#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/utilities#"]').first()
+  ✘  259 [chromium] › tests\generated\www-myvi-in\ViUtilityBillPaymentsWaterGasElectricityMore.spec.ts:92:3 › https://www.myvi.in/ - Vi Utility Bill Payments | Water, Gas, Electricity & More - Regression Tests › Verify that 172 Links are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression (33.0s)
+[FAIL] Test 270/918 failed: Verify that 94 Links are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 09:48:15 IST] [FAIL] Test 270/918 failed: Verify that 94 Links are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:48:15 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()

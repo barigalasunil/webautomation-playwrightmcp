@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Privacy Policy | Vi",
+  "pageUrl": "https://www.myvi.in/privacy-policy",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_58_Inputs_are_present_on_Privacy_Policy_Vi_Privacy_Policy___Vi_-_Input_Verification_1781170998756.png"
+  ],
+  "status": "passed"
+}

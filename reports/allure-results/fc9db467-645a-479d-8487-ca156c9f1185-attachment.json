@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Data Packs - Mobile Data Recharge Plans | Vi India",
+  "pageUrl": "https://www.myvi.in/prepaid/mobile-data-packs",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_1_Input_is_present_on_Vi_Data_Packs_-_Mobile_Data_Recharge_Plans_Vi_India_Vi_Data_Packs_-_Mobile_Data_Recharge_Plans___Vi_In_1781239196452.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,100 @@
+[2026-06-12 09:32:23 IST] [STEP] Found menu: HomeprepaidSMS Packs
+[2026-06-12 09:32:23 IST] [SUCCESS] 50 pages explored
+[2026-06-12 09:32:23 IST] [INFO] Generating POMs for www.myvi.in
+[2026-06-12 09:32:24 IST] [SUCCESS] Generated 47 POM files
+[2026-06-12 09:32:24 IST] [INFO] Generating tests for www.myvi.in, suite: @regression
+[2026-06-12 09:32:25 IST] [WARN] Skipping Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India - no matching POM
+[2026-06-12 09:32:25 IST] [WARN] Skipping Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - no matching POM
+[2026-06-12 09:32:27 IST] [WARN] Skipping Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india - no matching POM
+[2026-06-12 09:32:27 IST] [SUCCESS] Generated 47 test files (3 skipped)
+[2026-06-12 09:32:28 IST] [STEP] Running command: npx tsc --noEmit
+[STEP] Running command: npx tsc --noEmit
+[2026-06-12 09:32:39 IST] [PASS] Command completed: TypeScript validation
+[PASS] Command completed: TypeScript validation
+[2026-06-12 09:32:39 IST] ======================================================================
+[2026-06-12 09:32:39 IST]   Running regression suite across chromium, firefox, webkit (workers: 4)
+[2026-06-12 09:32:39 IST] ======================================================================
+[2026-06-12 09:32:39 IST] [STEP] Running command: npx playwright test tests/generated --config=playwright.config.ts --grep="@regression" --project=chromium --project=firefox --project=webkit --workers=4
+[STEP] Running command: npx playwright test tests/generated --config=playwright.config.ts --grep="@regression" --project=chromium --project=firefox --project=webkit --workers=4
+[PROGRESS] Starting test execution: 918 tests discovered
+[2026-06-12 09:32:52 IST] [PROGRESS] Starting test execution: 918 tests discovered
+Running 918 tests using 4 workers
+[PROGRESS] chromium: Test 1/306 running: Verify that 11 Buttons are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:32:53 IST] [PROGRESS] chromium: Test 1/306 running: Verify that 11 Buttons are present on About Vi - India's Largest Telecom Company @regression
+[PROGRESS] chromium: Test 2/306 running: Verify that 3 Headings are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:32:53 IST] [PROGRESS] chromium: Test 2/306 running: Verify that 3 Headings are present on About Vi - India's Largest Telecom Company @regression
+[PROGRESS] chromium: Test 3/306 running: Verify that About Vi - India's Largest Telecom Company loads successfully @regression
+[2026-06-12 09:32:53 IST] [PROGRESS] chromium: Test 3/306 running: Verify that About Vi - India's Largest Telecom Company loads successfully @regression
+[PROGRESS] chromium: Test 4/306 running: Verify that 164 Links are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:32:54 IST] [PROGRESS] chromium: Test 4/306 running: Verify that 164 Links are present on About Vi - India's Largest Telecom Company @regression
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:33:01 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the heading 'About Vi' exists in the DOM
+[2026-06-12 09:33:01 IST] [VERIFY] Verify that the heading 'About Vi' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:33:01 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:33:01 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the heading 'at a glance' exists in the DOM
+[2026-06-12 09:33:02 IST] [VERIFY] Verify that the heading 'at a glance' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:33:02 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the heading 'our vision' exists in the DOM
+[2026-06-12 09:33:02 IST] [VERIFY] Verify that the heading 'our vision' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 09:33:02 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:33:02 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the link 'open in Vi app' exists in the DOM
+[2026-06-12 09:33:02 IST] [VERIFY] Verify that the link 'open in Vi app' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:33:02 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:33:02 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:33:02 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:33:03 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:33:03 IST] [STEP] Capture screenshot evidence
+[PASS] Test 4/918 passed: Verify that 3 Headings are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:33:04 IST] [PASS] Test 4/918 passed: Verify that 3 Headings are present on About Vi - India's Largest Telecom Company @regression
+  ✓    2 [chromium] › tests\generated\www-myvi-in\AboutViIndiaSLargestTelecomCompany.spec.ts:50:3 › https://www.myvi.in/ - About Vi - India's Largest Telecom Company - Regression Tests › Verify that 3 Headings are present on About Vi - India's Largest Telecom Company @regression (8.1s)
+[PASS] Test 4/918 passed: Verify that 11 Buttons are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:33:04 IST] [PASS] Test 4/918 passed: Verify that 11 Buttons are present on About Vi - India's Largest Telecom Company @regression
+  ✓    1 [chromium] › tests\generated\www-myvi-in\AboutViIndiaSLargestTelecomCompany.spec.ts:134:3 › https://www.myvi.in/ - About Vi - India's Largest Telecom Company - Regression Tests › Verify that 11 Buttons are present on About Vi - India's Largest Telecom Company @regression (7.8s)
+[PROGRESS] chromium: Test 5/306 running: Verify that 37 Inputs are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:33:04 IST] [PROGRESS] chromium: Test 5/306 running: Verify that 37 Inputs are present on About Vi - India's Largest Telecom Company @regression
+[PROGRESS] chromium: Test 6/306 running: Verify that 2 Menus are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:33:04 IST] [PROGRESS] chromium: Test 6/306 running: Verify that 2 Menus are present on About Vi - India's Largest Telecom Company @regression
+[PASS] Test 6/918 passed: Verify that About Vi - India's Largest Telecom Company loads successfully @regression
+[2026-06-12 09:33:05 IST] [PASS] Test 6/918 passed: Verify that About Vi - India's Largest Telecom Company loads successfully @regression
+  ✓    3 [chromium] › tests\generated\www-myvi-in\AboutViIndiaSLargestTelecomCompany.spec.ts:15:3 › https://www.myvi.in/ - About Vi - India's Largest Telecom Company - Regression Tests › Verify that About Vi - India's Largest Telecom Company loads successfully @regression (9.4s)
+[PROGRESS] chromium: Test 7/306 running: Verify that All OTT in One App - OTT Subscription Plans | Vi Movies & TV loads successfully @regression
+[2026-06-12 09:33:05 IST] [PROGRESS] chromium: Test 7/306 running: Verify that All OTT in One App - OTT Subscription Plans | Vi Movies & TV loads successfully @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:33:07 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:33:07 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:33:07 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:33:07 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[FAIL] Test 7/918 failed: Verify that 164 Links are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:33:09 IST] [FAIL] Test 7/918 failed: Verify that 164 Links are present on About Vi - India's Largest Telecom Company @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'open in Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'open in Vi app' }).first()[22m
+[2026-06-12 09:33:09 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'open in Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'open in Vi app' }).first()

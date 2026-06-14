@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India",
+  "pageUrl": "https://www.myvi.in/new-connection/choose-your-fancy-mobile-numbers-online",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_Buy_Fancy_Numbers_Online_-_Choose_Premium_VIP_Number_or_Free_Options_Vi_India_loads_succ_Buy_Fancy_Numbers_Online_-_Choose_Premium_VIP_Numb_1781237090395.png"
+  ],
+  "status": "passed"
+}

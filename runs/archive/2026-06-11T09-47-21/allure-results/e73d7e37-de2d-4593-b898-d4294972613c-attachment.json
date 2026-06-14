@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Plan Selection Page",
+  "pageUrl": "https://www.myvi.in/pre-to-post/plan?mrp=451&utm_source=MyVi&utm_campaign=MainMenu",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_1_Form_is_present_on_Plan_Selection_Page_Plan_Selection_Page_-_Form_Verification_1781170952689.png"
+  ],
+  "status": "passed"
+}

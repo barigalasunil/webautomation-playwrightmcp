@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "About Vi - India's Largest Telecom Company",
+  "pageUrl": "https://www.myvi.in/about-us/home",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'About Vi' exists in the DOM",
+    "Verify that the heading 'at a glance' exists in the DOM",
+    "Verify that the heading 'our vision' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_3_Headings_are_present_on_About_Vi_-_India_s_Largest_Telecom_Company_About_Vi_-_India_s_Largest_Telecom_Company_-_Headi_1781236982055.png"
+  ],
+  "status": "passed"
+}

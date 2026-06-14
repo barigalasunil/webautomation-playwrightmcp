@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Postpaid Plans with Unlimited Calls & Data | Vi India",
+  "pageUrl": "https://www.myvi.in/postpaid/vi-postpaid-plans",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_Vi_Postpaid_Plans_with_Unlimited_Calls_Data_Vi_India_loads_successfully_Vi_Postpaid_Plans_with_Unlimited_Calls___Data___Vi_1781171269409.png"
+  ],
+  "status": "passed"
+}

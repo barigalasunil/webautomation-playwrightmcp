@@ -1,0 +1,100 @@
+[VERIFY] Verify that the button 'Previous' exists in the DOM
+[2026-06-12 09:58:58 IST] [VERIFY] Verify that the button 'Previous' exists in the DOM
+[VERIFY] Verify that the button '...' exists in the DOM
+[2026-06-12 09:58:58 IST] [VERIFY] Verify that the button '...' exists in the DOM
+[FAIL] Test 470/918 failed: Verify that 108 Links are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:58:58 IST] [FAIL] Test 470/918 failed: Verify that 108 Links are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:58:58 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  468 [firefox] › tests\generated\www-myvi-in\ViBlogGetLatestNewsInformationOnViNetwork.spec.ts:96:3 › https://www.myvi.in/ - Vi Blog | Get Latest News & Information on Vi Network - Regression Tests › Verify that 108 Links are present on Vi Blog | Get Latest News & Information on Vi Network @regression (7.1s)
+[PROGRESS] firefox: Test 165/306 running: Verify that 3 Menus are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:59:00 IST] [PROGRESS] firefox: Test 165/306 running: Verify that 3 Menus are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[FAIL] Test 471/918 failed: Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:59:01 IST] [FAIL] Test 471/918 failed: Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'theblogs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'theblogs' }).first()[22m
+[2026-06-12 09:59:01 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'theblogs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'theblogs' }).first()
+  ✘  467 [firefox] › tests\generated\www-myvi-in\ViBlogGetLatestNewsInformationOnViNetwork.spec.ts:50:3 › https://www.myvi.in/ - Vi Blog | Get Latest News & Information on Vi Network - Regression Tests › Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression (9.4s)
+[VERIFY] Verify that the input 'search for topics' exists in the DOM
+[2026-06-12 09:59:02 IST] [VERIFY] Verify that the input 'search for topics' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:59:02 IST] [STEP] Capture screenshot evidence
+[PASS] Test 471/918 passed: Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:59:03 IST] [PASS] Test 471/918 passed: Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression
+  ✓  470 [firefox] › tests\generated\www-myvi-in\ViBlogGetLatestNewsInformationOnViNetwork.spec.ts:188:3 › https://www.myvi.in/ - Vi Blog | Get Latest News & Information on Vi Network - Regression Tests › Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression (4.4s)
+[PROGRESS] firefox: Test 166/306 running: Verify that 52 Headings are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[2026-06-12 09:59:03 IST] [PROGRESS] firefox: Test 166/306 running: Verify that 52 Headings are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[PROGRESS] firefox: Test 167/306 running: Verify that Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud loads successfully @regression
+[2026-06-12 09:59:03 IST] [PROGRESS] firefox: Test 167/306 running: Verify that Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud loads successfully @regression
+[FAIL] Test 473/918 failed: Verify that 5 Buttons are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:59:04 IST] [FAIL] Test 473/918 failed: Verify that 5 Buttons are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: '...' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: '...' }).first()[22m
+[2026-06-12 09:59:04 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: '...' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: '...' }).first()
+  ✘  469 [firefox] › tests\generated\www-myvi-in\ViBlogGetLatestNewsInformationOnViNetwork.spec.ts:142:3 › https://www.myvi.in/ - Vi Blog | Get Latest News & Information on Vi Network - Regression Tests › Verify that 5 Buttons are present on Vi Blog | Get Latest News & Information on Vi Network @regression (9.5s)
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:59:05 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[PROGRESS] firefox: Test 168/306 running: Verify that 179 Links are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[2026-06-12 09:59:06 IST] [PROGRESS] firefox: Test 168/306 running: Verify that 179 Links are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[2026-06-12 09:59:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 26m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 26m 30s
+[VERIFY] Verify that the heading 'Continue where you left off' exists in the DOM
+[2026-06-12 09:59:10 IST] [VERIFY] Verify that the heading 'Continue where you left off' exists in the DOM
+[FAIL] Test 474/918 failed: Verify that 3 Menus are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:59:11 IST] [FAIL] Test 474/918 failed: Verify that 3 Menus are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:59:11 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()

@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi FASTag Recharge Online | Instant Recharge",
+  "pageUrl": "https://www.myvi.in/utilities/fastag-recharge",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Prepaid' exists in the DOM",
+    "Verify that the button 'Postpaid' exists in the DOM",
+    "Verify that the button 'New Connection' exists in the DOM",
+    "Verify that the button 'OTTs & More' exists in the DOM",
+    "Verify that the button 'Help' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_19_Buttons_are_present_on_Vi_FASTag_Recharge_Online_Instant_Recharge_Vi_FASTag_Recharge_Online___Instant_Recharge_-_But_1781237636538.png"
+  ],
+  "status": "passed"
+}

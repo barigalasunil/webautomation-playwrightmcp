@@ -1,0 +1,17 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi",
+  "pageUrl": "https://www.myvi.in/utilities/credit-card-bill-payment",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM",
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\firefox\\Verify_that_2_Forms_are_present_on_Credit_Card_Bill_Payment_Quick_Secure_Online_Bill_Payments_Vi_Credit_Card_Bill_Payment___Quick___Secure_Online_B_1781175654786.png"
+  ],
+  "status": "passed"
+}

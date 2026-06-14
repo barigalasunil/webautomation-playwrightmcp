@@ -1,0 +1,100 @@
+[2026-06-12 09:43:09 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="analyticsPlatform"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="analyticsPlatform"]').first()
+  ✘  170 [chromium] › tests\generated\www-myvi-in\ViBusinessB2bMobilityConnectivitySecurityIotCloud.spec.ts:188:3 › https://www.myvi.in/ - Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud - Regression Tests › Verify that 45 Inputs are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression (17.0s)
+[PASS] Test 174/918 passed: Verify that 9 Headings are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:43:09 IST] [PASS] Test 174/918 passed: Verify that 9 Headings are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+  ✓  172 [chromium] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:50:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that 9 Headings are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression (14.0s)
+[PROGRESS] chromium: Test 175/306 running: Verify that 1 Input is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:43:09 IST] [PROGRESS] chromium: Test 175/306 running: Verify that 1 Input is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:43:09 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 10m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 10m 30s
+[PROGRESS] chromium: Test 176/306 running: Verify that 26 Buttons are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:43:11 IST] [PROGRESS] chromium: Test 176/306 running: Verify that 26 Buttons are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:43:14 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:43:14 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:43:14 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:43:14 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:43:14 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:43:14 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 176/918 failed: Verify that 1 Menu is present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[2026-06-12 09:43:15 IST] [FAIL] Test 176/918 failed: Verify that 1 Menu is present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'Vi Business Assist IoT Smart Central Dashboard My Account Products & Solutions F' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'Vi Business Assist IoT Smart Central Dashboard My Account Products & Solutions F' }).first()[22m
+[2026-06-12 09:43:15 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'Vi Business Assist IoT Smart Central Dashboard My Account Products & Solutions F' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'Vi Business Assist IoT Smart Central Dashboard My Account Products & Solutions F' }).first()
+  ✘  171 [chromium] › tests\generated\www-myvi-in\ViBusinessB2bMobilityConnectivitySecurityIotCloud.spec.ts:234:3 › https://www.myvi.in/ - Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud - Regression Tests › Verify that 1 Menu is present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression (19.6s)
+[FAIL] Test 176/918 failed: Verify that 105 Links are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:43:16 IST] [FAIL] Test 176/918 failed: Verify that 105 Links are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:43:16 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  174 [chromium] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:96:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that 105 Links are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression (9.4s)
+[PASS] Test 176/918 passed: Verify that 26 Buttons are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:43:17 IST] [PASS] Test 176/918 passed: Verify that 26 Buttons are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+  ✓  176 [chromium] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:142:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that 26 Buttons are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression (5.1s)
+[PROGRESS] chromium: Test 177/306 running: Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression
+[2026-06-12 09:43:17 IST] [PROGRESS] chromium: Test 177/306 running: Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:43:17 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[PROGRESS] chromium: Test 178/306 running: Verify that 1 Form is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:43:17 IST] [PROGRESS] chromium: Test 178/306 running: Verify that 1 Form is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[STEP] Capture screenshot evidence
+[2026-06-12 09:43:18 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 179/306 running: Verify that 3 Menus are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:43:19 IST] [PROGRESS] chromium: Test 179/306 running: Verify that 3 Menus are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:43:22 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:43:22 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[PASS] Test 179/918 passed: Verify that 1 Input is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:43:22 IST] [PASS] Test 179/918 passed: Verify that 1 Input is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+  ✓  175 [chromium] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:188:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that 1 Input is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression (13.0s)
+[STEP] Capture screenshot evidence
+[2026-06-12 09:43:23 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 180/306 running: Verify that 1 Heading is present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:43:23 IST] [PROGRESS] chromium: Test 180/306 running: Verify that 1 Heading is present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:43:25 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:43:25 IST] [VERIFY] Verify the URL is correct
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:43:25 IST] [STEP] Capture screenshot evidence
+[STEP] Capture screenshot evidence
+[PASS] Test 180/918 passed: Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression
+[2026-06-12 09:43:27 IST] [PASS] Test 180/918 passed: Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression

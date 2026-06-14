@@ -1,0 +1,100 @@
+[PROGRESS] webkit: Test 130/306 running: Verify that 46 Buttons are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 10:08:21 IST] [PROGRESS] webkit: Test 130/306 running: Verify that 46 Buttons are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:08:22 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'view details' exists in the DOM
+[2026-06-12 10:08:23 IST] [VERIFY] Verify that the link 'view details' exists in the DOM
+[FAIL] Test 742/918 failed: Verify that 2 Menus are present on Plan Selection Page @regression
+[2026-06-12 10:08:23 IST] [FAIL] Test 742/918 failed: Verify that 2 Menus are present on Plan Selection Page @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'Back to CallCenter' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'Back to CallCenter' }).first()[22m
+[2026-06-12 10:08:23 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'Back to CallCenter' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'Back to CallCenter' }).first()
+  ✘  739 [webkit] › tests\generated\www-myvi-in\PlanSelectionPage.spec.ts:252:3 › https://www.myvi.in/ - Plan Selection Page - Regression Tests › Verify that 2 Menus are present on Plan Selection Page @regression (7.7s)
+[PROGRESS] webkit: Test 131/306 running: Verify that 138 Inputs are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 10:08:24 IST] [PROGRESS] webkit: Test 131/306 running: Verify that 138 Inputs are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[VERIFY] Verify that the button 'Previous' exists in the DOM
+[2026-06-12 10:08:24 IST] [VERIFY] Verify that the button 'Previous' exists in the DOM
+[FAIL] Test 743/918 failed: Verify that 29 Headings are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 10:08:26 IST] [FAIL] Test 743/918 failed: Verify that 29 Headings are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Individual plans' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Individual plans' }).first()[22m
+[2026-06-12 10:08:26 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Individual plans' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Individual plans' }).first()
+  ✘  740 [webkit] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:50:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 29 Headings are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (9.8s)
+[PROGRESS] webkit: Test 132/306 running: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 10:08:27 IST] [PROGRESS] webkit: Test 132/306 running: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[FAIL] Test 744/918 failed: Verify that 38 Links are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 10:08:28 IST] [FAIL] Test 744/918 failed: Verify that 38 Links are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'view details' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'view details' }).first()[22m
+[2026-06-12 10:08:28 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'view details' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'view details' }).first()
+  ✘  741 [webkit] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:96:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 38 Links are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (9.9s)
+[2026-06-12 10:08:28 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[PROGRESS] webkit: Test 133/306 running: Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 10:08:29 IST] [PROGRESS] webkit: Test 133/306 running: Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[FAIL] Test 745/918 failed: Verify that 46 Buttons are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 10:08:30 IST] [FAIL] Test 745/918 failed: Verify that 46 Buttons are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'Previous' }).first()[22m
+[2026-06-12 10:08:30 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'Previous' }).first()
+  ✘  742 [webkit] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:142:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 46 Buttons are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (9.1s)
+[PROGRESS] webkit: Test 134/306 running: Verify that Privacy Policy | Vi loads successfully @regression
+[2026-06-12 10:08:31 IST] [PROGRESS] webkit: Test 134/306 running: Verify that Privacy Policy | Vi loads successfully @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:08:32 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:08:32 IST] [STEP] Capture screenshot evidence
+[PASS] Test 746/918 passed: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 10:08:32 IST] [PASS] Test 746/918 passed: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression

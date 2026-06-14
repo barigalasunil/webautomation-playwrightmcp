@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G",
+  "pageUrl": "https://www.myvi.in/prepaid/hero-unlimited-and-weekend-data-rollover",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'Vi Hero Unlimited' exists in the DOM",
+    "Verify that the heading 'Vi hero unlimited data benefits' exists in the DOM",
+    "Verify that the heading 'Up to 2GB of backup Data every month!' exists in the DOM",
+    "Verify that the heading 'carry unused data into the weekend' exists in the DOM",
+    "Verify that the heading 'binge all night, without any limits' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_14_Headings_are_present_on_Get_Free_Night_Data_Binge_Your_Shows_with_Hero_Unlimited_Vi-5_Get_Free_Night_Data___Binge_Your_Shows_with_Hero_U_1781238345449.png"
+  ],
+  "status": "passed"
+}

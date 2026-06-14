@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "All OTT in One App - OTT Subscription Plans | Vi Movies & TV",
+  "pageUrl": "https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app",
+  "testObjective": "Verify Table elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the table 'Data table' exists in the DOM",
+    "Verify that the table 'Data table' exists in the DOM",
+    "Verify that the table 'Data table' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_3_Tables_are_present_on_All_OTT_in_One_App_-_OTT_Subscription_Plans_Vi_Movies_TV_All_OTT_in_One_App_-_OTT_Subscription_Plans___Vi_M_1781237018239.png"
+  ],
+  "status": "passed"
+}

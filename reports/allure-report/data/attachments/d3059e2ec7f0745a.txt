@@ -1,0 +1,100 @@
+[2026-06-12 10:06:39 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PROGRESS] webkit: Test 74/306 running: Verify that 15 Buttons are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 10:06:39 IST] [PROGRESS] webkit: Test 74/306 running: Verify that 15 Buttons are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[FAIL] Test 686/918 failed: Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 10:06:39 IST] [FAIL] Test 686/918 failed: Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'home new connection prepaid connection' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'home new connection prepaid connection' }).first()[22m
+[2026-06-12 10:06:39 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'home new connection prepaid connection' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'home new connection prepaid connection' }).first()
+  ✘  681 [webkit] › tests\generated\www-myvi-in\GetANewViPrepaidSimCardIn3SimpleStepsBuyNewSim.spec.ts:234:3 › https://www.myvi.in/ - Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - Regression Tests › Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression (9.7s)
+[2026-06-12 10:06:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 34m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 34m 0s
+[PROGRESS] webkit: Test 75/306 running: Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 10:06:41 IST] [PROGRESS] webkit: Test 75/306 running: Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:06:41 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the button 'Vi Hero Unlimited' exists in the DOM
+[2026-06-12 10:06:42 IST] [VERIFY] Verify that the button 'Vi Hero Unlimited' exists in the DOM
+[VERIFY] Verify that the button 'Data Delight' exists in the DOM
+[2026-06-12 10:06:43 IST] [VERIFY] Verify that the button 'Data Delight' exists in the DOM
+[VERIFY] Verify that the button 'Weekend data Rollover' exists in the DOM
+[2026-06-12 10:06:43 IST] [VERIFY] Verify that the button 'Weekend data Rollover' exists in the DOM
+[VERIFY] Verify that the button 'Binge All Night' exists in the DOM
+[2026-06-12 10:06:43 IST] [VERIFY] Verify that the button 'Binge All Night' exists in the DOM
+[VERIFY] Verify that the button 'Download Vi App' exists in the DOM
+[2026-06-12 10:06:43 IST] [VERIFY] Verify that the button 'Download Vi App' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:06:43 IST] [STEP] Capture screenshot evidence
+[STEP] Capture screenshot evidence
+[2026-06-12 10:06:43 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:06:44 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[FAIL] Test 687/918 failed: Verify that 99 Links are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 10:06:44 IST] [FAIL] Test 687/918 failed: Verify that 99 Links are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 10:06:44 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  684 [webkit] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:96:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 99 Links are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (7.5s)
+[PASS] Test 687/918 passed: Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 10:06:44 IST] [PASS] Test 687/918 passed: Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+  ✓  685 [webkit] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:188:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (5.9s)
+[PROGRESS] webkit: Test 76/306 running: Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression
+[2026-06-12 10:06:45 IST] [PROGRESS] webkit: Test 76/306 running: Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression
+[PASS] Test 688/918 passed: Verify that 15 Buttons are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 10:06:45 IST] [PASS] Test 688/918 passed: Verify that 15 Buttons are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+  ✓  686 [webkit] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:142:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 15 Buttons are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (5.4s)
+[PROGRESS] webkit: Test 77/306 running: Verify that 21 Headings are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 10:06:45 IST] [PROGRESS] webkit: Test 77/306 running: Verify that 21 Headings are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[PROGRESS] webkit: Test 78/306 running: Verify that 3 Menus are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 10:06:46 IST] [PROGRESS] webkit: Test 78/306 running: Verify that 3 Menus are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[STEP] Capture screenshot evidence
+[2026-06-12 10:06:46 IST] [STEP] Capture screenshot evidence
+[PASS] Test 690/918 passed: Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 10:06:47 IST] [PASS] Test 690/918 passed: Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+  ✓  687 [webkit] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:218:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (6.0s)
+[PROGRESS] webkit: Test 79/306 running: Verify that 25 Links are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 10:06:47 IST] [PROGRESS] webkit: Test 79/306 running: Verify that 25 Links are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 10:06:48 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:06:50 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the heading 'Vi Max family postpaid plans' exists in the DOM
+[2026-06-12 10:06:50 IST] [VERIFY] Verify that the heading 'Vi Max family postpaid plans' exists in the DOM
+[2026-06-12 10:06:51 IST] [VERIFY] Verify the URL is correct
+[VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:06:52 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:06:52 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'postpaid plans' exists in the DOM
+[2026-06-12 10:06:53 IST] [VERIFY] Verify that the link 'postpaid plans' exists in the DOM
+[VERIFY] Verify that the link 'prepaid packs' exists in the DOM
+[2026-06-12 10:06:53 IST] [VERIFY] Verify that the link 'prepaid packs' exists in the DOM
+[PASS] Test 691/918 passed: Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression
+[2026-06-12 10:06:53 IST] [PASS] Test 691/918 passed: Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression

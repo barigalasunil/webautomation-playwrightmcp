@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "About Vi - India's Largest Telecom Company",
+  "pageUrl": "https://www.myvi.in/about-us/home",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Prepaid' exists in the DOM",
+    "Verify that the button 'Postpaid' exists in the DOM",
+    "Verify that the button 'New Connection' exists in the DOM",
+    "Verify that the button 'OTTs & More' exists in the DOM",
+    "Verify that the button 'Help' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_11_Buttons_are_present_on_About_Vi_-_India_s_Largest_Telecom_Company_About_Vi_-_India_s_Largest_Telecom_Company_-_Butto_1781176553095.png"
+  ],
+  "status": "passed"
+}

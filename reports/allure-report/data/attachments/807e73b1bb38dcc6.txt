@@ -1,0 +1,100 @@
+[2026-06-12 09:48:22 IST] [VERIFY] Verify that the heading 'Circle Complaint Centre contact details' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:22 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:48:23 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[FAIL] Test 272/918 failed: Verify that 3 Menus are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 09:48:24 IST] [FAIL] Test 272/918 failed: Verify that 3 Menus are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:48:24 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  270 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCareersExploreCareerOpportunitiesAtVodafoneIdeaVi.spec.ts:188:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) - Regression Tests › Verify that 3 Menus are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression (9.7s)
+[2026-06-12 09:48:25 IST] [PASS] Test 272/918 passed: Verify that 16 Headings are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[PASS] Test 272/918 passed: Verify that 16 Headings are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+  ✓  271 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:50:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 16 Headings are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (7.4s)
+[PROGRESS] chromium: Test 273/306 running: Verify that 75 Inputs are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:25 IST] [PROGRESS] chromium: Test 273/306 running: Verify that 75 Inputs are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[PROGRESS] chromium: Test 274/306 running: Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:25 IST] [PROGRESS] chromium: Test 274/306 running: Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:48:30 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:48:30 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 09:48:30 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:48:30 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:48:30 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:30 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 274/918 failed: Verify that 172 Links are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:31 IST] [FAIL] Test 274/918 failed: Verify that 172 Links are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/help-support/vi-customer-care-number#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/help-support/vi-customer-care-number#"]').first()[22m
+[2026-06-12 09:48:31 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/help-support/vi-customer-care-number#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/help-support/vi-customer-care-number#"]').first()
+  ✘  272 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:96:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 172 Links are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (12.2s)
+[PASS] Test 274/918 passed: Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:32 IST] [PASS] Test 274/918 passed: Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+  ✓  274 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:142:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (5.5s)
+[PROGRESS] chromium: Test 275/306 running: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:32 IST] [PROGRESS] chromium: Test 275/306 running: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[PROGRESS] chromium: Test 276/306 running: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:32 IST] [PROGRESS] chromium: Test 276/306 running: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:48:36 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:48:38 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:48:38 IST] [VERIFY] Verify the URL is correct
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:48:38 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:38 IST] [STEP] Capture screenshot evidence
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:38 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:48:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 16m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 16m 0s
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:48:40 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:48:40 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:48:40 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:48:40 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:48:40 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:40 IST] [STEP] Capture screenshot evidence
+[PASS] Test 276/918 passed: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:42 IST] [PASS] Test 276/918 passed: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+  ✓  276 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:234:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (8.3s)
+[PASS] Test 276/918 passed: Verify that Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number loads successfully @regression
+[2026-06-12 09:48:42 IST] [PASS] Test 276/918 passed: Verify that Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number loads successfully @regression

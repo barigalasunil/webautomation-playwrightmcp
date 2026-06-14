@@ -1,0 +1,100 @@
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: '«' }).first()
+  ✘  599 [firefox] › tests\generated\www-myvi-in\VodafoneIdeaNewsViLatestViNewsPressReleasesAmpUpdates.spec.ts:142:3 › https://www.myvi.in/ - Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates - Regression Tests › Verify that 6 Buttons are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression (8.7s)
+[PROGRESS] firefox: Test 299/306 running: Verify that 81 Inputs are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:03:43 IST] [PROGRESS] firefox: Test 299/306 running: Verify that 81 Inputs are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[FAIL] Test 605/918 failed: Verify that 22 Headings are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:03:45 IST] [FAIL] Test 605/918 failed: Verify that 22 Headings are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Volte HD Calls' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Volte HD Calls' }).first()[22m
+[2026-06-12 10:03:45 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Volte HD Calls' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Volte HD Calls' }).first()
+  ✘  602 [firefox] › tests\generated\www-myvi-in\Volte4gVolteCallsVoiceOverLteForHdVoiceCallsVi.spec.ts:50:3 › https://www.myvi.in/ - VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi - Regression Tests › Verify that 22 Headings are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression (7.0s)
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 10:03:46 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 10:03:46 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 10:03:46 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 10:03:46 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 10:03:46 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:03:46 IST] [STEP] Capture screenshot evidence
+[PROGRESS] firefox: Test 300/306 running: Verify that 1 Form is present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:03:47 IST] [PROGRESS] firefox: Test 300/306 running: Verify that 1 Form is present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[PASS] Test 606/918 passed: Verify that 14 Buttons are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:03:47 IST] [PASS] Test 606/918 passed: Verify that 14 Buttons are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+  ✓  604 [firefox] › tests\generated\www-myvi-in\Volte4gVolteCallsVoiceOverLteForHdVoiceCallsVi.spec.ts:142:3 › https://www.myvi.in/ - VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi - Regression Tests › Verify that 14 Buttons are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression (5.2s)
+[PROGRESS] firefox: Test 301/306 running: Verify that 2 Menus are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:03:47 IST] [PROGRESS] firefox: Test 301/306 running: Verify that 2 Menus are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:03:48 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:03:48 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[FAIL] Test 607/918 failed: Verify that 162 Links are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:03:48 IST] [FAIL] Test 607/918 failed: Verify that 162 Links are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/vi-volte-4g-hd-voice-calls#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/vi-volte-4g-hd-voice-calls#"]').first()[22m
+[2026-06-12 10:03:48 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/vi-volte-4g-hd-voice-calls#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/vi-volte-4g-hd-voice-calls#"]').first()
+  ✘  603 [firefox] › tests\generated\www-myvi-in\Volte4gVolteCallsVoiceOverLteForHdVoiceCallsVi.spec.ts:96:3 › https://www.myvi.in/ - VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi - Regression Tests › Verify that 162 Links are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression (8.8s)
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:03:49 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:03:49 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:03:49 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:03:49 IST] [STEP] Capture screenshot evidence
+[PASS] Test 607/918 passed: Verify that 81 Inputs are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:03:50 IST] [PASS] Test 607/918 passed: Verify that 81 Inputs are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+  ✓  605 [firefox] › tests\generated\www-myvi-in\Volte4gVolteCallsVoiceOverLteForHdVoiceCallsVi.spec.ts:188:3 › https://www.myvi.in/ - VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi - Regression Tests › Verify that 81 Inputs are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression (5.1s)
+[PROGRESS] firefox: Test 302/306 running: Verify that 14 Headings are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[2026-06-12 10:03:50 IST] [PROGRESS] firefox: Test 302/306 running: Verify that 14 Headings are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[PROGRESS] firefox: Test 303/306 running: Verify that WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality loads successfully @regression
+[2026-06-12 10:03:50 IST] [PROGRESS] firefox: Test 303/306 running: Verify that WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality loads successfully @regression
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 10:03:51 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[VERIFY] Verify that the heading 'Vi WiFi Calling (VoWiFi): Make Crystal Clear Calls Over WiFi' exists in the DOM
+[2026-06-12 10:03:52 IST] [VERIFY] Verify that the heading 'Vi WiFi Calling (VoWiFi): Make Crystal Clear Calls Over WiFi' exists in the DOM
+[VERIFY] Verify that the heading 'Why Choose Vi WiFi Calling?' exists in the DOM
+[2026-06-12 10:03:52 IST] [VERIFY] Verify that the heading 'Why Choose Vi WiFi Calling?' exists in the DOM
+[2026-06-12 10:03:52 IST] [VERIFY] Verify that the heading 'always connected' exists in the DOM
+[VERIFY] Verify that the heading 'always connected' exists in the DOM
+[VERIFY] Verify that the heading 'better voice quality' exists in the DOM
+[2026-06-12 10:03:52 IST] [VERIFY] Verify that the heading 'better voice quality' exists in the DOM
+[2026-06-12 10:03:52 IST] [VERIFY] Verify that the heading 'call anywhere' exists in the DOM
+[VERIFY] Verify that the heading 'call anywhere' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:03:52 IST] [STEP] Capture screenshot evidence
+[PASS] Test 609/918 passed: Verify that 14 Headings are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[2026-06-12 10:03:52 IST] [PASS] Test 609/918 passed: Verify that 14 Headings are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression

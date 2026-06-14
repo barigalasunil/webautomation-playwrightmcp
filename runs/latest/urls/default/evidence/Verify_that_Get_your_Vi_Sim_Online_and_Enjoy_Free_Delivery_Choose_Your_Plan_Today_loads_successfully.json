@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today",
+  "pageUrl": "https://www.myvi.in/new-connection/vi-free-sim-home-delivery",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_Get_your_Vi_Sim_Online_and_Enjoy_Free_Delivery_Choose_Your_Plan_Today_loads_successfully_Get_your_Vi_Sim_Online_and_Enjoy_Free_Delivery___C_1781176775520.png"
+  ],
+  "status": "passed"
+}

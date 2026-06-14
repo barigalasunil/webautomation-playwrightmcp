@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Privacy Policy | Vi",
+  "pageUrl": "https://www.myvi.in/privacy-policy",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_1_Form_is_present_on_Privacy_Policy_Vi_Privacy_Policy___Vi_-_Form_Verification_1781174964803.png"
+  ],
+  "status": "passed"
+}

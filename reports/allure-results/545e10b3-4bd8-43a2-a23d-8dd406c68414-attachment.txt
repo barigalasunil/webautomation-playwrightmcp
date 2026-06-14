@@ -1,0 +1,100 @@
+[2026-06-12 10:00:08 IST] [STEP] Capture screenshot evidence
+[PASS] Test 498/918 passed: Verify that 19 Buttons are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:00:08 IST] [PASS] Test 498/918 passed: Verify that 19 Buttons are present on Vi FASTag Recharge Online | Instant Recharge @regression
+  ✓  496 [firefox] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:126:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 19 Buttons are present on Vi FASTag Recharge Online | Instant Recharge @regression (6.3s)
+[PROGRESS] firefox: Test 193/306 running: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:00:09 IST] [PROGRESS] firefox: Test 193/306 running: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[PROGRESS] firefox: Test 194/306 running: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+[2026-06-12 10:00:09 IST] [PROGRESS] firefox: Test 194/306 running: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+[2026-06-12 10:00:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 27m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 27m 30s
+[VERIFY] Verify that the heading 'Vi powered by GIGAnet' exists in the DOM
+[2026-06-12 10:00:10 IST] [VERIFY] Verify that the heading 'Vi powered by GIGAnet' exists in the DOM
+[VERIFY] Verify that the heading 'GIGAnet FAQs' exists in the DOM
+[2026-06-12 10:00:10 IST] [VERIFY] Verify that the heading 'GIGAnet FAQs' exists in the DOM
+[VERIFY] Verify that the heading 'Download Vi app' exists in the DOM
+[2026-06-12 10:00:10 IST] [VERIFY] Verify that the heading 'Download Vi app' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:00:11 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:00:11 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:00:11 IST] [STEP] Capture screenshot evidence
+[PASS] Test 500/918 passed: Verify that 2 Forms are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:00:12 IST] [PASS] Test 500/918 passed: Verify that 2 Forms are present on Vi FASTag Recharge Online | Instant Recharge @regression
+  ✓  497 [firefox] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:218:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 2 Forms are present on Vi FASTag Recharge Online | Instant Recharge @regression (7.0s)
+[PROGRESS] firefox: Test 195/306 running: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:00:12 IST] [PROGRESS] firefox: Test 195/306 running: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:00:14 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[FAIL] Test 501/918 failed: Verify that 1 Menu is present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:00:14 IST] [FAIL] Test 501/918 failed: Verify that 1 Menu is present on Vi FASTag Recharge Online | Instant Recharge @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 10:00:14 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  498 [firefox] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:252:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 1 Menu is present on Vi FASTag Recharge Online | Instant Recharge @regression (9.1s)
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:00:15 IST] [STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:00:15 IST] [VERIFY] Verify the URL is correct
+[VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:00:15 IST] [STEP] Capture screenshot evidence
+[PASS] Test 501/918 passed: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+[2026-06-12 10:00:16 IST] [PASS] Test 501/918 passed: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+  ✓  500 [firefox] › tests\generated\www-myvi-in\ViGiganetASmartNetworkPoweredWithAiFromVi.spec.ts:15:3 › https://www.myvi.in/ - Vi Giganet: A smart network powered with AI from Vi - Regression Tests › Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression (4.9s)
+[PROGRESS] firefox: Test 196/306 running: Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression
+[2026-06-12 10:00:16 IST] [PROGRESS] firefox: Test 196/306 running: Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression
+[PROGRESS] firefox: Test 197/306 running: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:00:16 IST] [PROGRESS] firefox: Test 197/306 running: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[FAIL] Test 503/918 failed: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:00:17 IST] [FAIL] Test 503/918 failed: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Download Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Download Vi app' }).first()[22m
+[2026-06-12 10:00:17 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Download Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Download Vi app' }).first()
+  ✘  499 [firefox] › tests\generated\www-myvi-in\ViGiganetASmartNetworkPoweredWithAiFromVi.spec.ts:50:3 › https://www.myvi.in/ - Vi Giganet: A smart network powered with AI from Vi - Regression Tests › Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression (7.1s)
+[PROGRESS] firefox: Test 198/306 running: Verify that 64 Headings are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:18 IST] [PROGRESS] firefox: Test 198/306 running: Verify that 64 Headings are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[FAIL] Test 504/918 failed: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:00:19 IST] [FAIL] Test 504/918 failed: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 10:00:19 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()

@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Enjoy Netflix Subscription Plans with Vi at No Extra Cost",
+  "pageUrl": "https://www.myvi.in/netflix-subscription-plans",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Prepaid' exists in the DOM",
+    "Verify that the button 'Postpaid' exists in the DOM",
+    "Verify that the button 'New Connection' exists in the DOM",
+    "Verify that the button 'OTTs & More' exists in the DOM",
+    "Verify that the button 'Help' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_37_Buttons_are_present_on_Enjoy_Netflix_Subscription_Plans_with_Vi_at_No_Extra_Cost_Enjoy_Netflix_Subscription_Plans_with_Vi_at_No_Ext_1781174677421.png"
+  ],
+  "status": "passed"
+}

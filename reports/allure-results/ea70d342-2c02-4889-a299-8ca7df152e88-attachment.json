@@ -1,0 +1,17 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Plan Selection Page",
+  "pageUrl": "https://www.myvi.in/pre-to-post/plan?mrp=451&utm_source=MyVi&utm_campaign=MainMenu",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'great! you can now switch from prepaid to postpaid with just an OTP' exists in the DOM",
+    "Verify that the heading 'great! you can now switch from prepaid to postpaid with just an OTP' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_2_Headings_are_present_on_Plan_Selection_Page_Plan_Selection_Page_-_Heading_Verification_1781239091208.png"
+  ],
+  "status": "passed"
+}

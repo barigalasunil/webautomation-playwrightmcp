@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi Loan EMI Payment | Quick & Secure Online Payment",
+  "pageUrl": "https://www.myvi.in/utilities/loan-payment",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'pay your loan EMI in seconds' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_1_Heading_is_present_on_Vi_Loan_EMI_Payment_Quick_Secure_Online_Payment_Vi_Loan_EMI_Payment___Quick___Secure_Online_Paymen_1781238642468.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,33 @@
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Generated files
+/temp/
+/pages/generated/
+/tests/generated/
+/generated/
+
+# Reports
+/allure-results/
+/allure-report/
+
+# Screenshots
+/screenshots/
+
+# Logs
+/logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

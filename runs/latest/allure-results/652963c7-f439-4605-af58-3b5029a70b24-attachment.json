@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "All OTT in One App - OTT Subscription Plans | Vi Movies & TV",
+  "pageUrl": "https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_All_OTT_in_One_App_-_OTT_Subscription_Plans_Vi_Movies_TV_loads_successfully_All_OTT_in_One_App_-_OTT_Subscription_Plans___Vi_M_1781176565013.png"
+  ],
+  "status": "passed"
+}

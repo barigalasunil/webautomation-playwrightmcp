@@ -1,0 +1,100 @@
+[PROGRESS] firefox: Test 107/306 running: Verify that 1 Heading is present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[2026-06-12 09:57:02 IST] [PROGRESS] firefox: Test 107/306 running: Verify that 1 Heading is present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:57:05 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the heading 'pay your insurance bill in seconds' exists in the DOM
+[2026-06-12 09:57:05 IST] [VERIFY] Verify that the heading 'pay your insurance bill in seconds' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:57:05 IST] [STEP] Capture screenshot evidence
+[PASS] Test 413/918 passed: Verify that 1 Heading is present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[2026-06-12 09:57:06 IST] [PASS] Test 413/918 passed: Verify that 1 Heading is present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+  ✓  413 [firefox] › tests\generated\www-myvi-in\PayForInsuranceOnlineWithViFastSecurePayment.spec.ts:50:3 › https://www.myvi.in/ - Pay for Insurance Online with Vi – Fast & Secure Payment - Regression Tests › Verify that 1 Heading is present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression (4.3s)
+[2026-06-12 09:57:06 IST] [PROGRESS] firefox: Test 108/306 running: Verify that 158 Links are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[PROGRESS] firefox: Test 108/306 running: Verify that 158 Links are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:57:07 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:57:07 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:57:07 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:57:07 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:57:08 IST] [STEP] Capture screenshot evidence
+[STEP] Capture screenshot evidence
+[2026-06-12 09:57:08 IST] [PASS] Test 414/918 passed: Verify that Pay for Insurance Online with Vi – Fast & Secure Payment loads successfully @regression
+[PASS] Test 414/918 passed: Verify that Pay for Insurance Online with Vi – Fast & Secure Payment loads successfully @regression
+  ✓  410 [firefox] › tests\generated\www-myvi-in\PayForInsuranceOnlineWithViFastSecurePayment.spec.ts:15:3 › https://www.myvi.in/ - Pay for Insurance Online with Vi – Fast & Secure Payment - Regression Tests › Verify that Pay for Insurance Online with Vi – Fast & Secure Payment loads successfully @regression (7.3s)
+[PROGRESS] firefox: Test 109/306 running: Verify that 19 Buttons are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[2026-06-12 09:57:08 IST] [PROGRESS] firefox: Test 109/306 running: Verify that 19 Buttons are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[2026-06-12 09:57:09 IST] [PASS] Test 415/918 passed: Verify that 1 Form is present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[PASS] Test 415/918 passed: Verify that 1 Form is present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+  ✓  412 [firefox] › tests\generated\www-myvi-in\OnlineMobileRechargeBestPrepaidPlansTopUpsViIndia.spec.ts:226:3 › https://www.myvi.in/ - Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India - Regression Tests › Verify that 1 Form is present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression (5.7s)
+[2026-06-12 09:57:09 IST] [PROGRESS] firefox: Test 110/306 running: Verify that 37 Inputs are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[PROGRESS] firefox: Test 110/306 running: Verify that 37 Inputs are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[2026-06-12 09:57:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 24m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 24m 30s
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:57:11 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:57:12 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:57:12 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 09:57:12 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:57:12 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:57:12 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:57:13 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:57:13 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[PASS] Test 416/918 passed: Verify that 19 Buttons are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[2026-06-12 09:57:13 IST] [PASS] Test 416/918 passed: Verify that 19 Buttons are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+  ✓  415 [firefox] › tests\generated\www-myvi-in\PayForInsuranceOnlineWithViFastSecurePayment.spec.ts:126:3 › https://www.myvi.in/ - Pay for Insurance Online with Vi – Fast & Secure Payment - Regression Tests › Verify that 19 Buttons are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression (4.4s)
+[PROGRESS] firefox: Test 111/306 running: Verify that 2 Forms are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[2026-06-12 09:57:13 IST] [PROGRESS] firefox: Test 111/306 running: Verify that 2 Forms are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:57:13 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:57:13 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:57:13 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:57:13 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[FAIL] Test 417/918 failed: Verify that 3 Menus are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 09:57:13 IST] [FAIL] Test 417/918 failed: Verify that 3 Menus are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:57:13 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  411 [firefox] › tests\generated\www-myvi-in\OnlineMobileRechargeBestPrepaidPlansTopUpsViIndia.spec.ts:256:3 › https://www.myvi.in/ - Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India - Regression Tests › Verify that 3 Menus are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression (8.8s)
+[STEP] Capture screenshot evidence
+[2026-06-12 09:57:13 IST] [STEP] Capture screenshot evidence
+[PASS] Test 417/918 passed: Verify that 37 Inputs are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[2026-06-12 09:57:14 IST] [PASS] Test 417/918 passed: Verify that 37 Inputs are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+  ✓  416 [firefox] › tests\generated\www-myvi-in\PayForInsuranceOnlineWithViFastSecurePayment.spec.ts:172:3 › https://www.myvi.in/ - Pay for Insurance Online with Vi – Fast & Secure Payment - Regression Tests › Verify that 37 Inputs are present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression (4.9s)
+[PROGRESS] firefox: Test 112/306 running: Verify that Pay Vi Postpaid Bill Online - Quick & Secure | Vi India loads successfully @regression
+[2026-06-12 09:57:14 IST] [PROGRESS] firefox: Test 112/306 running: Verify that Pay Vi Postpaid Bill Online - Quick & Secure | Vi India loads successfully @regression
+[PROGRESS] firefox: Test 113/306 running: Verify that 1 Menu is present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[2026-06-12 09:57:15 IST] [PROGRESS] firefox: Test 113/306 running: Verify that 1 Menu is present on Pay for Insurance Online with Vi – Fast & Secure Payment @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:57:15 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:57:16 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:57:16 IST] [STEP] Capture screenshot evidence
+[PASS] Test 419/918 passed: Verify that Pay Vi Postpaid Bill Online - Quick & Secure | Vi India loads successfully @regression
+[2026-06-12 09:57:16 IST] [PASS] Test 419/918 passed: Verify that Pay Vi Postpaid Bill Online - Quick & Secure | Vi India loads successfully @regression

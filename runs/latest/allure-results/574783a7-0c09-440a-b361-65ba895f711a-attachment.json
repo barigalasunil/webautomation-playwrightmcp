@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Postpaid Plans with Unlimited Calls & Data | Vi India",
+  "pageUrl": "https://www.myvi.in/postpaid/vi-postpaid-plans",
+  "testObjective": "Verify Table elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the table 'Data table' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_1_Table_is_present_on_Vi_Postpaid_Plans_with_Unlimited_Calls_Data_Vi_India_Vi_Postpaid_Plans_with_Unlimited_Calls___Data___Vi_1781177323524.png"
+  ],
+  "status": "passed"
+}

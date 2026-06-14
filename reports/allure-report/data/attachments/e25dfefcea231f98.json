@@ -1,0 +1,17 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "All OTT in One App - OTT Subscription Plans | Vi Movies & TV",
+  "pageUrl": "https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_1_Form_is_present_on_All_OTT_in_One_App_-_OTT_Subscription_Plans_Vi_Movies_TV_All_OTT_in_One_App_-_OTT_Subscription_Plans___Vi_M_1781237038906.png"
+  ],
+  "status": "timedOut",
+  "errorMessage": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+}

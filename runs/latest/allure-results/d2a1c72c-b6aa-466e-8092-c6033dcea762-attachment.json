@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge",
+  "pageUrl": "https://www.myvi.in/prepaid/recharge-talktime-top-up-plans",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_1_Form_is_present_on_Vi_Prepaid_Talktime_and_Top-Up_Plans_Easy_Online_Mobile_Recharge_Vi_Prepaid_Talktime_and_Top-Up_Plans__Easy_Online__1781177347730.png"
+  ],
+  "status": "passed"
+}

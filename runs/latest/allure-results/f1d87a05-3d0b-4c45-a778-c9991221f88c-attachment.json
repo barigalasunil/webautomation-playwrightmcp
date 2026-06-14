@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge",
+  "pageUrl": "https://www.myvi.in/prepaid/recharge-talktime-top-up-plans",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'Top Up Voucher' exists in the DOM",
+    "Verify that the heading 'top up voucher' exists in the DOM",
+    "Verify that the heading 'Frequently Asked Questions About Vi Prepaid Data Packs' exists in the DOM",
+    "Verify that the heading 'Talk time top up plans' exists in the DOM",
+    "Verify that the heading 'Vodafone Idea Limited' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_9_Headings_are_present_on_Vi_Prepaid_Talktime_and_Top-Up_Plans_Easy_Online_Mobile_Rechar_Vi_Prepaid_Talktime_and_Top-Up_Plans__Easy_Online__1781175294999.png"
+  ],
+  "status": "passed"
+}

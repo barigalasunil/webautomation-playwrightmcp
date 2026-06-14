@@ -1,0 +1,100 @@
+[2026-06-12 10:08:05 IST] [STEP] Open URL: https://www.myvi.in/
+[PROGRESS] webkit: Test 122/306 running: Verify that 2 Headings are present on Plan Selection Page @regression
+[2026-06-12 10:08:06 IST] [PROGRESS] webkit: Test 122/306 running: Verify that 2 Headings are present on Plan Selection Page @regression
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:08:06 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:08:06 IST] [STEP] Capture screenshot evidence
+[PASS] Test 734/918 passed: Verify that Plan Selection Page loads successfully @regression
+[2026-06-12 10:08:07 IST] [PASS] Test 734/918 passed: Verify that Plan Selection Page loads successfully @regression
+  ✓  732 [webkit] › tests\generated\www-myvi-in\PlanSelectionPage.spec.ts:15:3 › https://www.myvi.in/ - Plan Selection Page - Regression Tests › Verify that Plan Selection Page loads successfully @regression (3.3s)
+[PROGRESS] webkit: Test 123/306 running: Verify that 5 Buttons are present on Plan Selection Page @regression
+[2026-06-12 10:08:07 IST] [PROGRESS] webkit: Test 123/306 running: Verify that 5 Buttons are present on Plan Selection Page @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:08:08 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'Back to CallCenter' exists in the DOM
+[2026-06-12 10:08:09 IST] [VERIFY] Verify that the link 'Back to CallCenter' exists in the DOM
+[2026-06-12 10:08:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 35m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 35m 30s
+[FAIL] Test 735/918 failed: Verify that 3 Menus are present on Pay Vi Postpaid Bill Online - Quick & Secure | Vi India @regression
+[2026-06-12 10:08:11 IST] [FAIL] Test 735/918 failed: Verify that 3 Menus are present on Pay Vi Postpaid Bill Online - Quick & Secure | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 10:08:11 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  731 [webkit] › tests\generated\www-myvi-in\PayViPostpaidBillOnlineQuickSecureViIndia.spec.ts:252:3 › https://www.myvi.in/ - Pay Vi Postpaid Bill Online - Quick & Secure | Vi India - Regression Tests › Verify that 3 Menus are present on Pay Vi Postpaid Bill Online - Quick & Secure | Vi India @regression (7.8s)
+[VERIFY] Verify that the heading 'great! you can now switch from prepaid to postpaid with just an OTP' exists in the DOM
+[2026-06-12 10:08:11 IST] [VERIFY] Verify that the heading 'great! you can now switch from prepaid to postpaid with just an OTP' exists in the DOM
+[VERIFY] Verify that the button 'get OTP' exists in the DOM
+[2026-06-12 10:08:11 IST] [VERIFY] Verify that the button 'get OTP' exists in the DOM
+[VERIFY] Verify that the heading 'great! you can now switch from prepaid to postpaid with just an OTP' exists in the DOM
+[2026-06-12 10:08:11 IST] [VERIFY] Verify that the heading 'great! you can now switch from prepaid to postpaid with just an OTP' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:08:11 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the button 'get OTP' exists in the DOM
+[2026-06-12 10:08:11 IST] [VERIFY] Verify that the button 'get OTP' exists in the DOM
+[VERIFY] Verify that the button 'verify' exists in the DOM
+[2026-06-12 10:08:11 IST] [VERIFY] Verify that the button 'verify' exists in the DOM
+[PASS] Test 735/918 passed: Verify that 2 Headings are present on Plan Selection Page @regression
+[2026-06-12 10:08:11 IST] [PASS] Test 735/918 passed: Verify that 2 Headings are present on Plan Selection Page @regression
+  ✓  734 [webkit] › tests\generated\www-myvi-in\PlanSelectionPage.spec.ts:50:3 › https://www.myvi.in/ - Plan Selection Page - Regression Tests › Verify that 2 Headings are present on Plan Selection Page @regression (5.1s)
+[PROGRESS] webkit: Test 124/306 running: Verify that 1 Form is present on Plan Selection Page @regression
+[2026-06-12 10:08:11 IST] [PROGRESS] webkit: Test 124/306 running: Verify that 1 Form is present on Plan Selection Page @regression
+[PROGRESS] webkit: Test 125/306 running: Verify that 101 Inputs are present on Plan Selection Page @regression
+[2026-06-12 10:08:12 IST] [PROGRESS] webkit: Test 125/306 running: Verify that 101 Inputs are present on Plan Selection Page @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:08:14 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:08:14 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 737/918 failed: Verify that 13 Links are present on Plan Selection Page @regression
+[2026-06-12 10:08:14 IST] [FAIL] Test 737/918 failed: Verify that 13 Links are present on Plan Selection Page @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'Back to CallCenter' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'Back to CallCenter' }).first()[22m
+[2026-06-12 10:08:14 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'Back to CallCenter' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'Back to CallCenter' }).first()
+  ✘  733 [webkit] › tests\generated\www-myvi-in\PlanSelectionPage.spec.ts:84:3 › https://www.myvi.in/ - Plan Selection Page - Regression Tests › Verify that 13 Links are present on Plan Selection Page @regression (9.6s)
+[PASS] Test 737/918 passed: Verify that 1 Form is present on Plan Selection Page @regression
+[2026-06-12 10:08:14 IST] [PASS] Test 737/918 passed: Verify that 1 Form is present on Plan Selection Page @regression
+  ✓  736 [webkit] › tests\generated\www-myvi-in\PlanSelectionPage.spec.ts:222:3 › https://www.myvi.in/ - Plan Selection Page - Regression Tests › Verify that 1 Form is present on Plan Selection Page @regression (3.3s)
+[PROGRESS] webkit: Test 126/306 running: Verify that Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process loads successfully @regression
+[2026-06-12 10:08:15 IST] [PROGRESS] webkit: Test 126/306 running: Verify that Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process loads successfully @regression
+[PROGRESS] webkit: Test 127/306 running: Verify that 2 Menus are present on Plan Selection Page @regression
+[2026-06-12 10:08:15 IST] [PROGRESS] webkit: Test 127/306 running: Verify that 2 Menus are present on Plan Selection Page @regression
+[VERIFY] Verify that the input 'enter mobile number' exists in the DOM
+[2026-06-12 10:08:16 IST] [VERIFY] Verify that the input 'enter mobile number' exists in the DOM
+[VERIFY] Verify that the input 'enter otp' exists in the DOM
+[2026-06-12 10:08:16 IST] [VERIFY] Verify that the input 'enter otp' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:08:16 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:08:16 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:08:16 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:08:16 IST] [STEP] Capture screenshot evidence
+[PASS] Test 739/918 passed: Verify that 101 Inputs are present on Plan Selection Page @regression
+[2026-06-12 10:08:16 IST] [PASS] Test 739/918 passed: Verify that 101 Inputs are present on Plan Selection Page @regression

@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans",
+  "pageUrl": "https://www.myvi.in/postpaid/family-postpaid-plans",
+  "testObjective": "Verify Link elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the link 'Navigation link' exists in the DOM",
+    "Verify that the link 'Choose your benefits with Vi Max Postpaid!' exists in the DOM",
+    "Verify that the link 'postpaid plans' exists in the DOM",
+    "Verify that the link 'family plans' exists in the DOM",
+    "Verify that the link 'prepaid packs' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_26_Links_are_present_on_Vi_Max_Family_Plans_Best_Postpaid_Plan_for_Family_Postpaid_Famil_Vi_Max_Family_Plans___Best_Postpaid_Plan_for_Famil_1781237715715.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "All OTT in One App - OTT Subscription Plans | Vi Movies & TV",
+  "pageUrl": "https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'All in One OTT App - unlock and watch 13+ OTTs in just one app!' exists in the DOM",
+    "Verify that the heading 'latest releases at your fingertips' exists in the DOM",
+    "Verify that the heading 'trending OTT content recommendations' exists in the DOM",
+    "Verify that the heading 'catch the latest on 400+ live channels' exists in the DOM",
+    "Verify that the heading 'watch content in 16+ languages' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_75_Headings_are_present_on_All_OTT_in_One_App_-_OTT_Subscription_Plans_Vi_Movies_TV_All_OTT_in_One_App_-_OTT_Subscription_Plans___Vi_M_1781236995886.png"
+  ],
+  "status": "passed"
+}

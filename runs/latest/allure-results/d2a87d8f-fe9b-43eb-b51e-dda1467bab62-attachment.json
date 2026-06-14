@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud",
+  "pageUrl": "https://www.myvi.in/business",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_Vi_Business_-_B2B_Mobility_Connectivity_Security_IoT_Cloud_loads_successfully_Vi_Business_-_B2B__Mobility__Connectivity__Securit_1781177050856.png"
+  ],
+  "status": "passed"
+}

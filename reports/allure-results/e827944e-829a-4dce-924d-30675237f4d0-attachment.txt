@@ -1,0 +1,100 @@
+[2026-06-12 09:42:14 IST] [VERIFY] Verify the URL is correct
+[VERIFY] Verify that the button 'port to Vi' exists in the DOM
+[2026-06-12 09:42:15 IST] [VERIFY] Verify that the button 'port to Vi' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:42:15 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:42:15 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:42:15 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'Mumbai' exists in the DOM
+[2026-06-12 09:42:15 IST] [VERIFY] Verify that the button 'Mumbai' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:42:15 IST] [STEP] Capture screenshot evidence
+[PASS] Test 160/918 passed: Verify that Vi Blog | Get Latest News & Information on Vi Network loads successfully @regression
+[2026-06-12 09:42:19 IST] [PASS] Test 160/918 passed: Verify that Vi Blog | Get Latest News & Information on Vi Network loads successfully @regression
+  ✓  160 [chromium] › tests\generated\www-myvi-in\ViBlogGetLatestNewsInformationOnViNetwork.spec.ts:15:3 › https://www.myvi.in/ - Vi Blog | Get Latest News & Information on Vi Network - Regression Tests › Verify that Vi Blog | Get Latest News & Information on Vi Network loads successfully @regression (7.5s)
+[PROGRESS] chromium: Test 161/306 running: Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:19 IST] [PROGRESS] chromium: Test 161/306 running: Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[FAIL] Test 161/918 failed: Verify that 2 Menus are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[2026-06-12 09:42:19 IST] [FAIL] Test 161/918 failed: Verify that 2 Menus are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:42:19 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  159 [chromium] › tests\generated\www-myvi-in\Vi5gNetworkInIndiaExplorePlansSimCoverageMapViIndia.spec.ts:188:3 › https://www.myvi.in/ - Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India - Regression Tests › Verify that 2 Menus are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression (10.2s)
+[PASS] Test 161/918 passed: Verify that 19 Buttons are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[2026-06-12 09:42:20 IST] [PASS] Test 161/918 passed: Verify that 19 Buttons are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+  ✓  158 [chromium] › tests\generated\www-myvi-in\Vi5gNetworkInIndiaExplorePlansSimCoverageMapViIndia.spec.ts:142:3 › https://www.myvi.in/ - Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India - Regression Tests › Verify that 19 Buttons are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression (17.5s)
+[FAIL] Test 161/918 failed: Verify that 86 Links are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[2026-06-12 09:42:20 IST] [FAIL] Test 161/918 failed: Verify that 86 Links are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:42:20 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  157 [chromium] › tests\generated\www-myvi-in\Vi5gNetworkInIndiaExplorePlansSimCoverageMapViIndia.spec.ts:96:3 › https://www.myvi.in/ - Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India - Regression Tests › Verify that 86 Links are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression (15.6s)
+[PROGRESS] chromium: Test 162/306 running: Verify that 5 Buttons are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:20 IST] [PROGRESS] chromium: Test 162/306 running: Verify that 5 Buttons are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[VERIFY] Verify that the heading 'theblogs' exists in the DOM
+[2026-06-12 09:42:21 IST] [VERIFY] Verify that the heading 'theblogs' exists in the DOM
+[PROGRESS] chromium: Test 163/306 running: Verify that 108 Links are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:21 IST] [PROGRESS] chromium: Test 163/306 running: Verify that 108 Links are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[VERIFY] Verify that the button 'Previous' exists in the DOM
+[2026-06-12 09:42:22 IST] [VERIFY] Verify that the button 'Previous' exists in the DOM
+[VERIFY] Verify that the button '...' exists in the DOM
+[2026-06-12 09:42:22 IST] [VERIFY] Verify that the button '...' exists in the DOM
+[PROGRESS] chromium: Test 164/306 running: Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:22 IST] [PROGRESS] chromium: Test 164/306 running: Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:42:26 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the input 'search for topics' exists in the DOM
+[2026-06-12 09:42:27 IST] [VERIFY] Verify that the input 'search for topics' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:42:27 IST] [STEP] Capture screenshot evidence
+[PASS] Test 164/918 passed: Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:29 IST] [PASS] Test 164/918 passed: Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression
+  ✓  164 [chromium] › tests\generated\www-myvi-in\ViBlogGetLatestNewsInformationOnViNetwork.spec.ts:188:3 › https://www.myvi.in/ - Vi Blog | Get Latest News & Information on Vi Network - Regression Tests › Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression (4.6s)
+[PROGRESS] chromium: Test 165/306 running: Verify that 3 Menus are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:29 IST] [PROGRESS] chromium: Test 165/306 running: Verify that 3 Menus are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[FAIL] Test 165/918 failed: Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:29 IST] [FAIL] Test 165/918 failed: Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'theblogs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'theblogs' }).first()[22m
+[2026-06-12 09:42:29 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'theblogs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'theblogs' }).first()

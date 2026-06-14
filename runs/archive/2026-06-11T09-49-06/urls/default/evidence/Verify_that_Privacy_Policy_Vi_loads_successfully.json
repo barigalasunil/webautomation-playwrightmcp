@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Privacy Policy | Vi",
+  "pageUrl": "https://www.myvi.in/privacy-policy",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_Privacy_Policy_Vi_loads_successfully_Privacy_Policy___Vi_-_Final_Evidence_1781170991420.png"
+  ],
+  "status": "passed"
+}

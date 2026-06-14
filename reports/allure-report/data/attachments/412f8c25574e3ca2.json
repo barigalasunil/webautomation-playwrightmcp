@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India",
+  "pageUrl": "https://www.myvi.in/international-roaming-packs",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_88_Inputs_are_present_on_Vi_International_Roaming_Packs_2026_-_Stay_Connected_Abroad_Vi__Vi_International_Roaming_Packs__2026__-_Stay_Conne_1781237677469.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,100 @@
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app#"]').first()[22m
+[2026-06-12 09:52:16 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app#"]').first()
+  ✘  315 [firefox] › tests\generated\www-myvi-in\AllOttInOneAppOttSubscriptionPlansViMoviesTv.spec.ts:96:3 › https://www.myvi.in/ - All OTT in One App - OTT Subscription Plans | Vi Movies & TV - Regression Tests › Verify that 177 Links are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression (24.0s)
+[PASS] Test 320/918 passed: Verify that 1 Form is present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:52:20 IST] [PASS] Test 320/918 passed: Verify that 1 Form is present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+  ✓  318 [firefox] › tests\generated\www-myvi-in\AllOttInOneAppOttSubscriptionPlansViMoviesTv.spec.ts:234:3 › https://www.myvi.in/ - All OTT in One App - OTT Subscription Plans | Vi Movies & TV - Regression Tests › Verify that 1 Form is present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression (13.9s)
+[PROGRESS] firefox: Test 15/306 running: Verify that 8 Headings are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:52:20 IST] [PROGRESS] firefox: Test 15/306 running: Verify that 8 Headings are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[PROGRESS] firefox: Test 16/306 running: Verify that Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India loads successfully @regression
+[2026-06-12 09:52:21 IST] [PROGRESS] firefox: Test 16/306 running: Verify that Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India loads successfully @regression
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:52:22 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the heading 'Vi SMS Recharge Packs' exists in the DOM
+[2026-06-12 09:52:23 IST] [VERIFY] Verify that the heading 'Vi SMS Recharge Packs' exists in the DOM
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:52:23 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[VERIFY] Verify that the heading 'SMS Pack Recharge FAQs' exists in the DOM
+[2026-06-12 09:52:23 IST] [VERIFY] Verify that the heading 'SMS Pack Recharge FAQs' exists in the DOM
+[VERIFY] Verify that the heading 'SMS Recharge Packs' exists in the DOM
+[2026-06-12 09:52:23 IST] [VERIFY] Verify that the heading 'SMS Recharge Packs' exists in the DOM
+[2026-06-12 09:52:23 IST] [VERIFY] Verify that the heading 'Vodafone Idea Limited' exists in the DOM
+[VERIFY] Verify that the heading 'Vodafone Idea Limited' exists in the DOM
+[2026-06-12 09:52:23 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the heading 'about Vi' exists in the DOM
+[2026-06-12 09:52:23 IST] [VERIFY] Verify that the heading 'about Vi' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:52:23 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:52:24 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:52:24 IST] [STEP] Capture screenshot evidence
+[PASS] Test 322/918 passed: Verify that 8 Headings are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:52:25 IST] [PASS] Test 322/918 passed: Verify that 8 Headings are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+  ✓  321 [firefox] › tests\generated\www-myvi-in\BestViSmsPacksAndSmsPlansForPrepaidRechargeViIndia.spec.ts:50:3 › https://www.myvi.in/ - Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India - Regression Tests › Verify that 8 Headings are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression (4.5s)
+[PROGRESS] firefox: Test 17/306 running: Verify that 94 Links are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:52:25 IST] [PROGRESS] firefox: Test 17/306 running: Verify that 94 Links are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:52:27 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PASS] Test 323/918 passed: Verify that 3 Tables are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:52:27 IST] [PASS] Test 323/918 passed: Verify that 3 Tables are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+  ✓  319 [firefox] › tests\generated\www-myvi-in\AllOttInOneAppOttSubscriptionPlansViMoviesTv.spec.ts:264:3 › https://www.myvi.in/ - All OTT in One App - OTT Subscription Plans | Vi Movies & TV - Regression Tests › Verify that 3 Tables are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression (12.2s)
+[PROGRESS] firefox: Test 18/306 running: Verify that 7 Buttons are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:52:28 IST] [PROGRESS] firefox: Test 18/306 running: Verify that 7 Buttons are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:52:31 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:52:31 IST] [STEP] Open URL: https://www.myvi.in/
+[STEP] Open URL: https://www.myvi.in/
+[FAIL] Test 324/918 failed: Verify that 2 Menus are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:52:32 IST] [FAIL] Test 324/918 failed: Verify that 2 Menus are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:52:32 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  320 [firefox] › tests\generated\www-myvi-in\AllOttInOneAppOttSubscriptionPlansViMoviesTv.spec.ts:302:3 › https://www.myvi.in/ - All OTT in One App - OTT Subscription Plans | Vi Movies & TV - Regression Tests › Verify that 2 Menus are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression (13.8s)
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:52:32 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:52:32 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:52:32 IST] [VERIFY] Verify the URL is correct
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:52:33 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:52:33 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:52:33 IST] [STEP] Capture screenshot evidence
+[STEP] Capture screenshot evidence
+[2026-06-12 09:52:33 IST] [STEP] Capture screenshot evidence
+[PASS] Test 324/918 passed: Verify that 7 Buttons are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:52:34 IST] [PASS] Test 324/918 passed: Verify that 7 Buttons are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+  ✓  324 [firefox] › tests\generated\www-myvi-in\BestViSmsPacksAndSmsPlansForPrepaidRechargeViIndia.spec.ts:142:3 › https://www.myvi.in/ - Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India - Regression Tests › Verify that 7 Buttons are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression (6.2s)
+[PASS] Test 324/918 passed: Verify that Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India loads successfully @regression
+[2026-06-12 09:52:34 IST] [PASS] Test 324/918 passed: Verify that Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India loads successfully @regression

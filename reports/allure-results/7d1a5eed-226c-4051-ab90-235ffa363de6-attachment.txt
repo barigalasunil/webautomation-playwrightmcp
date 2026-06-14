@@ -1,0 +1,100 @@
+[2026-06-12 09:49:00 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:49:01 IST] [VERIFY] Verify that the input 'enter prepaid/postpaid number' exists in the DOM
+[VERIFY] Verify that the input 'enter prepaid/postpaid number' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:49:01 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:49:01 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:49:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 16m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 16m 30s
+[2026-06-12 09:49:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 17m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 17m 0s
+[FAIL] Test 282/918 failed: Verify that 1 Menu is present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:49:58 IST] [FAIL] Test 282/918 failed: Verify that 1 Menu is present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:49:58 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  277 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:310:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 1 Menu is present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (42.7s)
+[FAIL] Test 282/918 failed: Verify that 126 Links are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:49:58 IST] [FAIL] Test 282/918 failed: Verify that 126 Links are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:49:58 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  280 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:96:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that 126 Links are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression (37.4s)
+[FAIL] Test 282/918 failed: Verify that 2 Inputs are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:49:58 IST] [FAIL] Test 282/918 failed: Verify that 2 Inputs are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[ERROR] Failure reason: [31mTest timeout of 30000ms exceeded.[39m
+[2026-06-12 09:49:58 IST] [ERROR] Failure reason: Test timeout of 30000ms exceeded.
+  ✘  282 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:188:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that 2 Inputs are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression (1.0m)
+[FAIL] Test 282/918 failed: Verify that 8 Buttons are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:49:58 IST] [FAIL] Test 282/918 failed: Verify that 8 Buttons are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[ERROR] Failure reason: [31mTest timeout of 30000ms exceeded.[39m
+[2026-06-12 09:49:58 IST] [ERROR] Failure reason: Test timeout of 30000ms exceeded.
+  ✘  281 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:142:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that 8 Buttons are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression (1.0m)
+[PROGRESS] chromium: Test 283/306 running: Verify that 1 Form is present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:49:59 IST] [PROGRESS] chromium: Test 283/306 running: Verify that 1 Form is present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[PROGRESS] chromium: Test 284/306 running: Verify that 2 Menus are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:50:00 IST] [PROGRESS] chromium: Test 284/306 running: Verify that 2 Menus are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[PROGRESS] chromium: Test 285/306 running: Verify that 19 Headings are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[2026-06-12 09:50:00 IST] [PROGRESS] chromium: Test 285/306 running: Verify that 19 Headings are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[PROGRESS] chromium: Test 286/306 running: Verify that Vodafone Idea Foundation – An initiative to change India with Mobile Technology loads successfully @regression
+[2026-06-12 09:50:01 IST] [PROGRESS] chromium: Test 286/306 running: Verify that Vodafone Idea Foundation – An initiative to change India with Mobile Technology loads successfully @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:50:06 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:50:06 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:50:08 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:50:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 17m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 17m 30s
+[VERIFY] Verify that the heading 'About Vi Foundation' exists in the DOM
+[2026-06-12 09:50:11 IST] [VERIFY] Verify that the heading 'About Vi Foundation' exists in the DOM
+[VERIFY] Verify that the heading 'An overview of Vi Foundation’s programmes:' exists in the DOM
+[2026-06-12 09:50:12 IST] [VERIFY] Verify that the heading 'An overview of Vi Foundation’s programmes:' exists in the DOM
+[VERIFY] Verify that the heading 'SmartAgri:' exists in the DOM
+[2026-06-12 09:50:12 IST] [VERIFY] Verify that the heading 'SmartAgri:' exists in the DOM
+[2026-06-12 09:50:12 IST] [VERIFY] Verify that the heading 'Gurushala:' exists in the DOM
+[VERIFY] Verify that the heading 'Gurushala:' exists in the DOM
+[VERIFY] Verify that the heading 'e-Vidya for Brighter Futures:' exists in the DOM
+[2026-06-12 09:50:12 IST] [VERIFY] Verify that the heading 'e-Vidya for Brighter Futures:' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:50:12 IST] [STEP] Capture screenshot evidence
+[PASS] Test 286/918 passed: Verify that 19 Headings are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[2026-06-12 09:50:18 IST] [PASS] Test 286/918 passed: Verify that 19 Headings are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+  ✓  285 [chromium] › tests\generated\www-myvi-in\VodafoneIdeaFoundationAnInitiativeToChangeIndiaWithMobileTechnology.spec.ts:50:3 › https://www.myvi.in/ - Vodafone Idea Foundation – An initiative to change India with Mobile Technology - Regression Tests › Verify that 19 Headings are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression (15.0s)
+[PROGRESS] chromium: Test 287/306 running: Verify that 105 Links are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[2026-06-12 09:50:18 IST] [PROGRESS] chromium: Test 287/306 running: Verify that 105 Links are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[2026-06-12 09:50:20 IST] [STEP] Open URL: https://www.myvi.in/
+[STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:50:20 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:50:21 IST] [STEP] Capture screenshot evidence
+[PASS] Test 287/918 passed: Verify that 1 Form is present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:50:21 IST] [PASS] Test 287/918 passed: Verify that 1 Form is present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression

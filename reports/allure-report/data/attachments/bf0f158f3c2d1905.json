@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates",
+  "pageUrl": "https://www.myvi.in/vodafone-idea/press-releases",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'search by topic' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_1_Input_is_present_on_Vodafone_Idea_News_Vi_Latest_Vi_News_Press_Releases_amp_Updates_Vodafone_Idea_News__Vi___Latest_Vi_News__Press_Rel_1781239450025.png"
+  ],
+  "status": "passed"
+}

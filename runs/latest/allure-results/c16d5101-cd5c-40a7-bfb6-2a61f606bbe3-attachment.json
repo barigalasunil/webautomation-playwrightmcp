@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Privacy Policy | Vi",
+  "pageUrl": "https://www.myvi.in/privacy-policy",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'Privacy Matters' exists in the DOM",
+    "Verify that the heading 'privacy policy' exists in the DOM",
+    "Verify that the heading 'Who we are :' exists in the DOM",
+    "Verify that the heading 'Collection of personal information' exists in the DOM",
+    "Verify that the heading 'Use of Personal Information' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\firefox\\Verify_that_39_Headings_are_present_on_Privacy_Policy_Vi_Privacy_Policy___Vi_-_Heading_Verification_1781175942345.png"
+  ],
+  "status": "passed"
+}

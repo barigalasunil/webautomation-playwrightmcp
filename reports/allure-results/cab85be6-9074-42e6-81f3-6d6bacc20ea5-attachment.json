@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Loan EMI Payment | Quick & Secure Online Payment",
+  "pageUrl": "https://www.myvi.in/utilities/loan-payment",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_37_Inputs_are_present_on_Vi_Loan_EMI_Payment_Quick_Secure_Online_Payment_Vi_Loan_EMI_Payment___Quick___Secure_Online_Paymen_1781237698597.png"
+  ],
+  "status": "passed"
+}

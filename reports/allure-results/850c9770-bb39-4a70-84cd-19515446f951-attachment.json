@@ -1,0 +1,19 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Utility Bill Payments | Water, Gas, Electricity & More",
+  "pageUrl": "https://www.myvi.in/utilities",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'pay bills & recharges in seconds' exists in the DOM",
+    "Verify that the heading 'bill pay' exists in the DOM",
+    "Verify that the heading 'recharges' exists in the DOM",
+    "Verify that the heading 'get the Vi benefit with bill payment and recharges' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_4_Headings_are_present_on_Vi_Utility_Bill_Payments_Water_Gas_Electricity_More_Vi_Utility_Bill_Payments___Water__Gas__Electricity_1781239384390.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,100 @@
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  154 [chromium] › tests\generated\www-myvi-in\SonylivSubscriptionPlansWithViWatchMoviesShowsSports.spec.ts:240:3 › https://www.myvi.in/ - SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports - Regression Tests › Verify that 2 Menus are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression (10.2s)
+[FAIL] Test 156/918 failed: Verify that 2 Links are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[2026-06-12 09:41:57 IST] [FAIL] Test 156/918 failed: Verify that 2 Links are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:41:57 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  150 [chromium] › tests\generated\www-myvi-in\SonylivSubscriptionPlansWithViWatchMoviesShowsSports.spec.ts:92:3 › https://www.myvi.in/ - SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports - Regression Tests › Verify that 2 Links are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression (19.7s)
+[VERIFY] Verify that the heading 'experience the Vi 5G way of life' exists in the DOM
+[2026-06-12 09:41:59 IST] [VERIFY] Verify that the heading 'experience the Vi 5G way of life' exists in the DOM
+[VERIFY] Verify that the heading 'think future, think Vi 5G' exists in the DOM
+[2026-06-12 09:41:59 IST] [VERIFY] Verify that the heading 'think future, think Vi 5G' exists in the DOM
+[VERIFY] Verify that the heading 'explore Vi 5G packs' exists in the DOM
+[2026-06-12 09:41:59 IST] [VERIFY] Verify that the heading 'explore Vi 5G packs' exists in the DOM
+[VERIFY] Verify that the heading 'check 5G coverage & compatibility' exists in the DOM
+[2026-06-12 09:41:59 IST] [VERIFY] Verify that the heading 'check 5G coverage & compatibility' exists in the DOM
+[VERIFY] Verify that the heading 'Vi 5G FAQs' exists in the DOM
+[2026-06-12 09:41:59 IST] [VERIFY] Verify that the heading 'Vi 5G FAQs' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:41:59 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 157/306 running: Verify that 86 Links are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[2026-06-12 09:42:00 IST] [PROGRESS] chromium: Test 157/306 running: Verify that 86 Links are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[PROGRESS] chromium: Test 158/306 running: Verify that 19 Buttons are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[2026-06-12 09:42:00 IST] [PROGRESS] chromium: Test 158/306 running: Verify that 19 Buttons are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[PASS] Test 158/918 passed: Verify that Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India loads successfully @regression
+[2026-06-12 09:42:00 IST] [PASS] Test 158/918 passed: Verify that Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India loads successfully @regression
+  ✓  155 [chromium] › tests\generated\www-myvi-in\Vi5gNetworkInIndiaExplorePlansSimCoverageMapViIndia.spec.ts:15:3 › https://www.myvi.in/ - Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India - Regression Tests › Verify that Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India loads successfully @regression (9.3s)
+[PROGRESS] chromium: Test 159/306 running: Verify that 2 Menus are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[2026-06-12 09:42:00 IST] [PROGRESS] chromium: Test 159/306 running: Verify that 2 Menus are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:42:03 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:42:08 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:42:09 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 9m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 9m 30s
+[PASS] Test 159/918 passed: Verify that 10 Headings are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[2026-06-12 09:42:10 IST] [PASS] Test 159/918 passed: Verify that 10 Headings are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+  ✓  156 [chromium] › tests\generated\www-myvi-in\Vi5gNetworkInIndiaExplorePlansSimCoverageMapViIndia.spec.ts:50:3 › https://www.myvi.in/ - Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India - Regression Tests › Verify that 10 Headings are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression (13.3s)
+[PROGRESS] chromium: Test 160/306 running: Verify that Vi Blog | Get Latest News & Information on Vi Network loads successfully @regression
+[2026-06-12 09:42:11 IST] [PROGRESS] chromium: Test 160/306 running: Verify that Vi Blog | Get Latest News & Information on Vi Network loads successfully @regression
+[VERIFY] Verify that the button 'get a new connection' exists in the DOM
+[2026-06-12 09:42:14 IST] [VERIFY] Verify that the button 'get a new connection' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:42:14 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:42:14 IST] [VERIFY] Verify the URL is correct
+[VERIFY] Verify that the button 'port to Vi' exists in the DOM
+[2026-06-12 09:42:15 IST] [VERIFY] Verify that the button 'port to Vi' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:42:15 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:42:15 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:42:15 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'Mumbai' exists in the DOM
+[2026-06-12 09:42:15 IST] [VERIFY] Verify that the button 'Mumbai' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:42:15 IST] [STEP] Capture screenshot evidence
+[PASS] Test 160/918 passed: Verify that Vi Blog | Get Latest News & Information on Vi Network loads successfully @regression
+[2026-06-12 09:42:19 IST] [PASS] Test 160/918 passed: Verify that Vi Blog | Get Latest News & Information on Vi Network loads successfully @regression
+  ✓  160 [chromium] › tests\generated\www-myvi-in\ViBlogGetLatestNewsInformationOnViNetwork.spec.ts:15:3 › https://www.myvi.in/ - Vi Blog | Get Latest News & Information on Vi Network - Regression Tests › Verify that Vi Blog | Get Latest News & Information on Vi Network loads successfully @regression (7.5s)
+[PROGRESS] chromium: Test 161/306 running: Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:19 IST] [PROGRESS] chromium: Test 161/306 running: Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[FAIL] Test 161/918 failed: Verify that 2 Menus are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[2026-06-12 09:42:19 IST] [FAIL] Test 161/918 failed: Verify that 2 Menus are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:42:19 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()

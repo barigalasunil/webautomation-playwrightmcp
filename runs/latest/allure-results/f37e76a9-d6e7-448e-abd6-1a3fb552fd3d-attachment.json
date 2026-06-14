@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Utility Bill Payments | Water, Gas, Electricity & More",
+  "pageUrl": "https://www.myvi.in/utilities",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_12_Inputs_are_present_on_Vi_Utility_Bill_Payments_Water_Gas_Electricity_More_Vi_Utility_Bill_Payments___Water__Gas__Electricity_1781177480557.png"
+  ],
+  "status": "passed"
+}

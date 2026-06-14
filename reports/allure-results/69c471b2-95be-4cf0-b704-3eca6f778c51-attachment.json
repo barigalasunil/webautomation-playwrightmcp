@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "All OTT in One App - OTT Subscription Plans | Vi Movies & TV",
+  "pageUrl": "https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Prepaid' exists in the DOM",
+    "Verify that the button 'Postpaid' exists in the DOM",
+    "Verify that the button 'New Connection' exists in the DOM",
+    "Verify that the button 'OTTs & More' exists in the DOM",
+    "Verify that the button 'Help' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_58_Buttons_are_present_on_All_OTT_in_One_App_-_OTT_Subscription_Plans_Vi_Movies_TV_All_OTT_in_One_App_-_OTT_Subscription_Plans___Vi_M_1781238865448.png"
+  ],
+  "status": "passed"
+}

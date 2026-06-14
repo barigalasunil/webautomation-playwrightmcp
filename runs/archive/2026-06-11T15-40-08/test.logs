@@ -1,0 +1,9 @@
+
+[2026-06-11 21:10:00 IST] ======================================================================
+[2026-06-11 21:10:00 IST]   AI-Powered Test Framework
+[2026-06-11 21:10:00 IST] ======================================================================
+[2026-06-11 21:10:00 IST] [INFO] Suite: regression
+[2026-06-11 21:10:00 IST] [INFO] Target URL: https://www.myvi.in/
+[2026-06-11 21:10:00 IST] [INFO] Browsers: Chromium, Firefox, Webkit
+[2026-06-11 21:10:08 IST] [ARCHIVE] Archived: allure-report
+[2026-06-11 21:10:08 IST] [ARCHIVE] Archived: playwright-html

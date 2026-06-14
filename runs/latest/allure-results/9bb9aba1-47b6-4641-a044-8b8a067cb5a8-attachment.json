@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi Postpaid Plans with Unlimited Calls & Data | Vi India",
+  "pageUrl": "https://www.myvi.in/postpaid/vi-postpaid-plans",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\firefox\\Verify_that_100_Inputs_are_present_on_Vi_Postpaid_Plans_with_Unlimited_Calls_Data_Vi_India_Vi_Postpaid_Plans_with_Unlimited_Calls___Data___Vi_1781176351781.png"
+  ],
+  "status": "passed"
+}

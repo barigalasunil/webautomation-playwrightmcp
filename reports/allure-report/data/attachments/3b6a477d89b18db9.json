@@ -1,0 +1,17 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More",
+  "pageUrl": "https://www.myvi.in/",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'enter prepaid/postpaid number' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_2_Inputs_are_present_on_Vi_Vodafone_Idea_-_Vi_Max_Postpaid_Prepaid_Vi_Games_More_Vi__Vodafone_Idea__-_Vi_Max_Postpaid___Prepaid___V_1781238801084.png"
+  ],
+  "status": "passed"
+}

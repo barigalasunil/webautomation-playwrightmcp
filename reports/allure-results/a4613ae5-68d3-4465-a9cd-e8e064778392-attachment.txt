@@ -1,0 +1,100 @@
+[VERIFY] Verify that the menu 'home new connection prepaid connection' exists in the DOM
+[2026-06-12 09:37:31 IST] [VERIFY] Verify that the menu 'home new connection prepaid connection' exists in the DOM
+[PASS] Test 72/918 passed: Verify that Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G loads successfully @regression
+[2026-06-12 09:37:32 IST] [PASS] Test 72/918 passed: Verify that Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G loads successfully @regression
+  ✓   70 [chromium] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:15:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G loads successfully @regression (5.9s)
+[PROGRESS] chromium: Test 73/306 running: Verify that 15 Buttons are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:37:32 IST] [PROGRESS] chromium: Test 73/306 running: Verify that 15 Buttons are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[VERIFY] Verify that the heading 'Vi Hero Unlimited' exists in the DOM
+[2026-06-12 09:37:32 IST] [VERIFY] Verify that the heading 'Vi Hero Unlimited' exists in the DOM
+[VERIFY] Verify that the heading 'Vi hero unlimited data benefits' exists in the DOM
+[2026-06-12 09:37:32 IST] [VERIFY] Verify that the heading 'Vi hero unlimited data benefits' exists in the DOM
+[VERIFY] Verify that the heading 'Up to 2GB of backup Data every month!' exists in the DOM
+[2026-06-12 09:37:32 IST] [VERIFY] Verify that the heading 'Up to 2GB of backup Data every month!' exists in the DOM
+[VERIFY] Verify that the heading 'carry unused data into the weekend' exists in the DOM
+[2026-06-12 09:37:32 IST] [VERIFY] Verify that the heading 'carry unused data into the weekend' exists in the DOM
+[VERIFY] Verify that the heading 'binge all night, without any limits' exists in the DOM
+[2026-06-12 09:37:32 IST] [VERIFY] Verify that the heading 'binge all night, without any limits' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:37:32 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:37:34 IST] [VERIFY] Verify that the button 'Vi Hero Unlimited' exists in the DOM
+[VERIFY] Verify that the button 'Vi Hero Unlimited' exists in the DOM
+[VERIFY] Verify that the button 'Data Delight' exists in the DOM
+[2026-06-12 09:37:34 IST] [VERIFY] Verify that the button 'Data Delight' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:37:34 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the button 'Weekend data Rollover' exists in the DOM
+[2026-06-12 09:37:35 IST] [VERIFY] Verify that the button 'Weekend data Rollover' exists in the DOM
+[VERIFY] Verify that the button 'Binge All Night' exists in the DOM
+[2026-06-12 09:37:35 IST] [VERIFY] Verify that the button 'Binge All Night' exists in the DOM
+[VERIFY] Verify that the button 'Download Vi App' exists in the DOM
+[2026-06-12 09:37:35 IST] [VERIFY] Verify that the button 'Download Vi App' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:37:35 IST] [STEP] Capture screenshot evidence
+[PASS] Test 73/918 passed: Verify that 14 Headings are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:37:36 IST] [PASS] Test 73/918 passed: Verify that 14 Headings are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+  ✓   71 [chromium] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:50:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 14 Headings are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (6.6s)
+[PROGRESS] chromium: Test 74/306 running: Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:37:36 IST] [PROGRESS] chromium: Test 74/306 running: Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[PASS] Test 74/918 passed: Verify that 15 Buttons are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:37:37 IST] [PASS] Test 74/918 passed: Verify that 15 Buttons are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+  ✓   73 [chromium] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:142:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 15 Buttons are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (5.4s)
+[PROGRESS] chromium: Test 75/306 running: Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:37:38 IST] [PROGRESS] chromium: Test 75/306 running: Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:37:38 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:37:38 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 75/918 failed: Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:37:39 IST] [FAIL] Test 75/918 failed: Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'home new connection prepaid connection' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'home new connection prepaid connection' }).first()[22m
+[2026-06-12 09:37:39 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'home new connection prepaid connection' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'home new connection prepaid connection' }).first()
+  ✘   69 [chromium] › tests\generated\www-myvi-in\GetANewViPrepaidSimCardIn3SimpleStepsBuyNewSim.spec.ts:234:3 › https://www.myvi.in/ - Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - Regression Tests › Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression (11.6s)
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:37:39 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:37:39 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 5m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 5m 0s
+[STEP] Capture screenshot evidence
+[2026-06-12 09:37:40 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:37:40 IST] [PROGRESS] chromium: Test 76/306 running: Verify that 3 Menus are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[PROGRESS] chromium: Test 76/306 running: Verify that 3 Menus are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[PASS] Test 76/918 passed: Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:37:40 IST] [PASS] Test 76/918 passed: Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+  ✓   74 [chromium] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:188:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 1 Input is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (4.3s)
+[PROGRESS] chromium: Test 77/306 running: Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression
+[2026-06-12 09:37:41 IST] [PROGRESS] chromium: Test 77/306 running: Verify that Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india loads successfully @regression
+[FAIL] Test 77/918 failed: Verify that 99 Links are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:37:42 IST] [FAIL] Test 77/918 failed: Verify that 99 Links are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:37:42 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘   72 [chromium] › tests\generated\www-myvi-in\GetFreeNightDataBingeYourShowsWithHeroUnlimitedVi5g.spec.ts:96:3 › https://www.myvi.in/ - Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G - Regression Tests › Verify that 99 Links are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression (9.1s)
+[PASS] Test 77/918 passed: Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:37:43 IST] [PASS] Test 77/918 passed: Verify that 1 Form is present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression

@@ -1,0 +1,100 @@
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'view details' }).first()[22m
+[2026-06-12 09:57:50 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'view details' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'view details' }).first()
+  ✘  435 [firefox] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:96:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 38 Links are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (7.2s)
+[FAIL] Test 437/918 failed: Verify that 2 Menus are present on Plan Selection Page @regression
+[2026-06-12 09:57:52 IST] [FAIL] Test 437/918 failed: Verify that 2 Menus are present on Plan Selection Page @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'Back to CallCenter' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'Back to CallCenter' }).first()[22m
+[2026-06-12 09:57:52 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'Back to CallCenter' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'Back to CallCenter' }).first()
+  ✘  432 [firefox] › tests\generated\www-myvi-in\PlanSelectionPage.spec.ts:252:3 › https://www.myvi.in/ - Plan Selection Page - Regression Tests › Verify that 2 Menus are present on Plan Selection Page @regression (11.2s)
+[PROGRESS] firefox: Test 132/306 running: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 09:57:52 IST] [PROGRESS] firefox: Test 132/306 running: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[PROGRESS] firefox: Test 133/306 running: Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 09:57:53 IST] [PROGRESS] firefox: Test 133/306 running: Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:57:54 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[FAIL] Test 439/918 failed: Verify that 46 Buttons are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 09:57:56 IST] [FAIL] Test 439/918 failed: Verify that 46 Buttons are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'Previous' }).first()[22m
+[2026-06-12 09:57:56 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'Previous' }).first()
+  ✘  436 [firefox] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:142:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 46 Buttons are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (8.1s)
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:57:57 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:57:57 IST] [STEP] Capture screenshot evidence
+[PASS] Test 439/918 passed: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 09:57:58 IST] [PASS] Test 439/918 passed: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+  ✓  438 [firefox] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:234:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (4.9s)
+[PROGRESS] firefox: Test 134/306 running: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+[2026-06-12 09:57:58 IST] [PROGRESS] firefox: Test 134/306 running: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+[VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[2026-06-12 09:57:58 IST] [VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[PROGRESS] firefox: Test 135/306 running: Verify that Privacy Policy | Vi loads successfully @regression
+[2026-06-12 09:57:58 IST] [PROGRESS] firefox: Test 135/306 running: Verify that Privacy Policy | Vi loads successfully @regression
+[VERIFY] Verify that the menu 'home new connection mobile number portability (MNP)' exists in the DOM
+[2026-06-12 09:57:58 IST] [VERIFY] Verify that the menu 'home new connection mobile number portability (MNP)' exists in the DOM
+[VERIFY] Verify that the heading 'Privacy Matters' exists in the DOM
+[2026-06-12 09:58:00 IST] [VERIFY] Verify that the heading 'Privacy Matters' exists in the DOM
+[VERIFY] Verify that the heading 'privacy policy' exists in the DOM
+[2026-06-12 09:58:00 IST] [VERIFY] Verify that the heading 'privacy policy' exists in the DOM
+[VERIFY] Verify that the heading 'Who we are :' exists in the DOM
+[2026-06-12 09:58:00 IST] [VERIFY] Verify that the heading 'Who we are :' exists in the DOM
+[VERIFY] Verify that the heading 'Collection of personal information' exists in the DOM
+[2026-06-12 09:58:00 IST] [VERIFY] Verify that the heading 'Collection of personal information' exists in the DOM
+[VERIFY] Verify that the heading 'Use of Personal Information' exists in the DOM
+[2026-06-12 09:58:00 IST] [VERIFY] Verify that the heading 'Use of Personal Information' exists in the DOM
+[FAIL] Test 441/918 failed: Verify that 138 Inputs are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 09:58:00 IST] [FAIL] Test 441/918 failed: Verify that 138 Inputs are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="faq-drawer"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="faq-drawer"]').first()[22m
+[2026-06-12 09:58:00 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="faq-drawer"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="faq-drawer"]').first()

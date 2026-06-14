@@ -1,0 +1,100 @@
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:39:57 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[FAIL] Test 123/918 failed: Verify that 3 Menus are present on Pay Vi Postpaid Bill Online - Quick & Secure | Vi India @regression
+[2026-06-12 09:39:57 IST] [FAIL] Test 123/918 failed: Verify that 3 Menus are present on Pay Vi Postpaid Bill Online - Quick & Secure | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:39:57 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  119 [chromium] › tests\generated\www-myvi-in\PayViPostpaidBillOnlineQuickSecureViIndia.spec.ts:252:3 › https://www.myvi.in/ - Pay Vi Postpaid Bill Online - Quick & Secure | Vi India - Regression Tests › Verify that 3 Menus are present on Pay Vi Postpaid Bill Online - Quick & Secure | Vi India @regression (7.8s)
+[VERIFY] Verify that the link 'Back to CallCenter' exists in the DOM
+[2026-06-12 09:39:58 IST] [VERIFY] Verify that the link 'Back to CallCenter' exists in the DOM
+[PROGRESS] chromium: Test 124/306 running: Verify that 101 Inputs are present on Plan Selection Page @regression
+[2026-06-12 09:39:59 IST] [PROGRESS] chromium: Test 124/306 running: Verify that 101 Inputs are present on Plan Selection Page @regression
+[VERIFY] Verify that the button 'get OTP' exists in the DOM
+[2026-06-12 09:40:00 IST] [VERIFY] Verify that the button 'get OTP' exists in the DOM
+[VERIFY] Verify that the button 'get OTP' exists in the DOM
+[2026-06-12 09:40:00 IST] [VERIFY] Verify that the button 'get OTP' exists in the DOM
+[VERIFY] Verify that the button 'verify' exists in the DOM
+[2026-06-12 09:40:00 IST] [VERIFY] Verify that the button 'verify' exists in the DOM
+[VERIFY] Verify that the input 'enter mobile number' exists in the DOM
+[2026-06-12 09:40:04 IST] [VERIFY] Verify that the input 'enter mobile number' exists in the DOM
+[VERIFY] Verify that the input 'enter otp' exists in the DOM
+[2026-06-12 09:40:04 IST] [VERIFY] Verify that the input 'enter otp' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:40:04 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:40:04 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:40:04 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:40:04 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 124/918 failed: Verify that 13 Links are present on Plan Selection Page @regression
+[2026-06-12 09:40:05 IST] [FAIL] Test 124/918 failed: Verify that 13 Links are present on Plan Selection Page @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'Back to CallCenter' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'Back to CallCenter' }).first()[22m
+[2026-06-12 09:40:05 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'Back to CallCenter' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'Back to CallCenter' }).first()
+  ✘  122 [chromium] › tests\generated\www-myvi-in\PlanSelectionPage.spec.ts:84:3 › https://www.myvi.in/ - Plan Selection Page - Regression Tests › Verify that 13 Links are present on Plan Selection Page @regression (10.2s)
+[PASS] Test 124/918 passed: Verify that 101 Inputs are present on Plan Selection Page @regression
+[2026-06-12 09:40:06 IST] [PASS] Test 124/918 passed: Verify that 101 Inputs are present on Plan Selection Page @regression
+  ✓  124 [chromium] › tests\generated\www-myvi-in\PlanSelectionPage.spec.ts:176:3 › https://www.myvi.in/ - Plan Selection Page - Regression Tests › Verify that 101 Inputs are present on Plan Selection Page @regression (5.7s)
+[PROGRESS] chromium: Test 125/306 running: Verify that 2 Menus are present on Plan Selection Page @regression
+[2026-06-12 09:40:06 IST] [PROGRESS] chromium: Test 125/306 running: Verify that 2 Menus are present on Plan Selection Page @regression
+[PROGRESS] chromium: Test 126/306 running: Verify that 1 Form is present on Plan Selection Page @regression
+[2026-06-12 09:40:06 IST] [PROGRESS] chromium: Test 126/306 running: Verify that 1 Form is present on Plan Selection Page @regression
+[FAIL] Test 126/918 failed: Verify that 5 Buttons are present on Plan Selection Page @regression
+[2026-06-12 09:40:09 IST] [FAIL] Test 126/918 failed: Verify that 5 Buttons are present on Plan Selection Page @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'verify' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'verify' }).first()[22m
+[2026-06-12 09:40:09 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'verify' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'verify' }).first()
+  ✘  123 [chromium] › tests\generated\www-myvi-in\PlanSelectionPage.spec.ts:130:3 › https://www.myvi.in/ - Plan Selection Page - Regression Tests › Verify that 5 Buttons are present on Plan Selection Page @regression (11.4s)
+[VERIFY] Verify that the menu 'Back to CallCenter' exists in the DOM
+[2026-06-12 09:40:09 IST] [VERIFY] Verify that the menu 'Back to CallCenter' exists in the DOM
+[2026-06-12 09:40:09 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 7m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 7m 30s
+[PROGRESS] chromium: Test 127/306 running: Verify that Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process loads successfully @regression
+[2026-06-12 09:40:10 IST] [PROGRESS] chromium: Test 127/306 running: Verify that Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process loads successfully @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:40:12 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:40:12 IST] [STEP] Capture screenshot evidence
+[PASS] Test 127/918 passed: Verify that 1 Form is present on Plan Selection Page @regression
+[2026-06-12 09:40:14 IST] [PASS] Test 127/918 passed: Verify that 1 Form is present on Plan Selection Page @regression

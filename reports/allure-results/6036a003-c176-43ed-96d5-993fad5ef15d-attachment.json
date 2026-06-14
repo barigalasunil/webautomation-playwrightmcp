@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today",
+  "pageUrl": "https://www.myvi.in/prepaid/unlimited-calls-and-data-plans",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'Unlimited Data, Calls & Internet Plans' exists in the DOM",
+    "Verify that the heading 'Unlimited Calling Plans & Data FAQs' exists in the DOM",
+    "Verify that the heading 'unlimited super-fast Data plans & calling plans' exists in the DOM",
+    "Verify that the heading 'Vi Unlimited 4G Data Plan benefits:' exists in the DOM",
+    "Verify that the heading 'Vi Unlimited Calling Plan benefits:' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_11_Headings_are_present_on_Vi_Unlimited_Data_Calls_Internet_Plans_Choose_Vi_Unlimited_Pl_Vi_Unlimited_Data__Calls___Internet_Plans___Choose_1781237843819.png"
+  ],
+  "status": "passed"
+}

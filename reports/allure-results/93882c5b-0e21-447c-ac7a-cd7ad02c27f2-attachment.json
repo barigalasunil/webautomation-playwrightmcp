@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi Data Packs - Mobile Data Recharge Plans | Vi India",
+  "pageUrl": "https://www.myvi.in/prepaid/mobile-data-packs",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'Prepaid Mobile Data Packs & Plans' exists in the DOM",
+    "Verify that the heading 'Featured Data Packs & Plans' exists in the DOM",
+    "Verify that the heading 'Frequently Asked Questions About Vi Prepaid Data Packs' exists in the DOM",
+    "Verify that the heading 'Data packs' exists in the DOM",
+    "Verify that the heading 'Vodafone Idea Limited' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_9_Headings_are_present_on_Vi_Data_Packs_-_Mobile_Data_Recharge_Plans_Vi_India_Vi_Data_Packs_-_Mobile_Data_Recharge_Plans___Vi_In_1781238568240.png"
+  ],
+  "status": "passed"
+}

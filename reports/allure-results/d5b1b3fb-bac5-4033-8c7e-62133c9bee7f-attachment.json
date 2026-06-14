@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Blog | Get Latest News & Information on Vi Network",
+  "pageUrl": "https://www.myvi.in/blog",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_Vi_Blog_Get_Latest_News_Information_on_Vi_Network_loads_successfully_Vi_Blog___Get_Latest_News___Information_on_Vi_Netw_1781237535218.png"
+  ],
+  "status": "passed"
+}

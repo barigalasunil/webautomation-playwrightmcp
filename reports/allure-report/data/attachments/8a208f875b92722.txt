@@ -1,0 +1,100 @@
+[VERIFY] Verify that the heading 'SMS Recharge Packs' exists in the DOM
+[2026-06-12 09:33:59 IST] [VERIFY] Verify that the heading 'SMS Recharge Packs' exists in the DOM
+[2026-06-12 09:33:59 IST] [VERIFY] Verify that the heading 'Vodafone Idea Limited' exists in the DOM
+[VERIFY] Verify that the heading 'Vodafone Idea Limited' exists in the DOM
+[VERIFY] Verify that the heading 'about Vi' exists in the DOM
+[2026-06-12 09:33:59 IST] [VERIFY] Verify that the heading 'about Vi' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:33:59 IST] [STEP] Capture screenshot evidence
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:33:59 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:34:00 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:34:00 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:34:02 IST] [PASS] Test 16/918 passed: Verify that 8 Headings are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[PASS] Test 16/918 passed: Verify that 8 Headings are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+  ✓   16 [chromium] › tests\generated\www-myvi-in\BestViSmsPacksAndSmsPlansForPrepaidRechargeViIndia.spec.ts:50:3 › https://www.myvi.in/ - Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India - Regression Tests › Verify that 8 Headings are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression (5.6s)
+[PROGRESS] chromium: Test 17/306 running: Verify that 94 Links are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:34:02 IST] [PROGRESS] chromium: Test 17/306 running: Verify that 94 Links are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[PASS] Test 17/918 passed: Verify that Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India loads successfully @regression
+[2026-06-12 09:34:03 IST] [PASS] Test 17/918 passed: Verify that Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India loads successfully @regression
+  ✓   15 [chromium] › tests\generated\www-myvi-in\BestViSmsPacksAndSmsPlansForPrepaidRechargeViIndia.spec.ts:15:3 › https://www.myvi.in/ - Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India - Regression Tests › Verify that Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India loads successfully @regression (7.1s)
+[PROGRESS] chromium: Test 18/306 running: Verify that 7 Buttons are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:34:03 IST] [PROGRESS] chromium: Test 18/306 running: Verify that 7 Buttons are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[FAIL] Test 18/918 failed: Verify that 2 Menus are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:34:04 IST] [FAIL] Test 18/918 failed: Verify that 2 Menus are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:34:04 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘   14 [chromium] › tests\generated\www-myvi-in\AllOttInOneAppOttSubscriptionPlansViMoviesTv.spec.ts:302:3 › https://www.myvi.in/ - All OTT in One App - OTT Subscription Plans | Vi Movies & TV - Regression Tests › Verify that 2 Menus are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression (29.3s)
+[PROGRESS] chromium: Test 19/306 running: Verify that 1 Input is present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:34:05 IST] [PROGRESS] chromium: Test 19/306 running: Verify that 1 Input is present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:34:05 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:34:05 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:34:05 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:34:06 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:34:06 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:34:06 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:34:06 IST] [STEP] Capture screenshot evidence
+[PASS] Test 19/918 passed: Verify that 7 Buttons are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:34:07 IST] [PASS] Test 19/918 passed: Verify that 7 Buttons are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+  ✓   18 [chromium] › tests\generated\www-myvi-in\BestViSmsPacksAndSmsPlansForPrepaidRechargeViIndia.spec.ts:142:3 › https://www.myvi.in/ - Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India - Regression Tests › Verify that 7 Buttons are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression (3.6s)
+[PROGRESS] chromium: Test 20/306 running: Verify that 1 Form is present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:34:07 IST] [PROGRESS] chromium: Test 20/306 running: Verify that 1 Form is present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:34:09 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 1m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 1m 30s
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:34:09 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:34:10 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 20/918 failed: Verify that 1 Form is present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:34:10 IST] [FAIL] Test 20/918 failed: Verify that 1 Form is present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[ERROR] Failure reason: [31mTest timeout of 30000ms exceeded.[39m
+[2026-06-12 09:34:10 IST] [ERROR] Failure reason: Test timeout of 30000ms exceeded.
+  ✘   12 [chromium] › tests\generated\www-myvi-in\AllOttInOneAppOttSubscriptionPlansViMoviesTv.spec.ts:234:3 › https://www.myvi.in/ - All OTT in One App - OTT Subscription Plans | Vi Movies & TV - Regression Tests › Verify that 1 Form is present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression (39.6s)
+[PASS] Test 20/918 passed: Verify that 1 Input is present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:34:11 IST] [PASS] Test 20/918 passed: Verify that 1 Input is present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+  ✓   19 [chromium] › tests\generated\www-myvi-in\BestViSmsPacksAndSmsPlansForPrepaidRechargeViIndia.spec.ts:188:3 › https://www.myvi.in/ - Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India - Regression Tests › Verify that 1 Input is present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression (4.5s)
+[PROGRESS] chromium: Test 21/306 running: Verify that Buy a New Vi 4g SIM Card Online and Get a Free Delivery loads successfully @regression
+[2026-06-12 09:34:11 IST] [PROGRESS] chromium: Test 21/306 running: Verify that Buy a New Vi 4g SIM Card Online and Get a Free Delivery loads successfully @regression
+[PROGRESS] chromium: Test 22/306 running: Verify that 3 Menus are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:34:11 IST] [PROGRESS] chromium: Test 22/306 running: Verify that 3 Menus are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[FAIL] Test 22/918 failed: Verify that 94 Links are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[2026-06-12 09:34:12 IST] [FAIL] Test 22/918 failed: Verify that 94 Links are present on Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:34:12 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()

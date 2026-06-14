@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India",
+  "pageUrl": "https://www.myvi.in/international-roaming-packs",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Prepaid' exists in the DOM",
+    "Verify that the button 'Postpaid' exists in the DOM",
+    "Verify that the button 'New Connection' exists in the DOM",
+    "Verify that the button 'OTTs & More' exists in the DOM",
+    "Verify that the button 'Help' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\firefox\\Verify_that_26_Buttons_are_present_on_Vi_International_Roaming_Packs_2026_-_Stay_Connected_Abroad_Vi_Vi_International_Roaming_Packs__2026__-_Stay_Conne_1781176220319.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,100 @@
+[PROGRESS] chromium: Test 233/306 running: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:25 IST] [PROGRESS] chromium: Test 233/306 running: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[PROGRESS] chromium: Test 234/306 running: Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:26 IST] [PROGRESS] chromium: Test 234/306 running: Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:46:29 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:46:30 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:46:30 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 09:46:30 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:46:30 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:46:30 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:30 IST] [STEP] Capture screenshot evidence
+[PASS] Test 234/918 passed: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:32 IST] [PASS] Test 234/918 passed: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+  ✓  233 [chromium] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:142:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression (7.4s)
+[PROGRESS] chromium: Test 235/306 running: Verify that 2 Forms are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:32 IST] [PROGRESS] chromium: Test 235/306 running: Verify that 2 Forms are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:46:33 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:46:33 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:46:33 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:46:33 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:46:33 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:33 IST] [STEP] Capture screenshot evidence
+[PASS] Test 235/918 passed: Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:34 IST] [PASS] Test 235/918 passed: Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+  ✓  234 [chromium] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:188:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression (6.7s)
+[PROGRESS] chromium: Test 236/306 running: Verify that 1 Table is present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:34 IST] [PROGRESS] chromium: Test 236/306 running: Verify that 1 Table is present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:46:37 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[FAIL] Test 236/918 failed: Verify that 163 Links are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 09:46:37 IST] [FAIL] Test 236/918 failed: Verify that 163 Links are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[ERROR] Failure reason: [31mTest timeout of 30000ms exceeded.[39m
+[2026-06-12 09:46:37 IST] [ERROR] Failure reason: Test timeout of 30000ms exceeded.
+  ✘  224 [chromium] › tests\generated\www-myvi-in\ViPostpaidAutoBillPaymentSetupManageAutomaticPayments.spec.ts:96:3 › https://www.myvi.in/ - Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments - Regression Tests › Verify that 163 Links are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression (35.1s)
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:46:37 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:46:37 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:37 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:46:39 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[PROGRESS] chromium: Test 237/306 running: Verify that 2 Menus are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:39 IST] [PROGRESS] chromium: Test 237/306 running: Verify that 2 Menus are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:39 IST] [STEP] Capture screenshot evidence
+[PASS] Test 237/918 passed: Verify that 2 Forms are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:39 IST] [PASS] Test 237/918 passed: Verify that 2 Forms are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+  ✓  235 [chromium] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:234:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that 2 Forms are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression (6.8s)
+[PROGRESS] chromium: Test 238/306 running: Verify that Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge loads successfully @regression
+[2026-06-12 09:46:39 IST] [PROGRESS] chromium: Test 238/306 running: Verify that Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge loads successfully @regression
+[2026-06-12 09:46:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 14m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 14m 0s
+[PASS] Test 238/918 passed: Verify that 1 Table is present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:41 IST] [PASS] Test 238/918 passed: Verify that 1 Table is present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+  ✓  236 [chromium] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:268:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that 1 Table is present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression (6.0s)
+[PROGRESS] chromium: Test 239/306 running: Verify that 9 Headings are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:41 IST] [PROGRESS] chromium: Test 239/306 running: Verify that 9 Headings are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:46:41 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:46:41 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:41 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the heading 'Top Up Voucher' exists in the DOM
+[2026-06-12 09:46:43 IST] [VERIFY] Verify that the heading 'Top Up Voucher' exists in the DOM
+[2026-06-12 09:46:44 IST] [VERIFY] Verify that the heading 'top up voucher' exists in the DOM
+[VERIFY] Verify that the heading 'top up voucher' exists in the DOM
+[VERIFY] Verify that the heading 'Frequently Asked Questions About Vi Prepaid Data Packs' exists in the DOM
+[2026-06-12 09:46:44 IST] [VERIFY] Verify that the heading 'Frequently Asked Questions About Vi Prepaid Data Packs' exists in the DOM
+[VERIFY] Verify that the heading 'Talk time top up plans' exists in the DOM
+[2026-06-12 09:46:44 IST] [VERIFY] Verify that the heading 'Talk time top up plans' exists in the DOM
+[VERIFY] Verify that the heading 'Vodafone Idea Limited' exists in the DOM
+[2026-06-12 09:46:44 IST] [VERIFY] Verify that the heading 'Vodafone Idea Limited' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:44 IST] [STEP] Capture screenshot evidence
+[PASS] Test 239/918 passed: Verify that Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge loads successfully @regression
+[2026-06-12 09:46:44 IST] [PASS] Test 239/918 passed: Verify that Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge loads successfully @regression
+  ✓  238 [chromium] › tests\generated\www-myvi-in\ViPrepaidTalktimeAndTopUpPlansEasyOnlineMobileRecharge.spec.ts:15:3 › https://www.myvi.in/ - Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge - Regression Tests › Verify that Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge loads successfully @regression (5.1s)
+[PROGRESS] chromium: Test 240/306 running: Verify that 95 Links are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:45 IST] [PROGRESS] chromium: Test 240/306 running: Verify that 95 Links are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:46:46 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:46:46 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PASS] Test 240/918 passed: Verify that 9 Headings are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:47 IST] [PASS] Test 240/918 passed: Verify that 9 Headings are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression

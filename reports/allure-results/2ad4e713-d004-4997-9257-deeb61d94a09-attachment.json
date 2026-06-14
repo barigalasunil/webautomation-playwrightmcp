@@ -1,0 +1,17 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments",
+  "pageUrl": "https://www.myvi.in/postpaid/auto-bill-payment",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM",
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_2_Forms_are_present_on_Vi_Postpaid_Auto_Bill_Payment_-_Setup_Manage_Automatic_Payments_Vi_Postpaid_Auto_Bill_Payment_-_Setup___Manage_Aut_1781237775274.png"
+  ],
+  "status": "passed"
+}

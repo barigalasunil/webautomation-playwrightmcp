@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Postpaid Plans with Unlimited Calls & Data | Vi India",
+  "pageUrl": "https://www.myvi.in/postpaid/vi-postpaid-plans",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'Mumbai' exists in the DOM",
+    "Verify that the heading 'Best Postpaid Plans' exists in the DOM",
+    "Verify that the heading 'Vi Postpaid Plans FAQ’s' exists in the DOM",
+    "Verify that the heading 'What is a postpaid plan?' exists in the DOM",
+    "Verify that the heading 'How to buy postpaid plans?' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_20_Headings_are_present_on_Vi_Postpaid_Plans_with_Unlimited_Calls_Data_Vi_India_Vi_Postpaid_Plans_with_Unlimited_Calls___Data___Vi_1781171269571.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,100 @@
+[PASS] Test 228/918 passed: Verify that 23 Buttons are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 09:46:10 IST] [PASS] Test 228/918 passed: Verify that 23 Buttons are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+  ✓  226 [chromium] › tests\generated\www-myvi-in\ViPostpaidAutoBillPaymentSetupManageAutomaticPayments.spec.ts:142:3 › https://www.myvi.in/ - Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments - Regression Tests › Verify that 23 Buttons are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression (6.9s)
+[PROGRESS] chromium: Test 229/306 running: Verify that 2 Menus are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 09:46:10 IST] [PROGRESS] chromium: Test 229/306 running: Verify that 2 Menus are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:46:13 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:46:13 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:46:13 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:46:13 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:46:13 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:13 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:46:15 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:46:15 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:15 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:46:15 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[PASS] Test 229/918 passed: Verify that 106 Inputs are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 09:46:16 IST] [PASS] Test 229/918 passed: Verify that 106 Inputs are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+  ✓  227 [chromium] › tests\generated\www-myvi-in\ViPostpaidAutoBillPaymentSetupManageAutomaticPayments.spec.ts:188:3 › https://www.myvi.in/ - Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments - Regression Tests › Verify that 106 Inputs are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression (8.1s)
+[PROGRESS] chromium: Test 230/306 running: Verify that Vi Postpaid Plans with Unlimited Calls & Data | Vi India loads successfully @regression
+[2026-06-12 09:46:16 IST] [PROGRESS] chromium: Test 230/306 running: Verify that Vi Postpaid Plans with Unlimited Calls & Data | Vi India loads successfully @regression
+[PASS] Test 230/918 passed: Verify that 2 Forms are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 09:46:17 IST] [PASS] Test 230/918 passed: Verify that 2 Forms are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+  ✓  228 [chromium] › tests\generated\www-myvi-in\ViPostpaidAutoBillPaymentSetupManageAutomaticPayments.spec.ts:234:3 › https://www.myvi.in/ - Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments - Regression Tests › Verify that 2 Forms are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression (7.6s)
+[PROGRESS] chromium: Test 231/306 running: Verify that 20 Headings are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:17 IST] [PROGRESS] chromium: Test 231/306 running: Verify that 20 Headings are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:20 IST] [STEP] Open URL: https://www.myvi.in/
+[STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the heading 'Mumbai' exists in the DOM
+[2026-06-12 09:46:22 IST] [VERIFY] Verify that the heading 'Mumbai' exists in the DOM
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:46:22 IST] [VERIFY] Verify the URL is correct
+[VERIFY] Verify that the heading 'Best Postpaid Plans' exists in the DOM
+[2026-06-12 09:46:22 IST] [VERIFY] Verify that the heading 'Best Postpaid Plans' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:22 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the heading 'Vi Postpaid Plans FAQ’s' exists in the DOM
+[2026-06-12 09:46:22 IST] [VERIFY] Verify that the heading 'Vi Postpaid Plans FAQ’s' exists in the DOM
+[VERIFY] Verify that the heading 'What is a postpaid plan?' exists in the DOM
+[2026-06-12 09:46:22 IST] [VERIFY] Verify that the heading 'What is a postpaid plan?' exists in the DOM
+[VERIFY] Verify that the heading 'How to buy postpaid plans?' exists in the DOM
+[2026-06-12 09:46:22 IST] [VERIFY] Verify that the heading 'How to buy postpaid plans?' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:22 IST] [STEP] Capture screenshot evidence
+[PASS] Test 231/918 passed: Verify that Vi Postpaid Plans with Unlimited Calls & Data | Vi India loads successfully @regression
+[2026-06-12 09:46:24 IST] [PASS] Test 231/918 passed: Verify that Vi Postpaid Plans with Unlimited Calls & Data | Vi India loads successfully @regression
+  ✓  230 [chromium] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:15:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that Vi Postpaid Plans with Unlimited Calls & Data | Vi India loads successfully @regression (7.6s)
+[PROGRESS] chromium: Test 232/306 running: Verify that 173 Links are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:24 IST] [PROGRESS] chromium: Test 232/306 running: Verify that 173 Links are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[PASS] Test 232/918 passed: Verify that 20 Headings are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:24 IST] [PASS] Test 232/918 passed: Verify that 20 Headings are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+  ✓  231 [chromium] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:50:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that 20 Headings are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression (7.3s)
+[FAIL] Test 232/918 failed: Verify that 2 Menus are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 09:46:24 IST] [FAIL] Test 232/918 failed: Verify that 2 Menus are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:46:24 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  229 [chromium] › tests\generated\www-myvi-in\ViPostpaidAutoBillPaymentSetupManageAutomaticPayments.spec.ts:268:3 › https://www.myvi.in/ - Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments - Regression Tests › Verify that 2 Menus are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression (13.5s)
+[PROGRESS] chromium: Test 233/306 running: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:25 IST] [PROGRESS] chromium: Test 233/306 running: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[PROGRESS] chromium: Test 234/306 running: Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:26 IST] [PROGRESS] chromium: Test 234/306 running: Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:46:29 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:46:30 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:46:30 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 09:46:30 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:46:30 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:46:30 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:30 IST] [STEP] Capture screenshot evidence
+[PASS] Test 234/918 passed: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:32 IST] [PASS] Test 234/918 passed: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression

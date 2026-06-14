@@ -1,0 +1,100 @@
+  ✘  524 [firefox] › tests\generated\www-myvi-in\ViOfficialVideosTipsProductsUpdates.spec.ts:80:3 › https://www.myvi.in/ - Vi Official Videos: Tips, Products & Updates - Regression Tests › Verify that 165 Links are present on Vi Official Videos: Tips, Products & Updates @regression (9.7s)
+[PASS] Test 529/918 passed: Verify that 13 Buttons are present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:16 IST] [PASS] Test 529/918 passed: Verify that 13 Buttons are present on Vi Official Videos: Tips, Products & Updates @regression
+  ✓  526 [firefox] › tests\generated\www-myvi-in\ViOfficialVideosTipsProductsUpdates.spec.ts:126:3 › https://www.myvi.in/ - Vi Official Videos: Tips, Products & Updates - Regression Tests › Verify that 13 Buttons are present on Vi Official Videos: Tips, Products & Updates @regression (5.9s)
+[PROGRESS] firefox: Test 224/306 running: Verify that 163 Links are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 10:01:16 IST] [PROGRESS] firefox: Test 224/306 running: Verify that 163 Links are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 10:01:17 IST] [PROGRESS] firefox: Test 225/306 running: Verify that 17 Headings are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[PROGRESS] firefox: Test 225/306 running: Verify that 17 Headings are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:01:19 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:01:20 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:01:21 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:01:21 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 10:01:21 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[PASS] Test 531/918 passed: Verify that Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments loads successfully @regression
+[2026-06-12 10:01:22 IST] [PASS] Test 531/918 passed: Verify that Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments loads successfully @regression
+  ✓  529 [firefox] › tests\generated\www-myvi-in\ViPostpaidAutoBillPaymentSetupManageAutomaticPayments.spec.ts:15:3 › https://www.myvi.in/ - Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments - Regression Tests › Verify that Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments loads successfully @regression (6.3s)
+[PROGRESS] firefox: Test 226/306 running: Verify that 23 Buttons are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 10:01:22 IST] [PROGRESS] firefox: Test 226/306 running: Verify that 23 Buttons are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[VERIFY] Verify that the heading 'manage auto bill payment' exists in the DOM
+[2026-06-12 10:01:25 IST] [VERIFY] Verify that the heading 'manage auto bill payment' exists in the DOM
+[VERIFY] Verify that the heading 'setup auto pay' exists in the DOM
+[2026-06-12 10:01:25 IST] [VERIFY] Verify that the heading 'setup auto pay' exists in the DOM
+[VERIFY] Verify that the heading 'cancel auto pay' exists in the DOM
+[2026-06-12 10:01:25 IST] [VERIFY] Verify that the heading 'cancel auto pay' exists in the DOM
+[VERIFY] Verify that the heading 'modify auto pay' exists in the DOM
+[2026-06-12 10:01:25 IST] [VERIFY] Verify that the heading 'modify auto pay' exists in the DOM
+[VERIFY] Verify that the heading 'select payment source type' exists in the DOM
+[2026-06-12 10:01:25 IST] [VERIFY] Verify that the heading 'select payment source type' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:01:25 IST] [STEP] Capture screenshot evidence
+[PASS] Test 532/918 passed: Verify that 17 Headings are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 10:01:25 IST] [PASS] Test 532/918 passed: Verify that 17 Headings are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+  ✓  531 [firefox] › tests\generated\www-myvi-in\ViPostpaidAutoBillPaymentSetupManageAutomaticPayments.spec.ts:50:3 › https://www.myvi.in/ - Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments - Regression Tests › Verify that 17 Headings are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression (5.9s)
+[PROGRESS] firefox: Test 227/306 running: Verify that 106 Inputs are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 10:01:25 IST] [PROGRESS] firefox: Test 227/306 running: Verify that 106 Inputs are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 10:01:26 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 10:01:26 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 10:01:26 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 10:01:26 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 10:01:26 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:01:26 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 533/918 failed: Verify that 163 Links are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 10:01:26 IST] [FAIL] Test 533/918 failed: Verify that 163 Links are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/postpaid/auto-bill-payment#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/postpaid/auto-bill-payment#"]').first()[22m
+[2026-06-12 10:01:26 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/postpaid/auto-bill-payment#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/postpaid/auto-bill-payment#"]').first()
+  ✘  530 [firefox] › tests\generated\www-myvi-in\ViPostpaidAutoBillPaymentSetupManageAutomaticPayments.spec.ts:96:3 › https://www.myvi.in/ - Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments - Regression Tests › Verify that 163 Links are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression (9.0s)
+[PASS] Test 533/918 passed: Verify that 23 Buttons are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 10:01:26 IST] [PASS] Test 533/918 passed: Verify that 23 Buttons are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+  ✓  532 [firefox] › tests\generated\www-myvi-in\ViPostpaidAutoBillPaymentSetupManageAutomaticPayments.spec.ts:142:3 › https://www.myvi.in/ - Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments - Regression Tests › Verify that 23 Buttons are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression (4.2s)
+[PROGRESS] firefox: Test 228/306 running: Verify that 2 Menus are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 10:01:26 IST] [PROGRESS] firefox: Test 228/306 running: Verify that 2 Menus are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:01:27 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:01:27 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:01:27 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[FAIL] Test 534/918 failed: Verify that 2 Menus are present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:27 IST] [FAIL] Test 534/918 failed: Verify that 2 Menus are present on Vi Official Videos: Tips, Products & Updates @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 10:01:27 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()

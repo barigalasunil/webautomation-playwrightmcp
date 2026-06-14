@@ -1,0 +1,100 @@
+[2026-06-12 09:36:59 IST] [VERIFY] Verify that the button 'unlimited 5G' exists in the DOM
+[PASS] Test 60/918 passed: Verify that 17 Headings are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:37:00 IST] [PASS] Test 60/918 passed: Verify that 17 Headings are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+  ✓   58 [chromium] › tests\generated\www-myvi-in\ExploreTheBestPrepaidPlansTopPrepaidRechargeOptionsViIndia.spec.ts:50:3 › https://www.myvi.in/ - Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India - Regression Tests › Verify that 17 Headings are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression (7.5s)
+[VERIFY] Verify that the button 'nonstop hero' exists in the DOM
+[2026-06-12 09:37:00 IST] [VERIFY] Verify that the button 'nonstop hero' exists in the DOM
+[PROGRESS] chromium: Test 61/306 running: Verify that 1 Input is present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:37:00 IST] [PROGRESS] chromium: Test 61/306 running: Verify that 1 Input is present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[VERIFY] Verify that the button 'super hero' exists in the DOM
+[2026-06-12 09:37:00 IST] [VERIFY] Verify that the button 'super hero' exists in the DOM
+[VERIFY] Verify that the button 'hero unlimited' exists in the DOM
+[2026-06-12 09:37:00 IST] [VERIFY] Verify that the button 'hero unlimited' exists in the DOM
+[VERIFY] Verify that the button 'unlimited' exists in the DOM
+[2026-06-12 09:37:00 IST] [VERIFY] Verify that the button 'unlimited' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:37:00 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:37:00 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:37:02 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[FAIL] Test 61/918 failed: Verify that 4 Forms are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:37:02 IST] [FAIL] Test 61/918 failed: Verify that 4 Forms are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[ERROR] Failure reason: [31mTest timeout of 30000ms exceeded.[39m
+[2026-06-12 09:37:02 IST] [ERROR] Failure reason: Test timeout of 30000ms exceeded.
+  ✘   54 [chromium] › tests\generated\www-myvi-in\EnjoyNetflixSubscriptionPlansWithViAtNoExtraCost.spec.ts:234:3 › https://www.myvi.in/ - Enjoy Netflix Subscription Plans with Vi at No Extra Cost - Regression Tests › Verify that 4 Forms are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression (36.1s)
+[STEP] Capture screenshot evidence
+[2026-06-12 09:37:03 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 62/306 running: Verify that 1 Form is present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:37:04 IST] [PROGRESS] chromium: Test 62/306 running: Verify that 1 Form is present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[PASS] Test 62/918 passed: Verify that 49 Buttons are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:37:04 IST] [PASS] Test 62/918 passed: Verify that 49 Buttons are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+  ✓   60 [chromium] › tests\generated\www-myvi-in\ExploreTheBestPrepaidPlansTopPrepaidRechargeOptionsViIndia.spec.ts:142:3 › https://www.myvi.in/ - Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India - Regression Tests › Verify that 49 Buttons are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression (6.8s)
+[PROGRESS] chromium: Test 63/306 running: Verify that 3 Menus are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:37:04 IST] [PROGRESS] chromium: Test 63/306 running: Verify that 3 Menus are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:37:06 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:37:07 IST] [PASS] Test 63/918 passed: Verify that 1 Input is present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[PASS] Test 63/918 passed: Verify that 1 Input is present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+  ✓   61 [chromium] › tests\generated\www-myvi-in\ExploreTheBestPrepaidPlansTopPrepaidRechargeOptionsViIndia.spec.ts:188:3 › https://www.myvi.in/ - Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India - Regression Tests › Verify that 1 Input is present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression (6.3s)
+[2026-06-12 09:37:07 IST] [PROGRESS] chromium: Test 64/306 running: Verify that Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim loads successfully @regression
+[PROGRESS] chromium: Test 64/306 running: Verify that Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim loads successfully @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:37:08 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:37:08 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:37:09 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 4m 30s
+[2026-06-12 09:37:09 IST] [FAIL] Test 64/918 failed: Verify that 104 Links are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 4m 30s
+[FAIL] Test 64/918 failed: Verify that 104 Links are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:37:09 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘   59 [chromium] › tests\generated\www-myvi-in\ExploreTheBestPrepaidPlansTopPrepaidRechargeOptionsViIndia.spec.ts:96:3 › https://www.myvi.in/ - Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India - Regression Tests › Verify that 104 Links are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression (10.2s)
+[PROGRESS] chromium: Test 65/306 running: Verify that 25 Headings are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:37:11 IST] [PROGRESS] chromium: Test 65/306 running: Verify that 25 Headings are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[PASS] Test 65/918 passed: Verify that 1 Form is present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:37:12 IST] [PASS] Test 65/918 passed: Verify that 1 Form is present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+  ✓   62 [chromium] › tests\generated\www-myvi-in\ExploreTheBestPrepaidPlansTopPrepaidRechargeOptionsViIndia.spec.ts:218:3 › https://www.myvi.in/ - Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India - Regression Tests › Verify that 1 Form is present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression (6.6s)
+[PROGRESS] chromium: Test 66/306 running: Verify that 37 Links are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:37:12 IST] [PROGRESS] chromium: Test 66/306 running: Verify that 37 Links are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:37:12 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:37:13 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:37:13 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 66/918 failed: Verify that 3 Menus are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:37:15 IST] [FAIL] Test 66/918 failed: Verify that 3 Menus are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:37:15 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘   63 [chromium] › tests\generated\www-myvi-in\ExploreTheBestPrepaidPlansTopPrepaidRechargeOptionsViIndia.spec.ts:248:3 › https://www.myvi.in/ - Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India - Regression Tests › Verify that 3 Menus are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression (8.4s)
+[PASS] Test 66/918 passed: Verify that Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim loads successfully @regression
+[2026-06-12 09:37:16 IST] [PASS] Test 66/918 passed: Verify that Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim loads successfully @regression

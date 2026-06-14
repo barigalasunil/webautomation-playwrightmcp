@@ -1,0 +1,100 @@
+Locator: getByRole('heading', { name: 'select a pack to start' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'select a pack to start' }).first()
+  ✘  370 [firefox] › tests\generated\www-myvi-in\GetANewViPrepaidSimCardIn3SimpleStepsBuyNewSim.spec.ts:50:3 › https://www.myvi.in/ - Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - Regression Tests › Verify that 25 Headings are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression (11.3s)
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:55:30 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:55:31 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:55:32 IST] [PASS] Test 373/918 passed: Verify that Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim loads successfully @regression
+[PASS] Test 373/918 passed: Verify that Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim loads successfully @regression
+  ✓  371 [firefox] › tests\generated\www-myvi-in\GetANewViPrepaidSimCardIn3SimpleStepsBuyNewSim.spec.ts:15:3 › https://www.myvi.in/ - Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - Regression Tests › Verify that Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim loads successfully @regression (7.7s)
+[PROGRESS] firefox: Test 68/306 running: Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:55:32 IST] [PROGRESS] firefox: Test 68/306 running: Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[VERIFY] Verify that the button 'select your VIP number now' exists in the DOM
+[2026-06-12 09:55:32 IST] [VERIFY] Verify that the button 'select your VIP number now' exists in the DOM
+[PROGRESS] firefox: Test 69/306 running: Verify that 54 Inputs are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:55:33 IST] [PROGRESS] firefox: Test 69/306 running: Verify that 54 Inputs are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[2026-06-12 09:55:34 IST] [VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[VERIFY] Verify that the menu 'home new connection prepaid connection' exists in the DOM
+[2026-06-12 09:55:34 IST] [VERIFY] Verify that the menu 'home new connection prepaid connection' exists in the DOM
+[FAIL] Test 375/918 failed: Verify that 37 Links are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:55:35 IST] [FAIL] Test 375/918 failed: Verify that 37 Links are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'prepaid packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'prepaid packs' }).first()[22m
+[2026-06-12 09:55:35 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'prepaid packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'prepaid packs' }).first()
+  ✘  372 [firefox] › tests\generated\www-myvi-in\GetANewViPrepaidSimCardIn3SimpleStepsBuyNewSim.spec.ts:96:3 › https://www.myvi.in/ - Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - Regression Tests › Verify that 37 Links are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression (11.2s)
+[PROGRESS] firefox: Test 70/306 running: Verify that Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G loads successfully @regression
+[2026-06-12 09:55:36 IST] [PROGRESS] firefox: Test 70/306 running: Verify that Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G loads successfully @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:55:37 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[FAIL] Test 376/918 failed: Verify that 29 Buttons are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:55:38 IST] [FAIL] Test 376/918 failed: Verify that 29 Buttons are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'select your VIP number now' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'select your VIP number now' }).first()[22m
+[2026-06-12 09:55:38 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'select your VIP number now' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'select your VIP number now' }).first()
+  ✘  373 [firefox] › tests\generated\www-myvi-in\GetANewViPrepaidSimCardIn3SimpleStepsBuyNewSim.spec.ts:142:3 › https://www.myvi.in/ - Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - Regression Tests › Verify that 29 Buttons are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression (9.7s)
+[2026-06-12 09:55:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 23m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 23m 0s
+[PROGRESS] firefox: Test 71/306 running: Verify that 14 Headings are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:55:40 IST] [PROGRESS] firefox: Test 71/306 running: Verify that 14 Headings are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[FAIL] Test 377/918 failed: Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:55:40 IST] [FAIL] Test 377/918 failed: Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'home new connection prepaid connection' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'home new connection prepaid connection' }).first()[22m
+[2026-06-12 09:55:40 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'home new connection prepaid connection' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'home new connection prepaid connection' }).first()
+  ✘  374 [firefox] › tests\generated\www-myvi-in\GetANewViPrepaidSimCardIn3SimpleStepsBuyNewSim.spec.ts:234:3 › https://www.myvi.in/ - Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - Regression Tests › Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression (7.4s)
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:55:41 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:55:41 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:55:41 IST] [STEP] Capture screenshot evidence
+[PROGRESS] firefox: Test 72/306 running: Verify that 99 Links are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[2026-06-12 09:55:42 IST] [PROGRESS] firefox: Test 72/306 running: Verify that 99 Links are present on Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G @regression
+[PASS] Test 378/918 passed: Verify that Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G loads successfully @regression
+[2026-06-12 09:55:42 IST] [PASS] Test 378/918 passed: Verify that Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G loads successfully @regression

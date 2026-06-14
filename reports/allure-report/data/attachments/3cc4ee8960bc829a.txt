@@ -1,0 +1,100 @@
+[PROGRESS] firefox: Test 25/306 running: Verify that 26 Links are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:52:49 IST] [PROGRESS] firefox: Test 25/306 running: Verify that 26 Links are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:52:49 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:52:50 IST] [STEP] Capture screenshot evidence
+[PASS] Test 331/918 passed: Verify that Buy a New Vi 4g SIM Card Online and Get a Free Delivery loads successfully @regression
+[2026-06-12 09:52:51 IST] [PASS] Test 331/918 passed: Verify that Buy a New Vi 4g SIM Card Online and Get a Free Delivery loads successfully @regression
+  ✓  328 [firefox] › tests\generated\www-myvi-in\BuyANewVi4gSimCardOnlineAndGetAFreeDelivery.spec.ts:15:3 › https://www.myvi.in/ - Buy a New Vi 4g SIM Card Online and Get a Free Delivery - Regression Tests › Verify that Buy a New Vi 4g SIM Card Online and Get a Free Delivery loads successfully @regression (10.0s)
+[PROGRESS] firefox: Test 26/306 running: Verify that 66 Inputs are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:52:51 IST] [PROGRESS] firefox: Test 26/306 running: Verify that 66 Inputs are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[VERIFY] Verify that the button 'get OTP to complete order' exists in the DOM
+[2026-06-12 09:52:51 IST] [VERIFY] Verify that the button 'get OTP to complete order' exists in the DOM
+[VERIFY] Verify that the button 'Previous' exists in the DOM
+[2026-06-12 09:52:51 IST] [VERIFY] Verify that the button 'Previous' exists in the DOM
+[FAIL] Test 332/918 failed: Verify that 16 Headings are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:52:55 IST] [FAIL] Test 332/918 failed: Verify that 16 Headings are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'individual plan' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'individual plan' }).first()[22m
+[2026-06-12 09:52:55 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'individual plan' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'individual plan' }).first()
+  ✘  329 [firefox] › tests\generated\www-myvi-in\BuyANewVi4gSimCardOnlineAndGetAFreeDelivery.spec.ts:50:3 › https://www.myvi.in/ - Buy a New Vi 4g SIM Card Online and Get a Free Delivery - Regression Tests › Verify that 16 Headings are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression (13.2s)
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:52:57 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[PROGRESS] firefox: Test 27/306 running: Verify that 1 Form is present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:52:58 IST] [PROGRESS] firefox: Test 27/306 running: Verify that 1 Form is present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[FAIL] Test 333/918 failed: Verify that 28 Buttons are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:52:58 IST] [FAIL] Test 333/918 failed: Verify that 28 Buttons are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'Previous' }).first()[22m
+[2026-06-12 09:52:58 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'Previous' }).first()
+  ✘  330 [firefox] › tests\generated\www-myvi-in\BuyANewVi4gSimCardOnlineAndGetAFreeDelivery.spec.ts:142:3 › https://www.myvi.in/ - Buy a New Vi 4g SIM Card Online and Get a Free Delivery - Regression Tests › Verify that 28 Buttons are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression (9.0s)
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:52:59 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'store near you' exists in the DOM
+[2026-06-12 09:52:59 IST] [VERIFY] Verify that the link 'store near you' exists in the DOM
+[PROGRESS] firefox: Test 28/306 running: Verify that 2 Menus are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:53:01 IST] [PROGRESS] firefox: Test 28/306 running: Verify that 2 Menus are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[FAIL] Test 334/918 failed: Verify that 66 Inputs are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:53:03 IST] [FAIL] Test 334/918 failed: Verify that 66 Inputs are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="sAltNo"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="sAltNo"]').first()[22m
+[2026-06-12 09:53:03 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="sAltNo"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="sAltNo"]').first()
+  ✘  332 [firefox] › tests\generated\www-myvi-in\BuyANewVi4gSimCardOnlineAndGetAFreeDelivery.spec.ts:188:3 › https://www.myvi.in/ - Buy a New Vi 4g SIM Card Online and Get a Free Delivery - Regression Tests › Verify that 66 Inputs are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression (11.2s)
+[FAIL] Test 334/918 failed: Verify that 26 Links are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:53:06 IST] [FAIL] Test 334/918 failed: Verify that 26 Links are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'store near you' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'store near you' }).first()[22m
+[2026-06-12 09:53:06 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'store near you' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'store near you' }).first()

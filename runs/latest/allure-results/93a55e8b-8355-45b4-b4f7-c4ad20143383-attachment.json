@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India",
+  "pageUrl": "https://www.myvi.in/prepaid/online-mobile-recharge",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Enter mobile number' exists in the DOM",
+    "Verify that the input 'Search by price' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\firefox\\Verify_that_3_Inputs_are_present_on_Online_Mobile_Recharge_-_Best_Prepaid_Plans_Top-Ups_Vi_India_Online_Mobile_Recharge_-_Best_Prepaid_Plans___Top-_1781175858100.png"
+  ],
+  "status": "passed"
+}

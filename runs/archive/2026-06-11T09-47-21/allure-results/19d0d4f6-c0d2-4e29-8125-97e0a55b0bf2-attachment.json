@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Buy a New Vi 4g SIM Card Online and Get a Free Delivery",
+  "pageUrl": "https://www.myvi.in/new-connection/buy-new-4g-sim-card-online",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_1_Form_is_present_on_Buy_a_New_Vi_4g_SIM_Card_Online_and_Get_a_Free_Delivery_Buy_a_New_Vi_4g_SIM_Card_Online_and_Get_a_Free_Del_1781170643782.png"
+  ],
+  "status": "passed"
+}

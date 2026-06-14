@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim",
+  "pageUrl": "https://www.myvi.in/new-connection/buy-prepaid-sim-connection-online",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_Get_a_New_Vi_Prepaid_SIM_Card_in_3_Simple_Steps_-_Buy_New_Sim_loads_successfully_Get_a_New_Vi_Prepaid_SIM_Card_in_3_Simple_Steps_-__1781170793615.png"
+  ],
+  "status": "passed"
+}

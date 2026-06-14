@@ -1,0 +1,17 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Product & Services FAQs, Frequently Asked Questions",
+  "pageUrl": "https://www.myvi.in/help-support/faqs?chatbotopen=true",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'search your query' exists in the DOM",
+    "Verify that the input 'Type your query...' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_4_Inputs_are_present_on_Vi_Product_Services_FAQs_Frequently_Asked_Questions_Vi_Product___Services_FAQs__Frequently_Asked_Quest_1781239361198.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vodafone Idea Foundation – An initiative to change India with Mobile Technology",
+  "pageUrl": "https://www.myvi.in/about-us/vodafoneidea-foundation",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_Vodafone_Idea_Foundation_An_initiative_to_change_India_with_Mobile_Technology_loads_succ_Vodafone_Idea_Foundation___An_initiative_to_change_1781238021222.png"
+  ],
+  "status": "passed"
+}

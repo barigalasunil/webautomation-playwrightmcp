@@ -1,0 +1,100 @@
+[PASS] Test 66/918 passed: Verify that Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim loads successfully @regression
+[2026-06-12 09:37:16 IST] [PASS] Test 66/918 passed: Verify that Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim loads successfully @regression
+  ✓   64 [chromium] › tests\generated\www-myvi-in\GetANewViPrepaidSimCardIn3SimpleStepsBuyNewSim.spec.ts:15:3 › https://www.myvi.in/ - Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - Regression Tests › Verify that Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim loads successfully @regression (8.4s)
+[PROGRESS] chromium: Test 67/306 running: Verify that 54 Inputs are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:37:16 IST] [PROGRESS] chromium: Test 67/306 running: Verify that 54 Inputs are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:37:17 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PROGRESS] chromium: Test 68/306 running: Verify that 29 Buttons are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:37:17 IST] [PROGRESS] chromium: Test 68/306 running: Verify that 29 Buttons are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[VERIFY] Verify that the link 'postpaid plans' exists in the DOM
+[2026-06-12 09:37:17 IST] [VERIFY] Verify that the link 'postpaid plans' exists in the DOM
+[VERIFY] Verify that the link 'family plans' exists in the DOM
+[2026-06-12 09:37:17 IST] [VERIFY] Verify that the link 'family plans' exists in the DOM
+[VERIFY] Verify that the link 'prepaid packs' exists in the DOM
+[2026-06-12 09:37:17 IST] [VERIFY] Verify that the link 'prepaid packs' exists in the DOM
+[VERIFY] Verify that the heading 'select a pack to start' exists in the DOM
+[2026-06-12 09:37:17 IST] [VERIFY] Verify that the heading 'select a pack to start' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:37:19 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the button 'select your VIP number now' exists in the DOM
+[2026-06-12 09:37:21 IST] [VERIFY] Verify that the button 'select your VIP number now' exists in the DOM
+[FAIL] Test 68/918 failed: Verify that 37 Links are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:37:23 IST] [FAIL] Test 68/918 failed: Verify that 37 Links are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'prepaid packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'prepaid packs' }).first()[22m
+[2026-06-12 09:37:23 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'prepaid packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'prepaid packs' }).first()
+  ✘   66 [chromium] › tests\generated\www-myvi-in\GetANewViPrepaidSimCardIn3SimpleStepsBuyNewSim.spec.ts:96:3 › https://www.myvi.in/ - Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - Regression Tests › Verify that 37 Links are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression (10.9s)
+[FAIL] Test 68/918 failed: Verify that 25 Headings are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:37:24 IST] [FAIL] Test 68/918 failed: Verify that 25 Headings are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'select a pack to start' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'select a pack to start' }).first()[22m
+[2026-06-12 09:37:24 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'select a pack to start' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'select a pack to start' }).first()
+  ✘   65 [chromium] › tests\generated\www-myvi-in\GetANewViPrepaidSimCardIn3SimpleStepsBuyNewSim.spec.ts:50:3 › https://www.myvi.in/ - Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - Regression Tests › Verify that 25 Headings are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression (10.6s)
+[PROGRESS] chromium: Test 69/306 running: Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:37:25 IST] [PROGRESS] chromium: Test 69/306 running: Verify that 2 Menus are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[PROGRESS] chromium: Test 70/306 running: Verify that Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G loads successfully @regression
+[2026-06-12 09:37:25 IST] [PROGRESS] chromium: Test 70/306 running: Verify that Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G loads successfully @regression
+[FAIL] Test 70/918 failed: Verify that 54 Inputs are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:37:25 IST] [FAIL] Test 70/918 failed: Verify that 54 Inputs are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="pincodeField"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="pincodeField"]').first()[22m
+[2026-06-12 09:37:25 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="pincodeField"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="pincodeField"]').first()
+  ✘   67 [chromium] › tests\generated\www-myvi-in\GetANewViPrepaidSimCardIn3SimpleStepsBuyNewSim.spec.ts:188:3 › https://www.myvi.in/ - Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim - Regression Tests › Verify that 54 Inputs are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression (9.1s)
+[FAIL] Test 70/918 failed: Verify that 29 Buttons are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[2026-06-12 09:37:28 IST] [FAIL] Test 70/918 failed: Verify that 29 Buttons are present on Get a New Vi Prepaid SIM Card in 3 Simple Steps - Buy New Sim @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'select your VIP number now' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'select your VIP number now' }).first()[22m
+[2026-06-12 09:37:28 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'select your VIP number now' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'select your VIP number now' }).first()

@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vodafone Idea Foundation – An initiative to change India with Mobile Technology",
+  "pageUrl": "https://www.myvi.in/about-us/vodafoneidea-foundation",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'About Vi Foundation' exists in the DOM",
+    "Verify that the heading 'An overview of Vi Foundation’s programmes:' exists in the DOM",
+    "Verify that the heading 'SmartAgri:' exists in the DOM",
+    "Verify that the heading 'Gurushala:' exists in the DOM",
+    "Verify that the heading 'e-Vidya for Brighter Futures:' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_19_Headings_are_present_on_Vodafone_Idea_Foundation_An_initiative_to_change_India_with_M_Vodafone_Idea_Foundation___An_initiative_to_change_1781238800150.png"
+  ],
+  "status": "passed"
+}

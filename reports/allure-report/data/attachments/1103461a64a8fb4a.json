@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India",
+  "pageUrl": "https://www.myvi.in/prepaid/best-prepaid-plans",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_1_Input_is_present_on_Explore_the_Best_Prepaid_Plans_Top_Prepaid_Recharge_Options_Vi_Ind_Explore_the_Best_Prepaid_Plans___Top_Prepaid_Recha_1781238320945.png"
+  ],
+  "status": "passed"
+}

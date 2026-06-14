@@ -1,0 +1,100 @@
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 10:12:54 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  865 [webkit] › tests\generated\www-myvi-in\ViUnlimitedDataCallsInternetPlansChooseViUnlimitedPlansToday.spec.ts:96:3 › https://www.myvi.in/ - Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today - Regression Tests › Verify that 115 Links are present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression (7.3s)
+[PASS] Test 867/918 passed: Verify that 1 Input is present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+[2026-06-12 10:12:54 IST] [PASS] Test 867/918 passed: Verify that 1 Input is present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+  ✓  866 [webkit] › tests\generated\www-myvi-in\ViUnlimitedDataCallsInternetPlansChooseViUnlimitedPlansToday.spec.ts:188:3 › https://www.myvi.in/ - Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today - Regression Tests › Verify that 1 Input is present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression (5.8s)
+[PROGRESS] webkit: Test 256/306 running: Verify that 3 Menus are present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+[2026-06-12 10:12:54 IST] [PROGRESS] webkit: Test 256/306 running: Verify that 3 Menus are present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+[PROGRESS] webkit: Test 257/306 running: Verify that 1 Form is present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+[2026-06-12 10:12:55 IST] [PROGRESS] webkit: Test 257/306 running: Verify that 1 Form is present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+[PASS] Test 869/918 passed: Verify that 45 Buttons are present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+[2026-06-12 10:12:55 IST] [PASS] Test 869/918 passed: Verify that 45 Buttons are present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+  ✓  867 [webkit] › tests\generated\www-myvi-in\ViUnlimitedDataCallsInternetPlansChooseViUnlimitedPlansToday.spec.ts:142:3 › https://www.myvi.in/ - Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today - Regression Tests › Verify that 45 Buttons are present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression (6.5s)
+[PROGRESS] webkit: Test 258/306 running: Verify that Vi Utility Bill Payments | Water, Gas, Electricity & More loads successfully @regression
+[2026-06-12 10:12:55 IST] [PROGRESS] webkit: Test 258/306 running: Verify that Vi Utility Bill Payments | Water, Gas, Electricity & More loads successfully @regression
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 10:12:56 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:12:57 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:12:59 IST] [STEP] Capture screenshot evidence
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:12:59 IST] [STEP] Open URL: https://www.myvi.in/
+[PASS] Test 870/918 passed: Verify that 1 Form is present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+[2026-06-12 10:13:00 IST] [PASS] Test 870/918 passed: Verify that 1 Form is present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+  ✓  869 [webkit] › tests\generated\www-myvi-in\ViUnlimitedDataCallsInternetPlansChooseViUnlimitedPlansToday.spec.ts:218:3 › https://www.myvi.in/ - Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today - Regression Tests › Verify that 1 Form is present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression (5.0s)
+[PROGRESS] webkit: Test 259/306 running: Verify that 4 Headings are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 10:13:00 IST] [PROGRESS] webkit: Test 259/306 running: Verify that 4 Headings are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:13:01 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:13:01 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 871/918 failed: Verify that 3 Menus are present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+[2026-06-12 10:13:01 IST] [FAIL] Test 871/918 failed: Verify that 3 Menus are present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 10:13:01 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  868 [webkit] › tests\generated\www-myvi-in\ViUnlimitedDataCallsInternetPlansChooseViUnlimitedPlansToday.spec.ts:248:3 › https://www.myvi.in/ - Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today - Regression Tests › Verify that 3 Menus are present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression (7.2s)
+[PASS] Test 871/918 passed: Verify that Vi Utility Bill Payments | Water, Gas, Electricity & More loads successfully @regression
+[2026-06-12 10:13:02 IST] [PASS] Test 871/918 passed: Verify that Vi Utility Bill Payments | Water, Gas, Electricity & More loads successfully @regression
+  ✓  870 [webkit] › tests\generated\www-myvi-in\ViUtilityBillPaymentsWaterGasElectricityMore.spec.ts:15:3 › https://www.myvi.in/ - Vi Utility Bill Payments | Water, Gas, Electricity & More - Regression Tests › Verify that Vi Utility Bill Payments | Water, Gas, Electricity & More loads successfully @regression (6.3s)
+[PROGRESS] webkit: Test 260/306 running: Verify that 15 Buttons are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 10:13:02 IST] [PROGRESS] webkit: Test 260/306 running: Verify that 15 Buttons are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[PROGRESS] webkit: Test 261/306 running: Verify that 172 Links are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 10:13:02 IST] [PROGRESS] webkit: Test 261/306 running: Verify that 172 Links are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[VERIFY] Verify that the heading 'pay bills & recharges in seconds' exists in the DOM
+[2026-06-12 10:13:04 IST] [VERIFY] Verify that the heading 'pay bills & recharges in seconds' exists in the DOM
+[VERIFY] Verify that the heading 'bill pay' exists in the DOM
+[2026-06-12 10:13:04 IST] [VERIFY] Verify that the heading 'bill pay' exists in the DOM
+[VERIFY] Verify that the heading 'recharges' exists in the DOM
+[2026-06-12 10:13:04 IST] [VERIFY] Verify that the heading 'recharges' exists in the DOM
+[VERIFY] Verify that the heading 'get the Vi benefit with bill payment and recharges' exists in the DOM
+[2026-06-12 10:13:04 IST] [VERIFY] Verify that the heading 'get the Vi benefit with bill payment and recharges' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:13:04 IST] [STEP] Capture screenshot evidence
+[PASS] Test 873/918 passed: Verify that 4 Headings are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 10:13:05 IST] [PASS] Test 873/918 passed: Verify that 4 Headings are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+  ✓  871 [webkit] › tests\generated\www-myvi-in\ViUtilityBillPaymentsWaterGasElectricityMore.spec.ts:50:3 › https://www.myvi.in/ - Vi Utility Bill Payments | Water, Gas, Electricity & More - Regression Tests › Verify that 4 Headings are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression (4.3s)
+[PROGRESS] webkit: Test 262/306 running: Verify that 12 Inputs are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 10:13:05 IST] [PROGRESS] webkit: Test 262/306 running: Verify that 12 Inputs are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 10:13:05 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 10:13:05 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 10:13:05 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 10:13:05 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 10:13:05 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:13:05 IST] [STEP] Capture screenshot evidence
+[PASS] Test 874/918 passed: Verify that 15 Buttons are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 10:13:06 IST] [PASS] Test 874/918 passed: Verify that 15 Buttons are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression

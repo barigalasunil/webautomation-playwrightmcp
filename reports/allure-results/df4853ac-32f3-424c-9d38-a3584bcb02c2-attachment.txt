@@ -1,0 +1,100 @@
+[2026-06-12 10:03:18 IST] [PROGRESS] firefox: Test 286/306 running: Verify that Vodafone Idea Foundation – An initiative to change India with Mobile Technology loads successfully @regression
+[VERIFY] Verify that the heading 'About Vi Foundation' exists in the DOM
+[2026-06-12 10:03:19 IST] [VERIFY] Verify that the heading 'About Vi Foundation' exists in the DOM
+[VERIFY] Verify that the heading 'An overview of Vi Foundation’s programmes:' exists in the DOM
+[2026-06-12 10:03:19 IST] [VERIFY] Verify that the heading 'An overview of Vi Foundation’s programmes:' exists in the DOM
+[VERIFY] Verify that the heading 'SmartAgri:' exists in the DOM
+[2026-06-12 10:03:19 IST] [VERIFY] Verify that the heading 'SmartAgri:' exists in the DOM
+[VERIFY] Verify that the heading 'Gurushala:' exists in the DOM
+[2026-06-12 10:03:19 IST] [VERIFY] Verify that the heading 'Gurushala:' exists in the DOM
+[VERIFY] Verify that the heading 'e-Vidya for Brighter Futures:' exists in the DOM
+[2026-06-12 10:03:20 IST] [VERIFY] Verify that the heading 'e-Vidya for Brighter Futures:' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:03:20 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the input 'enter prepaid/postpaid number' exists in the DOM
+[2026-06-12 10:03:20 IST] [VERIFY] Verify that the input 'enter prepaid/postpaid number' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:03:20 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:03:21 IST] [STEP] Capture screenshot evidence
+[PASS] Test 592/918 passed: Verify that 19 Headings are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[2026-06-12 10:03:21 IST] [PASS] Test 592/918 passed: Verify that 19 Headings are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+  ✓  591 [firefox] › tests\generated\www-myvi-in\VodafoneIdeaFoundationAnInitiativeToChangeIndiaWithMobileTechnology.spec.ts:50:3 › https://www.myvi.in/ - Vodafone Idea Foundation – An initiative to change India with Mobile Technology - Regression Tests › Verify that 19 Headings are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression (3.2s)
+[2026-06-12 10:03:21 IST] [PROGRESS] firefox: Test 287/306 running: Verify that 105 Links are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[PROGRESS] firefox: Test 287/306 running: Verify that 105 Links are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[PASS] Test 593/918 passed: Verify that 2 Inputs are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 10:03:22 IST] [PASS] Test 593/918 passed: Verify that 2 Inputs are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+  ✓  588 [firefox] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:188:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that 2 Inputs are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression (6.6s)
+[2026-06-12 10:03:22 IST] [PROGRESS] firefox: Test 288/306 running: Verify that 3 Menus are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[PROGRESS] firefox: Test 288/306 running: Verify that 3 Menus are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:03:23 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 10:03:24 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[FAIL] Test 594/918 failed: Verify that 2 Menus are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 10:03:24 IST] [FAIL] Test 594/918 failed: Verify that 2 Menus are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 10:03:24 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  590 [firefox] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:252:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that 2 Menus are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression (7.5s)
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:03:24 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:03:25 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:03:25 IST] [STEP] Capture screenshot evidence
+[PASS] Test 594/918 passed: Verify that Vodafone Idea Foundation – An initiative to change India with Mobile Technology loads successfully @regression
+[2026-06-12 10:03:26 IST] [PASS] Test 594/918 passed: Verify that Vodafone Idea Foundation – An initiative to change India with Mobile Technology loads successfully @regression
+  ✓  592 [firefox] › tests\generated\www-myvi-in\VodafoneIdeaFoundationAnInitiativeToChangeIndiaWithMobileTechnology.spec.ts:15:3 › https://www.myvi.in/ - Vodafone Idea Foundation – An initiative to change India with Mobile Technology - Regression Tests › Verify that Vodafone Idea Foundation – An initiative to change India with Mobile Technology loads successfully @regression (5.7s)
+[PROGRESS] firefox: Test 289/306 running: Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:03:26 IST] [PROGRESS] firefox: Test 289/306 running: Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[PROGRESS] firefox: Test 290/306 running: Verify that Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates loads successfully @regression
+[2026-06-12 10:03:26 IST] [PROGRESS] firefox: Test 290/306 running: Verify that Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates loads successfully @regression
+[VERIFY] Verify that the heading 'Vi (Vodafone Idea) Media Releases' exists in the DOM
+[2026-06-12 10:03:27 IST] [VERIFY] Verify that the heading 'Vi (Vodafone Idea) Media Releases' exists in the DOM
+[VERIFY] Verify that the heading 'Vodafone Idea (Vi) News & Press Releases' exists in the DOM
+[2026-06-12 10:03:28 IST] [VERIFY] Verify that the heading 'Vodafone Idea (Vi) News & Press Releases' exists in the DOM
+[VERIFY] Verify that the heading 'Vi launches 5G services in Coimbatore' exists in the DOM
+[2026-06-12 10:03:28 IST] [VERIFY] Verify that the heading 'Vi launches 5G services in Coimbatore' exists in the DOM
+[VERIFY] Verify that the heading 'Vi launches 5G services in Bhopal' exists in the DOM
+[2026-06-12 10:03:28 IST] [VERIFY] Verify that the heading 'Vi launches 5G services in Bhopal' exists in the DOM
+[VERIFY] Verify that the heading 'Vi expands 5G footprint in Punjab' exists in the DOM
+[2026-06-12 10:03:28 IST] [VERIFY] Verify that the heading 'Vi expands 5G footprint in Punjab' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:03:28 IST] [STEP] Capture screenshot evidence
+[PASS] Test 596/918 passed: Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:03:28 IST] [PASS] Test 596/918 passed: Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+  ✓  595 [firefox] › tests\generated\www-myvi-in\VodafoneIdeaNewsViLatestViNewsPressReleasesAmpUpdates.spec.ts:50:3 › https://www.myvi.in/ - Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates - Regression Tests › Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression (2.0s)
+[PROGRESS] firefox: Test 291/306 running: Verify that 109 Links are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:03:28 IST] [PROGRESS] firefox: Test 291/306 running: Verify that 109 Links are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[FAIL] Test 597/918 failed: Verify that 105 Links are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[2026-06-12 10:03:29 IST] [FAIL] Test 597/918 failed: Verify that 105 Links are present on Vodafone Idea Foundation – An initiative to change India with Mobile Technology @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 10:03:29 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()

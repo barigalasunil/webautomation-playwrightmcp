@@ -1,0 +1,926 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: www-myvi-in\AllOttInOneAppOttSubscriptionPlansViMoviesTv.spec.ts >> https://www.myvi.in/ - All OTT in One App - OTT Subscription Plans | Vi Movies & TV - Regression Tests >> Verify that 3 Tables are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+- Location: tests\generated\www-myvi-in\AllOttInOneAppOttSubscriptionPlansViMoviesTv.spec.ts:264:3
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded while running "beforeEach" hook.
+```
+
+```
+TimeoutError: page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app", waiting until "load"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e6]:
+    - navigation [ref=e9]:
+      - link "Vi" [ref=e11] [cursor=pointer]:
+        - /url: https://www.myvi.in/
+        - img "Vi" [ref=e12]
+      - generic [ref=e13]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - button "Prepaid" [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - button "Postpaid" [ref=e19] [cursor=pointer]
+          - listitem [ref=e20]:
+            - button "New Connection" [ref=e21] [cursor=pointer]
+          - listitem [ref=e22]:
+            - link "International Roaming" [ref=e23] [cursor=pointer]:
+              - /url: https://www.myvi.in/international-roaming-packs
+          - listitem [ref=e24]:
+            - link "5G" [ref=e25] [cursor=pointer]:
+              - /url: https://www.myvi.in/5g-network
+          - listitem [ref=e26]:
+            - button "OTTs & More" [ref=e27] [cursor=pointer]
+          - listitem [ref=e28]:
+            - button "Help" [ref=e29] [cursor=pointer]
+          - listitem [ref=e30]:
+            - button "DND & Service Quality" [ref=e31] [cursor=pointer]
+          - img "search" [ref=e34] [cursor=pointer]
+        - generic [ref=e36]:
+          - link "Business" [ref=e38] [cursor=pointer]:
+            - /url: https://www.myvi.in/business
+          - link "Investors" [ref=e40] [cursor=pointer]:
+            - /url: https://www.myvi.in/investors/annual-reports
+          - link "Sign In" [ref=e42] [cursor=pointer]:
+            - /url: https://www.myvi.in/account/login
+  - generic [ref=e44]:
+    - generic [ref=e46]:
+      - img "shadow-img" [ref=e48]
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - img "OTT Bundle Subscription" [ref=e51]
+          - img "OTT Bundle Subscription" [ref=e52]
+          - img "OTT Bundle Subscription" [ref=e53]
+        - generic [ref=e54]:
+          - img "vimtv-logo" [ref=e55]
+          - heading "All in One OTT App - unlock and watch 13+ OTTs in just one app!" [level=1] [ref=e56]
+          - button "Explore plans starting @ 154" [ref=e57] [cursor=pointer]:
+            - generic [ref=e58]: Explore plans starting @ 154
+    - generic [ref=e62]:
+      - heading "latest releases at your fingertips" [level=2] [ref=e64]
+      - generic [ref=e66]:
+        - button "Previous" [ref=e67] [cursor=pointer]
+        - listbox [ref=e69]:
+          - img [ref=e71] [cursor=pointer]
+          - img [ref=e73] [cursor=pointer]
+          - img [ref=e75] [cursor=pointer]
+          - option "Maharani S4" [ref=e76] [cursor=pointer]:
+            - img "Maharani S4" [ref=e77]
+          - option "Lokah" [ref=e78] [cursor=pointer]:
+            - img "Lokah" [ref=e79]
+          - 'option "Rangbaaz: The Bihar Chapter" [ref=e80] [cursor=pointer]':
+            - 'img "Rangbaaz: The Bihar Chapter" [ref=e81]'
+          - option [ref=e82] [cursor=pointer]:
+            - img [ref=e83]
+          - option [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+          - option [ref=e86] [cursor=pointer]:
+            - img [ref=e87]
+          - option [ref=e88] [cursor=pointer]:
+            - img [ref=e89]
+          - option [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+          - option [ref=e92] [cursor=pointer]:
+            - img [ref=e93]
+          - option [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+          - option [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+          - option [ref=e98] [cursor=pointer]:
+            - img [ref=e99]
+          - img [ref=e101] [cursor=pointer]
+          - img [ref=e103] [cursor=pointer]
+          - img [ref=e105] [cursor=pointer]
+        - button "Next" [ref=e106] [cursor=pointer]
+    - generic [ref=e109]:
+      - heading "trending OTT content recommendations" [level=2] [ref=e110]
+      - toolbar [ref=e111]:
+        - listbox [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - img [ref=e116]
+              - img [ref=e117]
+            - generic [ref=e118]:
+              - img [ref=e119]
+              - img [ref=e120]
+          - 'option "count Lokah (JioHotstar) count {properties.mainimagealt2} count {properties.mainimagealt3} count {properties.mainimagealt4}" [ref=e121]':
+            - generic [ref=e122]:
+              - img "count" [ref=e123]
+              - img "Lokah (JioHotstar)" [ref=e124]
+            - generic [ref=e125]:
+              - img "count" [ref=e126]
+              - 'img "{properties.mainimagealt2}" [ref=e127]'
+            - generic [ref=e128]:
+              - img "count" [ref=e129]
+              - 'img "{properties.mainimagealt3}" [ref=e130]'
+            - generic [ref=e131]:
+              - img "count" [ref=e132]
+              - 'img "{properties.mainimagealt4}" [ref=e133]'
+          - option [ref=e134]:
+            - generic [ref=e135]:
+              - img [ref=e136]
+              - img [ref=e137]
+            - generic [ref=e138]:
+              - img [ref=e139]
+              - img [ref=e140]
+            - generic [ref=e141]:
+              - img [ref=e142]
+              - img [ref=e143]
+            - generic [ref=e144]:
+              - img [ref=e145]
+              - img [ref=e146]
+          - option [ref=e147]:
+            - generic [ref=e148]:
+              - img [ref=e149]
+              - img [ref=e150]
+            - generic [ref=e151]:
+              - img [ref=e152]
+              - img [ref=e153]
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - img [ref=e156]
+              - img [ref=e157]
+            - generic [ref=e158]:
+              - img [ref=e159]
+              - img [ref=e160]
+            - generic [ref=e161]:
+              - img [ref=e162]
+              - img [ref=e163]
+            - generic [ref=e164]:
+              - img [ref=e165]
+              - img [ref=e166]
+        - tablist [ref=e167]:
+          - listitem [ref=e168] [cursor=pointer]:
+            - button "1" [ref=e169]
+          - listitem [ref=e170] [cursor=pointer]:
+            - button [ref=e171]: "2"
+          - listitem [ref=e172] [cursor=pointer]:
+            - button [ref=e173]: "3"
+    - heading "catch the latest on 400+ live channels" [level=2] [ref=e178]
+    - generic [ref=e183]:
+      - heading "watch content in 16+ languages" [level=2] [ref=e184]:
+        - text: watch content in
+        - generic [ref=e185]: 16+ languages
+      - generic [ref=e186]:
+        - tablist [ref=e187]:
+          - listitem [ref=e188]:
+            - link "हिंदी" [ref=e189] [cursor=pointer]:
+              - /url: "#mtvtab1"
+          - listitem [ref=e190]:
+            - link "தமிழ்" [ref=e191]:
+              - /url: "#mtvtab2"
+          - listitem [ref=e192]:
+            - link "한국인" [ref=e193] [cursor=pointer]:
+              - /url: "#mtvtab3"
+          - listitem [ref=e194]:
+            - link "English" [ref=e195] [cursor=pointer]:
+              - /url: "#mtvtab4"
+          - listitem [ref=e196]:
+            - generic [ref=e197]: +12 more
+        - tabpanel [ref=e199]:
+          - generic [ref=e200]:
+            - img "language-image" [ref=e203]
+            - img "language-image" [ref=e206]
+            - img "language-image" [ref=e209]
+            - img "language-image" [ref=e212]
+            - img "language-image" [ref=e215]
+    - generic [ref=e219]:
+      - heading "watch anywhere, on any device" [level=2] [ref=e221]
+      - img "All OTT Platforms in One App" [ref=e223]
+    - generic [ref=e226]:
+      - heading "with one sign-in for 13+ OTTs" [level=2] [ref=e227]
+      - generic [ref=e228]:
+        - img "OTT Bundle" [ref=e229]
+        - img "Lottie animation" [ref=e231]:
+          - img [ref=e233]
+    - generic [ref=e249]:
+      - generic [ref=e251]:
+        - heading "cheaper than a movie ticket !" [level=2] [ref=e252]
+        - list [ref=e253]:
+          - listitem [ref=e254]:
+            - link "Prepaid" [ref=e255] [cursor=pointer]:
+              - /url: "#mtvPrepaidBox"
+          - listitem [ref=e256]:
+            - link "Postpaid" [ref=e257] [cursor=pointer]:
+              - /url: "#mtvPostpaidBox"
+        - toolbar [ref=e260]:
+          - button "Previous" [ref=e261] [cursor=pointer]
+          - listbox [ref=e263]:
+            - generic [ref=e264]:
+              - paragraph [ref=e265]: 17 OTTs + 5GB Data with ViMTV Pro
+              - img [ref=e266]
+              - generic [ref=e267]:
+                - paragraph [ref=e268]:
+                  - generic [ref=e269]: ₹
+                  - generic [ref=e270]: "202"
+                - paragraph [ref=e272]:
+                  - generic [ref=e273]: 5 GB
+                  - generic [ref=e274]: data
+                - paragraph [ref=e276]:
+                  - generic [ref=e277]: 1 month
+                  - generic [ref=e278]: validity
+              - generic [ref=e279]:
+                - generic [ref=e281]:
+                  - generic [ref=e282]:
+                    - img [ref=e283]
+                    - paragraph [ref=e284]: TV + Mobiledevices
+                  - generic [ref=e285]:
+                    - img [ref=e286]
+                    - paragraph [ref=e287]: no servicevalidity
+                - generic [ref=e288]:
+                  - generic [ref=e289]:
+                    - img [ref=e290]
+                    - img [ref=e291]
+                    - img [ref=e292]
+                    - img [ref=e293]
+                    - img [ref=e294]
+                    - paragraph [ref=e295]: + 12
+                  - img [ref=e296] [cursor=pointer]
+              - button [ref=e297] [cursor=pointer]: Buy Now
+            - generic [ref=e298]:
+              - paragraph [ref=e299]: 19 OTTs + 2GB Data with ViMTV Lite
+              - img [ref=e300]
+              - generic [ref=e301]:
+                - paragraph [ref=e302]:
+                  - generic [ref=e303]: ₹
+                  - generic [ref=e304]: "154"
+                - paragraph [ref=e306]:
+                  - generic [ref=e307]: 2 GB
+                  - generic [ref=e308]: data
+                - paragraph [ref=e310]:
+                  - generic [ref=e311]: 1 month
+                  - generic [ref=e312]: validity
+              - generic [ref=e313]:
+                - generic [ref=e315]:
+                  - generic [ref=e316]:
+                    - img [ref=e317]
+                    - paragraph [ref=e318]: only Mobiledevices
+                  - generic [ref=e319]:
+                    - img [ref=e320]
+                    - paragraph [ref=e321]: no servicevalidity
+                - generic [ref=e322]:
+                  - generic [ref=e323]:
+                    - img [ref=e324]
+                    - img [ref=e325]
+                    - img [ref=e326]
+                    - img [ref=e327]
+                    - img [ref=e328]
+                    - paragraph [ref=e329]: + 14
+                  - img [ref=e330] [cursor=pointer]
+              - button [ref=e331] [cursor=pointer]: Buy Now
+            - option "20 OTTs + 6GB Data with ViMTV Plus vi-movies&tv ₹ 248 6 GB data 1 month validity Icon_Desktop TV + Mobiledevices Icon_Call no servicevalidity JioHotstar Zee5 Sony LIV Lionsgate Play Fancode + 15 icon-info Buy Now" [ref=e332]:
+              - paragraph [ref=e333]: 20 OTTs + 6GB Data with ViMTV Plus
+              - img "vi-movies&tv" [ref=e334]
+              - generic [ref=e335]:
+                - paragraph [ref=e336]:
+                  - generic [ref=e337]: ₹
+                  - generic [ref=e338]: "248"
+                - paragraph [ref=e340]:
+                  - generic [ref=e341]: 6 GB
+                  - generic [ref=e342]: data
+                - paragraph [ref=e344]:
+                  - generic [ref=e345]: 1 month
+                  - generic [ref=e346]: validity
+              - generic [ref=e347]:
+                - generic [ref=e349]:
+                  - generic [ref=e350]:
+                    - img "Icon_Desktop" [ref=e351]
+                    - paragraph [ref=e352]: TV + Mobiledevices
+                  - generic [ref=e353]:
+                    - img "Icon_Call" [ref=e354]
+                    - paragraph [ref=e355]: no servicevalidity
+                - generic [ref=e356]:
+                  - generic [ref=e357]:
+                    - img "JioHotstar" [ref=e358]
+                    - img "Zee5" [ref=e359]
+                    - img "Sony LIV" [ref=e360]
+                    - img "Lionsgate Play" [ref=e361]
+                    - img "Fancode" [ref=e362]
+                    - paragraph [ref=e363]: + 15
+                  - img "icon-info" [ref=e364] [cursor=pointer]
+              - button "Buy Now" [ref=e365] [cursor=pointer]
+            - option "19 OTTs + 10GB Data with ViMTV Super vi-movies&tv ₹ 175 10 GB data 28 days validity Icon_Desktop TV + Mobiledevices Icon_Call no servicevalidity Sony LIV Zee5 ManoramaMAX Lionsgate Play Fancode + 14 icon-info Buy Now" [ref=e366]:
+              - paragraph [ref=e367]: 19 OTTs + 10GB Data with ViMTV Super
+              - img "vi-movies&tv" [ref=e368]
+              - generic [ref=e369]:
+                - paragraph [ref=e370]:
+                  - generic [ref=e371]: ₹
+                  - generic [ref=e372]: "175"
+                - paragraph [ref=e374]:
+                  - generic [ref=e375]: 10 GB
+                  - generic [ref=e376]: data
+                - paragraph [ref=e378]:
+                  - generic [ref=e379]: 28 days
+                  - generic [ref=e380]: validity
+              - generic [ref=e381]:
+                - generic [ref=e383]:
+                  - generic [ref=e384]:
+                    - img "Icon_Desktop" [ref=e385]
+                    - paragraph [ref=e386]: TV + Mobiledevices
+                  - generic [ref=e387]:
+                    - img "Icon_Call" [ref=e388]
+                    - paragraph [ref=e389]: no servicevalidity
+                - generic [ref=e390]:
+                  - generic [ref=e391]:
+                    - img "Sony LIV" [ref=e392]
+                    - img "Zee5" [ref=e393]
+                    - img "ManoramaMAX" [ref=e394]
+                    - img "Lionsgate Play" [ref=e395]
+                    - img "Fancode" [ref=e396]
+                    - paragraph [ref=e397]: + 14
+                  - img "icon-info" [ref=e398] [cursor=pointer]
+              - button "Buy Now" [ref=e399] [cursor=pointer]
+            - option [ref=e400]:
+              - paragraph [ref=e401]: 17 OTTs + 5GB Data with ViMTV Pro
+              - img [ref=e402]
+              - generic [ref=e403]:
+                - paragraph [ref=e404]:
+                  - generic [ref=e405]: ₹
+                  - generic [ref=e406]: "202"
+                - paragraph [ref=e408]:
+                  - generic [ref=e409]: 5 GB
+                  - generic [ref=e410]: data
+                - paragraph [ref=e412]:
+                  - generic [ref=e413]: 1 month
+                  - generic [ref=e414]: validity
+              - generic [ref=e415]:
+                - generic [ref=e417]:
+                  - generic [ref=e418]:
+                    - img [ref=e419]
+                    - paragraph [ref=e420]: TV + Mobiledevices
+                  - generic [ref=e421]:
+                    - img [ref=e422]
+                    - paragraph [ref=e423]: no servicevalidity
+                - generic [ref=e424]:
+                  - generic [ref=e425]:
+                    - img [ref=e426]
+                    - img [ref=e427]
+                    - img [ref=e428]
+                    - img [ref=e429]
+                    - img [ref=e430]
+                    - paragraph [ref=e431]: + 12
+                  - img [ref=e432] [cursor=pointer]
+              - button [ref=e433] [cursor=pointer]: Buy Now
+            - option [ref=e434]:
+              - paragraph [ref=e435]: 19 OTTs + 2GB Data with ViMTV Lite
+              - img [ref=e436]
+              - generic [ref=e437]:
+                - paragraph [ref=e438]:
+                  - generic [ref=e439]: ₹
+                  - generic [ref=e440]: "154"
+                - paragraph [ref=e442]:
+                  - generic [ref=e443]: 2 GB
+                  - generic [ref=e444]: data
+                - paragraph [ref=e446]:
+                  - generic [ref=e447]: 1 month
+                  - generic [ref=e448]: validity
+              - generic [ref=e449]:
+                - generic [ref=e451]:
+                  - generic [ref=e452]:
+                    - img [ref=e453]
+                    - paragraph [ref=e454]: only Mobiledevices
+                  - generic [ref=e455]:
+                    - img [ref=e456]
+                    - paragraph [ref=e457]: no servicevalidity
+                - generic [ref=e458]:
+                  - generic [ref=e459]:
+                    - img [ref=e460]
+                    - img [ref=e461]
+                    - img [ref=e462]
+                    - img [ref=e463]
+                    - img [ref=e464]
+                    - paragraph [ref=e465]: + 14
+                  - img [ref=e466] [cursor=pointer]
+              - button [ref=e467] [cursor=pointer]: Buy Now
+            - generic [ref=e468]:
+              - paragraph [ref=e469]: 20 OTTs + 6GB Data with ViMTV Plus
+              - img [ref=e470]
+              - generic [ref=e471]:
+                - paragraph [ref=e472]:
+                  - generic [ref=e473]: ₹
+                  - generic [ref=e474]: "248"
+                - paragraph [ref=e476]:
+                  - generic [ref=e477]: 6 GB
+                  - generic [ref=e478]: data
+                - paragraph [ref=e480]:
+                  - generic [ref=e481]: 1 month
+                  - generic [ref=e482]: validity
+              - generic [ref=e483]:
+                - generic [ref=e485]:
+                  - generic [ref=e486]:
+                    - img [ref=e487]
+                    - paragraph [ref=e488]: TV + Mobiledevices
+                  - generic [ref=e489]:
+                    - img [ref=e490]
+                    - paragraph [ref=e491]: no servicevalidity
+                - generic [ref=e492]:
+                  - generic [ref=e493]:
+                    - img [ref=e494]
+                    - img [ref=e495]
+                    - img [ref=e496]
+                    - img [ref=e497]
+                    - img [ref=e498]
+                    - paragraph [ref=e499]: + 15
+                  - img [ref=e500] [cursor=pointer]
+              - button [ref=e501] [cursor=pointer]: Buy Now
+            - generic [ref=e502]:
+              - paragraph [ref=e503]: 19 OTTs + 10GB Data with ViMTV Super
+              - img [ref=e504]
+              - generic [ref=e505]:
+                - paragraph [ref=e506]:
+                  - generic [ref=e507]: ₹
+                  - generic [ref=e508]: "175"
+                - paragraph [ref=e510]:
+                  - generic [ref=e511]: 10 GB
+                  - generic [ref=e512]: data
+                - paragraph [ref=e514]:
+                  - generic [ref=e515]: 28 days
+                  - generic [ref=e516]: validity
+              - generic [ref=e517]:
+                - generic [ref=e519]:
+                  - generic [ref=e520]:
+                    - img [ref=e521]
+                    - paragraph [ref=e522]: TV + Mobiledevices
+                  - generic [ref=e523]:
+                    - img [ref=e524]
+                    - paragraph [ref=e525]: no servicevalidity
+                - generic [ref=e526]:
+                  - generic [ref=e527]:
+                    - img [ref=e528]
+                    - img [ref=e529]
+                    - img [ref=e530]
+                    - img [ref=e531]
+                    - img [ref=e532]
+                    - paragraph [ref=e533]: + 14
+                  - img [ref=e534] [cursor=pointer]
+              - button [ref=e535] [cursor=pointer]: Buy Now
+          - button "Next" [ref=e536] [cursor=pointer]
+          - tablist [ref=e537]:
+            - listitem [ref=e538] [cursor=pointer]:
+              - button "1" [ref=e539]
+            - listitem [ref=e540] [cursor=pointer]:
+              - button [ref=e541]: "2"
+            - listitem [ref=e542] [cursor=pointer]:
+              - button [ref=e543]: "3"
+            - listitem [ref=e544] [cursor=pointer]:
+              - button [ref=e545]: "4"
+      - generic [ref=e546]:
+        - img "close" [ref=e547]
+        - img "close" [ref=e548] [cursor=pointer]
+        - generic [ref=e550]:
+          - generic [ref=e551]:
+            - img "mtv-logo" [ref=e552]
+            - generic:
+              - paragraph
+              - paragraph
+          - generic [ref=e553]:
+            - generic [ref=e555]: ₹
+            - generic [ref=e556]:
+              - paragraph
+              - paragraph
+              - img "no-service-validity" [ref=e557]
+          - generic [ref=e558]:
+            - paragraph [ref=e559]: terms of use
+            - paragraph
+          - button "Buy Now" [ref=e561] [cursor=pointer]
+      - generic [ref=e562]:
+        - img "close" [ref=e563] [cursor=pointer]
+        - img "close" [ref=e564] [cursor=pointer]
+        - generic [ref=e565]:
+          - generic [ref=e566]:
+            - img "connectedTV" [ref=e567]
+            - paragraph [ref=e568]: Activate ViMTV
+            - paragraph [ref=e569]: Enter your mobile number to continue
+            - textbox "Enter your mobile number" [ref=e571]:
+              - /placeholder: "Enter your mobile number "
+            - button "buy now" [disabled] [ref=e572]
+            - paragraph [ref=e573] [cursor=pointer]: switch to postpaid
+          - generic [ref=e574]:
+            - img "connectedTV" [ref=e575]
+            - paragraph [ref=e576]: Activate ViMTV
+            - paragraph [ref=e577]: Enter your mobile number to continue
+            - textbox "enter your mobile number" [ref=e579]
+            - button "proceed" [disabled] [ref=e580]
+            - paragraph [ref=e581] [cursor=pointer]: switch to prepaid
+    - generic [ref=e585]:
+      - heading "Frequently Asked Questions (FAQs)" [level=2] [ref=e586]
+      - generic [ref=e587]:
+        - generic [ref=e588]:
+          - heading "General" [level=3] [ref=e590] [cursor=pointer]
+          - generic [ref=e592]:
+            - heading "What is Vi Movies & TV?" [level=3] [ref=e595] [cursor=pointer]
+            - heading "Where can I watch Vi Movies & TV?" [level=3] [ref=e598] [cursor=pointer]
+            - heading "How many devices can I log in at a time?" [level=3] [ref=e601] [cursor=pointer]
+            - heading "On how many devices / screens can I watch the same content at a time?" [level=3] [ref=e604] [cursor=pointer]
+            - heading "What are the charges to watch content on Vi Movies & TV?" [level=3] [ref=e607] [cursor=pointer]
+            - heading "Why do I get redirected outside the app when clicking some particular content?" [level=3] [ref=e610] [cursor=pointer]
+            - heading "Do I need to download 3rd partner OTT apps separately for content available on Vi Movies & TV" [level=3] [ref=e613] [cursor=pointer]
+            - heading "Can I login on third party apps directly?" [level=3] [ref=e616] [cursor=pointer]
+            - heading "What are the benefits that, as a user, I will get from the Vi Movies & TV service?" [level=3] [ref=e619] [cursor=pointer]
+            - heading "How many Live TV channels are there on Vi Movies & TV?" [level=3] [ref=e622] [cursor=pointer]
+            - heading "Where can I find Vi Movies & TV app?" [level=3] [ref=e625] [cursor=pointer]
+            - heading "What are the applicable Terms & Conditions for this service?" [level=3] [ref=e628] [cursor=pointer]
+        - heading "Additional FAQ" [level=3] [ref=e631] [cursor=pointer]
+        - button "see more" [ref=e633] [cursor=pointer]
+    - heading "Vi Movies & TV - All in One OTT App" [level=2] [ref=e645] [cursor=pointer]
+    - navigation "breadcrumb" [ref=e650]:
+      - list [ref=e651]:
+        - listitem [ref=e652]:
+          - link "Home" [ref=e653] [cursor=pointer]:
+            - /url: https://www.myvi.in/
+        - listitem [ref=e654]:
+          - link "Vi Movies & TV" [ref=e655] [cursor=pointer]:
+            - /url: https://www.myvi.in/vi-movies-and-tv
+        - listitem [ref=e656]:
+          - link "All OTT in One App" [ref=e657] [cursor=pointer]:
+            - /url: https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app
+  - contentinfo [ref=e659]:
+    - generic [ref=e660]:
+      - generic [ref=e665]:
+        - generic [ref=e666]:
+          - generic [ref=e667]:
+            - img "Vi" [ref=e668]
+            - generic [ref=e669]:
+              - paragraph [ref=e670]: Vodafone Idea Limited
+              - paragraph [ref=e671]: Vodafone Idea Limited, a partnership between the Aditya Birla Group & Vodafone Group, provides pan-India voice and data services using the latest communication technologies
+          - generic "Vi Vodafone Idea Limited Vodafone Idea Limited, a partnership between the Aditya Birla Group & Vodafone Group, provides pan-India voice and data services using the latest communication technologies" [ref=e672]:
+            - generic [ref=e674]:
+              - link "Facebook" [ref=e676] [cursor=pointer]:
+                - /url: https://www.facebook.com/ViOfficialFanWorld/
+                - img "Facebook" [ref=e677]
+              - link "Instagram" [ref=e679] [cursor=pointer]:
+                - /url: https://instagram.com/viofficialfanworld
+                - img "Instagram" [ref=e680]
+              - link "Twitter" [ref=e682] [cursor=pointer]:
+                - /url: https://twitter.com/ViCustomerCare
+                - img "Twitter" [ref=e683]
+              - link "Youtube" [ref=e685] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCHLTL1DEP_zelqLvUlYaV8Q
+                - img "Youtube" [ref=e686]
+              - link "LinkedIn" [ref=e688] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/vodafone-idea-limited
+                - img "LinkedIn" [ref=e689]
+        - generic [ref=e690]:
+          - paragraph [ref=e692]:
+            - button "about Vi" [expanded]:
+              - paragraph: about Vi
+          - generic "about Vi" [ref=e693]:
+            - list [ref=e695]:
+              - listitem [ref=e696]:
+                - link "About Us" [ref=e697] [cursor=pointer]:
+                  - /url: /about-us/home
+              - listitem [ref=e698]:
+                - link "Vodafone Idea Corp" [ref=e699] [cursor=pointer]:
+                  - /url: https://www.vodafoneidea.com/
+              - listitem [ref=e700]:
+                - link "Vi Foundation" [ref=e701] [cursor=pointer]:
+                  - /url: https://www.myvi.in/about-us/vodafoneidea-foundation
+              - listitem [ref=e702]:
+                - link "Vodafone Group" [ref=e703] [cursor=pointer]:
+                  - /url: https://www.vodafone.com/
+              - listitem [ref=e704]:
+                - link "Aditya Birla Group" [ref=e705] [cursor=pointer]:
+                  - /url: https://www.adityabirla.com/
+              - listitem [ref=e706]:
+                - link "Investor Relations" [ref=e707] [cursor=pointer]:
+                  - /url: https://www.myvi.in/investors/investors-support
+              - listitem [ref=e708]:
+                - link "News & Media" [ref=e709] [cursor=pointer]:
+                  - /url: https://www.myvi.in/vodafone-idea/press-releases
+              - listitem [ref=e710]:
+                - link "Career" [ref=e711] [cursor=pointer]:
+                  - /url: https://www.myvi.in/careers
+              - listitem [ref=e712]:
+                - link "Vi App" [ref=e713] [cursor=pointer]:
+                  - /url: https://viapp.onelink.me/bSC3/viapp1
+              - listitem [ref=e714]:
+                - link "Vi Stores Near Me" [ref=e715] [cursor=pointer]:
+                  - /url: https://stores.myvi.in/?UTM_SOURCE=myviHome
+              - listitem [ref=e716]:
+                - link "Vi Business" [ref=e717] [cursor=pointer]:
+                  - /url: https://www.myvi.in/business
+              - listitem [ref=e718]:
+                - link "Home Broadband" [ref=e719] [cursor=pointer]:
+                  - /url: https://youbroadband.in/?soc_id=194&campaign_source=%3Cweb%3E&campaign_name=%3CVi%3E
+              - listitem [ref=e720]:
+                - link "GIGAnet" [ref=e721] [cursor=pointer]:
+                  - /url: https://www.myvi.in/giganet
+              - listitem [ref=e722]:
+                - link "Vi VoLTE" [ref=e723] [cursor=pointer]:
+                  - /url: /vi-volte-4g-hd-voice-calls
+              - listitem [ref=e724]:
+                - link "Go Green" [ref=e725] [cursor=pointer]:
+                  - /url: https://www.myvi.in/online-ebill-registration
+              - listitem [ref=e726]:
+                - link "eSIM" [ref=e727] [cursor=pointer]:
+                  - /url: https://www.myvi.in/esim-activation
+              - listitem [ref=e728]:
+                - link "WiFi Calling" [ref=e729] [cursor=pointer]:
+                  - /url: https://www.myvi.in/vi-wifi-calling
+              - listitem [ref=e730]:
+                - link "5G" [ref=e731] [cursor=pointer]:
+                  - /url: https://www.myvi.in/5g-network
+              - listitem [ref=e732]:
+                - link "Blog" [ref=e733] [cursor=pointer]:
+                  - /url: /blog
+        - generic [ref=e734]:
+          - paragraph [ref=e736]:
+            - button "more from Vi" [expanded]:
+              - paragraph: more from Vi
+          - generic "more from Vi" [ref=e737]:
+            - list [ref=e739]:
+              - listitem [ref=e740]:
+                - link "Postpaid Connection" [ref=e741] [cursor=pointer]:
+                  - /url: https://www.myvi.in/new-connection/buy-new-4g-sim-card-online
+              - listitem [ref=e742]:
+                - link "Prepaid Connection" [ref=e743] [cursor=pointer]:
+                  - /url: https://www.myvi.in/new-connection/buy-prepaid-sim-connection-online
+              - listitem [ref=e744]:
+                - link "Port Number to Vi / MNP" [ref=e745] [cursor=pointer]:
+                  - /url: https://www.myvi.in/new-connection/mobile-number-portability-mnp-online
+              - listitem [ref=e746]:
+                - link "Free SIM Delivery" [ref=e747] [cursor=pointer]:
+                  - /url: https://www.myvi.in/new-connection/vi-free-sim-home-delivery
+              - listitem [ref=e748]:
+                - link "Track your SIM Delivery" [ref=e749] [cursor=pointer]:
+                  - /url: https://www.myvi.in/new-connection/track-your-sim-online
+              - listitem [ref=e750]:
+                - link "Fancy Number" [ref=e751] [cursor=pointer]:
+                  - /url: https://www.myvi.in/new-connection/choose-your-fancy-mobile-numbers-online
+              - listitem [ref=e752]:
+                - link "Individual Plans" [ref=e753] [cursor=pointer]:
+                  - /url: https://www.myvi.in/postpaid/vi-postpaid-plans
+              - listitem [ref=e754]:
+                - link "Family Plans" [ref=e755] [cursor=pointer]:
+                  - /url: https://www.myvi.in/postpaid/family-postpaid-plans
+              - listitem [ref=e756]:
+                - link "Prepaid to Postpaid" [ref=e757] [cursor=pointer]:
+                  - /url: https://www.myvi.in/new-connection/buy-postpaid-sim-connection-online?utm_source=Myviweb&utm_campaign=MainMenu
+              - listitem [ref=e758]:
+                - link "Best Postpaid Plans" [ref=e759] [cursor=pointer]:
+                  - /url: https://www.myvi.in/postpaid/vi-postpaid-plans
+              - listitem [ref=e760]:
+                - link "Best Prepaid Plans" [ref=e761] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/best-prepaid-plans
+              - listitem [ref=e762]:
+                - link "Hero Unlimited Plans" [ref=e763] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/hero-unlimited-and-weekend-data-rollover
+              - listitem [ref=e764]:
+                - link "Unlimited Plans" [ref=e765] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/unlimited-calls-and-data-plans
+              - listitem [ref=e766]:
+                - link "Talktime Plans" [ref=e767] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/recharge-talktime-top-up-plans
+              - listitem [ref=e768]:
+                - link "Data Plans" [ref=e769] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/mobile-data-packs
+              - listitem [ref=e770]:
+                - link "SMS Packs" [ref=e771] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/sms-packs
+              - listitem [ref=e772]:
+                - link "Caller Tunes Packs" [ref=e773] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/caller-tunes
+              - listitem [ref=e774]:
+                - link "Value Added Services" [ref=e775] [cursor=pointer]:
+                  - /url: https://www.myvi.in/value-added-services
+              - listitem [ref=e776]:
+                - link "Service Validity Plans" [ref=e777] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/service-validity-recharge-plans
+              - listitem [ref=e778]:
+                - link "JioHotstar Plans" [ref=e779] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/jiohotstar-subscription-recharge
+              - listitem [ref=e780]:
+                - link "Amazon Prime Plans" [ref=e781] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/amazon-prime-membership-recharge
+              - listitem [ref=e782]:
+                - link "SonyLIV Plans" [ref=e783] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/sonyliv-subscription-recharge-plans
+              - listitem [ref=e784]:
+                - link "Online Recharge" [ref=e785] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/online-mobile-recharge
+              - listitem [ref=e786]:
+                - link "Postpaid Bill Payment" [ref=e787] [cursor=pointer]:
+                  - /url: https://www.myvi.in/postpaid/quick-online-bill-payment
+              - listitem [ref=e788]:
+                - link "Vi Shop - Seller Portal" [ref=e789] [cursor=pointer]:
+                  - /url: https://www.vishop.myvi.in/
+              - listitem [ref=e790]:
+                - link "Vi Video Vault" [ref=e791] [cursor=pointer]:
+                  - /url: https://www.myvi.in/videos
+        - generic [ref=e792]:
+          - paragraph [ref=e794]:
+            - button "explore on Vi app":
+              - paragraph: explore on Vi app
+          - generic "explore on Vi app" [ref=e795]:
+            - list [ref=e797]:
+              - listitem [ref=e798]:
+                - link "Vi Games" [ref=e799] [cursor=pointer]:
+                  - /url: https://www.myvi.in/vi-games-app
+              - listitem [ref=e800]:
+                - link "Vi Movies & TV" [ref=e801] [cursor=pointer]:
+                  - /url: https://viapp.onelink.me/bSC3/viappmtv
+              - listitem [ref=e802]:
+                - link "Vi Hero Unlimited" [ref=e803] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/hero-unlimited-and-weekend-data-rollover
+              - listitem [ref=e804]:
+                - link "Vi WiFi Calling" [ref=e805] [cursor=pointer]:
+                  - /url: https://www.myvi.in/vi-wifi-calling
+              - listitem [ref=e806]:
+                - link "International Roaming" [ref=e807] [cursor=pointer]:
+                  - /url: https://www.myvi.in/international-roaming-packs
+              - listitem [ref=e808]:
+                - link "Callertunes" [ref=e809] [cursor=pointer]:
+                  - /url: https://viapp.onelink.me/bSC3/viapp1
+              - listitem [ref=e810]:
+                - link "Order Prepaid SIM" [ref=e811] [cursor=pointer]:
+                  - /url: https://www.myvi.in/new-connection/buy-prepaid-sim-connection-online
+              - listitem [ref=e812]:
+                - link "Order Postpaid SIM" [ref=e813] [cursor=pointer]:
+                  - /url: https://www.myvi.in/new-connection/buy-postpaid-sim-connection-online
+              - listitem [ref=e814]:
+                - link "Order VIP Number" [ref=e815] [cursor=pointer]:
+                  - /url: https://www.myvi.in/new-connection/choose-your-fancy-mobile-numbers-online
+              - listitem [ref=e816]:
+                - link "Port to Vi" [ref=e817] [cursor=pointer]:
+                  - /url: https://www.myvi.in/new-connection/mobile-number-portability-mnp-online
+              - listitem [ref=e818]:
+                - link "Recharge for Self/Others" [ref=e819] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/online-mobile-recharge
+              - listitem [ref=e820]:
+                - link "Pay Bill for Self/Others" [ref=e821] [cursor=pointer]:
+                  - /url: https://www.myvi.in/postpaid/quick-online-bill-payment
+              - listitem [ref=e822]:
+                - link "Cashback Offers" [ref=e823] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/recharge-cashback-offers
+              - listitem [ref=e824]:
+                - link "Help & Support" [ref=e825] [cursor=pointer]:
+                  - /url: https://www.myvi.in/help-support/faqs
+              - listitem [ref=e826]:
+                - link "My Account" [ref=e827] [cursor=pointer]:
+                  - /url: https://www.myvi.in/vi-app
+              - listitem [ref=e828]:
+                - link "Vi Shop" [ref=e829] [cursor=pointer]:
+                  - /url: https://www.myvi.in/vi-shop-offers
+              - listitem [ref=e830]:
+                - link "Vi Prepaid Autopay" [ref=e831] [cursor=pointer]:
+                  - /url: https://www.myvi.in/auto-pay-recharge
+        - generic [ref=e832]:
+          - paragraph [ref=e834]:
+            - button "regulatory & quick access":
+              - paragraph: regulatory & quick access
+          - generic "regulatory & quick access" [ref=e835]:
+            - list [ref=e837]:
+              - listitem [ref=e838]:
+                - link "Telemarketing Registration" [ref=e839] [cursor=pointer]:
+                  - /url: /tele-marketing
+              - listitem [ref=e840]:
+                - link "Privacy Policy" [ref=e841] [cursor=pointer]:
+                  - /url: /privacy-policy
+              - listitem [ref=e842]:
+                - link "Terms of Service" [ref=e843] [cursor=pointer]:
+                  - /url: /terms-of-use
+              - listitem [ref=e844]:
+                - link "Notices" [ref=e845] [cursor=pointer]:
+                  - /url: /regulatory-notices
+              - listitem [ref=e846]:
+                - link "Prepaid TRAI mandate" [ref=e847] [cursor=pointer]:
+                  - /url: /prepaid/tariff
+              - listitem [ref=e848]:
+                - link "Postpaid TRAI mandate" [ref=e849] [cursor=pointer]:
+                  - /url: /postpaid/tariff
+              - listitem [ref=e850]:
+                - link "Warning & Fraudulent" [ref=e851] [cursor=pointer]:
+                  - /url: /about-us/warning-and-fraudulent
+              - listitem [ref=e852]:
+                - link "Security Awareness" [ref=e853] [cursor=pointer]:
+                  - /url: /parental-control
+              - listitem [ref=e854]:
+                - link "DND Complaints" [ref=e855] [cursor=pointer]:
+                  - /url: /dnd-complaints
+              - listitem [ref=e856]:
+                - link "DND Registration" [ref=e857] [cursor=pointer]:
+                  - /url: https://www.myvi.in/dnd
+              - listitem [ref=e858]:
+                - link "Disaster Management" [ref=e859] [cursor=pointer]:
+                  - /url: /content/dam/vodafoneideadigital/StaticPages/consumerimages/misc/Disaster_Management.pdf
+              - listitem [ref=e860]:
+                - link "Responsible Disclosure Policy" [ref=e861] [cursor=pointer]:
+                  - /url: https://www.myvi.in/Responsible-Disclosure-Policy
+              - listitem [ref=e862]:
+                - link "Network Coverage" [ref=e863] [cursor=pointer]:
+                  - /url: https://www.myvi.in/vicoverage/
+              - listitem [ref=e864]:
+                - link "Register for Online Refund" [ref=e865] [cursor=pointer]:
+                  - /url: https://www.myvi.in/postpaid/neft-details-for-refund
+              - listitem [ref=e866]:
+                - link "Network Troubleshooting" [ref=e867] [cursor=pointer]:
+                  - /url: https://www.myvi.in/help-support/basic-mobile-network-troubleshooting-steps
+              - listitem [ref=e868]:
+                - link "Block SIM Online" [ref=e869] [cursor=pointer]:
+                  - /url: https://www.myvi.in/block-your-sim
+              - listitem [ref=e870]:
+                - link "UPI Recharge" [ref=e871] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/upi-recharge
+              - listitem [ref=e872]:
+                - link "Postpaid ISD Call Rates" [ref=e873] [cursor=pointer]:
+                  - /url: https://www.myvi.in/Postpaid/isd-call-rates
+              - listitem [ref=e874]:
+                - link "Prepaid ISD Call Rates" [ref=e875] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid/isd-call-rates
+              - listitem [ref=e876]:
+                - link "Mobile Internet" [ref=e877] [cursor=pointer]:
+                  - /url: https://www.myvi.in/mobile-internet
+              - listitem [ref=e878]:
+                - link "Sitemap" [ref=e879] [cursor=pointer]:
+                  - /url: https://www.myvi.in/sitemap
+              - listitem [ref=e880]:
+                - link "VIBSL" [ref=e881] [cursor=pointer]:
+                  - /url: https://www.myvi.in/vibsl
+              - listitem [ref=e882]:
+                - link "Terms & Conditions - Prepaid" [ref=e883] [cursor=pointer]:
+                  - /url: https://www.myvi.in/prepaid-tnc
+      - generic [ref=e887]:
+        - paragraph [ref=e888]:
+          - text: This website uses own third-party cookies.Find out more about usage in our
+          - link "Privacy Policy" [ref=e889] [cursor=pointer]:
+            - /url: https://www.myvi.in/privacy-policy
+          - text: page. Copyright Reserved with Vodafone Idea Limited (formerly Idea Cellular Limited).
+        - paragraph [ref=e890]: "Vodafone Idea Limited (Formerly Idea Cellular Limited), An Aditya Birla Group & Vodafone partnership, Suman Towers, Plot No.18, Sector 11, Gandhinagar – 382011, Gujarat.CIN L32100GJ1996PLC030976, T: +91-79 6671 4000, F: +91-79 2323 2251"
+```
+
+# Test source
+
+```ts
+  1  | import { Page, Locator } from '@playwright/test';
+  2  | 
+  3  | export class BasePage {
+  4  |   readonly page: Page;
+  5  |   readonly url: string = '';
+  6  | 
+  7  |   constructor(page: Page) {
+  8  |     this.page = page;
+  9  |   }
+  10 | 
+  11 |   async open(): Promise<void> {
+> 12 |     await this.page.goto(this.url, { waitUntil: 'load', timeout: 30000 });
+     |                     ^ TimeoutError: page.goto: Timeout 30000ms exceeded.
+  13 |   }
+  14 | 
+  15 |   async goto(url: string): Promise<void> {
+  16 |     await this.page.goto(url, { waitUntil: 'domcontentloaded' });
+  17 |   }
+  18 | 
+  19 |   async waitForPageLoad(): Promise<void> {
+  20 |     await this.page.waitForLoadState('networkidle', { timeout: 15000 }).catch(() => {});
+  21 |   }
+  22 | 
+  23 |   async click(locator: Locator): Promise<void> {
+  24 |     await locator.click();
+  25 |   }
+  26 | 
+  27 |   async fill(locator: Locator, value: string): Promise<void> {
+  28 |     await locator.fill(value);
+  29 |   }
+  30 | 
+  31 |   async getText(locator: Locator): Promise<string> {
+  32 |     return await locator.textContent() ?? '';
+  33 |   }
+  34 | 
+  35 |   async isVisible(locator: Locator): Promise<boolean> {
+  36 |     return await locator.isVisible();
+  37 |   }
+  38 | 
+  39 |   async takeScreenshot(name: string): Promise<void> {
+  40 |     const { writeFileSync, mkdirSync } = await import('node:fs');
+  41 |     const path = await import('node:path');
+  42 |     const dir = path.resolve('reports');
+  43 |     mkdirSync(dir, { recursive: true });
+  44 |     await this.page.screenshot({ path: path.join(dir, `${name}-${Date.now()}.png`), fullPage: true });
+  45 |   }
+  46 | 
+  47 |   async selectDropdown(locator: Locator, value: string): Promise<void> {
+  48 |     await locator.selectOption(value);
+  49 |   }
+  50 | 
+  51 |   async getElementCount(locator: Locator): Promise<number> {
+  52 |     return await locator.count();
+  53 |   }
+  54 | }
+  55 | 
+```

@@ -1,0 +1,100 @@
+  ✓  238 [chromium] › tests\generated\www-myvi-in\ViPrepaidTalktimeAndTopUpPlansEasyOnlineMobileRecharge.spec.ts:15:3 › https://www.myvi.in/ - Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge - Regression Tests › Verify that Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge loads successfully @regression (5.1s)
+[PROGRESS] chromium: Test 240/306 running: Verify that 95 Links are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:45 IST] [PROGRESS] chromium: Test 240/306 running: Verify that 95 Links are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:46:46 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:46:46 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PASS] Test 240/918 passed: Verify that 9 Headings are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:47 IST] [PASS] Test 240/918 passed: Verify that 9 Headings are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+  ✓  239 [chromium] › tests\generated\www-myvi-in\ViPrepaidTalktimeAndTopUpPlansEasyOnlineMobileRecharge.spec.ts:50:3 › https://www.myvi.in/ - Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge - Regression Tests › Verify that 9 Headings are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression (6.6s)
+[PROGRESS] chromium: Test 241/306 running: Verify that 7 Buttons are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:48 IST] [PROGRESS] chromium: Test 241/306 running: Verify that 7 Buttons are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[FAIL] Test 241/918 failed: Verify that 173 Links are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:49 IST] [FAIL] Test 241/918 failed: Verify that 173 Links are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/postpaid/vi-postpaid-plans#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/postpaid/vi-postpaid-plans#"]').first()[22m
+[2026-06-12 09:46:49 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/postpaid/vi-postpaid-plans#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/postpaid/vi-postpaid-plans#"]').first()
+  ✘  232 [chromium] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:96:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that 173 Links are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression (23.9s)
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:46:49 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:46:50 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:46:50 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:46:50 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:46:50 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:50 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 242/306 running: Verify that 1 Input is present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:51 IST] [PROGRESS] chromium: Test 242/306 running: Verify that 1 Input is present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[PASS] Test 242/918 passed: Verify that 7 Buttons are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:53 IST] [PASS] Test 242/918 passed: Verify that 7 Buttons are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+  ✓  241 [chromium] › tests\generated\www-myvi-in\ViPrepaidTalktimeAndTopUpPlansEasyOnlineMobileRecharge.spec.ts:142:3 › https://www.myvi.in/ - Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge - Regression Tests › Verify that 7 Buttons are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression (5.1s)
+[PROGRESS] chromium: Test 243/306 running: Verify that 1 Form is present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:53 IST] [PROGRESS] chromium: Test 243/306 running: Verify that 1 Form is present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:46:54 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:55 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 243/918 failed: Verify that 2 Menus are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 09:46:55 IST] [FAIL] Test 243/918 failed: Verify that 2 Menus are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:46:55 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  237 [chromium] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:298:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that 2 Menus are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression (13.7s)
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:46:55 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[FAIL] Test 243/918 failed: Verify that 95 Links are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:55 IST] [FAIL] Test 243/918 failed: Verify that 95 Links are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:46:55 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  240 [chromium] › tests\generated\www-myvi-in\ViPrepaidTalktimeAndTopUpPlansEasyOnlineMobileRecharge.spec.ts:96:3 › https://www.myvi.in/ - Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge - Regression Tests › Verify that 95 Links are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression (9.1s)
+[STEP] Capture screenshot evidence
+[2026-06-12 09:46:55 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 244/306 running: Verify that 3 Menus are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:57 IST] [PROGRESS] chromium: Test 244/306 running: Verify that 3 Menus are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[PASS] Test 244/918 passed: Verify that 1 Input is present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 09:46:57 IST] [PASS] Test 244/918 passed: Verify that 1 Input is present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression

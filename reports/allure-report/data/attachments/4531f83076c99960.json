@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India",
+  "pageUrl": "https://www.myvi.in/prepaid/online-mobile-recharge",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Maharashtra & Goa' exists in the DOM",
+    "Verify that the button 'popular recharge packs' exists in the DOM",
+    "Verify that the button 'unlimited 5G' exists in the DOM",
+    "Verify that the button 'nonstop hero' exists in the DOM",
+    "Verify that the button 'super hero' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_29_Buttons_are_present_on_Online_Mobile_Recharge_-_Best_Prepaid_Plans_Top-Ups_Vi_India_Online_Mobile_Recharge_-_Best_Prepaid_Plans___Top-_1781237348354.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,100 @@
+[PROGRESS] firefox: Test 50/306 running: Verify that 175 Links are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:54:33 IST] [PROGRESS] firefox: Test 50/306 running: Verify that 175 Links are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:54:33 IST] [PROGRESS] firefox: Test 51/306 running: Verify that 46 Headings are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[PROGRESS] firefox: Test 51/306 running: Verify that 46 Headings are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[PASS] Test 357/918 passed: Verify that Enjoy Netflix Subscription Plans with Vi at No Extra Cost loads successfully @regression
+[2026-06-12 09:54:34 IST] [PASS] Test 357/918 passed: Verify that Enjoy Netflix Subscription Plans with Vi at No Extra Cost loads successfully @regression
+  ✓  355 [firefox] › tests\generated\www-myvi-in\EnjoyNetflixSubscriptionPlansWithViAtNoExtraCost.spec.ts:15:3 › https://www.myvi.in/ - Enjoy Netflix Subscription Plans with Vi at No Extra Cost - Regression Tests › Verify that Enjoy Netflix Subscription Plans with Vi at No Extra Cost loads successfully @regression (12.3s)
+[PROGRESS] firefox: Test 52/306 running: Verify that 37 Buttons are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:54:34 IST] [PROGRESS] firefox: Test 52/306 running: Verify that 37 Buttons are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[FAIL] Test 358/918 failed: Verify that 1 Menu is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:54:35 IST] [FAIL] Test 358/918 failed: Verify that 1 Menu is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:54:35 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  354 [firefox] › tests\generated\www-myvi-in\CreditCardBillPaymentQuickSecureOnlineBillPaymentsVi.spec.ts:252:3 › https://www.myvi.in/ - Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi - Regression Tests › Verify that 1 Menu is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression (14.0s)
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:54:36 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PROGRESS] firefox: Test 53/306 running: Verify that 134 Inputs are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:54:38 IST] [PROGRESS] firefox: Test 53/306 running: Verify that 134 Inputs are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:54:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 22m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 22m 0s
+[2026-06-12 09:54:41 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:54:41 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 09:54:42 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:54:42 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:54:42 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:54:42 IST] [STEP] Capture screenshot evidence
+[PASS] Test 359/918 passed: Verify that 37 Buttons are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:54:44 IST] [PASS] Test 359/918 passed: Verify that 37 Buttons are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+  ✓  358 [firefox] › tests\generated\www-myvi-in\EnjoyNetflixSubscriptionPlansWithViAtNoExtraCost.spec.ts:142:3 › https://www.myvi.in/ - Enjoy Netflix Subscription Plans with Vi at No Extra Cost - Regression Tests › Verify that 37 Buttons are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression (9.8s)
+[PROGRESS] firefox: Test 54/306 running: Verify that 4 Forms are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:54:45 IST] [PROGRESS] firefox: Test 54/306 running: Verify that 4 Forms are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[FAIL] Test 360/918 failed: Verify that 175 Links are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:54:46 IST] [FAIL] Test 360/918 failed: Verify that 175 Links are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/netflix-subscription-plans#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/netflix-subscription-plans#"]').first()[22m
+[2026-06-12 09:54:46 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/netflix-subscription-plans#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/netflix-subscription-plans#"]').first()
+  ✘  356 [firefox] › tests\generated\www-myvi-in\EnjoyNetflixSubscriptionPlansWithViAtNoExtraCost.spec.ts:96:3 › https://www.myvi.in/ - Enjoy Netflix Subscription Plans with Vi at No Extra Cost - Regression Tests › Verify that 175 Links are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression (9.4s)
+[VERIFY] Verify that the heading 'Enjoy Netflix Subscription Plans with Vi' exists in the DOM
+[2026-06-12 09:54:46 IST] [VERIFY] Verify that the heading 'Enjoy Netflix Subscription Plans with Vi' exists in the DOM
+[VERIFY] Verify that the heading 'check out our plans' exists in the DOM
+[2026-06-12 09:54:46 IST] [VERIFY] Verify that the heading 'check out our plans' exists in the DOM
+[VERIFY] Verify that the heading 'your current location' exists in the DOM
+[2026-06-12 09:54:46 IST] [VERIFY] Verify that the heading 'your current location' exists in the DOM
+[2026-06-12 09:54:47 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:54:48 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:54:48 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:54:49 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[PROGRESS] firefox: Test 55/306 running: Verify that 1 Table is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:54:49 IST] [PROGRESS] firefox: Test 55/306 running: Verify that 1 Table is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[STEP] Capture screenshot evidence
+[2026-06-12 09:54:49 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:54:49 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:54:50 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:54:50 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:54:51 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:54:51 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[PASS] Test 361/918 passed: Verify that 4 Forms are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:54:51 IST] [PASS] Test 361/918 passed: Verify that 4 Forms are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression

@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india",
+  "pageUrl": "https://www.myvi.in/new-connection/buy-postpaid-sim-connection-online?show=postpaidonly",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_Get_Vi_New_Postpaid_SIM_Card_Online_Buy_Mobile_SIM_Card_In_india_loads_successfully_Get_Vi_New_Postpaid_SIM_Card_Online___Buy_Mobile_S_1781238353238.png"
+  ],
+  "status": "passed"
+}

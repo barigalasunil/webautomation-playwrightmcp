@@ -1,0 +1,100 @@
+[2026-06-12 09:58:31 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[VERIFY] Verify that the button 'buy' exists in the DOM
+[2026-06-12 09:58:31 IST] [VERIFY] Verify that the button 'buy' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:58:31 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:58:32 IST] [PASS] Test 457/918 passed: Verify that SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports loads successfully @regression
+[PASS] Test 457/918 passed: Verify that SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports loads successfully @regression
+  ✓  454 [firefox] › tests\generated\www-myvi-in\SonylivSubscriptionPlansWithViWatchMoviesShowsSports.spec.ts:15:3 › https://www.myvi.in/ - SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports - Regression Tests › Verify that SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports loads successfully @regression (4.8s)
+[PROGRESS] firefox: Test 152/306 running: Verify that 1 Input is present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[2026-06-12 09:58:32 IST] [PROGRESS] firefox: Test 152/306 running: Verify that 1 Input is present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[PASS] Test 458/918 passed: Verify that 4 Buttons are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[2026-06-12 09:58:32 IST] [PASS] Test 458/918 passed: Verify that 4 Buttons are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+  ✓  457 [firefox] › tests\generated\www-myvi-in\SonylivSubscriptionPlansWithViWatchMoviesShowsSports.spec.ts:138:3 › https://www.myvi.in/ - SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports - Regression Tests › Verify that 4 Buttons are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression (3.4s)
+[PROGRESS] firefox: Test 153/306 running: Verify that 1 Form is present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[2026-06-12 09:58:32 IST] [PROGRESS] firefox: Test 153/306 running: Verify that 1 Form is present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[FAIL] Test 459/918 failed: Verify that 2 Menus are present on Register for Postpaid EBill Online | Vi @regression
+[2026-06-12 09:58:33 IST] [FAIL] Test 459/918 failed: Verify that 2 Menus are present on Register for Postpaid EBill Online | Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:58:33 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  453 [firefox] › tests\generated\www-myvi-in\RegisterForPostpaidEbillOnlineVi.spec.ts:268:3 › https://www.myvi.in/ - Register for Postpaid EBill Online | Vi - Regression Tests › Verify that 2 Menus are present on Register for Postpaid EBill Online | Vi @regression (8.4s)
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:58:34 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:58:34 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:58:34 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:58:34 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:58:35 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:58:35 IST] [PASS] Test 459/918 passed: Verify that 1 Input is present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[PASS] Test 459/918 passed: Verify that 1 Input is present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+  ✓  458 [firefox] › tests\generated\www-myvi-in\SonylivSubscriptionPlansWithViWatchMoviesShowsSports.spec.ts:180:3 › https://www.myvi.in/ - SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports - Regression Tests › Verify that 1 Input is present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression (3.2s)
+[PROGRESS] firefox: Test 154/306 running: Verify that Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India loads successfully @regression
+[2026-06-12 09:58:36 IST] [PROGRESS] firefox: Test 154/306 running: Verify that Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India loads successfully @regression
+[PROGRESS] firefox: Test 155/306 running: Verify that 2 Menus are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[2026-06-12 09:58:36 IST] [PROGRESS] firefox: Test 155/306 running: Verify that 2 Menus are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[PASS] Test 461/918 passed: Verify that 1 Form is present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[2026-06-12 09:58:36 IST] [PASS] Test 461/918 passed: Verify that 1 Form is present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+  ✓  459 [firefox] › tests\generated\www-myvi-in\SonylivSubscriptionPlansWithViWatchMoviesShowsSports.spec.ts:210:3 › https://www.myvi.in/ - SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports - Regression Tests › Verify that 1 Form is present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression (3.9s)
+[PROGRESS] firefox: Test 156/306 running: Verify that 10 Headings are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[2026-06-12 09:58:37 IST] [PROGRESS] firefox: Test 156/306 running: Verify that 10 Headings are present on Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:58:38 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:58:39 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:58:39 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the heading 'experience the Vi 5G way of life' exists in the DOM
+[2026-06-12 09:58:39 IST] [VERIFY] Verify that the heading 'experience the Vi 5G way of life' exists in the DOM
+[VERIFY] Verify that the heading 'think future, think Vi 5G' exists in the DOM
+[2026-06-12 09:58:39 IST] [VERIFY] Verify that the heading 'think future, think Vi 5G' exists in the DOM
+[VERIFY] Verify that the heading 'explore Vi 5G packs' exists in the DOM
+[2026-06-12 09:58:40 IST] [VERIFY] Verify that the heading 'explore Vi 5G packs' exists in the DOM
+[VERIFY] Verify that the heading 'check 5G coverage & compatibility' exists in the DOM
+[2026-06-12 09:58:40 IST] [VERIFY] Verify that the heading 'check 5G coverage & compatibility' exists in the DOM
+[VERIFY] Verify that the heading 'Vi 5G FAQs' exists in the DOM
+[2026-06-12 09:58:40 IST] [VERIFY] Verify that the heading 'Vi 5G FAQs' exists in the DOM
+[2026-06-12 09:58:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 26m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 26m 0s
+[STEP] Capture screenshot evidence
+[2026-06-12 09:58:40 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 462/918 failed: Verify that 2 Links are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[2026-06-12 09:58:41 IST] [FAIL] Test 462/918 failed: Verify that 2 Links are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:58:41 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  456 [firefox] › tests\generated\www-myvi-in\SonylivSubscriptionPlansWithViWatchMoviesShowsSports.spec.ts:92:3 › https://www.myvi.in/ - SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports - Regression Tests › Verify that 2 Links are present on SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports @regression (9.5s)
+[2026-06-12 09:58:41 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[PASS] Test 462/918 passed: Verify that Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India loads successfully @regression
+[2026-06-12 09:58:41 IST] [PASS] Test 462/918 passed: Verify that Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India loads successfully @regression

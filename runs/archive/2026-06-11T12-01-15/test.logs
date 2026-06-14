@@ -1,0 +1,9 @@
+
+[2026-06-11 17:31:06 IST] ======================================================================
+[2026-06-11 17:31:06 IST]   AI-Powered Test Framework
+[2026-06-11 17:31:06 IST] ======================================================================
+[2026-06-11 17:31:06 IST] [INFO] Suite: smoke
+[2026-06-11 17:31:06 IST] [INFO] Target URL: https://www.myvi.in/
+[2026-06-11 17:31:06 IST] [INFO] Browsers: Chromium
+[2026-06-11 17:31:15 IST] [ARCHIVE] Archived: allure-report
+[2026-06-11 17:31:15 IST] [ARCHIVE] Archived: playwright-html

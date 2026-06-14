@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India",
+  "pageUrl": "https://www.myvi.in/prepaid/sms-packs",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_1_Input_is_present_on_Best_Vi_SMS_Packs_and_SMS_Plans_for_Prepaid_Recharge_Vi_India_Best_Vi_SMS_Packs_and_SMS_Plans_for_Prepaid_Rechar_1781176593979.png"
+  ],
+  "status": "passed"
+}

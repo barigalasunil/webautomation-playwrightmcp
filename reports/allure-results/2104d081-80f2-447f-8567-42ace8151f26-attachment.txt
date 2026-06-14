@@ -1,0 +1,100 @@
+[PROGRESS] chromium: Test 210/306 running: Verify that 1 Menu is present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:45:00 IST] [PROGRESS] chromium: Test 210/306 running: Verify that 1 Menu is present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:45:01 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:45:01 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:45:01 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 210/918 failed: Verify that 158 Links are present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:45:03 IST] [FAIL] Test 210/918 failed: Verify that 158 Links are present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/utilities/loan-payment#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/utilities/loan-payment#"]').first()[22m
+[2026-06-12 09:45:03 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/utilities/loan-payment#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/utilities/loan-payment#"]').first()
+  ✘  206 [chromium] › tests\generated\www-myvi-in\ViLoanEmiPaymentQuickSecureOnlinePayment.spec.ts:80:3 › https://www.myvi.in/ - Vi Loan EMI Payment | Quick & Secure Online Payment - Regression Tests › Verify that 158 Links are present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression (12.1s)
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:45:03 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[PASS] Test 210/918 passed: Verify that 2 Forms are present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:45:03 IST] [PASS] Test 210/918 passed: Verify that 2 Forms are present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression
+  ✓  209 [chromium] › tests\generated\www-myvi-in\ViLoanEmiPaymentQuickSecureOnlinePayment.spec.ts:218:3 › https://www.myvi.in/ - Vi Loan EMI Payment | Quick & Secure Online Payment - Regression Tests › Verify that 2 Forms are present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression (5.6s)
+[PROGRESS] chromium: Test 211/306 running: Verify that 29 Headings are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[2026-06-12 09:45:04 IST] [PROGRESS] chromium: Test 211/306 running: Verify that 29 Headings are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[PROGRESS] chromium: Test 212/306 running: Verify that Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans loads successfully @regression
+[2026-06-12 09:45:05 IST] [PROGRESS] chromium: Test 212/306 running: Verify that Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans loads successfully @regression
+[FAIL] Test 212/918 failed: Verify that 2 Menus are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 09:45:07 IST] [FAIL] Test 212/918 failed: Verify that 2 Menus are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:45:07 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  203 [chromium] › tests\generated\www-myvi-in\ViInternationalRoamingPacks2026StayConnectedAbroadViIndia.spec.ts:268:3 › https://www.myvi.in/ - Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India - Regression Tests › Verify that 2 Menus are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression (25.0s)
+[PROGRESS] chromium: Test 213/306 running: Verify that 26 Links are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[2026-06-12 09:45:09 IST] [PROGRESS] chromium: Test 213/306 running: Verify that 26 Links are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[2026-06-12 09:45:09 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 12m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 12m 30s
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:45:11 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:45:13 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:45:13 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 213/918 failed: Verify that 1 Menu is present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:45:14 IST] [FAIL] Test 213/918 failed: Verify that 1 Menu is present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:45:14 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  210 [chromium] › tests\generated\www-myvi-in\ViLoanEmiPaymentQuickSecureOnlinePayment.spec.ts:252:3 › https://www.myvi.in/ - Vi Loan EMI Payment | Quick & Secure Online Payment - Regression Tests › Verify that 1 Menu is present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression (11.6s)
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:45:15 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'Choose your benefits with Vi Max Postpaid!' exists in the DOM
+[2026-06-12 09:45:15 IST] [VERIFY] Verify that the link 'Choose your benefits with Vi Max Postpaid!' exists in the DOM
+[VERIFY] Verify that the link 'postpaid plans' exists in the DOM
+[2026-06-12 09:45:15 IST] [VERIFY] Verify that the link 'postpaid plans' exists in the DOM
+[VERIFY] Verify that the link 'family plans' exists in the DOM
+[2026-06-12 09:45:15 IST] [VERIFY] Verify that the link 'family plans' exists in the DOM
+[VERIFY] Verify that the link 'prepaid packs' exists in the DOM
+[2026-06-12 09:45:15 IST] [VERIFY] Verify that the link 'prepaid packs' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:45:15 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 214/306 running: Verify that 26 Buttons are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[2026-06-12 09:45:16 IST] [PROGRESS] chromium: Test 214/306 running: Verify that 26 Buttons are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[PASS] Test 214/918 passed: Verify that Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans loads successfully @regression
+[2026-06-12 09:45:16 IST] [PASS] Test 214/918 passed: Verify that Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans loads successfully @regression

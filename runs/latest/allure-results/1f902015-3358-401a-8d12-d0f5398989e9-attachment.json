@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Register for Postpaid EBill Online | Vi",
+  "pageUrl": "https://www.myvi.in/online-ebill-registration",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\firefox\\Verify_that_Register_for_Postpaid_EBill_Online_Vi_loads_successfully_Register_for_Postpaid_EBill_Online___Vi_-_Final_Ev_1781175976021.png"
+  ],
+  "status": "passed"
+}

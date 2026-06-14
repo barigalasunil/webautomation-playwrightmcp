@@ -1,0 +1,100 @@
+[STEP] Capture screenshot evidence
+[2026-06-12 09:48:47 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:48:48 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:48:48 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:48:48 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:48:48 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:48:48 IST] [STEP] Capture screenshot evidence
+[STEP] Capture screenshot evidence
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:48:50 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[PASS] Test 279/918 passed: Verify that Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More loads successfully @regression
+[2026-06-12 09:48:50 IST] [PASS] Test 279/918 passed: Verify that Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More loads successfully @regression
+  ✓  278 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:15:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More loads successfully @regression (7.8s)
+[PROGRESS] chromium: Test 280/306 running: Verify that 126 Links are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:48:51 IST] [PROGRESS] chromium: Test 280/306 running: Verify that 126 Links are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:48:53 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PASS] Test 280/918 passed: Verify that 23 Headings are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:48:55 IST] [PASS] Test 280/918 passed: Verify that 23 Headings are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+  ✓  279 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:50:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that 23 Headings are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression (11.0s)
+[2026-06-12 09:48:55 IST] [PROGRESS] chromium: Test 281/306 running: Verify that 8 Buttons are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[PROGRESS] chromium: Test 281/306 running: Verify that 8 Buttons are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[PASS] Test 281/918 passed: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:48:56 IST] [PASS] Test 281/918 passed: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+  ✓  275 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:268:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (23.8s)
+[PROGRESS] chromium: Test 282/306 running: Verify that 2 Inputs are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:48:56 IST] [PROGRESS] chromium: Test 282/306 running: Verify that 2 Inputs are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[VERIFY] Verify that the button 'prepaid packs' exists in the DOM
+[2026-06-12 09:48:58 IST] [VERIFY] Verify that the button 'prepaid packs' exists in the DOM
+[2026-06-12 09:48:59 IST] [VERIFY] Verify that the button 'individual' exists in the DOM
+[VERIFY] Verify that the button 'individual' exists in the DOM
+[VERIFY] Verify that the button 'family' exists in the DOM
+[2026-06-12 09:48:59 IST] [VERIFY] Verify that the button 'family' exists in the DOM
+[VERIFY] Verify that the button 'Select' exists in the DOM
+[2026-06-12 09:49:00 IST] [VERIFY] Verify that the button 'Select' exists in the DOM
+[VERIFY] Verify that the button 'Select' exists in the DOM
+[2026-06-12 09:49:00 IST] [VERIFY] Verify that the button 'Select' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:49:00 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:49:01 IST] [VERIFY] Verify that the input 'enter prepaid/postpaid number' exists in the DOM
+[VERIFY] Verify that the input 'enter prepaid/postpaid number' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:49:01 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:49:01 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:49:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 16m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 16m 30s
+[2026-06-12 09:49:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 17m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 17m 0s
+[FAIL] Test 282/918 failed: Verify that 1 Menu is present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 09:49:58 IST] [FAIL] Test 282/918 failed: Verify that 1 Menu is present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:49:58 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  277 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:310:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 1 Menu is present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (42.7s)
+[FAIL] Test 282/918 failed: Verify that 126 Links are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:49:58 IST] [FAIL] Test 282/918 failed: Verify that 126 Links are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:49:58 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  280 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:96:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that 126 Links are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression (37.4s)
+[FAIL] Test 282/918 failed: Verify that 2 Inputs are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:49:58 IST] [FAIL] Test 282/918 failed: Verify that 2 Inputs are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[ERROR] Failure reason: [31mTest timeout of 30000ms exceeded.[39m
+[2026-06-12 09:49:58 IST] [ERROR] Failure reason: Test timeout of 30000ms exceeded.
+  ✘  282 [chromium] › tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:188:3 › https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests › Verify that 2 Inputs are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression (1.0m)
+[FAIL] Test 282/918 failed: Verify that 8 Buttons are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[2026-06-12 09:49:58 IST] [FAIL] Test 282/918 failed: Verify that 8 Buttons are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+[ERROR] Failure reason: [31mTest timeout of 30000ms exceeded.[39m
+[2026-06-12 09:49:58 IST] [ERROR] Failure reason: Test timeout of 30000ms exceeded.

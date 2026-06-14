@@ -1,0 +1,100 @@
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:37:58 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[FAIL] Test 81/918 failed: Verify that 25 Links are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 09:38:00 IST] [FAIL] Test 81/918 failed: Verify that 25 Links are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'prepaid packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'prepaid packs' }).first()[22m
+[2026-06-12 09:38:00 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'prepaid packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'prepaid packs' }).first()
+  ✘   78 [chromium] › tests\generated\www-myvi-in\GetViNewPostpaidSimCardOnlineBuyMobileSimCardInIndia.spec.ts:96:3 › https://www.myvi.in/ - Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india - Regression Tests › Verify that 25 Links are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression (12.6s)
+[FAIL] Test 81/918 failed: Verify that 21 Headings are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 09:38:00 IST] [FAIL] Test 81/918 failed: Verify that 21 Headings are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Vi Max family postpaid plans' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Vi Max family postpaid plans' }).first()[22m
+[2026-06-12 09:38:00 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Vi Max family postpaid plans' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Vi Max family postpaid plans' }).first()
+  ✘   79 [chromium] › tests\generated\www-myvi-in\GetViNewPostpaidSimCardOnlineBuyMobileSimCardInIndia.spec.ts:50:3 › https://www.myvi.in/ - Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india - Regression Tests › Verify that 21 Headings are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression (12.8s)
+[VERIFY] Verify that the button 'select' exists in the DOM
+[2026-06-12 09:38:01 IST] [VERIFY] Verify that the button 'select' exists in the DOM
+[PROGRESS] chromium: Test 82/306 running: Verify that Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today loads successfully @regression
+[2026-06-12 09:38:02 IST] [PROGRESS] chromium: Test 82/306 running: Verify that Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today loads successfully @regression
+[PROGRESS] chromium: Test 83/306 running: Verify that 13 Headings are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[2026-06-12 09:38:02 IST] [PROGRESS] chromium: Test 83/306 running: Verify that 13 Headings are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[FAIL] Test 83/918 failed: Verify that 19 Inputs are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 09:38:04 IST] [FAIL] Test 83/918 failed: Verify that 19 Inputs are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="pincodeField"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="pincodeField"]').first()[22m
+[2026-06-12 09:38:04 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="pincodeField"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="pincodeField"]').first()
+  ✘   80 [chromium] › tests\generated\www-myvi-in\GetViNewPostpaidSimCardOnlineBuyMobileSimCardInIndia.spec.ts:188:3 › https://www.myvi.in/ - Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india - Regression Tests › Verify that 19 Inputs are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression (11.4s)
+[FAIL] Test 83/918 failed: Verify that 24 Buttons are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[2026-06-12 09:38:08 IST] [FAIL] Test 83/918 failed: Verify that 24 Buttons are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'select' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'select' }).first()[22m
+[2026-06-12 09:38:08 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'select' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'select' }).first()
+  ✘   81 [chromium] › tests\generated\www-myvi-in\GetViNewPostpaidSimCardOnlineBuyMobileSimCardInIndia.spec.ts:142:3 › https://www.myvi.in/ - Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india - Regression Tests › Verify that 24 Buttons are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression (12.1s)
+[PROGRESS] chromium: Test 84/306 running: Verify that 29 Links are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[2026-06-12 09:38:08 IST] [PROGRESS] chromium: Test 84/306 running: Verify that 29 Links are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[2026-06-12 09:38:09 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 5m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 5m 30s
+[PROGRESS] chromium: Test 85/306 running: Verify that 9 Buttons are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[2026-06-12 09:38:10 IST] [PROGRESS] chromium: Test 85/306 running: Verify that 9 Buttons are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[VERIFY] Verify that the heading 'our best selling plans nowwith free SIM delivery' exists in the DOM
+[2026-06-12 09:38:10 IST] [VERIFY] Verify that the heading 'our best selling plans nowwith free SIM delivery' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:38:10 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:38:11 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:38:11 IST] [STEP] Capture screenshot evidence
+[PASS] Test 85/918 passed: Verify that Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today loads successfully @regression
+[2026-06-12 09:38:14 IST] [PASS] Test 85/918 passed: Verify that Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today loads successfully @regression

@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Product & Services FAQs, Frequently Asked Questions",
+  "pageUrl": "https://www.myvi.in/help-support/faqs?chatbotopen=true",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Recharge & Balance' exists in the DOM",
+    "Verify that the button 'Bills & Usage' exists in the DOM",
+    "Verify that the button 'New To Vi' exists in the DOM",
+    "Verify that the button 'Utility Payments' exists in the DOM",
+    "Verify that the button 'Roaming & ISD' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_30_Buttons_are_present_on_Vi_Product_Services_FAQs_Frequently_Asked_Questions_Vi_Product___Services_FAQs__Frequently_Asked_Quest_1781177384334.png"
+  ],
+  "status": "passed"
+}

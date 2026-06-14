@@ -1,0 +1,3 @@
+Open the application.
+Verify recharge pay bill heading is visible.
+Click port to Vi.

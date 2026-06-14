@@ -1,0 +1,19 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports",
+  "pageUrl": "https://www.myvi.in/prepaid/sonyliv-subscription-recharge-plans",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Maharashtra & Goa' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_4_Buttons_are_present_on_SonyLIV_Subscription_Plans_with_Vi_Watch_Movies_Shows_Sports_SonyLIV_Subscription_Plans_with_Vi___Watch_Movies__1781176983432.png"
+  ],
+  "status": "passed"
+}

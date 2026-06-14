@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality",
+  "pageUrl": "https://www.myvi.in/vi-wifi-calling",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'Vi WiFi Calling (VoWiFi): Make Crystal Clear Calls Over WiFi' exists in the DOM",
+    "Verify that the heading 'Why Choose Vi WiFi Calling?' exists in the DOM",
+    "Verify that the heading 'always connected' exists in the DOM",
+    "Verify that the heading 'better voice quality' exists in the DOM",
+    "Verify that the heading 'call anywhere' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\firefox\\Verify_that_14_Headings_are_present_on_WiFi_Calling_on_Vi_Choose_VoWiFi_for_Better_Voice_Quality_WiFi_Calling_on_Vi__Choose_VoWiFi_for_Better_Voice_1781176533745.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Product & Services FAQs, Frequently Asked Questions",
+  "pageUrl": "https://www.myvi.in/help-support/faqs?chatbotopen=true",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'quick help, zero hassle!' exists in the DOM",
+    "Verify that the heading 'need help finding something?' exists in the DOM",
+    "Verify that the heading 'chat with us' exists in the DOM",
+    "Verify that the heading 'contact us' exists in the DOM",
+    "Verify that the heading 'connect with us on Whatsapp' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_12_Headings_are_present_on_Vi_Product_Services_FAQs_Frequently_Asked_Questions_Vi_Product___Services_FAQs__Frequently_Asked_Quest_1781177368316.png"
+  ],
+  "status": "passed"
+}

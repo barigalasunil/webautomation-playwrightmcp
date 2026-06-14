@@ -1,0 +1,100 @@
+  ✘   50 [chromium] › tests\generated\www-myvi-in\EnjoyNetflixSubscriptionPlansWithViAtNoExtraCost.spec.ts:50:3 › https://www.myvi.in/ - Enjoy Netflix Subscription Plans with Vi at No Extra Cost - Regression Tests › Verify that 46 Headings are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression (32.2s)
+[PROGRESS] chromium: Test 53/306 running: Verify that 134 Inputs are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:36:20 IST] [PROGRESS] chromium: Test 53/306 running: Verify that 134 Inputs are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[PASS] Test 53/918 passed: Verify that 37 Buttons are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:36:22 IST] [PASS] Test 53/918 passed: Verify that 37 Buttons are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+  ✓   52 [chromium] › tests\generated\www-myvi-in\EnjoyNetflixSubscriptionPlansWithViAtNoExtraCost.spec.ts:142:3 › https://www.myvi.in/ - Enjoy Netflix Subscription Plans with Vi at No Extra Cost - Regression Tests › Verify that 37 Buttons are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression (15.2s)
+[PROGRESS] chromium: Test 54/306 running: Verify that 4 Forms are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:36:22 IST] [PROGRESS] chromium: Test 54/306 running: Verify that 4 Forms are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[PROGRESS] chromium: Test 55/306 running: Verify that 1 Menu is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:36:22 IST] [PROGRESS] chromium: Test 55/306 running: Verify that 1 Menu is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[PROGRESS] chromium: Test 56/306 running: Verify that 1 Table is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:36:22 IST] [PROGRESS] chromium: Test 56/306 running: Verify that 1 Table is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:36:37 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:36:39 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:36:39 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 4m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 4m 0s
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:36:40 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:36:40 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:36:40 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:36:40 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:36:40 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:36:43 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:36:44 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:36:45 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:36:45 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:36:46 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:36:46 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:36:46 IST] [STEP] Capture screenshot evidence
+[PASS] Test 56/918 passed: Verify that 1 Table is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:36:50 IST] [PASS] Test 56/918 passed: Verify that 1 Table is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+  ✓   56 [chromium] › tests\generated\www-myvi-in\EnjoyNetflixSubscriptionPlansWithViAtNoExtraCost.spec.ts:276:3 › https://www.myvi.in/ - Enjoy Netflix Subscription Plans with Vi at No Extra Cost - Regression Tests › Verify that 1 Table is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression (26.5s)
+[PROGRESS] chromium: Test 57/306 running: Verify that Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India loads successfully @regression
+[2026-06-12 09:36:51 IST] [PROGRESS] chromium: Test 57/306 running: Verify that Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India loads successfully @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:36:52 IST] [STEP] Open URL: https://www.myvi.in/
+[PASS] Test 57/918 passed: Verify that 134 Inputs are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:36:52 IST] [PASS] Test 57/918 passed: Verify that 134 Inputs are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+  ✓   53 [chromium] › tests\generated\www-myvi-in\EnjoyNetflixSubscriptionPlansWithViAtNoExtraCost.spec.ts:188:3 › https://www.myvi.in/ - Enjoy Netflix Subscription Plans with Vi at No Extra Cost - Regression Tests › Verify that 134 Inputs are present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression (31.1s)
+[PROGRESS] chromium: Test 58/306 running: Verify that 17 Headings are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:36:53 IST] [PROGRESS] chromium: Test 58/306 running: Verify that 17 Headings are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:36:53 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:36:53 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 58/918 failed: Verify that 1 Menu is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[2026-06-12 09:36:54 IST] [FAIL] Test 58/918 failed: Verify that 1 Menu is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:36:54 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘   55 [chromium] › tests\generated\www-myvi-in\EnjoyNetflixSubscriptionPlansWithViAtNoExtraCost.spec.ts:306:3 › https://www.myvi.in/ - Enjoy Netflix Subscription Plans with Vi at No Extra Cost - Regression Tests › Verify that 1 Menu is present on Enjoy Netflix Subscription Plans with Vi at No Extra Cost @regression (27.7s)
+[VERIFY] Verify that the heading 'Best Prepaid Plans' exists in the DOM
+[2026-06-12 09:36:55 IST] [VERIFY] Verify that the heading 'Best Prepaid Plans' exists in the DOM
+[VERIFY] Verify that the heading 'prepaid recharge plans FAQs' exists in the DOM
+[2026-06-12 09:36:55 IST] [VERIFY] Verify that the heading 'prepaid recharge plans FAQs' exists in the DOM
+[VERIFY] Verify that the heading 'Vi (Vodafone Idea) best prepaid plans' exists in the DOM
+[2026-06-12 09:36:55 IST] [VERIFY] Verify that the heading 'Vi (Vodafone Idea) best prepaid plans' exists in the DOM
+[VERIFY] Verify that the heading 'Different Benefits of Vi (Vodafone Idea) Prepaid Recharge Plans Based on Pack Va' exists in the DOM
+[2026-06-12 09:36:55 IST] [VERIFY] Verify that the heading 'Different Benefits of Vi (Vodafone Idea) Prepaid Recharge Plans Based on Pack Va' exists in the DOM
+[VERIFY] Verify that the heading 'All SIM Recharge Plans List' exists in the DOM
+[2026-06-12 09:36:55 IST] [VERIFY] Verify that the heading 'All SIM Recharge Plans List' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:36:56 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 59/306 running: Verify that 104 Links are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:36:57 IST] [PROGRESS] chromium: Test 59/306 running: Verify that 104 Links are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[PASS] Test 59/918 passed: Verify that Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India loads successfully @regression
+[2026-06-12 09:36:57 IST] [PASS] Test 59/918 passed: Verify that Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India loads successfully @regression
+  ✓   57 [chromium] › tests\generated\www-myvi-in\ExploreTheBestPrepaidPlansTopPrepaidRechargeOptionsViIndia.spec.ts:15:3 › https://www.myvi.in/ - Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India - Regression Tests › Verify that Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India loads successfully @regression (6.7s)
+[PROGRESS] chromium: Test 60/306 running: Verify that 49 Buttons are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:36:58 IST] [PROGRESS] chromium: Test 60/306 running: Verify that 49 Buttons are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[VERIFY] Verify that the button 'unlimited 5G' exists in the DOM
+[2026-06-12 09:36:59 IST] [VERIFY] Verify that the button 'unlimited 5G' exists in the DOM
+[PASS] Test 60/918 passed: Verify that 17 Headings are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression
+[2026-06-12 09:37:00 IST] [PASS] Test 60/918 passed: Verify that 17 Headings are present on Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India @regression

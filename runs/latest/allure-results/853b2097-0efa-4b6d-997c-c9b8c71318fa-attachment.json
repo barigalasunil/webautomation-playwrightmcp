@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India",
+  "pageUrl": "https://www.myvi.in/international-roaming-packs",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_Vi_International_Roaming_Packs_2026_-_Stay_Connected_Abroad_Vi_India_loads_successfully_Vi_International_Roaming_Packs__2026__-_Stay_Conne_1781177174461.png"
+  ],
+  "status": "passed"
+}

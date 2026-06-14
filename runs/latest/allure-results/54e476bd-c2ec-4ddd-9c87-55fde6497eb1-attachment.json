@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Explore the Best Prepaid Plans – Top Prepaid Recharge Options | Vi India",
+  "pageUrl": "https://www.myvi.in/prepaid/best-prepaid-plans",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'unlimited 5G' exists in the DOM",
+    "Verify that the button 'nonstop hero' exists in the DOM",
+    "Verify that the button 'super hero' exists in the DOM",
+    "Verify that the button 'hero unlimited' exists in the DOM",
+    "Verify that the button 'unlimited' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_49_Buttons_are_present_on_Explore_the_Best_Prepaid_Plans_Top_Prepaid_Recharge_Options_Vi_Explore_the_Best_Prepaid_Plans___Top_Prepaid_Recha_1781174704046.png"
+  ],
+  "status": "passed"
+}

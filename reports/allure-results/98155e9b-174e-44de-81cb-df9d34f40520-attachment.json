@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments",
+  "pageUrl": "https://www.myvi.in/postpaid/auto-bill-payment",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_Vi_Postpaid_Auto_Bill_Payment_-_Setup_Manage_Automatic_Payments_loads_successfully_Vi_Postpaid_Auto_Bill_Payment_-_Setup___Manage_Aut_1781238681488.png"
+  ],
+  "status": "passed"
+}

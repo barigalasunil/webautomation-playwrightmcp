@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Pay for Insurance Online with Vi – Fast & Secure Payment",
+  "pageUrl": "https://www.myvi.in/utilities/pay-insurance-bill",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_Pay_for_Insurance_Online_with_Vi_Fast_Secure_Payment_loads_successfully_Pay_for_Insurance_Online_with_Vi___Fast___Secure_P_1781176832174.png"
+  ],
+  "status": "passed"
+}

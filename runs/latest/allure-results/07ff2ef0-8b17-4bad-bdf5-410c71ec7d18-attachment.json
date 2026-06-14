@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India",
+  "pageUrl": "https://www.myvi.in/esim-activation",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_40_Inputs_are_present_on_How_to_Activate_Vi_eSIM_Card_Easy_Online_Setup_Steps_Vi_India_How_to_Activate_Vi_eSIM_Card___Easy_Online_Setup___1781176795333.png"
+  ],
+  "status": "passed"
+}

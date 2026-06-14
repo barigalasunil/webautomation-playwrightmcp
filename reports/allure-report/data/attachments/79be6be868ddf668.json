@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Official Videos: Tips, Products & Updates",
+  "pageUrl": "https://www.myvi.in/videos",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_1_Form_is_present_on_Vi_Official_Videos_Tips_Products_Updates_Vi_Official_Videos__Tips__Products___Updates_-_For_1781239299299.png"
+  ],
+  "status": "passed"
+}

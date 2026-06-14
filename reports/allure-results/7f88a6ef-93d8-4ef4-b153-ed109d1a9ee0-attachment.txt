@@ -1,0 +1,100 @@
+[2026-06-12 10:14:10 IST] [PASS] Test 906/918 passed: Verify that 1 Input is present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+  ✓  905 [webkit] › tests\generated\www-myvi-in\VodafoneIdeaNewsViLatestViNewsPressReleasesAmpUpdates.spec.ts:188:3 › https://www.myvi.in/ - Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates - Regression Tests › Verify that 1 Input is present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression (2.9s)
+[PROGRESS] webkit: Test 295/306 running: Verify that VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi loads successfully @regression
+[2026-06-12 10:14:10 IST] [PROGRESS] webkit: Test 295/306 running: Verify that VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi loads successfully @regression
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 10:14:12 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:14:14 IST] [STEP] Open URL: https://www.myvi.in/
+[FAIL] Test 907/918 failed: Verify that 6 Buttons are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:14:14 IST] [FAIL] Test 907/918 failed: Verify that 6 Buttons are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: '«' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: '«' }).first()[22m
+[2026-06-12 10:14:14 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: '«' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: '«' }).first()
+  ✘  904 [webkit] › tests\generated\www-myvi-in\VodafoneIdeaNewsViLatestViNewsPressReleasesAmpUpdates.spec.ts:142:3 › https://www.myvi.in/ - Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates - Regression Tests › Verify that 6 Buttons are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression (7.9s)
+[PROGRESS] webkit: Test 296/306 running: Verify that 22 Headings are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:14:15 IST] [PROGRESS] webkit: Test 296/306 running: Verify that 22 Headings are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:14:15 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:14:16 IST] [STEP] Capture screenshot evidence
+[PASS] Test 908/918 passed: Verify that VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi loads successfully @regression
+[2026-06-12 10:14:16 IST] [PASS] Test 908/918 passed: Verify that VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi loads successfully @regression
+  ✓  907 [webkit] › tests\generated\www-myvi-in\Volte4gVolteCallsVoiceOverLteForHdVoiceCallsVi.spec.ts:15:3 › https://www.myvi.in/ - VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi - Regression Tests › Verify that VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi loads successfully @regression (5.9s)
+[PROGRESS] webkit: Test 297/306 running: Verify that 162 Links are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:14:16 IST] [PROGRESS] webkit: Test 297/306 running: Verify that 162 Links are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[FAIL] Test 909/918 failed: Verify that 3 Menus are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:14:17 IST] [FAIL] Test 909/918 failed: Verify that 3 Menus are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 10:14:17 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  906 [webkit] › tests\generated\www-myvi-in\VodafoneIdeaNewsViLatestViNewsPressReleasesAmpUpdates.spec.ts:218:3 › https://www.myvi.in/ - Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates - Regression Tests › Verify that 3 Menus are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression (7.6s)
+[PROGRESS] webkit: Test 298/306 running: Verify that 14 Buttons are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:14:18 IST] [PROGRESS] webkit: Test 298/306 running: Verify that 14 Buttons are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[VERIFY] Verify that the heading 'Vi VoLTE' exists in the DOM
+[2026-06-12 10:14:19 IST] [VERIFY] Verify that the heading 'Vi VoLTE' exists in the DOM
+[VERIFY] Verify that the heading 'Volte HD Calls' exists in the DOM
+[2026-06-12 10:14:19 IST] [VERIFY] Verify that the heading 'Volte HD Calls' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:14:20 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 10:14:22 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 10:14:22 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 10:14:22 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 10:14:22 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 10:14:22 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:14:22 IST] [STEP] Capture screenshot evidence
+[PASS] Test 910/918 passed: Verify that 14 Buttons are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:14:23 IST] [PASS] Test 910/918 passed: Verify that 14 Buttons are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+  ✓  910 [webkit] › tests\generated\www-myvi-in\Volte4gVolteCallsVoiceOverLteForHdVoiceCallsVi.spec.ts:142:3 › https://www.myvi.in/ - VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi - Regression Tests › Verify that 14 Buttons are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression (4.0s)
+[PROGRESS] webkit: Test 299/306 running: Verify that 81 Inputs are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:14:23 IST] [PROGRESS] webkit: Test 299/306 running: Verify that 81 Inputs are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[FAIL] Test 911/918 failed: Verify that 22 Headings are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:14:25 IST] [FAIL] Test 911/918 failed: Verify that 22 Headings are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Volte HD Calls' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Volte HD Calls' }).first()[22m
+[2026-06-12 10:14:25 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Volte HD Calls' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Volte HD Calls' }).first()

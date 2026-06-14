@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "About Vi - India's Largest Telecom Company",
+  "pageUrl": "https://www.myvi.in/about-us/home",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_About_Vi_-_India_s_Largest_Telecom_Company_loads_successfully_About_Vi_-_India_s_Largest_Telecom_Company_-_Final_1781238847314.png"
+  ],
+  "status": "passed"
+}

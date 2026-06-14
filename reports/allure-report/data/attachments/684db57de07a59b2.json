@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Pay Vi Postpaid Bill Online - Quick & Secure | Vi India",
+  "pageUrl": "https://www.myvi.in/postpaid/quick-online-bill-payment",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'Vi Postpaid Bill Payment' exists in the DOM",
+    "Verify that the heading 'quick and easy bill payments in a few steps!' exists in the DOM",
+    "Verify that the heading 'get a new postpaid connection or MNP' exists in the DOM",
+    "Verify that the heading 'pay and manage your utility bills' exists in the DOM",
+    "Verify that the heading 'frequently asked questions' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_15_Headings_are_present_on_Pay_Vi_Postpaid_Bill_Online_-_Quick_Secure_Vi_India_Pay_Vi_Postpaid_Bill_Online_-_Quick___Secure___Vi__1781238438817.png"
+  ],
+  "status": "passed"
+}

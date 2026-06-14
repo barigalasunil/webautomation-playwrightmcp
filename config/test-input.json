@@ -1,0 +1,41 @@
+{
+  "projectName": "ai-playwright-framework",
+  "exploration": {
+    "headless": true,
+    "depth": 2,
+    "maxPagesToExplore": 10
+  },
+  "applications": [
+    {
+      "name": "app1",
+      "url": "https://www.myvi.in/",
+      "requiresAuthentication": false,
+      "credentials": {
+        "username": "",
+        "password": ""
+      },
+      "inputs": {
+        "searchText": "",
+        "formData": {}
+      }
+    },
+        }
+  ],
+  "execution": {
+    "suite": "smoke",
+    "targetApplications": ["app1", "app2"],
+    "browsers": ["chromium"],
+    "browserMode": {
+      "chromium": "headed",
+      "firefox": "headless",
+      "webkit": "headless"
+    }
+  },
+  "runSettings": {
+    "cleanBeforeRun": true,
+    "archivePreviousRun": true,
+    "attachScreenshotForEveryTest": true,
+    "generateAllureReport": true,
+    "generatePlaywrightHtmlReport": true
+  }
+}

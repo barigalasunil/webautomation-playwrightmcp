@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Utility Bill Payments | Water, Gas, Electricity & More",
+  "pageUrl": "https://www.myvi.in/utilities",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_1_Form_is_present_on_Vi_Utility_Bill_Payments_Water_Gas_Electricity_More_Vi_Utility_Bill_Payments___Water__Gas__Electricity_1781177485020.png"
+  ],
+  "status": "passed"
+}

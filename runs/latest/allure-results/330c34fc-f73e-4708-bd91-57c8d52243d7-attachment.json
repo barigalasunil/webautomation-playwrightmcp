@@ -1,0 +1,17 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India",
+  "pageUrl": "https://www.myvi.in/international-roaming-packs",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM",
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_2_Forms_are_present_on_Vi_International_Roaming_Packs_2026_-_Stay_Connected_Abroad_Vi_In_Vi_International_Roaming_Packs__2026__-_Stay_Conne_1781175169963.png"
+  ],
+  "status": "passed"
+}

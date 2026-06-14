@@ -1,0 +1,33 @@
+{
+  "name": "yt-tc",
+  "version": "1.0.0",
+  "description": "AI-Powered Playwright Test Framework",
+  "main": "index.js",
+  "scripts": {
+    "fresh": "tsx src/core/runner/cleanupManager.ts",
+    "ai:test": "tsx src/core/runner/runFramework.ts",
+    "ai:smoke": "tsx src/core/runner/runFramework.ts --suite=smoke",
+    "ai:sanity": "tsx src/core/runner/runFramework.ts --suite=sanity",
+    "ai:regression": "tsx src/core/runner/runFramework.ts --suite=regression",
+    "allure:generate": "allure generate allure-results --single-file --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "report:open": "playwright show-report playwright-report",
+    "package-report": "tsx src/core/runner/packageReport.ts",
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "allure-commandline": "^2.42.1",
+    "allure-js-commons": "^3.10.0",
+    "allure-playwright": "^3.10.0",
+    "chalk": "^5.6.2",
+    "playwright": "^1.60.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.6.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi Electricity Bill Payment | Quick & Secure Online Payment",
+  "pageUrl": "https://www.myvi.in/utilities/electricity-bill-payment",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM",
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\firefox\\Verify_that_2_Forms_are_present_on_Vi_Electricity_Bill_Payment_Quick_Secure_Online_Payment_Vi_Electricity_Bill_Payment___Quick___Secure_Onlin_1781176124710.png"
+  ],
+  "status": "passed"
+}

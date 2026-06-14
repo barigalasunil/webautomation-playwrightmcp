@@ -1,0 +1,100 @@
+[2026-06-12 10:10:20 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 10:10:20 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 10:10:20 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:10:20 IST] [STEP] Capture screenshot evidence
+[PASS] Test 802/918 passed: Verify that 19 Buttons are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:21 IST] [PASS] Test 802/918 passed: Verify that 19 Buttons are present on Vi FASTag Recharge Online | Instant Recharge @regression
+  ✓  801 [webkit] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:126:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 19 Buttons are present on Vi FASTag Recharge Online | Instant Recharge @regression (4.5s)
+[PROGRESS] webkit: Test 191/306 running: Verify that 2 Forms are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:21 IST] [PROGRESS] webkit: Test 191/306 running: Verify that 2 Forms are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:10:22 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:10:22 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:10:22 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:10:22 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:10:22 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:10:22 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 803/918 failed: Verify that 158 Links are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:23 IST] [FAIL] Test 803/918 failed: Verify that 158 Links are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/utilities/fastag-recharge#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/utilities/fastag-recharge#"]').first()[22m
+[2026-06-12 10:10:23 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/utilities/fastag-recharge#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/utilities/fastag-recharge#"]').first()
+  ✘  799 [webkit] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:80:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 158 Links are present on Vi FASTag Recharge Online | Instant Recharge @regression (9.6s)
+[PASS] Test 803/918 passed: Verify that 37 Inputs are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:23 IST] [PASS] Test 803/918 passed: Verify that 37 Inputs are present on Vi FASTag Recharge Online | Instant Recharge @regression
+  ✓  802 [webkit] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:172:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 37 Inputs are present on Vi FASTag Recharge Online | Instant Recharge @regression (4.3s)
+[PROGRESS] webkit: Test 192/306 running: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+[2026-06-12 10:10:23 IST] [PROGRESS] webkit: Test 192/306 running: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+[PROGRESS] webkit: Test 193/306 running: Verify that 1 Menu is present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:24 IST] [PROGRESS] webkit: Test 193/306 running: Verify that 1 Menu is present on Vi FASTag Recharge Online | Instant Recharge @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:10:25 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:10:25 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:10:25 IST] [STEP] Capture screenshot evidence
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:10:25 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:10:26 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:10:26 IST] [STEP] Capture screenshot evidence
+[PASS] Test 805/918 passed: Verify that 2 Forms are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:26 IST] [PASS] Test 805/918 passed: Verify that 2 Forms are present on Vi FASTag Recharge Online | Instant Recharge @regression
+  ✓  803 [webkit] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:218:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 2 Forms are present on Vi FASTag Recharge Online | Instant Recharge @regression (4.6s)
+[PROGRESS] webkit: Test 194/306 running: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:10:26 IST] [PROGRESS] webkit: Test 194/306 running: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[PASS] Test 806/918 passed: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+[2026-06-12 10:10:27 IST] [PASS] Test 806/918 passed: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+  ✓  804 [webkit] › tests\generated\www-myvi-in\ViGiganetASmartNetworkPoweredWithAiFromVi.spec.ts:15:3 › https://www.myvi.in/ - Vi Giganet: A smart network powered with AI from Vi - Regression Tests › Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression (3.8s)
+[PROGRESS] webkit: Test 195/306 running: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:10:27 IST] [PROGRESS] webkit: Test 195/306 running: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[VERIFY] Verify that the heading 'Vi powered by GIGAnet' exists in the DOM
+[2026-06-12 10:10:28 IST] [VERIFY] Verify that the heading 'Vi powered by GIGAnet' exists in the DOM
+[VERIFY] Verify that the heading 'GIGAnet FAQs' exists in the DOM
+[2026-06-12 10:10:29 IST] [VERIFY] Verify that the heading 'GIGAnet FAQs' exists in the DOM
+[VERIFY] Verify that the heading 'Download Vi app' exists in the DOM
+[2026-06-12 10:10:29 IST] [VERIFY] Verify that the heading 'Download Vi app' exists in the DOM
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 10:10:29 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:10:30 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[FAIL] Test 807/918 failed: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:10:34 IST] [FAIL] Test 807/918 failed: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Download Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Download Vi app' }).first()[22m
+[2026-06-12 10:10:34 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Download Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Download Vi app' }).first()

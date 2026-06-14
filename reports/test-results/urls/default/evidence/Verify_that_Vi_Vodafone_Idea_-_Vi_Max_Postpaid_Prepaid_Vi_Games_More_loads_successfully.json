@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More",
+  "pageUrl": "https://www.myvi.in/",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_Vi_Vodafone_Idea_-_Vi_Max_Postpaid_Prepaid_Vi_Games_More_loads_successfully_Vi__Vodafone_Idea__-_Vi_Max_Postpaid___Prepaid___V_1781239423045.png"
+  ],
+  "status": "passed"
+}

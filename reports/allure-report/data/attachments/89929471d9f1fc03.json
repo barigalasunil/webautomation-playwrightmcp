@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge",
+  "pageUrl": "https://www.myvi.in/prepaid/recharge-talktime-top-up-plans",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_7_Buttons_are_present_on_Vi_Prepaid_Talktime_and_Top-Up_Plans_Easy_Online_Mobile_Recharg_Vi_Prepaid_Talktime_and_Top-Up_Plans__Easy_Online__1781237810620.png"
+  ],
+  "status": "passed"
+}

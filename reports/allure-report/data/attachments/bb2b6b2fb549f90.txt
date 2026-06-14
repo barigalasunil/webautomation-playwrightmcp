@@ -1,0 +1,100 @@
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'select' }).first()[22m
+  ✘  520 [firefox] › tests\generated\www-myvi-in\ViMaxFamilyPlansBestPostpaidPlanForFamilyPostpaidFamilyPlans.spec.ts:142:3 › https://www.myvi.in/ - Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans - Regression Tests › Verify that 26 Buttons are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression (7.2s)
+[VERIFY] Verify that the heading 'the Vi video vault' exists in the DOM
+[2026-06-12 10:01:06 IST] [VERIFY] Verify that the heading 'the Vi video vault' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:01:07 IST] [STEP] Capture screenshot evidence
+[PASS] Test 524/918 passed: Verify that 1 Heading is present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:07 IST] [PASS] Test 524/918 passed: Verify that 1 Heading is present on Vi Official Videos: Tips, Products & Updates @regression
+  ✓  523 [firefox] › tests\generated\www-myvi-in\ViOfficialVideosTipsProductsUpdates.spec.ts:50:3 › https://www.myvi.in/ - Vi Official Videos: Tips, Products & Updates - Regression Tests › Verify that 1 Heading is present on Vi Official Videos: Tips, Products & Updates @regression (4.9s)
+[PROGRESS] firefox: Test 219/306 running: Verify that 41 Inputs are present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:07 IST] [PROGRESS] firefox: Test 219/306 running: Verify that 41 Inputs are present on Vi Official Videos: Tips, Products & Updates @regression
+[PROGRESS] firefox: Test 220/306 running: Verify that 13 Buttons are present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:08 IST] [PROGRESS] firefox: Test 220/306 running: Verify that 13 Buttons are present on Vi Official Videos: Tips, Products & Updates @regression
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:01:09 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:01:09 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:01:09 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:01:10 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:01:10 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the link 'open in Vi app' exists in the DOM
+[2026-06-12 10:01:10 IST] [VERIFY] Verify that the link 'open in Vi app' exists in the DOM
+[2026-06-12 10:01:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 28m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 28m 30s
+[VERIFY] Verify that the input 'search videos by keyword or topics' exists in the DOM
+[2026-06-12 10:01:10 IST] [VERIFY] Verify that the input 'search videos by keyword or topics' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:01:10 IST] [STEP] Capture screenshot evidence
+[PASS] Test 526/918 passed: Verify that 41 Inputs are present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:11 IST] [PASS] Test 526/918 passed: Verify that 41 Inputs are present on Vi Official Videos: Tips, Products & Updates @regression
+  ✓  525 [firefox] › tests\generated\www-myvi-in\ViOfficialVideosTipsProductsUpdates.spec.ts:172:3 › https://www.myvi.in/ - Vi Official Videos: Tips, Products & Updates - Regression Tests › Verify that 41 Inputs are present on Vi Official Videos: Tips, Products & Updates @regression (3.3s)
+[PROGRESS] firefox: Test 221/306 running: Verify that 1 Form is present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:11 IST] [PROGRESS] firefox: Test 221/306 running: Verify that 1 Form is present on Vi Official Videos: Tips, Products & Updates @regression
+[FAIL] Test 527/918 failed: Verify that 19 Inputs are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[2026-06-12 10:01:12 IST] [FAIL] Test 527/918 failed: Verify that 19 Inputs are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="pincodeField"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="pincodeField"]').first()[22m
+[2026-06-12 10:01:12 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="pincodeField"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="pincodeField"]').first()
+  ✘  522 [firefox] › tests\generated\www-myvi-in\ViMaxFamilyPlansBestPostpaidPlanForFamilyPostpaidFamilyPlans.spec.ts:188:3 › https://www.myvi.in/ - Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans - Regression Tests › Verify that 19 Inputs are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression (9.8s)
+[PROGRESS] firefox: Test 222/306 running: Verify that 2 Menus are present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:14 IST] [PROGRESS] firefox: Test 222/306 running: Verify that 2 Menus are present on Vi Official Videos: Tips, Products & Updates @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:01:14 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:01:15 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 10:01:15 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[PASS] Test 528/918 passed: Verify that 1 Form is present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:15 IST] [PASS] Test 528/918 passed: Verify that 1 Form is present on Vi Official Videos: Tips, Products & Updates @regression
+  ✓  527 [firefox] › tests\generated\www-myvi-in\ViOfficialVideosTipsProductsUpdates.spec.ts:218:3 › https://www.myvi.in/ - Vi Official Videos: Tips, Products & Updates - Regression Tests › Verify that 1 Form is present on Vi Official Videos: Tips, Products & Updates @regression (4.2s)
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 10:01:15 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 10:01:15 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 10:01:15 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 10:01:15 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:01:15 IST] [STEP] Capture screenshot evidence
+[PROGRESS] firefox: Test 223/306 running: Verify that Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments loads successfully @regression
+[2026-06-12 10:01:15 IST] [PROGRESS] firefox: Test 223/306 running: Verify that Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments loads successfully @regression
+[2026-06-12 10:01:16 IST] [FAIL] Test 529/918 failed: Verify that 165 Links are present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:16 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'open in Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'open in Vi app' }).first()
+[FAIL] Test 529/918 failed: Verify that 165 Links are present on Vi Official Videos: Tips, Products & Updates @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'open in Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'open in Vi app' }).first()[22m

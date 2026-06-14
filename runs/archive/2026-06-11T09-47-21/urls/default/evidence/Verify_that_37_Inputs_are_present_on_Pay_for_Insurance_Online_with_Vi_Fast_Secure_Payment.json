@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Pay for Insurance Online with Vi – Fast & Secure Payment",
+  "pageUrl": "https://www.myvi.in/utilities/pay-insurance-bill",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_37_Inputs_are_present_on_Pay_for_Insurance_Online_with_Vi_Fast_Secure_Payment_Pay_for_Insurance_Online_with_Vi___Fast___Secure_P_1781170921065.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,100 @@
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'Home New Connection Buy New 4G SIM Online' }).first()[22m
+[2026-06-12 10:05:08 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'Home New Connection Buy New 4G SIM Online' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'Home New Connection Buy New 4G SIM Online' }).first()
+  ✘  640 [webkit] › tests\generated\www-myvi-in\BuyANewVi4gSimCardOnlineAndGetAFreeDelivery.spec.ts:264:3 › https://www.myvi.in/ - Buy a New Vi 4g SIM Card Online and Get a Free Delivery - Regression Tests › Verify that 2 Menus are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression (9.9s)
+[VERIFY] Verify that the heading 'Individual plans' exists in the DOM
+[2026-06-12 10:05:08 IST] [VERIFY] Verify that the heading 'Individual plans' exists in the DOM
+[PROGRESS] webkit: Test 32/306 running: Verify that 50 Buttons are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 10:05:09 IST] [PROGRESS] webkit: Test 32/306 running: Verify that 50 Buttons are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 10:05:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 32m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 32m 30s
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:05:10 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:05:10 IST] [STEP] Capture screenshot evidence
+[PASS] Test 644/918 passed: Verify that Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India loads successfully @regression
+[2026-06-12 10:05:11 IST] [PASS] Test 644/918 passed: Verify that Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India loads successfully @regression
+  ✓  641 [webkit] › tests\generated\www-myvi-in\BuyFancyNumbersOnlineChoosePremiumVipNumberOrFreeOptionsViIndia.spec.ts:15:3 › https://www.myvi.in/ - Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India - Regression Tests › Verify that Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India loads successfully @regression (8.0s)
+[PROGRESS] webkit: Test 33/306 running: Verify that 168 Inputs are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 10:05:11 IST] [PROGRESS] webkit: Test 33/306 running: Verify that 168 Inputs are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[FAIL] Test 645/918 failed: Verify that 33 Links are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 10:05:12 IST] [FAIL] Test 645/918 failed: Verify that 33 Links are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'view details' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'view details' }).first()[22m
+[2026-06-12 10:05:12 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'view details' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'view details' }).first()
+  ✘  642 [webkit] › tests\generated\www-myvi-in\BuyFancyNumbersOnlineChoosePremiumVipNumberOrFreeOptionsViIndia.spec.ts:96:3 › https://www.myvi.in/ - Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India - Regression Tests › Verify that 33 Links are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression (10.0s)
+[PROGRESS] webkit: Test 34/306 running: Verify that 1 Form is present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 10:05:13 IST] [PROGRESS] webkit: Test 34/306 running: Verify that 1 Form is present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[FAIL] Test 646/918 failed: Verify that 27 Headings are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 10:05:14 IST] [FAIL] Test 646/918 failed: Verify that 27 Headings are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Individual plans' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Individual plans' }).first()[22m
+[2026-06-12 10:05:14 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Individual plans' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Individual plans' }).first()
+  ✘  643 [webkit] › tests\generated\www-myvi-in\BuyFancyNumbersOnlineChoosePremiumVipNumberOrFreeOptionsViIndia.spec.ts:50:3 › https://www.myvi.in/ - Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India - Regression Tests › Verify that 27 Headings are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression (10.6s)
+[VERIFY] Verify that the button 'Previous' exists in the DOM
+[2026-06-12 10:05:14 IST] [VERIFY] Verify that the button 'Previous' exists in the DOM
+[PROGRESS] webkit: Test 35/306 running: Verify that 2 Menus are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 10:05:15 IST] [PROGRESS] webkit: Test 35/306 running: Verify that 2 Menus are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:05:15 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:05:18 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:05:19 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 647/918 failed: Verify that 50 Buttons are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 10:05:19 IST] [FAIL] Test 647/918 failed: Verify that 50 Buttons are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'Previous' }).first()[22m
+[2026-06-12 10:05:19 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'Previous' }).first()
+  ✘  644 [webkit] › tests\generated\www-myvi-in\BuyFancyNumbersOnlineChoosePremiumVipNumberOrFreeOptionsViIndia.spec.ts:142:3 › https://www.myvi.in/ - Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India - Regression Tests › Verify that 50 Buttons are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression (10.2s)
+[PASS] Test 647/918 passed: Verify that 1 Form is present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 10:05:19 IST] [PASS] Test 647/918 passed: Verify that 1 Form is present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression

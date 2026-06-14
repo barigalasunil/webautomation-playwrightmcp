@@ -1,0 +1,58 @@
+{
+  "projectName": "ai-playwright-framework",
+  "exploration": {
+    "headless": true,
+    "depth": 3,
+    "maxPagesToExplore": 50
+  },
+  "urls": [
+    {
+      "url": "https://www.myvi.in/",
+      "requiresAuthentication": false,
+      "credentials": {
+        "username": "",
+        "password": ""
+      },
+      "inputs": {
+        "searchText": "",
+        "formData": {}
+      }
+    }
+  ],
+  "execution": {
+    "suite": "smoke",
+    "browsers": ["chromium", "firefox", "webkit"],
+    "browserMode": {
+      "chromium": "headed",
+      "firefox": "headless",
+      "webkit": "headless"
+    },
+    "runMode": "parallel-by-cpu",
+    "workers": "auto",
+    "maxWorkers": 4
+  },
+  "reporting": {
+    "allureMode": "single-file",
+    "generateAllure": true,
+    "generatePlaywrightHtml": true
+  },
+  "timeouts": {
+    "testTimeoutMs": 60000,
+    "expectTimeoutMs": 10000,
+    "actionTimeoutMs": 15000,
+    "navigationTimeoutMs": 30000,
+    "pageReadyTimeoutMs": 20000
+  },
+  "linkValidation": {
+    "verifyHrefOnly": true,
+    "maxLinksToClick": 5,
+    "skipExternalLinks": true
+  },
+  "logging": {
+    "writeToFile": true,
+    "logFile": "logs/test.logs",
+    "timezone": "Asia/Kolkata",
+    "clearLogBeforeRun": true,
+    "debug": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Get Free Night Data & Binge Your Shows with Hero Unlimited | Vi-5G",
+  "pageUrl": "https://www.myvi.in/prepaid/hero-unlimited-and-weekend-data-rollover",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Vi Hero Unlimited' exists in the DOM",
+    "Verify that the button 'Data Delight' exists in the DOM",
+    "Verify that the button 'Weekend data Rollover' exists in the DOM",
+    "Verify that the button 'Binge All Night' exists in the DOM",
+    "Verify that the button 'Download Vi App' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_15_Buttons_are_present_on_Get_Free_Night_Data_Binge_Your_Shows_with_Hero_Unlimited_Vi-5G_Get_Free_Night_Data___Binge_Your_Shows_with_Hero_U_1781239003666.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,100 @@
+[STEP] Capture screenshot evidence
+[2026-06-12 10:12:01 IST] [STEP] Capture screenshot evidence
+[PASS] Test 843/918 passed: Verify that 20 Headings are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:01 IST] [PASS] Test 843/918 passed: Verify that 20 Headings are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+  ✓  843 [webkit] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:50:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that 20 Headings are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression (6.3s)
+[PROGRESS] webkit: Test 232/306 running: Verify that 173 Links are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:01 IST] [PROGRESS] webkit: Test 232/306 running: Verify that 173 Links are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[PASS] Test 844/918 passed: Verify that Vi Postpaid Plans with Unlimited Calls & Data | Vi India loads successfully @regression
+[2026-06-12 10:12:02 IST] [PASS] Test 844/918 passed: Verify that Vi Postpaid Plans with Unlimited Calls & Data | Vi India loads successfully @regression
+  ✓  841 [webkit] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:15:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that Vi Postpaid Plans with Unlimited Calls & Data | Vi India loads successfully @regression (7.8s)
+[PROGRESS] webkit: Test 233/306 running: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:02 IST] [PROGRESS] webkit: Test 233/306 running: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[FAIL] Test 845/918 failed: Verify that 2 Menus are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[2026-06-12 10:12:05 IST] [FAIL] Test 845/918 failed: Verify that 2 Menus are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 10:12:05 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  842 [webkit] › tests\generated\www-myvi-in\ViPostpaidAutoBillPaymentSetupManageAutomaticPayments.spec.ts:268:3 › https://www.myvi.in/ - Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments - Regression Tests › Verify that 2 Menus are present on Vi Postpaid Auto Bill Payment - Setup & Manage Automatic Payments @regression (10.3s)
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:12:06 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PROGRESS] webkit: Test 234/306 running: Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:06 IST] [PROGRESS] webkit: Test 234/306 running: Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 10:12:06 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 10:12:06 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 10:12:06 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 10:12:06 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 10:12:06 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:12:06 IST] [STEP] Capture screenshot evidence
+[PASS] Test 846/918 passed: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:07 IST] [PASS] Test 846/918 passed: Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+  ✓  845 [webkit] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:142:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that 49 Buttons are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression (5.4s)
+[PROGRESS] webkit: Test 235/306 running: Verify that 2 Forms are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:07 IST] [PROGRESS] webkit: Test 235/306 running: Verify that 2 Forms are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 39m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 39m 30s
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:12:11 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:12:11 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:12:11 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:12:11 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:12:11 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:12:11 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 847/918 failed: Verify that 173 Links are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:11 IST] [FAIL] Test 847/918 failed: Verify that 173 Links are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/postpaid/vi-postpaid-plans#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/postpaid/vi-postpaid-plans#"]').first()[22m
+[2026-06-12 10:12:11 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/postpaid/vi-postpaid-plans#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/postpaid/vi-postpaid-plans#"]').first()
+  ✘  844 [webkit] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:96:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that 173 Links are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression (10.2s)
+[PASS] Test 847/918 passed: Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:12 IST] [PASS] Test 847/918 passed: Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+  ✓  846 [webkit] › tests\generated\www-myvi-in\ViPostpaidPlansWithUnlimitedCallsDataViIndia.spec.ts:188:3 › https://www.myvi.in/ - Vi Postpaid Plans with Unlimited Calls & Data | Vi India - Regression Tests › Verify that 100 Inputs are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression (5.4s)
+[PROGRESS] webkit: Test 236/306 running: Verify that 2 Menus are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:12 IST] [PROGRESS] webkit: Test 236/306 running: Verify that 2 Menus are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:12:12 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:12:12 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:12:13 IST] [STEP] Capture screenshot evidence
+[PROGRESS] webkit: Test 237/306 running: Verify that 1 Table is present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:13 IST] [PROGRESS] webkit: Test 237/306 running: Verify that 1 Table is present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[PASS] Test 849/918 passed: Verify that 2 Forms are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression
+[2026-06-12 10:12:13 IST] [PASS] Test 849/918 passed: Verify that 2 Forms are present on Vi Postpaid Plans with Unlimited Calls & Data | Vi India @regression

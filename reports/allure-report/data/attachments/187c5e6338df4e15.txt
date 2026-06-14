@@ -1,0 +1,100 @@
+[2026-06-12 09:43:25 IST] [STEP] Capture screenshot evidence
+[STEP] Capture screenshot evidence
+[PASS] Test 180/918 passed: Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression
+[2026-06-12 09:43:27 IST] [PASS] Test 180/918 passed: Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression
+  ✓  177 [chromium] › tests\generated\www-myvi-in\ViElectricityBillPaymentQuickSecureOnlinePayment.spec.ts:15:3 › https://www.myvi.in/ - Vi Electricity Bill Payment | Quick & Secure Online Payment - Regression Tests › Verify that Vi Electricity Bill Payment | Quick & Secure Online Payment loads successfully @regression (10.2s)
+[PROGRESS] chromium: Test 181/306 running: Verify that 158 Links are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:43:27 IST] [PROGRESS] chromium: Test 181/306 running: Verify that 158 Links are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[PASS] Test 181/918 passed: Verify that 1 Form is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:43:27 IST] [PASS] Test 181/918 passed: Verify that 1 Form is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+  ✓  178 [chromium] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:218:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that 1 Form is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression (8.8s)
+[PROGRESS] chromium: Test 182/306 running: Verify that 19 Buttons are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:43:28 IST] [PROGRESS] chromium: Test 182/306 running: Verify that 19 Buttons are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:43:31 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:43:32 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:43:32 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 09:43:32 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:43:32 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:43:32 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:43:32 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 182/918 failed: Verify that 3 Menus are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:43:33 IST] [FAIL] Test 182/918 failed: Verify that 3 Menus are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:43:33 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  179 [chromium] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:248:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that 3 Menus are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression (11.8s)
+[PASS] Test 182/918 passed: Verify that 19 Buttons are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:43:34 IST] [PASS] Test 182/918 passed: Verify that 19 Buttons are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+  ✓  182 [chromium] › tests\generated\www-myvi-in\ViElectricityBillPaymentQuickSecureOnlinePayment.spec.ts:126:3 › https://www.myvi.in/ - Vi Electricity Bill Payment | Quick & Secure Online Payment - Regression Tests › Verify that 19 Buttons are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression (5.6s)
+[PROGRESS] chromium: Test 183/306 running: Verify that 2 Forms are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:43:34 IST] [PROGRESS] chromium: Test 183/306 running: Verify that 2 Forms are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[PROGRESS] chromium: Test 184/306 running: Verify that 37 Inputs are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:43:35 IST] [PROGRESS] chromium: Test 184/306 running: Verify that 37 Inputs are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:43:37 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:43:38 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:43:38 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:43:39 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 11m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 11m 0s
+[FAIL] Test 184/918 failed: Verify that 158 Links are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:43:40 IST] [FAIL] Test 184/918 failed: Verify that 158 Links are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/utilities/electricity-bill-payment#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/utilities/electricity-bill-payment#"]').first()[22m
+[2026-06-12 09:43:40 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/utilities/electricity-bill-payment#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/utilities/electricity-bill-payment#"]').first()
+  ✘  181 [chromium] › tests\generated\www-myvi-in\ViElectricityBillPaymentQuickSecureOnlinePayment.spec.ts:80:3 › https://www.myvi.in/ - Vi Electricity Bill Payment | Quick & Secure Online Payment - Regression Tests › Verify that 158 Links are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression (11.6s)
+[PASS] Test 184/918 passed: Verify that 2 Forms are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:43:40 IST] [PASS] Test 184/918 passed: Verify that 2 Forms are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+  ✓  183 [chromium] › tests\generated\www-myvi-in\ViElectricityBillPaymentQuickSecureOnlinePayment.spec.ts:218:3 › https://www.myvi.in/ - Vi Electricity Bill Payment | Quick & Secure Online Payment - Regression Tests › Verify that 2 Forms are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression (6.2s)
+[PROGRESS] chromium: Test 185/306 running: Verify that Vi FASTag Recharge Online | Instant Recharge loads successfully @regression
+[2026-06-12 09:43:40 IST] [PROGRESS] chromium: Test 185/306 running: Verify that Vi FASTag Recharge Online | Instant Recharge loads successfully @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:43:41 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:43:41 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:43:41 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:43:41 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:43:41 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:43:41 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 186/306 running: Verify that 1 Menu is present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:43:42 IST] [PROGRESS] chromium: Test 186/306 running: Verify that 1 Menu is present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[PASS] Test 186/918 passed: Verify that 37 Inputs are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 09:43:42 IST] [PASS] Test 186/918 passed: Verify that 37 Inputs are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression

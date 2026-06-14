@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi",
+  "pageUrl": "https://www.myvi.in/vi-volte-4g-hd-voice-calls",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_81_Inputs_are_present_on_VoLTE_4G_VoLTE_Calls_-_Voice_Over_LTE_for_HD_Voice_Calls_Vi_VoLTE___4G_VoLTE_Calls_-__Voice_Over_LTE__for_HD_V_1781175464305.png"
+  ],
+  "status": "passed"
+}

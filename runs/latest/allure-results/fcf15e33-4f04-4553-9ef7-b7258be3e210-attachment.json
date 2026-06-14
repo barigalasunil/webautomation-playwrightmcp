@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi)",
+  "pageUrl": "https://www.myvi.in/careers",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'View Jobs' exists in the DOM",
+    "Verify that the button 'View Jobs' exists in the DOM",
+    "Verify that the button 'View Jobs' exists in the DOM",
+    "Verify that the button 'View Jobs' exists in the DOM",
+    "Verify that the button 'View Jobs' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_5_Buttons_are_present_on_Vi_Vodafone_Idea_Careers_Explore_Career_Opportunities_at_Vodafo_Vi__Vodafone_Idea__Careers___Explore_Career_Opport_1781175372497.png"
+  ],
+  "status": "passed"
+}

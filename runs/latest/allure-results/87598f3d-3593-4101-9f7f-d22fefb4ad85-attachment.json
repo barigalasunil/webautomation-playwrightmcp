@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today",
+  "pageUrl": "https://www.myvi.in/prepaid/unlimited-calls-and-data-plans",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_1_Form_is_present_on_Vi_Unlimited_Data_Calls_Internet_Plans_Choose_Vi_Unlimited_Plans_To_Vi_Unlimited_Data__Calls___Internet_Plans___Choose_1781175342517.png"
+  ],
+  "status": "passed"
+}

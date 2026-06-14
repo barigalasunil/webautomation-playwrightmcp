@@ -1,0 +1,100 @@
+[2026-06-12 10:13:08 IST] [STEP] Capture screenshot evidence
+[PASS] Test 875/918 passed: Verify that 12 Inputs are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 10:13:09 IST] [PASS] Test 875/918 passed: Verify that 12 Inputs are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+  ✓  874 [webkit] › tests\generated\www-myvi-in\ViUtilityBillPaymentsWaterGasElectricityMore.spec.ts:184:3 › https://www.myvi.in/ - Vi Utility Bill Payments | Water, Gas, Electricity & More - Regression Tests › Verify that 12 Inputs are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression (4.3s)
+[PROGRESS] webkit: Test 264/306 running: Verify that 1 Menu is present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 10:13:09 IST] [PROGRESS] webkit: Test 264/306 running: Verify that 1 Menu is present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:13:09 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:13:09 IST] [STEP] Capture screenshot evidence
+[2026-06-12 10:13:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 40m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 40m 30s
+[PASS] Test 876/918 passed: Verify that 1 Form is present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 10:13:10 IST] [PASS] Test 876/918 passed: Verify that 1 Form is present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+  ✓  875 [webkit] › tests\generated\www-myvi-in\ViUtilityBillPaymentsWaterGasElectricityMore.spec.ts:230:3 › https://www.myvi.in/ - Vi Utility Bill Payments | Water, Gas, Electricity & More - Regression Tests › Verify that 1 Form is present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression (4.0s)
+[PROGRESS] webkit: Test 265/306 running: Verify that Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) loads successfully @regression
+[2026-06-12 10:13:10 IST] [PROGRESS] webkit: Test 265/306 running: Verify that Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) loads successfully @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:13:12 IST] [STEP] Open URL: https://www.myvi.in/
+[FAIL] Test 877/918 failed: Verify that 172 Links are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 10:13:12 IST] [FAIL] Test 877/918 failed: Verify that 172 Links are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/utilities#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/utilities#"]').first()[22m
+[2026-06-12 10:13:12 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/utilities#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/utilities#"]').first()
+  ✘  873 [webkit] › tests\generated\www-myvi-in\ViUtilityBillPaymentsWaterGasElectricityMore.spec.ts:92:3 › https://www.myvi.in/ - Vi Utility Bill Payments | Water, Gas, Electricity & More - Regression Tests › Verify that 172 Links are present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression (9.6s)
+[PROGRESS] webkit: Test 266/306 running: Verify that 24 Headings are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 10:13:13 IST] [PROGRESS] webkit: Test 266/306 running: Verify that 24 Headings are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:13:13 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:13:13 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 10:13:14 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[PASS] Test 878/918 passed: Verify that Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) loads successfully @regression
+[2026-06-12 10:13:14 IST] [PASS] Test 878/918 passed: Verify that Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) loads successfully @regression
+  ✓  877 [webkit] › tests\generated\www-myvi-in\ViVodafoneIdeaCareersExploreCareerOpportunitiesAtVodafoneIdeaVi.spec.ts:15:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) - Regression Tests › Verify that Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) loads successfully @regression (3.9s)
+[PROGRESS] webkit: Test 267/306 running: Verify that 94 Links are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 10:13:14 IST] [PROGRESS] webkit: Test 267/306 running: Verify that 94 Links are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[VERIFY] Verify that the heading 'Be a part of India's leading telecom company' exists in the DOM
+[2026-06-12 10:13:16 IST] [VERIFY] Verify that the heading 'Be a part of India's leading telecom company' exists in the DOM
+[VERIFY] Verify that the heading 'Life at VIL' exists in the DOM
+[2026-06-12 10:13:16 IST] [VERIFY] Verify that the heading 'Life at VIL' exists in the DOM
+[VERIFY] Verify that the heading 'Love what you do!' exists in the DOM
+[2026-06-12 10:13:16 IST] [VERIFY] Verify that the heading 'Love what you do!' exists in the DOM
+[VERIFY] Verify that the heading 'perks of being with VIL' exists in the DOM
+[2026-06-12 10:13:16 IST] [VERIFY] Verify that the heading 'perks of being with VIL' exists in the DOM
+[VERIFY] Verify that the heading 'Agility' exists in the DOM
+[2026-06-12 10:13:16 IST] [VERIFY] Verify that the heading 'Agility' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:13:16 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:13:16 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PASS] Test 879/918 passed: Verify that 24 Headings are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 10:13:17 IST] [PASS] Test 879/918 passed: Verify that 24 Headings are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+  ✓  878 [webkit] › tests\generated\www-myvi-in\ViVodafoneIdeaCareersExploreCareerOpportunitiesAtVodafoneIdeaVi.spec.ts:50:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) - Regression Tests › Verify that 24 Headings are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression (3.3s)
+[PROGRESS] webkit: Test 268/306 running: Verify that 5 Buttons are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 10:13:17 IST] [PROGRESS] webkit: Test 268/306 running: Verify that 5 Buttons are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[2026-06-12 10:13:19 IST] [VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[2026-06-12 10:13:19 IST] [VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[2026-06-12 10:13:19 IST] [VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[2026-06-12 10:13:19 IST] [VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[2026-06-12 10:13:19 IST] [VERIFY] Verify that the button 'View Jobs' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:13:19 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 880/918 failed: Verify that 1 Menu is present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[2026-06-12 10:13:19 IST] [FAIL] Test 880/918 failed: Verify that 1 Menu is present on Vi Utility Bill Payments | Water, Gas, Electricity & More @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 10:13:19 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()

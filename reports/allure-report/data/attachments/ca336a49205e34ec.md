@@ -1,0 +1,820 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts >> https://www.myvi.in/ - Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More - Regression Tests >> Verify that 8 Buttons are present on Vi (Vodafone Idea) - Vi Max Postpaid | Prepaid | Vi Games & More @regression
+- Location: tests\generated\www-myvi-in\ViVodafoneIdeaViMaxPostpaidPrepaidViGamesMore.spec.ts:142:3
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "vi-logo" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "vi-logo" [ref=e6]
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9] [cursor=pointer]:
+            - generic [ref=e10]: Prepaid
+            - img "down-arrow" [ref=e11]
+          - listitem [ref=e12] [cursor=pointer]:
+            - generic [ref=e13]: Postpaid
+            - img "down-arrow" [ref=e14]
+          - listitem [ref=e15] [cursor=pointer]:
+            - generic [ref=e16]: New Connection
+            - img "down-arrow" [ref=e17]
+          - listitem [ref=e18] [cursor=pointer]:
+            - link "International Roaming" [ref=e19]
+          - listitem [ref=e20] [cursor=pointer]:
+            - link "5G" [ref=e21]
+          - listitem [ref=e22] [cursor=pointer]:
+            - generic [ref=e23]: OTTs & More
+            - img "down-arrow" [ref=e24]
+          - listitem [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: Help
+            - img "down-arrow" [ref=e27]
+          - listitem [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]: DND & Service Quality
+            - img "down-arrow" [ref=e30]
+          - listitem [ref=e31] [cursor=pointer]:
+            - button "search" [ref=e32]:
+              - img "search" [ref=e33]
+      - navigation [ref=e34]:
+        - list [ref=e35]:
+          - listitem [ref=e36] [cursor=pointer]: Business
+          - listitem [ref=e37] [cursor=pointer]: Investors
+          - listitem [ref=e38] [cursor=pointer]: Sign in
+  - main [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e42]:
+        - generic [ref=e44]:
+          - link "IR-Baneer" [ref=e46] [cursor=pointer]:
+            - /url: https://www.myvi.in/international-roaming-packs
+            - img "IR-Baneer" [ref=e49]
+          - link "headerbanner" [ref=e51] [cursor=pointer]:
+            - /url: https://viapp.onelink.me/bSC3/pl4
+            - img "headerbanner" [ref=e54]
+          - link [ref=e56] [cursor=pointer]:
+            - /url: https://www.myvi.in/netflix-subscription-plans
+          - link [ref=e60] [cursor=pointer]:
+            - /url: https://viapp.onelink.me/bSC3/we1
+          - link "Vi Movies & TV" [ref=e64] [cursor=pointer]:
+            - /url: https://moviesandtv.myvi.in/plans/list/898?utm_source=MyVi_Website&utm_medium=MyVi_Website&utm_campaign=MyVi_Website&utm_id=MyVi_Website
+            - img "Vi Movies & TV" [ref=e67]
+          - link "Vi Movies & TV" [ref=e69] [cursor=pointer]:
+            - /url: https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app
+            - img "Vi Movies & TV" [ref=e72]
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - heading "recharge / pay bill" [level=1] [ref=e83]
+            - generic [ref=e84]:
+              - generic [ref=e85]: "+91"
+              - textbox "enter prepaid/postpaid number" [ref=e86]
+          - generic [ref=e87]:
+            - link "port to Vi" [ref=e88] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/mobile-number-portability-mnp-online
+              - generic [ref=e89]:
+                - text: port to Vi
+                - paragraph
+            - link "buy postpaid sim view plans buy postpaid sim" [ref=e93] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/buy-postpaid-sim-connection-online?show=postpaidonly
+              - generic [ref=e94]:
+                - text: buy postpaid sim
+                - paragraph [ref=e95]: view plans
+              - img "buy postpaid sim" [ref=e96]
+            - link "international roaming explore now international roaming" [ref=e97] [cursor=pointer]:
+              - /url: https://www.myvi.in/international-roaming-packs
+              - generic [ref=e98]:
+                - text: international roaming
+                - paragraph [ref=e99]: explore now
+              - img "international roaming" [ref=e100]
+            - link "buy prepaid sim view packs buy prepaid sim" [ref=e101] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/buy-prepaid-sim-connection-online
+              - generic [ref=e102]:
+                - text: buy prepaid sim
+                - paragraph [ref=e103]: view packs
+              - img "buy prepaid sim" [ref=e104]
+            - link "buy fancy number choose number buy fancy number" [ref=e105] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/choose-your-fancy-mobile-numbers-online
+              - generic [ref=e106]:
+                - text: buy fancy number
+                - paragraph [ref=e107]: choose number
+              - img "buy fancy number" [ref=e108]
+      - generic [ref=e110]:
+        - heading "utility payments" [level=2] [ref=e113]
+        - generic [ref=e115]:
+          - generic [ref=e116] [cursor=pointer]:
+            - link "credit card bill" [ref=e117]:
+              - /url: https://www.myvi.in/utilities/credit-card-bill-payment
+              - heading "credit card bill" [level=4] [ref=e118]
+            - img "credit card bill" [ref=e119]
+          - generic [ref=e120] [cursor=pointer]:
+            - link "electricity payment" [ref=e121]:
+              - /url: https://www.myvi.in/utilities/electricity-bill-payment
+              - heading "electricity payment" [level=4] [ref=e122]
+            - img "electricity payment" [ref=e123]
+          - generic [ref=e124] [cursor=pointer]:
+            - link "insurance premium" [ref=e125]:
+              - /url: https://www.myvi.in/utilities/pay-insurance-bill
+              - heading "insurance premium" [level=4] [ref=e126]
+            - img "insurance premium" [ref=e127]
+          - generic [ref=e128] [cursor=pointer]:
+            - link "fastag" [ref=e129]:
+              - /url: /utilities/fastag-recharge
+              - heading "fastag" [level=4] [ref=e130]
+            - img "fastag" [ref=e131]
+          - generic [ref=e132] [cursor=pointer]:
+            - link "loan repayment" [ref=e133]:
+              - /url: https://www.myvi.in/utilities/loan-payment
+              - heading "loan repayment" [level=4] [ref=e134]
+            - img "loan repayment" [ref=e135]
+          - link "explore more" [ref=e136] [cursor=pointer]:
+            - /url: https://www.myvi.in/utilities
+            - generic [ref=e137]:
+              - text: explore
+              - text: more
+      - generic [ref=e139]:
+        - heading "there’s always more with Vi" [level=2] [ref=e140]
+        - generic [ref=e141]:
+          - link [ref=e142] [cursor=pointer]:
+            - /url: "#"
+          - link:
+            - /url: "#"
+          - link:
+            - /url: "#"
+          - link:
+            - /url: "#"
+          - link "img" [ref=e144] [cursor=pointer]:
+            - /url: "#"
+            - img "img" [ref=e146]
+          - link [ref=e147] [cursor=pointer]:
+            - /url: https://viapp.onelink.me/bSC3/viapp1
+        - generic [ref=e149]:
+          - button "Slide 1" [ref=e150] [cursor=pointer]
+          - button "Slide 2" [ref=e151] [cursor=pointer]
+          - button "Slide 3" [ref=e152] [cursor=pointer]
+          - button "Slide 4" [ref=e153] [cursor=pointer]
+          - button "Slide 5" [ref=e154] [cursor=pointer]
+          - button "Slide 6" [ref=e155] [cursor=pointer]
+      - generic [ref=e159]:
+        - heading "the best mobile plans for you" [level=2] [ref=e160]
+        - generic [ref=e161]:
+          - button "prepaid packs" [ref=e162] [cursor=pointer]
+          - generic [ref=e163]:
+            - paragraph [ref=e164]: postpaid packs
+            - generic [ref=e165]:
+              - button "individual" [ref=e166] [cursor=pointer]
+              - button "family" [ref=e167] [cursor=pointer]
+        - generic [ref=e168]:
+          - img "location icon" [ref=e169]
+          - heading "Mumbai" [level=5] [ref=e170] [cursor=pointer]
+        - generic [ref=e171]:
+          - button "next icon" [disabled]:
+            - img "next icon"
+          - button "next icon" [ref=e172] [cursor=pointer]:
+            - img "next icon" [ref=e173]
+          - generic [ref=e175]:
+            - generic [ref=e177]:
+              - generic [ref=e178]: Choose any 1 complimentary benefit
+              - generic [ref=e179]:
+                - generic [ref=e180]:
+                  - paragraph [ref=e181]: Vi Max 451
+                  - generic [ref=e182]:
+                    - paragraph [ref=e183]:
+                      - generic [ref=e184]: ₹
+                      - text: "451"
+                      - generic [ref=e185]: /month
+                    - button "Select" [ref=e186] [cursor=pointer]
+                  - paragraph [ref=e188]:
+                    - img "5g" [ref=e189]
+                    - generic [ref=e190]: +
+                    - generic [ref=e191]:
+                      - generic [ref=e192]: 50 GB data
+                      - generic [ref=e193]: +
+                      - generic [ref=e194]: 200 GB rollover
+                - paragraph [ref=e196]:
+                  - generic [ref=e197]: unlimited
+                  - generic [ref=e198]: calls
+                - paragraph [ref=e200]:
+                  - text: Choice of
+                  - generic [ref=e201]: any 1
+                  - text: complimentary benefits
+                - generic [ref=e202]:
+                  - img "Vi Movies & TV" [ref=e204] [cursor=pointer]
+                  - img "JioHotstar" [ref=e206] [cursor=pointer]
+                  - img "SonyLIV" [ref=e208] [cursor=pointer]
+                  - img "Norton" [ref=e210] [cursor=pointer]
+                  - img "Chevron Right" [ref=e212] [cursor=pointer]
+            - generic [ref=e214]:
+              - generic [ref=e215]: Choose any 2 complimentary benefits
+              - generic [ref=e216]:
+                - generic [ref=e217]:
+                  - paragraph [ref=e218]: Vi Max 551
+                  - generic [ref=e219]:
+                    - paragraph [ref=e220]:
+                      - generic [ref=e221]: ₹
+                      - text: "551"
+                      - generic [ref=e222]: /month
+                    - button "Select" [ref=e223] [cursor=pointer]
+                  - paragraph [ref=e225]:
+                    - img "5g" [ref=e226]
+                    - generic [ref=e227]: +
+                    - generic [ref=e228]:
+                      - generic [ref=e229]: 90 GB data
+                      - generic [ref=e230]: +
+                      - generic [ref=e231]: 200 GB rollover
+                - paragraph [ref=e233]:
+                  - generic [ref=e234]: unlimited
+                  - generic [ref=e235]: calls
+                - paragraph [ref=e237]:
+                  - text: Choice of
+                  - generic [ref=e238]: any 2
+                  - text: complimentary benefits
+                - generic [ref=e239]:
+                  - img "Vi Movies & TV" [ref=e241] [cursor=pointer]
+                  - img "Amazon Prime" [ref=e243] [cursor=pointer]
+                  - img "JioHotstar" [ref=e245] [cursor=pointer]
+                  - img "SonyLIV" [ref=e247] [cursor=pointer]
+                  - img "Swiggy" [ref=e249] [cursor=pointer]
+                  - generic [ref=e250] [cursor=pointer]:
+                    - generic [ref=e251]: "+2"
+                    - generic [ref=e252]: more
+                  - img "Chevron Right" [ref=e254] [cursor=pointer]
+            - generic [ref=e256]:
+              - generic [ref=e257]: Choose any 3 complimentary benefits
+              - generic [ref=e258]:
+                - generic [ref=e259]:
+                  - paragraph [ref=e260]: Vi Max 751
+                  - generic [ref=e261]:
+                    - paragraph [ref=e262]:
+                      - generic [ref=e263]: ₹
+                      - text: "751"
+                      - generic [ref=e264]: /month
+                    - button "Select" [ref=e265] [cursor=pointer]
+                  - paragraph [ref=e267]:
+                    - img "5g" [ref=e268]
+                    - generic [ref=e269]: +
+                    - generic [ref=e270]:
+                      - generic [ref=e271]: 150 GB data
+                      - generic [ref=e272]: +
+                      - generic [ref=e273]: 200 GB rollover
+                - paragraph [ref=e275]:
+                  - generic [ref=e276]: unlimited
+                  - generic [ref=e277]: calls
+                - paragraph [ref=e279]:
+                  - text: Choice of
+                  - generic [ref=e280]: any 3
+                  - text: complimentary benefits
+                - generic [ref=e281]:
+                  - img "Vi Movies & TV" [ref=e283] [cursor=pointer]
+                  - img "Amazon Prime" [ref=e285] [cursor=pointer]
+                  - img "JioHotstar" [ref=e287] [cursor=pointer]
+                  - img "SonyLIV" [ref=e289] [cursor=pointer]
+                  - img "Swiggy" [ref=e291] [cursor=pointer]
+                  - generic [ref=e292] [cursor=pointer]:
+                    - generic [ref=e293]: "+2"
+                    - generic [ref=e294]: more
+                  - img "Chevron Right" [ref=e296] [cursor=pointer]
+            - generic [ref=e298]:
+              - generic [ref=e299]: Fully Loaded
+              - generic [ref=e300]:
+                - generic [ref=e301]:
+                  - paragraph [ref=e302]: REDX 1201
+                  - generic [ref=e303]:
+                    - paragraph [ref=e304]:
+                      - generic [ref=e305]: ₹
+                      - text: "1201"
+                      - generic [ref=e306]: /month
+                    - button "Select" [ref=e307] [cursor=pointer]
+                  - paragraph [ref=e309]:
+                    - img "5g" [ref=e310]
+                    - generic [ref=e311]: +
+                    - generic [ref=e312]: unlimited data
+                - paragraph [ref=e314]:
+                  - generic [ref=e315]: unlimited
+                  - generic [ref=e316]: calls
+                - generic [ref=e318]:
+                  - generic [ref=e319]:
+                    - img "International Roaming" [ref=e320]
+                    - paragraph [ref=e321]: IR pack worth Rs2999 free once every year
+                  - generic [ref=e322]:
+                    - img "Airport Lounge Access" [ref=e323]
+                    - paragraph [ref=e324]: airport lounge access 4 per year
+                - paragraph [ref=e325]: you can claim all benefits
+                - generic [ref=e326]:
+                  - img "Netflix" [ref=e328] [cursor=pointer]
+                  - img "Amazon Prime" [ref=e330] [cursor=pointer]
+                  - img "JioHotstar" [ref=e332] [cursor=pointer]
+                  - img "SonyLIV" [ref=e334] [cursor=pointer]
+                  - img "Swiggy" [ref=e336] [cursor=pointer]
+                  - generic [ref=e337] [cursor=pointer]:
+                    - generic [ref=e338]: "+1"
+                    - generic [ref=e339]: more
+                  - img "Chevron Right" [ref=e341] [cursor=pointer]
+      - generic [ref=e347]:
+        - heading "explore more services" [level=2] [ref=e348]
+        - generic [ref=e349]:
+          - link "Explore images pay bill for others" [ref=e350] [cursor=pointer]:
+            - /url: https://www.myvi.in/postpaid/quick-online-bill-payment
+            - img "Explore images" [ref=e352]
+            - paragraph [ref=e353]: pay bill for others
+          - link "Explore images recharge for others" [ref=e354] [cursor=pointer]:
+            - /url: https://www.myvi.in/prepaid/online-mobile-recharge
+            - img "Explore images" [ref=e356]
+            - paragraph [ref=e357]: recharge for others
+          - link "Explore images OTT packs" [ref=e358] [cursor=pointer]:
+            - /url: https://www.myvi.in/prepaid/online-mobile-recharge?category=disneyhotstar
+            - img "Explore images" [ref=e360]
+            - paragraph [ref=e361]: OTT packs
+          - link "Explore images upgrade to postpaid" [ref=e362] [cursor=pointer]:
+            - /url: https://www.myvi.in/pre-to-post/plan?mrp=451&utm_source=MyVi&utm_campaign=MainMenu
+            - img "Explore images" [ref=e364]
+            - paragraph [ref=e365]: upgrade to postpaid
+          - link "Explore images get new connection" [ref=e366] [cursor=pointer]:
+            - /url: https://www.myvi.in/new-connection/buy-prepaid-sim-connection-online?utm_source=homepage&utm_medium=website&utm_campaign=NeoPrepaid1
+            - img "Explore images" [ref=e368]
+            - paragraph [ref=e369]: get new connection
+          - link "Explore images international roaming" [ref=e370] [cursor=pointer]:
+            - /url: https://www.myvi.in/international-roaming-packs
+            - img "Explore images" [ref=e372]
+            - paragraph [ref=e373]: international roaming
+          - link "Explore images switch to eSIM" [ref=e374] [cursor=pointer]:
+            - /url: https://www.myvi.in/esim-activation
+            - img "Explore images" [ref=e376]
+            - paragraph [ref=e377]: switch to eSIM
+          - link "Explore images 5G" [ref=e378] [cursor=pointer]:
+            - /url: https://www.myvi.in/5g-network
+            - img "Explore images" [ref=e380]
+            - paragraph [ref=e381]: 5G
+          - link "Explore images setup autopay" [ref=e382] [cursor=pointer]:
+            - /url: https://www.myvi.in/postpaid/auto-bill-payment
+            - img "Explore images" [ref=e384]
+            - paragraph [ref=e385]: setup autopay
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - img "International Roaming" [ref=e389]
+          - generic [ref=e390]:
+            - heading "ready to travel the world?" [level=2] [ref=e391]
+            - paragraph [ref=e392]:
+              - text: enjoy unlimited data & calls abroad
+              - text: with packs starting at just ₹649
+        - heading "explore more explore icon" [level=4] [ref=e393] [cursor=pointer]:
+          - text: explore more
+          - img "explore icon" [ref=e394]
+      - generic [ref=e396]:
+        - paragraph [ref=e397]: trusted by millions across India
+        - generic [ref=e399]:
+          - generic [ref=e401]:
+            - generic [ref=e403]:
+              - paragraph [ref=e404]: Sai Shyam G
+              - paragraph [ref=e405]: "@SaiShyamG"
+            - paragraph [ref=e407]: Hi @ViCustomerCare, Huge thanks to the team at the Vi Store on New BEL Road, Bengaluru for being extremely helpful and prompt in assisting me with a duplicate SIM request after I lost my phone yesterday. Really appreciate the support from the store staff.
+            - generic [ref=e408]:
+              - generic [ref=e409]: March 12, 2026
+              - link "full post on X" [ref=e410] [cursor=pointer]:
+                - /url: https://x.com/SaiShyamG/status/2031908110370292047
+          - generic [ref=e412]:
+            - generic [ref=e414]:
+              - paragraph [ref=e415]: Sripathi
+              - paragraph [ref=e416]: "@shreebhootha"
+            - paragraph [ref=e418]: "@TanaysinghT @TelecomTalk @ViCustomerCare #vi 5G at Chennai..both indoor and outdoor coverage... Really superb... #vi all the best for your SUCCESS. Very fast to access any sites... Other networks don't have such speed at my location. Keep going on..."
+            - generic [ref=e419]:
+              - generic [ref=e420]: March 28, 2026
+              - link "full post on X" [ref=e421] [cursor=pointer]:
+                - /url: https://x.com/shreebhootha/status/2037719099485409687
+          - generic [ref=e423]:
+            - generic [ref=e425]:
+              - paragraph [ref=e426]: Omkar Sankpal
+              - paragraph [ref=e427]: "@omkar3875"
+            - generic [ref=e428]:
+              - paragraph [ref=e429]: Thanks
+              - paragraph [ref=e430]: "@ViCustomerCare"
+              - paragraph [ref=e431]: for the solid 5G speeds
+              - paragraph [ref=e432]: "Got 65+ Mbps download today. Appreciate the efforts, just hoping for even better stability ahead. #Vi5G #SpeedTest"
+            - generic [ref=e433]:
+              - generic [ref=e434]: Sept 11, 2025
+              - link "full post on X" [ref=e435] [cursor=pointer]:
+                - /url: https://x.com/omkar3875/status/1966177935397892124
+          - generic [ref=e437]:
+            - generic [ref=e439]:
+              - paragraph [ref=e440]: mohammeed sadatulla
+              - paragraph [ref=e441]: "@sadat01"
+            - generic [ref=e442]:
+              - paragraph [ref=e443]: ViCustomerCare
+              - paragraph [ref=e444]: I really appreciate the field team network team social media team for calling customer and helping with network issue really appreciate no operator does that really wonderful experience please keep good 5g network and everything is good thank u
+            - generic [ref=e445]:
+              - generic [ref=e446]: July 25, 2025
+              - link "full post on X" [ref=e447] [cursor=pointer]:
+                - /url: https://x.com/sadat01/status/1948786526327804321
+          - generic [ref=e449]:
+            - generic [ref=e451]:
+              - paragraph [ref=e452]: Kaiser
+              - paragraph [ref=e453]: "@TheKaiserDar"
+            - generic [ref=e454]:
+              - paragraph [ref=e455]: That's why supporting 3rd Best Operator is sometimes worth
+              - paragraph [ref=e456]: "@ViCustomerCare"
+              - paragraph [ref=e457]: Giving Good Service Right Now in J&K Despite in these harsh conditions and floods all around.
+            - generic [ref=e458]:
+              - generic [ref=e459]: Aug 28,2025
+              - link "full post on X" [ref=e460] [cursor=pointer]:
+                - /url: https://x.com/TheKaiserDar/status/1961120397098893804
+          - generic [ref=e462]:
+            - generic [ref=e464]:
+              - paragraph [ref=e465]: VN
+              - paragraph [ref=e466]: "@175f62e3c3e4473"
+            - paragraph [ref=e468]: Hi, I don’t have any problems now the network is excellent, and I’m getting much better speed compared to Jio and Airtel. I really appreciate the improvement in your service, and I’ll also be getting a few more Vi SIMs soon. Thank you for the great work!
+            - generic [ref=e469]:
+              - generic [ref=e470]: Aug 31,2025
+              - link "full post on X" [ref=e471] [cursor=pointer]:
+                - /url: https://x.com/175f62e3c3e4473/status/1962177943029068024
+          - generic [ref=e473]:
+            - generic [ref=e475]:
+              - paragraph [ref=e476]: aadil khan
+              - paragraph [ref=e477]: "@kaadil00022"
+            - generic [ref=e478]:
+              - paragraph [ref=e479]: ViCustomerCare
+              - paragraph [ref=e480]: FYI,
+              - paragraph [ref=e481]: I would like to express my appreciation for Ms. Pooja and Mr. Omkar (Mumbai Goregaon East Storage ). They were very helpful, and my work has been successfully completed.
+              - paragraph [ref=e482]: Thank you for the great support.
+            - generic [ref=e483]:
+              - generic [ref=e484]: Aug 04,2025
+              - link "full post on X" [ref=e485] [cursor=pointer]:
+                - /url: https://x.com/kaadil00022/status/1952093758490878153
+          - generic [ref=e487]:
+            - generic [ref=e489]:
+              - paragraph [ref=e490]: Ashok
+              - paragraph [ref=e491]: "@ashokmba09"
+            - generic [ref=e492]:
+              - paragraph [ref=e493]: Thank You
+              - paragraph [ref=e494]: "@ViCustomerCare"
+              - paragraph [ref=e495]: for immediate step in & speedy resolution of the case .
+              - paragraph [ref=e496]: Appreciate for taking the customer loyalty into consideration & keeping the brand value at its best .
+            - generic [ref=e497]:
+              - generic [ref=e498]: July 24,2025
+              - link "full post on X" [ref=e499] [cursor=pointer]:
+                - /url: https://x.com/ashokmba09/status/1948395155423199434
+          - generic [ref=e501]:
+            - generic [ref=e503]:
+              - paragraph [ref=e504]: Ashiesh Tiware
+              - paragraph [ref=e505]: "@ashieshtiware"
+            - paragraph [ref=e507]: I appreciate Vi for giving network in our area nallasopara west in absence of electricity since 3 days and severe flooded area we got some network to talk to over loved ones... Thanks a lot and whereas Airtel India Jio both network absent since that day not getting since today
+            - generic [ref=e508]:
+              - generic [ref=e509]: Aug 21,2025
+              - link "full post on X" [ref=e510] [cursor=pointer]:
+                - /url: https://x.com/ashieshtiware/status/1958371521270820977
+        - generic [ref=e511]:
+          - button "Go to slide 1" [ref=e512] [cursor=pointer]
+          - button "Go to slide 2" [ref=e513] [cursor=pointer]
+          - button "Go to slide 3" [ref=e514] [cursor=pointer]
+          - button "Go to slide 4" [ref=e515] [cursor=pointer]
+          - button "Go to slide 5" [ref=e516] [cursor=pointer]
+          - button "Go to slide 6" [ref=e517] [cursor=pointer]
+          - button "Go to slide 7" [ref=e518] [cursor=pointer]
+          - button "Go to slide 8" [ref=e519] [cursor=pointer]
+          - button "Go to slide 9" [ref=e520] [cursor=pointer]
+      - generic [ref=e523]:
+        - img "Vi App Desktop" [ref=e525]
+        - generic [ref=e526]:
+          - heading "Explore Vi app" [level=2] [ref=e527]
+          - generic [ref=e528]:
+            - link "Get it on Google Play" [ref=e529] [cursor=pointer]:
+              - /url: https://viapp.onelink.me/bSC3/viapp1
+              - img "Get it on Google Play" [ref=e530]
+            - link "Download on the App Store" [ref=e531] [cursor=pointer]:
+              - /url: https://viapp.onelink.me/bSC3/viapp1
+              - img "Download on the App Store" [ref=e532]
+      - generic [ref=e534]:
+        - heading "need help? we’ve got you covered!" [level=2] [ref=e535]
+        - generic [ref=e536]:
+          - generic [ref=e537]:
+            - link "call us call us" [ref=e538] [cursor=pointer]:
+              - /url: https://www.myvi.in/help-support/vi-customer-care-number
+              - img "call us" [ref=e539]
+              - generic [ref=e540]:
+                - generic [ref=e541]: call us
+                - img [ref=e542]
+            - link "chat with us chat with us" [ref=e544] [cursor=pointer]:
+              - /url: https://www.myvi.in/help-support/faqs?chatbotopen=true
+              - img "chat with us" [ref=e545]
+              - generic [ref=e546]:
+                - generic [ref=e547]: chat with us
+                - img [ref=e548]
+          - link "solve queries with videos solve queries with videos" [ref=e550] [cursor=pointer]:
+            - /url: https://www.myvi.in/videos
+            - img "solve queries with videos" [ref=e551]
+            - generic [ref=e552]:
+              - generic [ref=e553]: solve queries with videos
+              - img [ref=e554]
+      - generic [ref=e559]:
+        - heading "frequently asked questions" [level=2] [ref=e560]
+        - generic [ref=e562] [cursor=pointer]:
+          - generic [ref=e563]: How can I do a recharge?
+          - img "Collapse" [ref=e565]
+        - generic [ref=e567] [cursor=pointer]:
+          - generic [ref=e568]: I want to know my current outstanding amount
+          - img "Collapse" [ref=e570]
+        - generic [ref=e572] [cursor=pointer]:
+          - generic [ref=e573]: I want free delivery of new postpaid connection
+          - img "Collapse" [ref=e575]
+        - generic [ref=e577] [cursor=pointer]:
+          - generic [ref=e578]: I’m having trouble using data or making calls
+          - img "Collapse" [ref=e580]
+      - generic [ref=e581]:
+        - img "close icon" [ref=e582] [cursor=pointer]
+        - link "What can I help you with?":
+          - /url: https://www.myvi.in/help-support/faqs?chatbotopen=true
+          - paragraph [ref=e583] [cursor=pointer]: What can I help you with?
+        - link "live-chat-icon" [ref=e584] [cursor=pointer]:
+          - /url: https://www.myvi.in/help-support/faqs?chatbotopen=true
+          - img "live-chat-icon" [ref=e585]
+      - generic [ref=e586]:
+        - generic [ref=e587]:
+          - heading "your cookie preferences Cookie" [level=3] [ref=e588]:
+            - text: your cookie preferences
+            - img "Cookie" [ref=e589]
+          - button "next icon" [ref=e590] [cursor=pointer]:
+            - img "next icon" [ref=e591]
+        - paragraph [ref=e592]:
+          - paragraph [ref=e593]:
+            - text: We use cookies to enhance your browsing experience, analyze website traffic, and provide personalized content. By clicking “Accept all,” you agree to the use of all cookies. Essential cookies will continue to function regardless of your choice. Please refer to our
+            - link "Cookie Policy and Privacy Policy" [ref=e594] [cursor=pointer]:
+              - /url: https://www.myvi.in/privacy-policy
+            - text: for more information.
+        - button "accept all" [ref=e595] [cursor=pointer]
+  - contentinfo [ref=e596]:
+    - generic [ref=e598]:
+      - generic [ref=e599]:
+        - img "Vi Logo" [ref=e600]
+        - heading "Vodafone Idea Limited" [level=3] [ref=e601]
+        - paragraph [ref=e602]: Vodafone Idea Limited, a partnership between the Aditya Birla Group & Vodafone Group, provides pan-India voice and data services using the latest communication technologies
+        - generic [ref=e603]:
+          - link "Facebook" [ref=e604] [cursor=pointer]:
+            - /url: https://www.facebook.com/ViOfficialFanWorld/
+            - img "Facebook" [ref=e605]
+          - link "Instagram" [ref=e606] [cursor=pointer]:
+            - /url: https://instagram.com/viofficialfanworld
+            - img "Instagram" [ref=e607]
+          - link "Twitter" [ref=e608] [cursor=pointer]:
+            - /url: https://twitter.com/ViCustomerCare
+            - img "Twitter" [ref=e609]
+          - link "Youtube" [ref=e610] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCHLTL1DEP_zelqLvUlYaV8Q
+            - img "Youtube" [ref=e611]
+          - link "LinkedIn" [ref=e612] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/vodafone-idea-limited
+            - img "LinkedIn" [ref=e613]
+      - generic [ref=e614]:
+        - generic [ref=e615]:
+          - heading "about Vi" [level=4] [ref=e616]
+          - generic [ref=e617]:
+            - link "About Us" [ref=e618] [cursor=pointer]:
+              - /url: https://www.myvi.in/about-us/home
+            - link "Vodafone Idea Corp" [ref=e619] [cursor=pointer]:
+              - /url: https://www.vodafoneidea.com/
+            - link "Vi Foundation" [ref=e620] [cursor=pointer]:
+              - /url: https://www.myvi.in/about-us/vodafoneidea-foundation
+            - link "Vodafone Group" [ref=e621] [cursor=pointer]:
+              - /url: https://www.vodafone.com/
+            - link "Aditya Birla Group" [ref=e622] [cursor=pointer]:
+              - /url: https://adityabirla.com/home
+            - link "Investor Relations" [ref=e623] [cursor=pointer]:
+              - /url: https://www.myvi.in/investors/investors-support
+            - link "News & Media" [ref=e624] [cursor=pointer]:
+              - /url: https://www.myvi.in/vodafone-idea/press-releases
+            - link "Career" [ref=e625] [cursor=pointer]:
+              - /url: https://www.myvi.in/careers
+            - link "Vi App" [ref=e626] [cursor=pointer]:
+              - /url: https://viapp.onelink.me/bSC3/viapp1
+            - link "Vi Stores Near Me" [ref=e627] [cursor=pointer]:
+              - /url: https://stores.myvi.in/?UTM_SOURCE=myviHome
+            - link "Vi Business" [ref=e628] [cursor=pointer]:
+              - /url: https://www.myvi.in/business
+            - link "Home Broadband" [ref=e629] [cursor=pointer]:
+              - /url: https://youbroadband.in/?soc_id=194&campaign_source=%3Cweb%3E&campaign_name=%3CVi%3E
+            - link "GIGAnet" [ref=e630] [cursor=pointer]:
+              - /url: https://www.myvi.in/giganet
+            - link "Vi VoLTE" [ref=e631] [cursor=pointer]:
+              - /url: https://www.myvi.in/vi-volte-4g-hd-voice-calls
+            - link "Go Green" [ref=e632] [cursor=pointer]:
+              - /url: https://www.myvi.in/online-ebill-registration
+            - link "eSIM" [ref=e633] [cursor=pointer]:
+              - /url: https://www.myvi.in/esim-activation
+            - link "WiFi Calling" [ref=e634] [cursor=pointer]:
+              - /url: https://www.myvi.in/vi-wifi-calling
+            - link "5G" [ref=e635] [cursor=pointer]:
+              - /url: https://www.myvi.in/5g-network
+            - link "Blog" [ref=e636] [cursor=pointer]:
+              - /url: /blog
+        - generic [ref=e637]:
+          - heading "more from Vi" [level=4] [ref=e638]
+          - generic [ref=e639]:
+            - link "Postpaid Connection" [ref=e640] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/buy-new-4g-sim-card-online
+            - link "Prepaid Connection" [ref=e641] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/buy-prepaid-sim-connection-online
+            - link "Port Number to Vi / MNP" [ref=e642] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/mobile-number-portability-mnp-online
+            - link "Free SIM Delivery" [ref=e643] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/vi-free-sim-home-delivery
+            - link "Track your SIM Delivery" [ref=e644] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/track-your-sim-online
+            - link "Fancy Number" [ref=e645] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/choose-your-fancy-mobile-numbers-online
+            - link "Individual Plans" [ref=e646] [cursor=pointer]:
+              - /url: https://www.myvi.in/postpaid/vi-postpaid-plans
+            - link "Family Plans" [ref=e647] [cursor=pointer]:
+              - /url: https://www.myvi.in/postpaid/family-postpaid-plans
+            - link "Prepaid to Postpaid" [ref=e648] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/buy-postpaid-sim-connection-online?utm_source=Myviweb&utm_campaign=MainMenu
+            - link "Best Postpaid Plans" [ref=e649] [cursor=pointer]:
+              - /url: https://www.myvi.in/postpaid/vi-postpaid-plans
+            - link "Best Prepaid Plans" [ref=e650] [cursor=pointer]:
+              - /url: /prepaid/best-prepaid-plans
+            - link "Hero Unlimited Plans" [ref=e651] [cursor=pointer]:
+              - /url: /prepaid/hero-unlimited-and-weekend-data-rollover
+            - link "Unlimited Plans" [ref=e652] [cursor=pointer]:
+              - /url: /prepaid/unlimited-calls-and-data-plans
+            - link "Talktime Plans" [ref=e653] [cursor=pointer]:
+              - /url: /prepaid/recharge-talktime-top-up-plans
+            - link "Data Plans" [ref=e654] [cursor=pointer]:
+              - /url: /prepaid/mobile-data-packs
+            - link "SMS Packs" [ref=e655] [cursor=pointer]:
+              - /url: /prepaid/sms-packs
+            - link "Caller Tunes Packs" [ref=e656] [cursor=pointer]:
+              - /url: /prepaid/caller-tunes
+            - link "Value Added Services" [ref=e657] [cursor=pointer]:
+              - /url: https://www.myvi.in/value-added-services
+            - link "Service Validity Plans" [ref=e658] [cursor=pointer]:
+              - /url: /prepaid/service-validity-recharge-plans
+            - link "JioHotstar Plans" [ref=e659] [cursor=pointer]:
+              - /url: prepaid/jiohotstar-subscription-recharge-plans
+            - link "Amazon Prime Plans" [ref=e660] [cursor=pointer]:
+              - /url: /prepaid/amazon-prime-membership-recharge
+            - link "Sony LIV offers" [ref=e661] [cursor=pointer]:
+              - /url: /prepaid/sonyliv-subscription-recharge-plans
+            - link "Online Recharge" [ref=e662] [cursor=pointer]:
+              - /url: /prepaid/online-mobile-recharge
+            - link "Postpaid Bill Payment" [ref=e663] [cursor=pointer]:
+              - /url: https://www.myvi.in/postpaid/quick-online-bill-payment
+            - link "Vi Shop - Seller Portal" [ref=e664] [cursor=pointer]:
+              - /url: https://www.vishop.myvi.in/
+            - link "Vi Video Vault" [ref=e665] [cursor=pointer]:
+              - /url: https://www.myvi.in/videos
+        - generic [ref=e666]:
+          - heading "explore on Vi app" [level=4] [ref=e667]
+          - generic [ref=e668]:
+            - link "Vi Games" [ref=e669] [cursor=pointer]:
+              - /url: https://www.myvi.in/vi-games-app
+            - link "Vi Movies & TV" [ref=e670] [cursor=pointer]:
+              - /url: https://viapp.onelink.me/bSC3/viappmtv
+            - link "Vi Hero Unlimited" [ref=e671] [cursor=pointer]:
+              - /url: /prepaid/hero-unlimited-and-weekend-data-rollover
+            - link "Vi WiFi Calling" [ref=e672] [cursor=pointer]:
+              - /url: https://www.myvi.in/vi-wifi-calling
+            - link "International Roaming" [ref=e673] [cursor=pointer]:
+              - /url: https://www.myvi.in/international-roaming-packs
+            - link "Callertunes" [ref=e674] [cursor=pointer]:
+              - /url: https://viapp.onelink.me/bSC3/viapp1
+            - link "Order Prepaid SIM" [ref=e675] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/buy-prepaid-sim-connection-online
+            - link "Order Postpaid SIM" [ref=e676] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/buy-postpaid-sim-connection-online
+            - link "Order VIP Number" [ref=e677] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/choose-your-fancy-mobile-numbers-online
+            - link "Port to Vi" [ref=e678] [cursor=pointer]:
+              - /url: https://www.myvi.in/new-connection/mobile-number-portability-mnp-online
+            - link "Recharge for Self/Others" [ref=e679] [cursor=pointer]:
+              - /url: /prepaid/online-mobile-recharge
+            - link "Pay Bill for Self/Others" [ref=e680] [cursor=pointer]:
+              - /url: https://www.myvi.in/postpaid/quick-online-bill-payment
+            - link "Cashback Offers" [ref=e681] [cursor=pointer]:
+              - /url: /prepaid/recharge-cashback-offers
+            - link "Help & Support" [ref=e682] [cursor=pointer]:
+              - /url: https://www.myvi.in/help-support/faqs
+            - link "My Account" [ref=e683] [cursor=pointer]:
+              - /url: https://www.myvi.in/vi-app
+            - link "Vi Shop" [ref=e684] [cursor=pointer]:
+              - /url: https://www.myvi.in/vi-shop-offers
+            - link "Vi Prepaid Autopay" [ref=e685] [cursor=pointer]:
+              - /url: https://www.myvi.in/auto-pay-recharge
+        - generic [ref=e686]:
+          - heading "regulatory & quick access" [level=4] [ref=e687]
+          - generic [ref=e688]:
+            - link "Telemarketing Registration" [ref=e689] [cursor=pointer]:
+              - /url: https://www.myvi.in/tele-marketing
+            - link "Privacy Policy" [ref=e690] [cursor=pointer]:
+              - /url: https://www.myvi.in/privacy-policy
+            - link "Terms of Service" [ref=e691] [cursor=pointer]:
+              - /url: https://www.myvi.in/terms-of-use
+            - link "Notices" [ref=e692] [cursor=pointer]:
+              - /url: https://www.myvi.in/regulatory-notices
+            - link "Prepaid TRAI mandate" [ref=e693] [cursor=pointer]:
+              - /url: https://www.myvi.in/prepaid/tariff
+            - link "Postpaid TRAI mandate" [ref=e694] [cursor=pointer]:
+              - /url: https://www.myvi.in/postpaid/tariff
+            - link "Warning & Fraudulent" [ref=e695] [cursor=pointer]:
+              - /url: https://www.myvi.in/about-us/warning-and-fraudulent
+            - link "Security Awareness" [ref=e696] [cursor=pointer]:
+              - /url: https://www.myvi.in/parental-control
+            - link "DND Complaints" [ref=e697] [cursor=pointer]:
+              - /url: https://www.myvi.in/dnd-complaints
+            - link "DND Registration" [ref=e698] [cursor=pointer]:
+              - /url: https://www.myvi.in/dnd
+            - link "Disaster Management" [ref=e699] [cursor=pointer]:
+              - /url: https://www.myvi.in/content/dam/vodafoneideadigital/StaticPages/consumerimages/misc/Disaster_Management.pdf
+            - link "Responsible Disclosure Policy" [ref=e700] [cursor=pointer]:
+              - /url: https://www.myvi.in/Responsible-Disclosure-Policy
+            - link "Network Coverage" [ref=e701] [cursor=pointer]:
+              - /url: https://www.myvi.in/vicoverage/
+            - link "Register for Online Refund" [ref=e702] [cursor=pointer]:
+              - /url: https://www.myvi.in/postpaid/neft-details-for-refund
+            - link "Network Troubleshooting" [ref=e703] [cursor=pointer]:
+              - /url: https://www.myvi.in/help-support/basic-mobile-network-troubleshooting-steps
+            - link "Block SIM Online" [ref=e704] [cursor=pointer]:
+              - /url: https://www.myvi.in/block-your-sim
+            - link "UPI Recharge" [ref=e705] [cursor=pointer]:
+              - /url: /prepaid/upi-recharge
+            - link "Postpaid ISD Call Rates" [ref=e706] [cursor=pointer]:
+              - /url: https://www.myvi.in/Postpaid/isd-call-rates
+            - link "Prepaid ISD Call Rates" [ref=e707] [cursor=pointer]:
+              - /url: /prepaid/isd-call-rates
+            - link "Mobile Internet" [ref=e708] [cursor=pointer]:
+              - /url: https://www.myvi.in/mobile-internet
+            - link "Sitemap" [ref=e709] [cursor=pointer]:
+              - /url: https://www.myvi.in/sitemap
+            - link "VIBSL" [ref=e710] [cursor=pointer]:
+              - /url: https://www.myvi.in/vibsl
+            - link "Terms & Conditions - Prepaid" [ref=e711] [cursor=pointer]:
+              - /url: https://www.myvi.in/prepaid-tnc
+    - generic [ref=e715]:
+      - generic [ref=e716]:
+        - text: This website uses own third-party cookies.Find out more about usage in our
+        - link "Privacy Policy" [ref=e717] [cursor=pointer]:
+          - /url: https://www.myvi.in/privacy-policy
+        - text: page. Copyright Reserved with Vodafone Idea Limited (formerly Idea Cellular Limited).
+      - generic [ref=e718]: "Vodafone Idea Limited (Formerly Idea Cellular Limited), An Aditya Birla Group & Vodafone partnership, Suman Towers, Plot No.18, Sector 11, Gandhinagar – 382011, Gujarat.CIN L32100GJ1996PLC030976, T: +91-79 6671 4000, F: +91-79 2323 2251"
+    - generic [ref=e720]:
+      - heading "Our Other Important Offerings:" [level=3] [ref=e721]
+      - generic [ref=e722]:
+        - paragraph [ref=e723]:
+          - strong [ref=e724]: "Recharge Offers:"
+        - paragraph [ref=e725]:
+          - text: Vi brings you the best
+          - link "mobile recharge" [ref=e726] [cursor=pointer]:
+            - /url: https://www.myvi.in/prepaid/online-mobile-recharge
+          - text: offers with unlimited calling and daily data for seamless connectivity. Avail exclusive online recharge offers via the Vi App or website and enjoy a world full of benefits such as Short/Long-Term Validity, Unlimited Night Data, Data Rollover, Data Delight, access to multiple OTTs, and much more with Vi online recharge offers.
+        - list [ref=e727]:
+          - listitem [ref=e728]: Recharge via the Vi App to avail App exclusive offers
+          - listitem [ref=e729]:
+            - text: Check the Recharge offers on the
+            - link "Cashback Offers" [ref=e730] [cursor=pointer]:
+              - /url: https://www.myvi.in/prepaid/recharge-cashback-offers
+            - text: page
+          - listitem [ref=e731]: Head to the Prepaid Plans page and click on pack details for offers such as extra data, OTT subscriptions at no extra cost, etc.
+          - listitem [ref=e732]: Browse through Vi App Homepage to find out about festive recharge offers, and Spin the Wheel
+        - paragraph [ref=e733]:
+          - strong [ref=e734]: Bill Payment Offers
+        - paragraph [ref=e735]:
+          - text: Pay bills online and avail postpaid bill payment offers with Cred Pay, Amazon Pay, Paytm, MobiKwik, LazyPay, etc. Vi postpaid bill offers include assured cashbacks and other discounts on eligible transactions. Cashback would be credited to respective UPI wallets or via scratch cards. Enrol for autopay to automatically
+          - link "pay postpaid bills online." [ref=e736] [cursor=pointer]:
+            - /url: https://www.myvi.in/postpaid/quick-online-bill-payment
+        - paragraph [ref=e737]:
+          - strong [ref=e738]: Caller Tunes Download
+        - paragraph [ref=e739]:
+          - text: Vi Caller tunes are a unique way to keep callers engaged with entertaining songs/music/movie dialogues or customized tunes. Browse through trending songs or the latest viral hits and set your favorite songs as
+          - link "callertunes." [ref=e740] [cursor=pointer]:
+            - /url: https://www.myvi.in/prepaid/caller-tunes
+          - text: Go to the music store for a vast repository of songs/dialogues across genres and select a caller tune of your preference.
+        - paragraph [ref=e741]:
+          - strong [ref=e742]: Games
+        - paragraph [ref=e743]:
+          - link "Play games online" [ref=e744] [cursor=pointer]:
+            - /url: https://www.myvi.in/vi-games-app
+          - text: across categories such as action games, board games, fantasy, matches, tournaments, trending free games, etc. on the Vi App. Participate in online games and win exciting rewards or vouchers. Check out Game of the Day on the Vi App and play free online games for fun. Play VIP tournaments with a daily pass and win big!
+        - paragraph [ref=e745]:
+          - strong [ref=e746]: 5G
+        - paragraph [ref=e747]:
+          - text: Get ready to experience the potential of the Vi 5G network in India. Seamless connectivity with Vi 5G ready SIM. Explore more on
+          - link "https://www.myvi.in/5g-network" [ref=e748] [cursor=pointer]:
+            - /url: https://www.myvi.in/5g-network
+        - paragraph [ref=e749]:
+          - strong [ref=e750]: Vi Movies and TV
+        - paragraph [ref=e751]: Get a Vi Movies & TV Pro pack to enjoy 13+ OTTs via a single App. Binge-watch the latest Hollywood or Bollywood movies, TV shows and originals, Live News, Live Sports, Short films, Kids Shows, and more. Enjoy curated content in over 13 different languages from partner OTT platforms such as JioHotstar, Sony LIV, Fancode, PlayFlix, Discovery, Chaupal, & more! And that's not all, we have added Korean to the catalog too - now fulfill your K-drama cravings all within the Vi Movies & TV app. What are you waiting for?
+  - alert [ref=e752]
+```

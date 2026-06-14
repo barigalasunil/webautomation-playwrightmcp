@@ -1,0 +1,100 @@
+[2026-06-12 10:00:57 IST] [VERIFY] Verify that the link 'Choose your benefits with Vi Max Postpaid!' exists in the DOM
+[VERIFY] Verify that the link 'postpaid plans' exists in the DOM
+[2026-06-12 10:00:57 IST] [VERIFY] Verify that the link 'postpaid plans' exists in the DOM
+[2026-06-12 10:00:57 IST] [VERIFY] Verify that the link 'family plans' exists in the DOM
+[VERIFY] Verify that the link 'family plans' exists in the DOM
+[VERIFY] Verify that the link 'prepaid packs' exists in the DOM
+[2026-06-12 10:00:57 IST] [VERIFY] Verify that the link 'prepaid packs' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:00:57 IST] [STEP] Capture screenshot evidence
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:00:57 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:00:58 IST] [VERIFY] Verify the URL is correct
+[PASS] Test 519/918 passed: Verify that 26 Links are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[2026-06-12 10:00:58 IST] [PASS] Test 519/918 passed: Verify that 26 Links are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+  ✓  519 [firefox] › tests\generated\www-myvi-in\ViMaxFamilyPlansBestPostpaidPlanForFamilyPostpaidFamilyPlans.spec.ts:96:3 › https://www.myvi.in/ - Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans - Regression Tests › Verify that 26 Links are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression (2.6s)
+[FAIL] Test 519/918 failed: Verify that 1 Menu is present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression
+[2026-06-12 10:00:58 IST] [FAIL] Test 519/918 failed: Verify that 1 Menu is present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 10:00:58 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  516 [firefox] › tests\generated\www-myvi-in\ViLoanEmiPaymentQuickSecureOnlinePayment.spec.ts:252:3 › https://www.myvi.in/ - Vi Loan EMI Payment | Quick & Secure Online Payment - Regression Tests › Verify that 1 Menu is present on Vi Loan EMI Payment | Quick & Secure Online Payment @regression (9.2s)
+[PROGRESS] firefox: Test 214/306 running: Verify that 26 Buttons are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[2026-06-12 10:00:58 IST] [PROGRESS] firefox: Test 214/306 running: Verify that 26 Buttons are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[STEP] Capture screenshot evidence
+[2026-06-12 10:00:58 IST] [STEP] Capture screenshot evidence
+[PASS] Test 520/918 passed: Verify that Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans loads successfully @regression
+[2026-06-12 10:00:59 IST] [PASS] Test 520/918 passed: Verify that Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans loads successfully @regression
+  ✓  517 [firefox] › tests\generated\www-myvi-in\ViMaxFamilyPlansBestPostpaidPlanForFamilyPostpaidFamilyPlans.spec.ts:15:3 › https://www.myvi.in/ - Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans - Regression Tests › Verify that Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans loads successfully @regression (6.8s)
+[PROGRESS] firefox: Test 215/306 running: Verify that Vi Official Videos: Tips, Products & Updates loads successfully @regression
+[2026-06-12 10:00:59 IST] [PROGRESS] firefox: Test 215/306 running: Verify that Vi Official Videos: Tips, Products & Updates loads successfully @regression
+[FAIL] Test 521/918 failed: Verify that 29 Headings are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[2026-06-12 10:00:59 IST] [FAIL] Test 521/918 failed: Verify that 29 Headings are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: '2,4 and 5 member VI Max postpaid family plans for you & your loved ones' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: '2,4 and 5 member VI Max postpaid family plans for you & your loved ones' }).first()[22m
+[2026-06-12 10:00:59 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: '2,4 and 5 member VI Max postpaid family plans for you & your loved ones' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: '2,4 and 5 member VI Max postpaid family plans for you & your loved ones' }).first()
+  ✘  518 [firefox] › tests\generated\www-myvi-in\ViMaxFamilyPlansBestPostpaidPlanForFamilyPostpaidFamilyPlans.spec.ts:50:3 › https://www.myvi.in/ - Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans - Regression Tests › Verify that 29 Headings are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression (7.2s)
+[VERIFY] Verify that the button 'select' exists in the DOM
+[2026-06-12 10:01:00 IST] [VERIFY] Verify that the button 'select' exists in the DOM
+[PROGRESS] firefox: Test 216/306 running: Verify that 19 Inputs are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[2026-06-12 10:01:00 IST] [PROGRESS] firefox: Test 216/306 running: Verify that 19 Inputs are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[PROGRESS] firefox: Test 217/306 running: Verify that 1 Heading is present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:01 IST] [PROGRESS] firefox: Test 217/306 running: Verify that 1 Heading is present on Vi Official Videos: Tips, Products & Updates @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:01:02 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:01:04 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:01:04 IST] [STEP] Capture screenshot evidence
+[PASS] Test 523/918 passed: Verify that Vi Official Videos: Tips, Products & Updates loads successfully @regression
+[2026-06-12 10:01:05 IST] [PASS] Test 523/918 passed: Verify that Vi Official Videos: Tips, Products & Updates loads successfully @regression
+  ✓  521 [firefox] › tests\generated\www-myvi-in\ViOfficialVideosTipsProductsUpdates.spec.ts:15:3 › https://www.myvi.in/ - Vi Official Videos: Tips, Products & Updates - Regression Tests › Verify that Vi Official Videos: Tips, Products & Updates loads successfully @regression (6.0s)
+[PROGRESS] firefox: Test 218/306 running: Verify that 165 Links are present on Vi Official Videos: Tips, Products & Updates @regression
+[2026-06-12 10:01:05 IST] [PROGRESS] firefox: Test 218/306 running: Verify that 165 Links are present on Vi Official Videos: Tips, Products & Updates @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:01:06 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[FAIL] Test 524/918 failed: Verify that 26 Buttons are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[2026-06-12 10:01:06 IST] [FAIL] Test 524/918 failed: Verify that 26 Buttons are present on Vi Max Family Plans | Best Postpaid Plan for Family | Postpaid Family Plans @regression
+[2026-06-12 10:01:06 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'select' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'select' }).first()
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'select' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'select' }).first()[22m

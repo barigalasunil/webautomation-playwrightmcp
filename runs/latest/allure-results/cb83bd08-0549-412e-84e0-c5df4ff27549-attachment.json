@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Register for Postpaid EBill Online | Vi",
+  "pageUrl": "https://www.myvi.in/online-ebill-registration",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_75_Inputs_are_present_on_Register_for_Postpaid_EBill_Online_Vi_Register_for_Postpaid_EBill_Online___Vi_-_Input_Ve_1781175005022.png"
+  ],
+  "status": "passed"
+}

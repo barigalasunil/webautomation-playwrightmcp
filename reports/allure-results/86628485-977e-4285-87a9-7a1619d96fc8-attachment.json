@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Electricity Bill Payment | Quick & Secure Online Payment",
+  "pageUrl": "https://www.myvi.in/utilities/electricity-bill-payment",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'pay your electricity bill in seconds' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_1_Heading_is_present_on_Vi_Electricity_Bill_Payment_Quick_Secure_Online_Payment_Vi_Electricity_Bill_Payment___Quick___Secure_Onlin_1781239204602.png"
+  ],
+  "status": "passed"
+}

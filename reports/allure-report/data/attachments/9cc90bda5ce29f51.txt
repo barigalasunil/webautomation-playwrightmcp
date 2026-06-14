@@ -1,0 +1,100 @@
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'Previous' }).first()[22m
+[2026-06-12 10:08:30 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'Previous' }).first()
+  ✘  742 [webkit] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:142:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 46 Buttons are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (9.1s)
+[PROGRESS] webkit: Test 134/306 running: Verify that Privacy Policy | Vi loads successfully @regression
+[2026-06-12 10:08:31 IST] [PROGRESS] webkit: Test 134/306 running: Verify that Privacy Policy | Vi loads successfully @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:08:32 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:08:32 IST] [STEP] Capture screenshot evidence
+[PASS] Test 746/918 passed: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 10:08:32 IST] [PASS] Test 746/918 passed: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+  ✓  744 [webkit] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:234:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (4.8s)
+[PROGRESS] webkit: Test 135/306 running: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+[2026-06-12 10:08:33 IST] [PROGRESS] webkit: Test 135/306 running: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+[VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[2026-06-12 10:08:34 IST] [VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[VERIFY] Verify that the menu 'home new connection mobile number portability (MNP)' exists in the DOM
+[2026-06-12 10:08:34 IST] [VERIFY] Verify that the menu 'home new connection mobile number portability (MNP)' exists in the DOM
+[FAIL] Test 747/918 failed: Verify that 138 Inputs are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 10:08:34 IST] [FAIL] Test 747/918 failed: Verify that 138 Inputs are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="faq-drawer"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="faq-drawer"]').first()[22m
+[2026-06-12 10:08:34 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="faq-drawer"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="faq-drawer"]').first()
+  ✘  743 [webkit] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:188:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 138 Inputs are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (9.4s)
+[PROGRESS] webkit: Test 136/306 running: Verify that 185 Links are present on Privacy Policy | Vi @regression
+[2026-06-12 10:08:35 IST] [PROGRESS] webkit: Test 136/306 running: Verify that 185 Links are present on Privacy Policy | Vi @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:08:36 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the heading 'Privacy Matters' exists in the DOM
+[2026-06-12 10:08:36 IST] [VERIFY] Verify that the heading 'Privacy Matters' exists in the DOM
+[VERIFY] Verify that the heading 'privacy policy' exists in the DOM
+[2026-06-12 10:08:36 IST] [VERIFY] Verify that the heading 'privacy policy' exists in the DOM
+[VERIFY] Verify that the heading 'Who we are :' exists in the DOM
+[2026-06-12 10:08:36 IST] [VERIFY] Verify that the heading 'Who we are :' exists in the DOM
+[VERIFY] Verify that the heading 'Collection of personal information' exists in the DOM
+[2026-06-12 10:08:36 IST] [VERIFY] Verify that the heading 'Collection of personal information' exists in the DOM
+[VERIFY] Verify that the heading 'Use of Personal Information' exists in the DOM
+[2026-06-12 10:08:36 IST] [VERIFY] Verify that the heading 'Use of Personal Information' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:08:36 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:08:37 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:08:37 IST] [STEP] Capture screenshot evidence
+[PASS] Test 748/918 passed: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+[2026-06-12 10:08:37 IST] [PASS] Test 748/918 passed: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+  ✓  747 [webkit] › tests\generated\www-myvi-in\PrivacyPolicyVi.spec.ts:50:3 › https://www.myvi.in/ - Privacy Policy | Vi - Regression Tests › Verify that 39 Headings are present on Privacy Policy | Vi @regression (4.9s)
+[PROGRESS] webkit: Test 137/306 running: Verify that 15 Buttons are present on Privacy Policy | Vi @regression
+[2026-06-12 10:08:37 IST] [PROGRESS] webkit: Test 137/306 running: Verify that 15 Buttons are present on Privacy Policy | Vi @regression
+[PASS] Test 749/918 passed: Verify that Privacy Policy | Vi loads successfully @regression
+[2026-06-12 10:08:38 IST] [PASS] Test 749/918 passed: Verify that Privacy Policy | Vi loads successfully @regression
+  ✓  746 [webkit] › tests\generated\www-myvi-in\PrivacyPolicyVi.spec.ts:15:3 › https://www.myvi.in/ - Privacy Policy | Vi - Regression Tests › Verify that Privacy Policy | Vi loads successfully @regression (6.7s)
+[PROGRESS] webkit: Test 138/306 running: Verify that 58 Inputs are present on Privacy Policy | Vi @regression
+[2026-06-12 10:08:38 IST] [PROGRESS] webkit: Test 138/306 running: Verify that 58 Inputs are present on Privacy Policy | Vi @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:08:39 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[FAIL] Test 750/918 failed: Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 10:08:39 IST] [FAIL] Test 750/918 failed: Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()[22m
+[2026-06-12 10:08:39 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()

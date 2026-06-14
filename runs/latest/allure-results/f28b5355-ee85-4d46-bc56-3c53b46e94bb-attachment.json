@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi",
+  "pageUrl": "https://www.myvi.in/vi-volte-4g-hd-voice-calls",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_VoLTE_4G_VoLTE_Calls_-_Voice_Over_LTE_for_HD_Voice_Calls_Vi_loads_successfully_VoLTE___4G_VoLTE_Calls_-__Voice_Over_LTE__for_HD_V_1781177717137.png"
+  ],
+  "status": "passed"
+}

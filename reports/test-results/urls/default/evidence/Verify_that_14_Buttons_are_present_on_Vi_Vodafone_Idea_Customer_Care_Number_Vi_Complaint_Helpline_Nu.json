@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number",
+  "pageUrl": "https://www.myvi.in/help-support/vi-customer-care-number",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Prepaid' exists in the DOM",
+    "Verify that the button 'Postpaid' exists in the DOM",
+    "Verify that the button 'New Connection' exists in the DOM",
+    "Verify that the button 'OTTs & More' exists in the DOM",
+    "Verify that the button 'Help' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_14_Buttons_are_present_on_Vi_Vodafone_Idea_Customer_Care_Number_Vi_Complaint_Helpline_Nu_Vi__Vodafone_Idea__Customer_Care_Number___Vi_Compl_1781239412424.png"
+  ],
+  "status": "passed"
+}

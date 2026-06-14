@@ -1,0 +1,100 @@
+[2m  - waiting for getByRole('button', { name: 'show' }).first()[22m
+[2026-06-12 09:35:27 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'show' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'show' }).first()
+  ✘   39 [chromium] › tests\generated\www-myvi-in\CheckViSimStatusOnlineTrackYourConnectionOrders.spec.ts:142:3 › https://www.myvi.in/ - Check Vi SIM Status Online | Track Your Connection & Orders - Regression Tests › Verify that 9 Buttons are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression (11.4s)
+[VERIFY] Verify that the menu 'home new connection track your SIM delivery' exists in the DOM
+[2026-06-12 09:35:28 IST] [VERIFY] Verify that the menu 'home new connection track your SIM delivery' exists in the DOM
+[PROGRESS] chromium: Test 43/306 running: Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:35:29 IST] [PROGRESS] chromium: Test 43/306 running: Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[FAIL] Test 43/918 failed: Verify that 55 Inputs are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:35:30 IST] [FAIL] Test 43/918 failed: Verify that 55 Inputs are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="otpStatus"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="otpStatus"]').first()[22m
+[2026-06-12 09:35:30 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="otpStatus"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="otpStatus"]').first()
+  ✘   40 [chromium] › tests\generated\www-myvi-in\CheckViSimStatusOnlineTrackYourConnectionOrders.spec.ts:188:3 › https://www.myvi.in/ - Check Vi SIM Status Online | Track Your Connection & Orders - Regression Tests › Verify that 55 Inputs are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression (11.6s)
+[PROGRESS] chromium: Test 44/306 running: Verify that 158 Links are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:35:32 IST] [PROGRESS] chromium: Test 44/306 running: Verify that 158 Links are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[VERIFY] Verify that the heading 'pay your credit card bill in seconds' exists in the DOM
+[2026-06-12 09:35:34 IST] [VERIFY] Verify that the heading 'pay your credit card bill in seconds' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:35:34 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 44/918 failed: Verify that 2 Menus are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:35:35 IST] [FAIL] Test 44/918 failed: Verify that 2 Menus are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'home new connection track your SIM delivery' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'home new connection track your SIM delivery' }).first()[22m
+[2026-06-12 09:35:35 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'home new connection track your SIM delivery' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'home new connection track your SIM delivery' }).first()
+  ✘   41 [chromium] › tests\generated\www-myvi-in\CheckViSimStatusOnlineTrackYourConnectionOrders.spec.ts:234:3 › https://www.myvi.in/ - Check Vi SIM Status Online | Track Your Connection & Orders - Regression Tests › Verify that 2 Menus are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression (11.6s)
+[PASS] Test 44/918 passed: Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:35:35 IST] [PASS] Test 44/918 passed: Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+  ✓   43 [chromium] › tests\generated\www-myvi-in\CreditCardBillPaymentQuickSecureOnlineBillPaymentsVi.spec.ts:50:3 › https://www.myvi.in/ - Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi - Regression Tests › Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression (5.3s)
+[PROGRESS] chromium: Test 45/306 running: Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:35:35 IST] [PROGRESS] chromium: Test 45/306 running: Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[PROGRESS] chromium: Test 46/306 running: Verify that 19 Buttons are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:35:36 IST] [PROGRESS] chromium: Test 46/306 running: Verify that 19 Buttons are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:35:36 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:35:38 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:35:39 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:35:39 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:35:39 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:35:39 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:35:39 IST] [STEP] Capture screenshot evidence
+[2026-06-12 09:35:39 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 3m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 3m 0s
+[PASS] Test 46/918 passed: Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:35:40 IST] [PASS] Test 46/918 passed: Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+  ✓   45 [chromium] › tests\generated\www-myvi-in\CreditCardBillPaymentQuickSecureOnlineBillPaymentsVi.spec.ts:172:3 › https://www.myvi.in/ - Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi - Regression Tests › Verify that 37 Inputs are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression (4.6s)
+[PROGRESS] chromium: Test 47/306 running: Verify that 2 Forms are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:35:40 IST] [PROGRESS] chromium: Test 47/306 running: Verify that 2 Forms are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:35:40 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:35:40 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 09:35:40 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:35:40 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:35:40 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:35:40 IST] [STEP] Capture screenshot evidence
+[PASS] Test 47/918 passed: Verify that 19 Buttons are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:35:42 IST] [PASS] Test 47/918 passed: Verify that 19 Buttons are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression

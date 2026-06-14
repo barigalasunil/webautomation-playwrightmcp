@@ -1,0 +1,100 @@
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  305 [chromium] › tests\generated\www-myvi-in\WifiCallingOnViChooseVowifiForBetterVoiceQuality.spec.ts:96:3 › https://www.myvi.in/ - WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality - Regression Tests › Verify that 93 Links are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression (9.3s)
+[PROGRESS] firefox: Test 3/306 running: Verify that 164 Links are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:51:19 IST] [PROGRESS] firefox: Test 3/306 running: Verify that 164 Links are present on About Vi - India's Largest Telecom Company @regression
+[FAIL] Test 309/918 failed: Verify that 3 Menus are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[2026-06-12 09:51:24 IST] [FAIL] Test 309/918 failed: Verify that 3 Menus are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:51:24 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  306 [chromium] › tests\generated\www-myvi-in\WifiCallingOnViChooseVowifiForBetterVoiceQuality.spec.ts:176:3 › https://www.myvi.in/ - WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality - Regression Tests › Verify that 3 Menus are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression (14.8s)
+[2026-06-12 09:51:28 IST] [STEP] Open URL: https://www.myvi.in/
+[STEP] Open URL: https://www.myvi.in/
+[PROGRESS] firefox: Test 4/306 running: Verify that 11 Buttons are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:51:29 IST] [PROGRESS] firefox: Test 4/306 running: Verify that 11 Buttons are present on About Vi - India's Largest Telecom Company @regression
+[VERIFY] Verify that the heading 'About Vi' exists in the DOM
+[2026-06-12 09:51:31 IST] [VERIFY] Verify that the heading 'About Vi' exists in the DOM
+[VERIFY] Verify that the heading 'at a glance' exists in the DOM
+[2026-06-12 09:51:31 IST] [VERIFY] Verify that the heading 'at a glance' exists in the DOM
+[VERIFY] Verify that the heading 'our vision' exists in the DOM
+[2026-06-12 09:51:31 IST] [VERIFY] Verify that the heading 'our vision' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:51:31 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:51:31 IST] [VERIFY] Verify the URL is correct
+[PASS] Test 310/918 passed: Verify that 3 Headings are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:51:32 IST] [PASS] Test 310/918 passed: Verify that 3 Headings are present on About Vi - India's Largest Telecom Company @regression
+  ✓  308 [firefox] › tests\generated\www-myvi-in\AboutViIndiaSLargestTelecomCompany.spec.ts:50:3 › https://www.myvi.in/ - About Vi - India's Largest Telecom Company - Regression Tests › Verify that 3 Headings are present on About Vi - India's Largest Telecom Company @regression (10.7s)
+[PROGRESS] firefox: Test 5/306 running: Verify that 37 Inputs are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:51:32 IST] [PROGRESS] firefox: Test 5/306 running: Verify that 37 Inputs are present on About Vi - India's Largest Telecom Company @regression
+[STEP] Capture screenshot evidence
+[2026-06-12 09:51:32 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:51:32 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'open in Vi app' exists in the DOM
+[2026-06-12 09:51:32 IST] [VERIFY] Verify that the link 'open in Vi app' exists in the DOM
+[PASS] Test 311/918 passed: Verify that About Vi - India's Largest Telecom Company loads successfully @regression
+[2026-06-12 09:51:33 IST] [PASS] Test 311/918 passed: Verify that About Vi - India's Largest Telecom Company loads successfully @regression
+  ✓  307 [firefox] › tests\generated\www-myvi-in\AboutViIndiaSLargestTelecomCompany.spec.ts:15:3 › https://www.myvi.in/ - About Vi - India's Largest Telecom Company - Regression Tests › Verify that About Vi - India's Largest Telecom Company loads successfully @regression (13.2s)
+[PROGRESS] firefox: Test 6/306 running: Verify that 2 Menus are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:51:33 IST] [PROGRESS] firefox: Test 6/306 running: Verify that 2 Menus are present on About Vi - India's Largest Telecom Company @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:51:37 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:51:38 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:51:38 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:51:38 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:51:39 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[FAIL] Test 312/918 failed: Verify that 164 Links are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:51:39 IST] [FAIL] Test 312/918 failed: Verify that 164 Links are present on About Vi - India's Largest Telecom Company @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'open in Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'open in Vi app' }).first()[22m
+[2026-06-12 09:51:39 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'open in Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'open in Vi app' }).first()
+  ✘  309 [firefox] › tests\generated\www-myvi-in\AboutViIndiaSLargestTelecomCompany.spec.ts:88:3 › https://www.myvi.in/ - About Vi - India's Largest Telecom Company - Regression Tests › Verify that 164 Links are present on About Vi - India's Largest Telecom Company @regression (15.7s)
+[2026-06-12 09:51:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 19m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 19m 0s
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:51:42 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:51:42 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 09:51:42 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:51:42 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:51:42 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:51:42 IST] [STEP] Capture screenshot evidence
+[PROGRESS] firefox: Test 7/306 running: Verify that All OTT in One App - OTT Subscription Plans | Vi Movies & TV loads successfully @regression
+[2026-06-12 09:51:42 IST] [PROGRESS] firefox: Test 7/306 running: Verify that All OTT in One App - OTT Subscription Plans | Vi Movies & TV loads successfully @regression
+[PASS] Test 313/918 passed: Verify that 11 Buttons are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:51:42 IST] [PASS] Test 313/918 passed: Verify that 11 Buttons are present on About Vi - India's Largest Telecom Company @regression

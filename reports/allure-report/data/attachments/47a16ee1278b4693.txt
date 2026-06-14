@@ -1,0 +1,100 @@
+[2026-06-12 10:14:06 IST] [PROGRESS] webkit: Test 292/306 running: Verify that 6 Buttons are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[VERIFY] Verify that the heading 'Vi (Vodafone Idea) Media Releases' exists in the DOM
+[2026-06-12 10:14:07 IST] [VERIFY] Verify that the heading 'Vi (Vodafone Idea) Media Releases' exists in the DOM
+[VERIFY] Verify that the heading 'Vodafone Idea (Vi) News & Press Releases' exists in the DOM
+[2026-06-12 10:14:07 IST] [VERIFY] Verify that the heading 'Vodafone Idea (Vi) News & Press Releases' exists in the DOM
+[VERIFY] Verify that the heading 'Vi launches 5G services in Coimbatore' exists in the DOM
+[2026-06-12 10:14:07 IST] [VERIFY] Verify that the heading 'Vi launches 5G services in Coimbatore' exists in the DOM
+[VERIFY] Verify that the heading 'Vi launches 5G services in Bhopal' exists in the DOM
+[2026-06-12 10:14:07 IST] [VERIFY] Verify that the heading 'Vi launches 5G services in Bhopal' exists in the DOM
+[VERIFY] Verify that the heading 'Vi expands 5G footprint in Punjab' exists in the DOM
+[2026-06-12 10:14:07 IST] [VERIFY] Verify that the heading 'Vi expands 5G footprint in Punjab' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:14:07 IST] [STEP] Capture screenshot evidence
+[PASS] Test 904/918 passed: Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:14:07 IST] [PASS] Test 904/918 passed: Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+  ✓  902 [webkit] › tests\generated\www-myvi-in\VodafoneIdeaNewsViLatestViNewsPressReleasesAmpUpdates.spec.ts:50:3 › https://www.myvi.in/ - Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates - Regression Tests › Verify that 15 Headings are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression (2.7s)
+[PROGRESS] webkit: Test 293/306 running: Verify that 1 Input is present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:14:07 IST] [PROGRESS] webkit: Test 293/306 running: Verify that 1 Input is present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:14:08 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'Personal' exists in the DOM
+[2026-06-12 10:14:08 IST] [VERIFY] Verify that the link 'Personal' exists in the DOM
+[VERIFY] Verify that the link 'Business' exists in the DOM
+[2026-06-12 10:14:09 IST] [VERIFY] Verify that the link 'Business' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:14:09 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'Company Overview' exists in the DOM
+[2026-06-12 10:14:09 IST] [VERIFY] Verify that the link 'Company Overview' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:14:09 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the button '«' exists in the DOM
+[2026-06-12 10:14:09 IST] [VERIFY] Verify that the button '«' exists in the DOM
+[VERIFY] Verify that the input 'search by topic' exists in the DOM
+[2026-06-12 10:14:09 IST] [VERIFY] Verify that the input 'search by topic' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:14:10 IST] [STEP] Capture screenshot evidence
+[PASS] Test 905/918 passed: Verify that 109 Links are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:14:10 IST] [PASS] Test 905/918 passed: Verify that 109 Links are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+  ✓  903 [webkit] › tests\generated\www-myvi-in\VodafoneIdeaNewsViLatestViNewsPressReleasesAmpUpdates.spec.ts:96:3 › https://www.myvi.in/ - Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates - Regression Tests › Verify that 109 Links are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression (3.6s)
+[PROGRESS] webkit: Test 294/306 running: Verify that 3 Menus are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:14:10 IST] [PROGRESS] webkit: Test 294/306 running: Verify that 3 Menus are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:14:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 41m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 41m 30s
+[PASS] Test 906/918 passed: Verify that 1 Input is present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:14:10 IST] [PASS] Test 906/918 passed: Verify that 1 Input is present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+  ✓  905 [webkit] › tests\generated\www-myvi-in\VodafoneIdeaNewsViLatestViNewsPressReleasesAmpUpdates.spec.ts:188:3 › https://www.myvi.in/ - Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates - Regression Tests › Verify that 1 Input is present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression (2.9s)
+[PROGRESS] webkit: Test 295/306 running: Verify that VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi loads successfully @regression
+[2026-06-12 10:14:10 IST] [PROGRESS] webkit: Test 295/306 running: Verify that VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi loads successfully @regression
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 10:14:12 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:14:14 IST] [STEP] Open URL: https://www.myvi.in/
+[FAIL] Test 907/918 failed: Verify that 6 Buttons are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:14:14 IST] [FAIL] Test 907/918 failed: Verify that 6 Buttons are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: '«' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: '«' }).first()[22m
+[2026-06-12 10:14:14 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: '«' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: '«' }).first()
+  ✘  904 [webkit] › tests\generated\www-myvi-in\VodafoneIdeaNewsViLatestViNewsPressReleasesAmpUpdates.spec.ts:142:3 › https://www.myvi.in/ - Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates - Regression Tests › Verify that 6 Buttons are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression (7.9s)
+[PROGRESS] webkit: Test 296/306 running: Verify that 22 Headings are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:14:15 IST] [PROGRESS] webkit: Test 296/306 running: Verify that 22 Headings are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:14:15 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:14:16 IST] [STEP] Capture screenshot evidence
+[PASS] Test 908/918 passed: Verify that VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi loads successfully @regression
+[2026-06-12 10:14:16 IST] [PASS] Test 908/918 passed: Verify that VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi loads successfully @regression
+  ✓  907 [webkit] › tests\generated\www-myvi-in\Volte4gVolteCallsVoiceOverLteForHdVoiceCallsVi.spec.ts:15:3 › https://www.myvi.in/ - VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi - Regression Tests › Verify that VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi loads successfully @regression (5.9s)
+[PROGRESS] webkit: Test 297/306 running: Verify that 162 Links are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 10:14:16 IST] [PROGRESS] webkit: Test 297/306 running: Verify that 162 Links are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[FAIL] Test 909/918 failed: Verify that 3 Menus are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[2026-06-12 10:14:17 IST] [FAIL] Test 909/918 failed: Verify that 3 Menus are present on Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 10:14:17 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()

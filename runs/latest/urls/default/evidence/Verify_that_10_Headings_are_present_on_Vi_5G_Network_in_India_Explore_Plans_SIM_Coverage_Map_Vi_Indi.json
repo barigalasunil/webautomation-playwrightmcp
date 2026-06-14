@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi 5G Network in India – Explore Plans, SIM & Coverage Map | Vi India",
+  "pageUrl": "https://www.myvi.in/5g-network",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'experience the Vi 5G way of life' exists in the DOM",
+    "Verify that the heading 'think future, think Vi 5G' exists in the DOM",
+    "Verify that the heading 'explore Vi 5G packs' exists in the DOM",
+    "Verify that the heading 'check 5G coverage & compatibility' exists in the DOM",
+    "Verify that the heading 'Vi 5G FAQs' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_10_Headings_are_present_on_Vi_5G_Network_in_India_Explore_Plans_SIM_Coverage_Map_Vi_Indi_Vi_5G_Network_in_India___Explore_Plans__SIM___Cove_1781177004136.png"
+  ],
+  "status": "passed"
+}

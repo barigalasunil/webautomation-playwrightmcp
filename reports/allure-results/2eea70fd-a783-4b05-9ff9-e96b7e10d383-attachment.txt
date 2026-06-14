@@ -1,0 +1,100 @@
+  - waiting for locator('input[name="pincodeField"]').first()
+  ✘  693 [webkit] › tests\generated\www-myvi-in\GetViNewPostpaidSimCardOnlineBuyMobileSimCardInIndia.spec.ts:188:3 › https://www.myvi.in/ - Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india - Regression Tests › Verify that 19 Inputs are present on Get Vi New Postpaid SIM Card Online – Buy Mobile SIM Card In india @regression (10.3s)
+[PROGRESS] webkit: Test 86/306 running: Verify that 5 Inputs are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[2026-06-12 10:07:07 IST] [PROGRESS] webkit: Test 86/306 running: Verify that 5 Inputs are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[VERIFY] Verify that the button 'proceed with ₹451 plan' exists in the DOM
+[2026-06-12 10:07:08 IST] [VERIFY] Verify that the button 'proceed with ₹451 plan' exists in the DOM
+[VERIFY] Verify that the button 'proceed with ₹701 plan' exists in the DOM
+[2026-06-12 10:07:08 IST] [VERIFY] Verify that the button 'proceed with ₹701 plan' exists in the DOM
+[VERIFY] Verify that the button 'How does free SIM card home delivery work?' exists in the DOM
+[2026-06-12 10:07:08 IST] [VERIFY] Verify that the button 'How does free SIM card home delivery work?' exists in the DOM
+[VERIFY] Verify that the button 'How long does it take for a SIM to be delivered to the doorstep?' exists in the DOM
+[2026-06-12 10:07:08 IST] [VERIFY] Verify that the button 'How long does it take for a SIM to be delivered to the doorstep?' exists in the DOM
+[VERIFY] Verify that the button 'Can I reschedule the online SIM delivery of my new Vi Connection?' exists in the DOM
+[2026-06-12 10:07:08 IST] [VERIFY] Verify that the button 'Can I reschedule the online SIM delivery of my new Vi Connection?' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:07:08 IST] [STEP] Capture screenshot evidence
+[PASS] Test 698/918 passed: Verify that 9 Buttons are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[2026-06-12 10:07:08 IST] [PASS] Test 698/918 passed: Verify that 9 Buttons are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+  ✓  696 [webkit] › tests\generated\www-myvi-in\GetYourViSimOnlineAndEnjoyFreeDeliveryChooseYourPlanToday.spec.ts:142:3 › https://www.myvi.in/ - Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today - Regression Tests › Verify that 9 Buttons are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression (4.4s)
+[PROGRESS] webkit: Test 87/306 running: Verify that How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India loads successfully @regression
+[2026-06-12 10:07:08 IST] [PROGRESS] webkit: Test 87/306 running: Verify that How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India loads successfully @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:07:09 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'Port SIM' exists in the DOM
+[2026-06-12 10:07:09 IST] [VERIFY] Verify that the link 'Port SIM' exists in the DOM
+[VERIFY] Verify that the link 'Switch to the Vi 5G experience' exists in the DOM
+[2026-06-12 10:07:09 IST] [VERIFY] Verify that the link 'Switch to the Vi 5G experience' exists in the DOM
+[VERIFY] Verify that the link 'Port to unlimited data+calls+entertainment..' exists in the DOM
+[2026-06-12 10:07:09 IST] [VERIFY] Verify that the link 'Port to unlimited data+calls+entertainment..' exists in the DOM
+[FAIL] Test 699/918 failed: Verify that 13 Headings are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[2026-06-12 10:07:10 IST] [FAIL] Test 699/918 failed: Verify that 13 Headings are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'our best selling plans nowwith free SIM delivery' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'our best selling plans nowwith free SIM delivery' }).first()[22m
+[2026-06-12 10:07:10 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'our best selling plans nowwith free SIM delivery' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'our best selling plans nowwith free SIM delivery' }).first()
+  ✘  695 [webkit] › tests\generated\www-myvi-in\GetYourViSimOnlineAndEnjoyFreeDeliveryChooseYourPlanToday.spec.ts:50:3 › https://www.myvi.in/ - Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today - Regression Tests › Verify that 13 Headings are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression (9.9s)
+[2026-06-12 10:07:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 34m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 34m 30s
+[PROGRESS] webkit: Test 88/306 running: Verify that 53 Headings are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[2026-06-12 10:07:11 IST] [PROGRESS] webkit: Test 88/306 running: Verify that 53 Headings are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:07:11 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:07:13 IST] [STEP] Open URL: https://www.myvi.in/
+[FAIL] Test 700/918 failed: Verify that 29 Links are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[2026-06-12 10:07:15 IST] [FAIL] Test 700/918 failed: Verify that 29 Links are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'Port to unlimited data+calls+entertainment..' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'Port to unlimited data+calls+entertainment..' }).first()[22m
+[2026-06-12 10:07:15 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'Port to unlimited data+calls+entertainment..' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'Port to unlimited data+calls+entertainment..' }).first()
+  ✘  697 [webkit] › tests\generated\www-myvi-in\GetYourViSimOnlineAndEnjoyFreeDeliveryChooseYourPlanToday.spec.ts:96:3 › https://www.myvi.in/ - Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today - Regression Tests › Verify that 29 Links are present on Get your Vi Sim Online and Enjoy Free Delivery | Choose Your Plan Today @regression (9.8s)
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:07:15 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:07:16 IST] [STEP] Capture screenshot evidence
+[PROGRESS] webkit: Test 89/306 running: Verify that 170 Links are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[2026-06-12 10:07:16 IST] [PROGRESS] webkit: Test 89/306 running: Verify that 170 Links are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[VERIFY] Verify that the heading 'how to get started?' exists in the DOM
+[2026-06-12 10:07:16 IST] [VERIFY] Verify that the heading 'how to get started?' exists in the DOM
+[VERIFY] Verify that the heading 'what is Vi eSIM?' exists in the DOM
+[2026-06-12 10:07:16 IST] [VERIFY] Verify that the heading 'what is Vi eSIM?' exists in the DOM
+[VERIFY] Verify that the heading 'frequently asked questions' exists in the DOM
+[2026-06-12 10:07:16 IST] [VERIFY] Verify that the heading 'frequently asked questions' exists in the DOM
+[VERIFY] Verify that the heading 'what is eSIM?' exists in the DOM
+[2026-06-12 10:07:16 IST] [VERIFY] Verify that the heading 'what is eSIM?' exists in the DOM
+[VERIFY] Verify that the heading 'what does it mean when a device has a dual SIM with an eSIM?' exists in the DOM
+[2026-06-12 10:07:16 IST] [VERIFY] Verify that the heading 'what does it mean when a device has a dual SIM with an eSIM?' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:07:16 IST] [STEP] Capture screenshot evidence
+[PASS] Test 701/918 passed: Verify that How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India loads successfully @regression
+[2026-06-12 10:07:16 IST] [PASS] Test 701/918 passed: Verify that How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India loads successfully @regression
+  ✓  699 [webkit] › tests\generated\www-myvi-in\HowToActivateViEsimCardEasyOnlineSetupStepsViIndia.spec.ts:15:3 › https://www.myvi.in/ - How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India - Regression Tests › Verify that How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India loads successfully @regression (7.8s)
+[PROGRESS] webkit: Test 90/306 running: Verify that 25 Buttons are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[2026-06-12 10:07:16 IST] [PROGRESS] webkit: Test 90/306 running: Verify that 25 Buttons are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[PASS] Test 702/918 passed: Verify that 53 Headings are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[2026-06-12 10:07:17 IST] [PASS] Test 702/918 passed: Verify that 53 Headings are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression

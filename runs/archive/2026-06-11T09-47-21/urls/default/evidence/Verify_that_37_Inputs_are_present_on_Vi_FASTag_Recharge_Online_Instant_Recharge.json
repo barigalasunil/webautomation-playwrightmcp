@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi FASTag Recharge Online | Instant Recharge",
+  "pageUrl": "https://www.myvi.in/utilities/fastag-recharge",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Input field' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM",
+    "Verify that the input 'Search' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_37_Inputs_are_present_on_Vi_FASTag_Recharge_Online_Instant_Recharge_Vi_FASTag_Recharge_Online___Instant_Recharge_-_Inp_1781171152511.png"
+  ],
+  "status": "passed"
+}

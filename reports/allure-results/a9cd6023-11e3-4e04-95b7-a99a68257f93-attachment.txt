@@ -1,0 +1,100 @@
+[2026-06-12 10:00:21 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[PROGRESS] firefox: Test 199/306 running: Verify that 189 Links are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:22 IST] [PROGRESS] firefox: Test 199/306 running: Verify that 189 Links are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:00:22 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:00:25 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:00:25 IST] [STEP] Capture screenshot evidence
+[2026-06-12 10:00:27 IST] [PASS] Test 505/918 passed: Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression
+[PASS] Test 505/918 passed: Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression
+  ✓  502 [firefox] › tests\generated\www-myvi-in\ViInternationalRoamingPacks2026StayConnectedAbroadViIndia.spec.ts:15:3 › https://www.myvi.in/ - Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India - Regression Tests › Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression (10.6s)
+[PROGRESS] firefox: Test 200/306 running: Verify that 26 Buttons are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:27 IST] [PROGRESS] firefox: Test 200/306 running: Verify that 26 Buttons are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[FAIL] Test 506/918 failed: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:00:27 IST] [FAIL] Test 506/918 failed: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 10:00:27 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  503 [firefox] › tests\generated\www-myvi-in\ViGiganetASmartNetworkPoweredWithAiFromVi.spec.ts:142:3 › https://www.myvi.in/ - Vi Giganet: A smart network powered with AI from Vi - Regression Tests › Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression (9.0s)
+[PROGRESS] firefox: Test 201/306 running: Verify that 88 Inputs are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:29 IST] [PROGRESS] firefox: Test 201/306 running: Verify that 88 Inputs are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[VERIFY] Verify that the heading 'international roaming' exists in the DOM
+[2026-06-12 10:00:30 IST] [VERIFY] Verify that the heading 'international roaming' exists in the DOM
+[VERIFY] Verify that the heading 'your passport to worldwide connectivity' exists in the DOM
+[2026-06-12 10:00:30 IST] [VERIFY] Verify that the heading 'your passport to worldwide connectivity' exists in the DOM
+[VERIFY] Verify that the heading 'unlimited' exists in the DOM
+[2026-06-12 10:00:30 IST] [VERIFY] Verify that the heading 'unlimited' exists in the DOM
+[VERIFY] Verify that the heading 'IR pack' exists in the DOM
+[2026-06-12 10:00:30 IST] [VERIFY] Verify that the heading 'IR pack' exists in the DOM
+[VERIFY] Verify that the heading '24x7 TollFree' exists in the DOM
+[2026-06-12 10:00:30 IST] [VERIFY] Verify that the heading '24x7 TollFree' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:00:30 IST] [STEP] Capture screenshot evidence
+[PASS] Test 507/918 passed: Verify that 64 Headings are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:31 IST] [PASS] Test 507/918 passed: Verify that 64 Headings are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+  ✓  504 [firefox] › tests\generated\www-myvi-in\ViInternationalRoamingPacks2026StayConnectedAbroadViIndia.spec.ts:50:3 › https://www.myvi.in/ - Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India - Regression Tests › Verify that 64 Headings are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression (11.4s)
+[PROGRESS] firefox: Test 202/306 running: Verify that 2 Forms are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:31 IST] [PROGRESS] firefox: Test 202/306 running: Verify that 2 Forms are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:00:32 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 10:00:32 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 10:00:32 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 10:00:32 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 10:00:32 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 10:00:32 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:00:33 IST] [STEP] Capture screenshot evidence
+[PASS] Test 508/918 passed: Verify that 26 Buttons are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:33 IST] [PASS] Test 508/918 passed: Verify that 26 Buttons are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+  ✓  506 [firefox] › tests\generated\www-myvi-in\ViInternationalRoamingPacks2026StayConnectedAbroadViIndia.spec.ts:142:3 › https://www.myvi.in/ - Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India - Regression Tests › Verify that 26 Buttons are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression (6.4s)
+[PROGRESS] firefox: Test 203/306 running: Verify that 2 Menus are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:33 IST] [PROGRESS] firefox: Test 203/306 running: Verify that 2 Menus are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:00:37 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:00:37 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:00:37 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:00:37 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:00:37 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[FAIL] Test 509/918 failed: Verify that 189 Links are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:38 IST] [FAIL] Test 509/918 failed: Verify that 189 Links are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/international-roaming-packs#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/international-roaming-packs#"]').first()[22m
+[2026-06-12 10:00:38 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/international-roaming-packs#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/international-roaming-packs#"]').first()

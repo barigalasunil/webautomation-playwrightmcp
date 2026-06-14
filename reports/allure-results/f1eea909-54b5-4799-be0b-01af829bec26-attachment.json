@@ -1,0 +1,17 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number",
+  "pageUrl": "https://www.myvi.in/help-support/vi-customer-care-number",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM",
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_2_Forms_are_present_on_Vi_Vodafone_Idea_Customer_Care_Number_Vi_Complaint_Helpline_Numbe_Vi__Vodafone_Idea__Customer_Care_Number___Vi_Compl_1781238780349.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,100 @@
+[2026-06-12 09:59:27 IST] [VERIFY] Verify that the heading 'Prepaid Mobile Data Packs & Plans' exists in the DOM
+[VERIFY] Verify that the heading 'Featured Data Packs & Plans' exists in the DOM
+[2026-06-12 09:59:28 IST] [VERIFY] Verify that the heading 'Featured Data Packs & Plans' exists in the DOM
+[VERIFY] Verify that the heading 'Frequently Asked Questions About Vi Prepaid Data Packs' exists in the DOM
+[2026-06-12 09:59:28 IST] [VERIFY] Verify that the heading 'Frequently Asked Questions About Vi Prepaid Data Packs' exists in the DOM
+[VERIFY] Verify that the heading 'Data packs' exists in the DOM
+[2026-06-12 09:59:28 IST] [VERIFY] Verify that the heading 'Data packs' exists in the DOM
+[VERIFY] Verify that the heading 'Vodafone Idea Limited' exists in the DOM
+[2026-06-12 09:59:28 IST] [VERIFY] Verify that the heading 'Vodafone Idea Limited' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:59:28 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:59:28 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[PASS] Test 479/918 passed: Verify that 9 Headings are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:29 IST] [PASS] Test 479/918 passed: Verify that 9 Headings are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+  ✓  479 [firefox] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:50:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that 9 Headings are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression (3.4s)
+[PROGRESS] firefox: Test 174/306 running: Verify that 105 Links are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:29 IST] [PROGRESS] firefox: Test 174/306 running: Verify that 105 Links are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:59:30 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:59:31 IST] [STEP] Open URL: https://www.myvi.in/
+[FAIL] Test 480/918 failed: Verify that 1 Menu is present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[2026-06-12 09:59:31 IST] [FAIL] Test 480/918 failed: Verify that 1 Menu is present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'Vi Business Assist IoT Smart Central Dashboard My Account Products & Solutions F' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'Vi Business Assist IoT Smart Central Dashboard My Account Products & Solutions F' }).first()[22m
+[2026-06-12 09:59:31 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'Vi Business Assist IoT Smart Central Dashboard My Account Products & Solutions F' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'Vi Business Assist IoT Smart Central Dashboard My Account Products & Solutions F' }).first()
+  ✘  476 [firefox] › tests\generated\www-myvi-in\ViBusinessB2bMobilityConnectivitySecurityIotCloud.spec.ts:234:3 › https://www.myvi.in/ - Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud - Regression Tests › Verify that 1 Menu is present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression (11.8s)
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:59:31 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:59:31 IST] [STEP] Capture screenshot evidence
+[PASS] Test 480/918 passed: Verify that Vi Data Packs - Mobile Data Recharge Plans | Vi India loads successfully @regression
+[2026-06-12 09:59:32 IST] [PASS] Test 480/918 passed: Verify that Vi Data Packs - Mobile Data Recharge Plans | Vi India loads successfully @regression
+  ✓  478 [firefox] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:15:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that Vi Data Packs - Mobile Data Recharge Plans | Vi India loads successfully @regression (5.3s)
+[PROGRESS] firefox: Test 175/306 running: Verify that 1 Input is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:32 IST] [PROGRESS] firefox: Test 175/306 running: Verify that 1 Input is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[PROGRESS] firefox: Test 176/306 running: Verify that 26 Buttons are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:33 IST] [PROGRESS] firefox: Test 176/306 running: Verify that 26 Buttons are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:59:34 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:59:34 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 482/918 failed: Verify that 45 Inputs are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[2026-06-12 09:59:35 IST] [FAIL] Test 482/918 failed: Verify that 45 Inputs are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="analyticsPlatform"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="analyticsPlatform"]').first()[22m
+[2026-06-12 09:59:35 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="analyticsPlatform"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="analyticsPlatform"]').first()
+  ✘  477 [firefox] › tests\generated\www-myvi-in\ViBusinessB2bMobilityConnectivitySecurityIotCloud.spec.ts:188:3 › https://www.myvi.in/ - Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud - Regression Tests › Verify that 45 Inputs are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression (13.3s)
+[PASS] Test 482/918 passed: Verify that 1 Input is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:35 IST] [PASS] Test 482/918 passed: Verify that 1 Input is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+  ✓  481 [firefox] › tests\generated\www-myvi-in\ViDataPacksMobileDataRechargePlansViIndia.spec.ts:188:3 › https://www.myvi.in/ - Vi Data Packs - Mobile Data Recharge Plans | Vi India - Regression Tests › Verify that 1 Input is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression (3.0s)
+[PROGRESS] firefox: Test 177/306 running: Verify that 3 Menus are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:35 IST] [PROGRESS] firefox: Test 177/306 running: Verify that 3 Menus are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[PROGRESS] firefox: Test 178/306 running: Verify that 1 Form is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:37 IST] [PROGRESS] firefox: Test 178/306 running: Verify that 1 Form is present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[FAIL] Test 484/918 failed: Verify that 105 Links are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[2026-06-12 09:59:37 IST] [FAIL] Test 484/918 failed: Verify that 105 Links are present on Vi Data Packs - Mobile Data Recharge Plans | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:59:37 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()

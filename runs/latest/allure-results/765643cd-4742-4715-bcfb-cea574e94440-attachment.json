@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi FASTag Recharge Online | Instant Recharge",
+  "pageUrl": "https://www.myvi.in/utilities/fastag-recharge",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_Vi_FASTag_Recharge_Online_Instant_Recharge_loads_successfully_Vi_FASTag_Recharge_Online___Instant_Recharge_-_Fin_1781177129031.png"
+  ],
+  "status": "passed"
+}

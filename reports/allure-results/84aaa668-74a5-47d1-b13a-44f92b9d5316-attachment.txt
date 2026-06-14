@@ -1,0 +1,100 @@
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="mobileviapp"]').first()
+  ✘    5 [chromium] › tests\generated\www-myvi-in\AboutViIndiaSLargestTelecomCompany.spec.ts:180:3 › https://www.myvi.in/ - About Vi - India's Largest Telecom Company - Regression Tests › Verify that 37 Inputs are present on About Vi - India's Largest Telecom Company @regression (10.6s)
+[VERIFY] Verify that the heading 'All in One OTT App - unlock and watch 13+ OTTs in just one app!' exists in the DOM
+[2026-06-12 09:33:15 IST] [VERIFY] Verify that the heading 'All in One OTT App - unlock and watch 13+ OTTs in just one app!' exists in the DOM
+[VERIFY] Verify that the heading 'latest releases at your fingertips' exists in the DOM
+[2026-06-12 09:33:15 IST] [VERIFY] Verify that the heading 'latest releases at your fingertips' exists in the DOM
+[VERIFY] Verify that the heading 'trending OTT content recommendations' exists in the DOM
+[2026-06-12 09:33:15 IST] [VERIFY] Verify that the heading 'trending OTT content recommendations' exists in the DOM
+[VERIFY] Verify that the heading 'catch the latest on 400+ live channels' exists in the DOM
+[2026-06-12 09:33:15 IST] [VERIFY] Verify that the heading 'catch the latest on 400+ live channels' exists in the DOM
+[VERIFY] Verify that the heading 'watch content in 16+ languages' exists in the DOM
+[2026-06-12 09:33:15 IST] [VERIFY] Verify that the heading 'watch content in 16+ languages' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:33:15 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 9/306 running: Verify that 177 Links are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:33:16 IST] [PROGRESS] chromium: Test 9/306 running: Verify that 177 Links are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:33:21 IST] [STEP] Open URL: https://www.myvi.in/
+[PASS] Test 9/918 passed: Verify that 75 Headings are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:33:22 IST] [PASS] Test 9/918 passed: Verify that 75 Headings are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+  ✓    8 [chromium] › tests\generated\www-myvi-in\AllOttInOneAppOttSubscriptionPlansViMoviesTv.spec.ts:50:3 › https://www.myvi.in/ - All OTT in One App - OTT Subscription Plans | Vi Movies & TV - Regression Tests › Verify that 75 Headings are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression (11.0s)
+[PROGRESS] chromium: Test 10/306 running: Verify that 58 Buttons are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:33:22 IST] [PROGRESS] chromium: Test 10/306 running: Verify that 58 Buttons are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:33:22 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:33:23 IST] [VERIFY] Verify the URL is correct
+[2026-06-12 09:33:23 IST] [STEP] Capture screenshot evidence
+[STEP] Capture screenshot evidence
+[FAIL] Test 10/918 failed: Verify that 2 Menus are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:33:25 IST] [FAIL] Test 10/918 failed: Verify that 2 Menus are present on About Vi - India's Largest Telecom Company @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:33:25 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘    6 [chromium] › tests\generated\www-myvi-in\AboutViIndiaSLargestTelecomCompany.spec.ts:226:3 › https://www.myvi.in/ - About Vi - India's Largest Telecom Company - Regression Tests › Verify that 2 Menus are present on About Vi - India's Largest Telecom Company @regression (20.6s)
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 09:33:27 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:33:27 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 09:33:27 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 09:33:27 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 09:33:27 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:33:27 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 11/306 running: Verify that 236 Inputs are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:33:27 IST] [PROGRESS] chromium: Test 11/306 running: Verify that 236 Inputs are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[PASS] Test 11/918 passed: Verify that All OTT in One App - OTT Subscription Plans | Vi Movies & TV loads successfully @regression
+[2026-06-12 09:33:30 IST] [PASS] Test 11/918 passed: Verify that All OTT in One App - OTT Subscription Plans | Vi Movies & TV loads successfully @regression
+  ✓    7 [chromium] › tests\generated\www-myvi-in\AllOttInOneAppOttSubscriptionPlansViMoviesTv.spec.ts:15:3 › https://www.myvi.in/ - All OTT in One App - OTT Subscription Plans | Vi Movies & TV - Regression Tests › Verify that All OTT in One App - OTT Subscription Plans | Vi Movies & TV loads successfully @regression (24.7s)
+[PROGRESS] chromium: Test 12/306 running: Verify that 1 Form is present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:33:30 IST] [PROGRESS] chromium: Test 12/306 running: Verify that 1 Form is present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[FAIL] Test 12/918 failed: Verify that 177 Links are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:33:30 IST] [FAIL] Test 12/918 failed: Verify that 177 Links are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app#"]').first()[22m
+[2026-06-12 09:33:30 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/vi-movies-and-tv/all-ott-in-one-app#"]').first()
+  ✘    9 [chromium] › tests\generated\www-myvi-in\AllOttInOneAppOttSubscriptionPlansViMoviesTv.spec.ts:96:3 › https://www.myvi.in/ - All OTT in One App - OTT Subscription Plans | Vi Movies & TV - Regression Tests › Verify that 177 Links are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression (12.2s)
+[PROGRESS] chromium: Test 13/306 running: Verify that 3 Tables are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:33:31 IST] [PROGRESS] chromium: Test 13/306 running: Verify that 3 Tables are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:33:33 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:33:33 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:33:33 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 09:33:33 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[PASS] Test 13/918 passed: Verify that 58 Buttons are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression
+[2026-06-12 09:33:34 IST] [PASS] Test 13/918 passed: Verify that 58 Buttons are present on All OTT in One App - OTT Subscription Plans | Vi Movies & TV @regression

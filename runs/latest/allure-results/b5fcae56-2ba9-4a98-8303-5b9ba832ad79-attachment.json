@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India",
+  "pageUrl": "https://www.myvi.in/esim-activation",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_1_Form_is_present_on_How_to_Activate_Vi_eSIM_Card_Easy_Online_Setup_Steps_Vi_India_How_to_Activate_Vi_eSIM_Card___Easy_Online_Setup___1781174824213.png"
+  ],
+  "status": "passed"
+}

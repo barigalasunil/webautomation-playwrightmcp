@@ -1,0 +1,100 @@
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 10:00:14 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  498 [firefox] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:252:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 1 Menu is present on Vi FASTag Recharge Online | Instant Recharge @regression (9.1s)
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:00:15 IST] [STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:00:15 IST] [VERIFY] Verify the URL is correct
+[VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:00:15 IST] [STEP] Capture screenshot evidence
+[PASS] Test 501/918 passed: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+[2026-06-12 10:00:16 IST] [PASS] Test 501/918 passed: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+  ✓  500 [firefox] › tests\generated\www-myvi-in\ViGiganetASmartNetworkPoweredWithAiFromVi.spec.ts:15:3 › https://www.myvi.in/ - Vi Giganet: A smart network powered with AI from Vi - Regression Tests › Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression (4.9s)
+[PROGRESS] firefox: Test 196/306 running: Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression
+[2026-06-12 10:00:16 IST] [PROGRESS] firefox: Test 196/306 running: Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression
+[PROGRESS] firefox: Test 197/306 running: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:00:16 IST] [PROGRESS] firefox: Test 197/306 running: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[FAIL] Test 503/918 failed: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:00:17 IST] [FAIL] Test 503/918 failed: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Download Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Download Vi app' }).first()[22m
+[2026-06-12 10:00:17 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Download Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Download Vi app' }).first()
+  ✘  499 [firefox] › tests\generated\www-myvi-in\ViGiganetASmartNetworkPoweredWithAiFromVi.spec.ts:50:3 › https://www.myvi.in/ - Vi Giganet: A smart network powered with AI from Vi - Regression Tests › Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression (7.1s)
+[PROGRESS] firefox: Test 198/306 running: Verify that 64 Headings are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:18 IST] [PROGRESS] firefox: Test 198/306 running: Verify that 64 Headings are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[FAIL] Test 504/918 failed: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:00:19 IST] [FAIL] Test 504/918 failed: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 10:00:19 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  501 [firefox] › tests\generated\www-myvi-in\ViGiganetASmartNetworkPoweredWithAiFromVi.spec.ts:96:3 › https://www.myvi.in/ - Vi Giganet: A smart network powered with AI from Vi - Regression Tests › Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression (6.9s)
+[2026-06-12 10:00:21 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[PROGRESS] firefox: Test 199/306 running: Verify that 189 Links are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:22 IST] [PROGRESS] firefox: Test 199/306 running: Verify that 189 Links are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:00:22 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:00:25 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:00:25 IST] [STEP] Capture screenshot evidence
+[2026-06-12 10:00:27 IST] [PASS] Test 505/918 passed: Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression
+[PASS] Test 505/918 passed: Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression
+  ✓  502 [firefox] › tests\generated\www-myvi-in\ViInternationalRoamingPacks2026StayConnectedAbroadViIndia.spec.ts:15:3 › https://www.myvi.in/ - Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India - Regression Tests › Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression (10.6s)
+[PROGRESS] firefox: Test 200/306 running: Verify that 26 Buttons are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 10:00:27 IST] [PROGRESS] firefox: Test 200/306 running: Verify that 26 Buttons are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[FAIL] Test 506/918 failed: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 10:00:27 IST] [FAIL] Test 506/918 failed: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 10:00:27 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()

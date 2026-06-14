@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi FASTag Recharge Online | Instant Recharge",
+  "pageUrl": "https://www.myvi.in/utilities/fastag-recharge",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'recharge your FASTag in seconds' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_1_Heading_is_present_on_Vi_FASTag_Recharge_Online_Instant_Recharge_Vi_FASTag_Recharge_Online___Instant_Recharge_-_Hea_1781171142590.png"
+  ],
+  "status": "passed"
+}

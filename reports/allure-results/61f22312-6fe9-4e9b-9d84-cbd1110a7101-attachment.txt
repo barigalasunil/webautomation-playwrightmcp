@@ -1,0 +1,100 @@
+[2026-06-12 10:07:34 IST] [VERIFY] Verify that the heading 'online mobile recharge' exists in the DOM
+[PROGRESS] webkit: Test 101/306 running: Verify that 90 Links are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 10:07:34 IST] [PROGRESS] webkit: Test 101/306 running: Verify that 90 Links are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:07:34 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the heading 'FAQs for Vi online mobile recharge' exists in the DOM
+[2026-06-12 10:07:35 IST] [VERIFY] Verify that the heading 'FAQs for Vi online mobile recharge' exists in the DOM
+[VERIFY] Verify that the heading 'Vi Prepaid Online Recharge' exists in the DOM
+[2026-06-12 10:07:35 IST] [VERIFY] Verify that the heading 'Vi Prepaid Online Recharge' exists in the DOM
+[VERIFY] Verify that the heading 'Key Features of Vi Online Mobile Recharge:' exists in the DOM
+[2026-06-12 10:07:35 IST] [VERIFY] Verify that the heading 'Key Features of Vi Online Mobile Recharge:' exists in the DOM
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:07:35 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:07:35 IST] [STEP] Capture screenshot evidence
+[PASS] Test 713/918 passed: Verify that Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India loads successfully @regression
+[2026-06-12 10:07:36 IST] [PASS] Test 713/918 passed: Verify that Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India loads successfully @regression
+  ✓  711 [webkit] › tests\generated\www-myvi-in\OnlineMobileRechargeBestPrepaidPlansTopUpsViIndia.spec.ts:15:3 › https://www.myvi.in/ - Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India - Regression Tests › Verify that Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India loads successfully @regression (3.7s)
+[PROGRESS] webkit: Test 102/306 running: Verify that 29 Buttons are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 10:07:36 IST] [PROGRESS] webkit: Test 102/306 running: Verify that 29 Buttons are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[FAIL] Test 714/918 failed: Verify that 3 Menus are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[2026-06-12 10:07:37 IST] [FAIL] Test 714/918 failed: Verify that 3 Menus are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 10:07:37 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  710 [webkit] › tests\generated\www-myvi-in\InvestorsSupportInformationOfViVodafoneIdeaLimited.spec.ts:142:3 › https://www.myvi.in/ - Investors Support Information Of Vi (Vodafone Idea Limited) - Regression Tests › Verify that 3 Menus are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression (7.7s)
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:07:37 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the button 'Maharashtra & Goa' exists in the DOM
+[2026-06-12 10:07:38 IST] [VERIFY] Verify that the button 'Maharashtra & Goa' exists in the DOM
+[VERIFY] Verify that the button 'popular recharge packs' exists in the DOM
+[2026-06-12 10:07:38 IST] [VERIFY] Verify that the button 'popular recharge packs' exists in the DOM
+[VERIFY] Verify that the button 'unlimited 5G' exists in the DOM
+[2026-06-12 10:07:38 IST] [VERIFY] Verify that the button 'unlimited 5G' exists in the DOM
+[PROGRESS] webkit: Test 103/306 running: Verify that 3 Inputs are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 10:07:38 IST] [PROGRESS] webkit: Test 103/306 running: Verify that 3 Inputs are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[VERIFY] Verify that the button 'nonstop hero' exists in the DOM
+[2026-06-12 10:07:38 IST] [VERIFY] Verify that the button 'nonstop hero' exists in the DOM
+[VERIFY] Verify that the button 'super hero' exists in the DOM
+[2026-06-12 10:07:38 IST] [VERIFY] Verify that the button 'super hero' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:07:38 IST] [STEP] Capture screenshot evidence
+[PASS] Test 715/918 passed: Verify that 29 Buttons are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 10:07:39 IST] [PASS] Test 715/918 passed: Verify that 29 Buttons are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+  ✓  714 [webkit] › tests\generated\www-myvi-in\OnlineMobileRechargeBestPrepaidPlansTopUpsViIndia.spec.ts:142:3 › https://www.myvi.in/ - Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India - Regression Tests › Verify that 29 Buttons are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression (3.6s)
+[PROGRESS] webkit: Test 104/306 running: Verify that 1 Form is present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 10:07:39 IST] [PROGRESS] webkit: Test 104/306 running: Verify that 1 Form is present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 10:07:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 35m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 35m 0s
+[FAIL] Test 716/918 failed: Verify that 11 Headings are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 10:07:40 IST] [FAIL] Test 716/918 failed: Verify that 11 Headings are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Key Features of Vi Online Mobile Recharge:' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Key Features of Vi Online Mobile Recharge:' }).first()[22m
+[2026-06-12 10:07:40 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Key Features of Vi Online Mobile Recharge:' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Key Features of Vi Online Mobile Recharge:' }).first()
+  ✘  712 [webkit] › tests\generated\www-myvi-in\OnlineMobileRechargeBestPrepaidPlansTopUpsViIndia.spec.ts:50:3 › https://www.myvi.in/ - Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India - Regression Tests › Verify that 11 Headings are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression (8.0s)
+[VERIFY] Verify that the input 'Enter mobile number' exists in the DOM
+[2026-06-12 10:07:41 IST] [VERIFY] Verify that the input 'Enter mobile number' exists in the DOM
+[VERIFY] Verify that the input 'Search by price' exists in the DOM
+[2026-06-12 10:07:41 IST] [VERIFY] Verify that the input 'Search by price' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:07:41 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:07:41 IST] [STEP] Capture screenshot evidence
+[PROGRESS] webkit: Test 105/306 running: Verify that 3 Menus are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 10:07:41 IST] [PROGRESS] webkit: Test 105/306 running: Verify that 3 Menus are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:07:41 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:07:42 IST] [STEP] Capture screenshot evidence
+[PASS] Test 717/918 passed: Verify that 3 Inputs are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 10:07:42 IST] [PASS] Test 717/918 passed: Verify that 3 Inputs are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+  ✓  715 [webkit] › tests\generated\www-myvi-in\OnlineMobileRechargeBestPrepaidPlansTopUpsViIndia.spec.ts:188:3 › https://www.myvi.in/ - Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India - Regression Tests › Verify that 3 Inputs are present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression (3.9s)
+[PASS] Test 717/918 passed: Verify that 1 Form is present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression
+[2026-06-12 10:07:43 IST] [PASS] Test 717/918 passed: Verify that 1 Form is present on Online Mobile Recharge - Best Prepaid Plans & Top-Ups | Vi India @regression

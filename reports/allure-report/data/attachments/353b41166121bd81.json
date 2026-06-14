@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process",
+  "pageUrl": "https://www.myvi.in/new-connection/mobile-number-portability-mnp-online",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_1_Form_is_present_on_Port_SIM_Number_to_Vi_Enjoy_Vi_Benefits_with_Easy_MNP_process_Port_SIM_Number_to_Vi___Enjoy_Vi_Benefits_with_Eas_1781237440870.png"
+  ],
+  "status": "passed"
+}

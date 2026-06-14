@@ -1,0 +1,100 @@
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="sAltNo"]').first()
+  ✘   26 [chromium] › tests\generated\www-myvi-in\BuyANewVi4gSimCardOnlineAndGetAFreeDelivery.spec.ts:188:3 › https://www.myvi.in/ - Buy a New Vi 4g SIM Card Online and Get a Free Delivery - Regression Tests › Verify that 66 Inputs are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression (22.1s)
+[PROGRESS] chromium: Test 31/306 running: Verify that 33 Links are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 09:34:46 IST] [PROGRESS] chromium: Test 31/306 running: Verify that 33 Links are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[VERIFY] Verify that the heading 'Individual plans' exists in the DOM
+[2026-06-12 09:34:48 IST] [VERIFY] Verify that the heading 'Individual plans' exists in the DOM
+[FAIL] Test 31/918 failed: Verify that 26 Links are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[2026-06-12 09:34:48 IST] [FAIL] Test 31/918 failed: Verify that 26 Links are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression
+[ERROR] Failure reason: [31mTest timeout of 30000ms exceeded.[39m
+[2026-06-12 09:34:48 IST] [ERROR] Failure reason: Test timeout of 30000ms exceeded.
+  ✘   24 [chromium] › tests\generated\www-myvi-in\BuyANewVi4gSimCardOnlineAndGetAFreeDelivery.spec.ts:96:3 › https://www.myvi.in/ - Buy a New Vi 4g SIM Card Online and Get a Free Delivery - Regression Tests › Verify that 26 Links are present on Buy a New Vi 4g SIM Card Online and Get a Free Delivery @regression (30.9s)
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:34:49 IST] [STEP] Open URL: https://www.myvi.in/
+[PROGRESS] chromium: Test 32/306 running: Verify that 50 Buttons are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 09:34:49 IST] [PROGRESS] chromium: Test 32/306 running: Verify that 50 Buttons are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:34:50 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:34:50 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:34:51 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'view details' exists in the DOM
+[2026-06-12 09:34:51 IST] [VERIFY] Verify that the link 'view details' exists in the DOM
+[PASS] Test 32/918 passed: Verify that Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India loads successfully @regression
+[2026-06-12 09:34:52 IST] [PASS] Test 32/918 passed: Verify that Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India loads successfully @regression
+  ✓   29 [chromium] › tests\generated\www-myvi-in\BuyFancyNumbersOnlineChoosePremiumVipNumberOrFreeOptionsViIndia.spec.ts:15:3 › https://www.myvi.in/ - Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India - Regression Tests › Verify that Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India loads successfully @regression (19.3s)
+[PROGRESS] chromium: Test 33/306 running: Verify that 168 Inputs are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 09:34:52 IST] [PROGRESS] chromium: Test 33/306 running: Verify that 168 Inputs are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[FAIL] Test 33/918 failed: Verify that 27 Headings are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 09:34:55 IST] [FAIL] Test 33/918 failed: Verify that 27 Headings are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Individual plans' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Individual plans' }).first()[22m
+[2026-06-12 09:34:55 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Individual plans' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Individual plans' }).first()
+  ✘   30 [chromium] › tests\generated\www-myvi-in\BuyFancyNumbersOnlineChoosePremiumVipNumberOrFreeOptionsViIndia.spec.ts:50:3 › https://www.myvi.in/ - Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India - Regression Tests › Verify that 27 Headings are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression (10.5s)
+[VERIFY] Verify that the button 'Previous' exists in the DOM
+[2026-06-12 09:34:55 IST] [VERIFY] Verify that the button 'Previous' exists in the DOM
+[PROGRESS] chromium: Test 34/306 running: Verify that 1 Form is present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 09:34:56 IST] [PROGRESS] chromium: Test 34/306 running: Verify that 1 Form is present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[FAIL] Test 34/918 failed: Verify that 33 Links are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 09:34:59 IST] [FAIL] Test 34/918 failed: Verify that 33 Links are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'view details' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'view details' }).first()[22m
+[2026-06-12 09:34:59 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'view details' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'view details' }).first()
+  ✘   31 [chromium] › tests\generated\www-myvi-in\BuyFancyNumbersOnlineChoosePremiumVipNumberOrFreeOptionsViIndia.spec.ts:96:3 › https://www.myvi.in/ - Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India - Regression Tests › Verify that 33 Links are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression (11.6s)
+[PROGRESS] chromium: Test 35/306 running: Verify that 2 Menus are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 09:35:00 IST] [PROGRESS] chromium: Test 35/306 running: Verify that 2 Menus are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:35:01 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:35:01 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 35/918 failed: Verify that 50 Buttons are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 09:35:02 IST] [FAIL] Test 35/918 failed: Verify that 50 Buttons are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'Previous' }).first()[22m
+[2026-06-12 09:35:02 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'Previous' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'Previous' }).first()
+  ✘   32 [chromium] › tests\generated\www-myvi-in\BuyFancyNumbersOnlineChoosePremiumVipNumberOrFreeOptionsViIndia.spec.ts:142:3 › https://www.myvi.in/ - Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India - Regression Tests › Verify that 50 Buttons are present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression (11.8s)
+[PASS] Test 35/918 passed: Verify that 1 Form is present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression
+[2026-06-12 09:35:03 IST] [PASS] Test 35/918 passed: Verify that 1 Form is present on Buy Fancy Numbers Online - Choose Premium VIP Number or Free Options |Vi India @regression

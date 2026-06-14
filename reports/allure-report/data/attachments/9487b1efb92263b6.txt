@@ -1,0 +1,100 @@
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'showing all orders' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'showing all orders' }).first()[22m
+[2026-06-12 09:53:55 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'showing all orders' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'showing all orders' }).first()
+  ✘  343 [firefox] › tests\generated\www-myvi-in\CheckViSimStatusOnlineTrackYourConnectionOrders.spec.ts:50:3 › https://www.myvi.in/ - Check Vi SIM Status Online | Track Your Connection & Orders - Regression Tests › Verify that 25 Headings are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression (11.4s)
+[FAIL] Test 346/918 failed: Verify that 55 Inputs are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:53:56 IST] [FAIL] Test 346/918 failed: Verify that 55 Inputs are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="otpStatus"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="otpStatus"]').first()[22m
+[2026-06-12 09:53:56 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="otpStatus"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="otpStatus"]').first()
+  ✘  345 [firefox] › tests\generated\www-myvi-in\CheckViSimStatusOnlineTrackYourConnectionOrders.spec.ts:188:3 › https://www.myvi.in/ - Check Vi SIM Status Online | Track Your Connection & Orders - Regression Tests › Verify that 55 Inputs are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression (8.8s)
+[VERIFY] Verify that the button 'send OTP' exists in the DOM
+[2026-06-12 09:53:57 IST] [VERIFY] Verify that the button 'send OTP' exists in the DOM
+[PROGRESS] firefox: Test 41/306 running: Verify that 2 Menus are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:53:57 IST] [PROGRESS] firefox: Test 41/306 running: Verify that 2 Menus are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[VERIFY] Verify that the button 'show' exists in the DOM
+[2026-06-12 09:53:57 IST] [VERIFY] Verify that the button 'show' exists in the DOM
+[PROGRESS] firefox: Test 42/306 running: Verify that Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi loads successfully @regression
+[2026-06-12 09:53:59 IST] [PROGRESS] firefox: Test 42/306 running: Verify that Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi loads successfully @regression
+[FAIL] Test 348/918 failed: Verify that 25 Links are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:53:59 IST] [FAIL] Test 348/918 failed: Verify that 25 Links are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('link', { name: 'go back to order tracking' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'go back to order tracking' }).first()[22m
+[2026-06-12 09:53:59 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'go back to order tracking' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'go back to order tracking' }).first()
+  ✘  344 [firefox] › tests\generated\www-myvi-in\CheckViSimStatusOnlineTrackYourConnectionOrders.spec.ts:96:3 › https://www.myvi.in/ - Check Vi SIM Status Online | Track Your Connection & Orders - Regression Tests › Verify that 25 Links are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression (12.6s)
+[PROGRESS] firefox: Test 43/306 running: Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:54:01 IST] [PROGRESS] firefox: Test 43/306 running: Verify that 1 Heading is present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[FAIL] Test 349/918 failed: Verify that 9 Buttons are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[2026-06-12 09:54:05 IST] [FAIL] Test 349/918 failed: Verify that 9 Buttons are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: 'show' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: 'show' }).first()[22m
+[2026-06-12 09:54:05 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: 'show' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: 'show' }).first()
+  ✘  346 [firefox] › tests\generated\www-myvi-in\CheckViSimStatusOnlineTrackYourConnectionOrders.spec.ts:142:3 › https://www.myvi.in/ - Check Vi SIM Status Online | Track Your Connection & Orders - Regression Tests › Verify that 9 Buttons are present on Check Vi SIM Status Online | Track Your Connection & Orders @regression (11.5s)
+[VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[2026-06-12 09:54:08 IST] [VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[VERIFY] Verify that the menu 'home new connection track your SIM delivery' exists in the DOM
+[2026-06-12 09:54:08 IST] [VERIFY] Verify that the menu 'home new connection track your SIM delivery' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:54:08 IST] [STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:54:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 21m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 21m 30s
+[PROGRESS] firefox: Test 44/306 running: Verify that 158 Links are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[2026-06-12 09:54:10 IST] [PROGRESS] firefox: Test 44/306 running: Verify that 158 Links are present on Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi @regression
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:54:11 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:54:11 IST] [STEP] Capture screenshot evidence
+[PASS] Test 350/918 passed: Verify that Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi loads successfully @regression
+[2026-06-12 09:54:12 IST] [PASS] Test 350/918 passed: Verify that Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi loads successfully @regression

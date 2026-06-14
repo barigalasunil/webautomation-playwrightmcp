@@ -1,0 +1,100 @@
+[2026-06-12 10:13:28 IST] [PROGRESS] webkit: Test 273/306 running: Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[FAIL] Test 885/918 failed: Verify that 3 Menus are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[2026-06-12 10:13:29 IST] [FAIL] Test 885/918 failed: Verify that 3 Menus are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 10:13:29 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  882 [webkit] › tests\generated\www-myvi-in\ViVodafoneIdeaCareersExploreCareerOpportunitiesAtVodafoneIdeaVi.spec.ts:188:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) - Regression Tests › Verify that 3 Menus are present on Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi) @regression (8.0s)
+[PROGRESS] webkit: Test 274/306 running: Verify that 75 Inputs are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 10:13:30 IST] [PROGRESS] webkit: Test 274/306 running: Verify that 75 Inputs are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:13:30 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 10:13:32 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 10:13:32 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 10:13:32 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 10:13:32 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 10:13:32 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:13:32 IST] [STEP] Capture screenshot evidence
+[PASS] Test 886/918 passed: Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 10:13:33 IST] [PASS] Test 886/918 passed: Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+  ✓  885 [webkit] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:142:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 14 Buttons are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (4.6s)
+[PROGRESS] webkit: Test 275/306 running: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 10:13:33 IST] [PROGRESS] webkit: Test 275/306 running: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:13:33 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:13:34 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:13:34 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:13:34 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:13:34 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:13:34 IST] [STEP] Capture screenshot evidence
+[PASS] Test 887/918 passed: Verify that 75 Inputs are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 10:13:34 IST] [PASS] Test 887/918 passed: Verify that 75 Inputs are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+  ✓  886 [webkit] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:188:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 75 Inputs are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (4.5s)
+[PROGRESS] webkit: Test 276/306 running: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 10:13:34 IST] [PROGRESS] webkit: Test 276/306 running: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[FAIL] Test 888/918 failed: Verify that 172 Links are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 10:13:35 IST] [FAIL] Test 888/918 failed: Verify that 172 Links are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/help-support/vi-customer-care-number#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/help-support/vi-customer-care-number#"]').first()[22m
+[2026-06-12 10:13:35 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/help-support/vi-customer-care-number#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/help-support/vi-customer-care-number#"]').first()
+  ✘  884 [webkit] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:96:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 172 Links are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (9.2s)
+[PROGRESS] webkit: Test 277/306 running: Verify that 1 Menu is present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 10:13:37 IST] [PROGRESS] webkit: Test 277/306 running: Verify that 1 Menu is present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 10:13:38 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 10:13:38 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 10:13:38 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 10:13:38 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:13:38 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:13:38 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 10:13:38 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:13:38 IST] [STEP] Capture screenshot evidence
+[PASS] Test 889/918 passed: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[2026-06-12 10:13:39 IST] [PASS] Test 889/918 passed: Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+  ✓  888 [webkit] › tests\generated\www-myvi-in\ViVodafoneIdeaCustomerCareNumberViComplaintHelplineNumber.spec.ts:268:3 › https://www.myvi.in/ - Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number - Regression Tests › Verify that 4 Tables are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression (4.6s)
+[2026-06-12 10:13:39 IST] [PASS] Test 889/918 passed: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression
+[PASS] Test 889/918 passed: Verify that 2 Forms are present on Vi (Vodafone Idea) Customer Care Number | Vi Complaint & Helpline Number @regression

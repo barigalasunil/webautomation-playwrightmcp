@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi Utility Bill Payments | Water, Gas, Electricity & More",
+  "pageUrl": "https://www.myvi.in/utilities",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Prepaid' exists in the DOM",
+    "Verify that the button 'Postpaid' exists in the DOM",
+    "Verify that the button 'New Connection' exists in the DOM",
+    "Verify that the button 'OTTs & More' exists in the DOM",
+    "Verify that the button 'Help' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\firefox\\Verify_that_15_Buttons_are_present_on_Vi_Utility_Bill_Payments_Water_Gas_Electricity_More_Vi_Utility_Bill_Payments___Water__Gas__Electricity_1781176413454.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,100 @@
+[2026-06-12 09:44:04 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:44:04 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 193/306 running: Verify that 1 Menu is present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 09:44:04 IST] [PROGRESS] chromium: Test 193/306 running: Verify that 1 Menu is present on Vi FASTag Recharge Online | Instant Recharge @regression
+[PASS] Test 193/918 passed: Verify that 1 Heading is present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 09:44:05 IST] [PASS] Test 193/918 passed: Verify that 1 Heading is present on Vi FASTag Recharge Online | Instant Recharge @regression
+  ✓  187 [chromium] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:50:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 1 Heading is present on Vi FASTag Recharge Online | Instant Recharge @regression (22.0s)
+[PROGRESS] chromium: Test 194/306 running: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 09:44:05 IST] [PROGRESS] chromium: Test 194/306 running: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:44:06 IST] [STEP] Open URL: https://www.myvi.in/
+[PASS] Test 194/918 passed: Verify that 37 Inputs are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 09:44:06 IST] [PASS] Test 194/918 passed: Verify that 37 Inputs are present on Vi FASTag Recharge Online | Instant Recharge @regression
+  ✓  191 [chromium] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:172:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 37 Inputs are present on Vi FASTag Recharge Online | Instant Recharge @regression (7.5s)
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:44:07 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:44:07 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 195/306 running: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 09:44:07 IST] [PROGRESS] chromium: Test 195/306 running: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[VERIFY] Verify that the heading 'Vi powered by GIGAnet' exists in the DOM
+[2026-06-12 09:44:08 IST] [VERIFY] Verify that the heading 'Vi powered by GIGAnet' exists in the DOM
+[VERIFY] Verify that the heading 'GIGAnet FAQs' exists in the DOM
+[2026-06-12 09:44:08 IST] [VERIFY] Verify that the heading 'GIGAnet FAQs' exists in the DOM
+[VERIFY] Verify that the heading 'Download Vi app' exists in the DOM
+[2026-06-12 09:44:08 IST] [VERIFY] Verify that the heading 'Download Vi app' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:44:09 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:44:09 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 11m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 11m 30s
+[PASS] Test 195/918 passed: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+[2026-06-12 09:44:13 IST] [PASS] Test 195/918 passed: Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression
+  ✓  192 [chromium] › tests\generated\www-myvi-in\ViGiganetASmartNetworkPoweredWithAiFromVi.spec.ts:15:3 › https://www.myvi.in/ - Vi Giganet: A smart network powered with AI from Vi - Regression Tests › Verify that Vi Giganet: A smart network powered with AI from Vi loads successfully @regression (9.0s)
+[PROGRESS] chromium: Test 196/306 running: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 09:44:13 IST] [PROGRESS] chromium: Test 196/306 running: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:44:15 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[FAIL] Test 196/918 failed: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 09:44:15 IST] [FAIL] Test 196/918 failed: Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'Download Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Download Vi app' }).first()[22m
+[2026-06-12 09:44:15 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'Download Vi app' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'Download Vi app' }).first()
+  ✘  194 [chromium] › tests\generated\www-myvi-in\ViGiganetASmartNetworkPoweredWithAiFromVi.spec.ts:50:3 › https://www.myvi.in/ - Vi Giganet: A smart network powered with AI from Vi - Regression Tests › Verify that 8 Headings are present on Vi Giganet: A smart network powered with AI from Vi @regression (9.4s)
+[FAIL] Test 196/918 failed: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 09:44:16 IST] [FAIL] Test 196/918 failed: Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:44:16 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  195 [chromium] › tests\generated\www-myvi-in\ViGiganetASmartNetworkPoweredWithAiFromVi.spec.ts:96:3 › https://www.myvi.in/ - Vi Giganet: A smart network powered with AI from Vi - Regression Tests › Verify that 92 Links are present on Vi Giganet: A smart network powered with AI from Vi @regression (8.1s)
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:44:16 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[PROGRESS] chromium: Test 197/306 running: Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression
+[2026-06-12 09:44:17 IST] [PROGRESS] chromium: Test 197/306 running: Verify that Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India loads successfully @regression
+[PROGRESS] chromium: Test 198/306 running: Verify that 64 Headings are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[2026-06-12 09:44:17 IST] [PROGRESS] chromium: Test 198/306 running: Verify that 64 Headings are present on Vi International Roaming Packs (2026) - Stay Connected Abroad | Vi India @regression
+[FAIL] Test 198/918 failed: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[2026-06-12 09:44:24 IST] [FAIL] Test 198/918 failed: Verify that 2 Menus are present on Vi Giganet: A smart network powered with AI from Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:44:24 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()

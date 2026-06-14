@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud",
+  "pageUrl": "https://www.myvi.in/business",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Products & Solutions' exists in the DOM",
+    "Verify that the button 'Segments' exists in the DOM",
+    "Verify that the button 'Why Vi Business' exists in the DOM",
+    "Verify that the button 'Resources' exists in the DOM",
+    "Verify that the button 'request call back' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_86_Buttons_are_present_on_Vi_Business_-_B2B_Mobility_Connectivity_Security_IoT_Cloud_Vi_Business_-_B2B__Mobility__Connectivity__Securit_1781171098069.png"
+  ],
+  "status": "passed"
+}

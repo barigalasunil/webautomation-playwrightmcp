@@ -1,0 +1,17 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Postpaid Plans with Unlimited Calls & Data | Vi India",
+  "pageUrl": "https://www.myvi.in/postpaid/vi-postpaid-plans",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM",
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_2_Forms_are_present_on_Vi_Postpaid_Plans_with_Unlimited_Calls_Data_Vi_India_Vi_Postpaid_Plans_with_Unlimited_Calls___Data___Vi_1781237797869.png"
+  ],
+  "status": "passed"
+}

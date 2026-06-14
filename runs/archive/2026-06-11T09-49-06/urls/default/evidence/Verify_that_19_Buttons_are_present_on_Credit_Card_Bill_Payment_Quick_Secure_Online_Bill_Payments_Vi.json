@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Credit Card Bill Payment – Quick & Secure Online Bill Payments | Vi",
+  "pageUrl": "https://www.myvi.in/utilities/credit-card-bill-payment",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Prepaid' exists in the DOM",
+    "Verify that the button 'Postpaid' exists in the DOM",
+    "Verify that the button 'New Connection' exists in the DOM",
+    "Verify that the button 'OTTs & More' exists in the DOM",
+    "Verify that the button 'Help' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_19_Buttons_are_present_on_Credit_Card_Bill_Payment_Quick_Secure_Online_Bill_Payments_Vi_Credit_Card_Bill_Payment___Quick___Secure_Online_B_1781170704409.png"
+  ],
+  "status": "passed"
+}

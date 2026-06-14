@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India",
+  "pageUrl": "https://www.myvi.in/esim-activation",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'Prepaid' exists in the DOM",
+    "Verify that the button 'Postpaid' exists in the DOM",
+    "Verify that the button 'New Connection' exists in the DOM",
+    "Verify that the button 'OTTs & More' exists in the DOM",
+    "Verify that the button 'Help' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_25_Buttons_are_present_on_How_to_Activate_Vi_eSIM_Card_Easy_Online_Setup_Steps_Vi_India_How_to_Activate_Vi_eSIM_Card___Easy_Online_Setup___1781238399860.png"
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality",
+  "pageUrl": "https://www.myvi.in/vi-wifi-calling",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\chromium\\Verify_that_WiFi_Calling_on_Vi_Choose_VoWiFi_for_Better_Voice_Quality_loads_successfully_WiFi_Calling_on_Vi__Choose_VoWiFi_for_Better_Voice_1781238062263.png"
+  ],
+  "status": "passed"
+}

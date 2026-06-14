@@ -1,0 +1,17 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi FASTag Recharge Online | Instant Recharge",
+  "pageUrl": "https://www.myvi.in/utilities/fastag-recharge",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM",
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_2_Forms_are_present_on_Vi_FASTag_Recharge_Online_Instant_Recharge_Vi_FASTag_Recharge_Online___Instant_Recharge_-_For_1781239225508.png"
+  ],
+  "status": "passed"
+}

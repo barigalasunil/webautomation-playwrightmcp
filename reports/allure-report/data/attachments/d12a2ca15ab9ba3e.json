@@ -1,0 +1,19 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports",
+  "pageUrl": "https://www.myvi.in/prepaid/sonyliv-subscription-recharge-plans",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'stream in 10+ Languages and get exciting data benefits starting at just ₹408 wit' exists in the DOM",
+    "Verify that the heading 'it’s very simple to get started' exists in the DOM",
+    "Verify that the heading 'watch exclusive SonyLiv specials' exists in the DOM",
+    "Verify that the heading 'Frequently Asked Questions (FAQs)' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_4_Headings_are_present_on_SonyLIV_Subscription_Plans_with_Vi_Watch_Movies_Shows_Sports_SonyLIV_Subscription_Plans_with_Vi___Watch_Movies__1781238508257.png"
+  ],
+  "status": "passed"
+}

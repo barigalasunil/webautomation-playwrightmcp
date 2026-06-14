@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Check Vi SIM Status Online | Track Your Connection & Orders",
+  "pageUrl": "https://www.myvi.in/new-connection/track-your-sim-online",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_Check_Vi_SIM_Status_Online_Track_Your_Connection_Orders_loads_successfully_Check_Vi_SIM_Status_Online___Track_Your_Connection_1781170676646.png"
+  ],
+  "status": "passed"
+}

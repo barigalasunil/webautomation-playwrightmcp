@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today",
+  "pageUrl": "https://www.myvi.in/prepaid/unlimited-calls-and-data-plans",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_Vi_Unlimited_Data_Calls_Internet_Plans_Choose_Vi_Unlimited_Plans_Today_loads_successfull_Vi_Unlimited_Data__Calls___Internet_Plans___Choose_1781239366156.png"
+  ],
+  "status": "passed"
+}

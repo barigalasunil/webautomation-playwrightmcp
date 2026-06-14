@@ -1,0 +1,100 @@
+[2026-06-12 10:12:34 IST] [PASS] Test 859/918 passed: Verify that 12 Headings are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+  ✓  858 [webkit] › tests\generated\www-myvi-in\ViProductServicesFaqsFrequentlyAskedQuestions.spec.ts:50:3 › https://www.myvi.in/ - Vi Product & Services FAQs, Frequently Asked Questions - Regression Tests › Verify that 12 Headings are present on Vi Product & Services FAQs, Frequently Asked Questions @regression (3.4s)
+[PROGRESS] webkit: Test 248/306 running: Verify that 30 Buttons are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+[2026-06-12 10:12:34 IST] [PROGRESS] webkit: Test 248/306 running: Verify that 30 Buttons are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+[FAIL] Test 860/918 failed: Verify that 3 Menus are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[2026-06-12 10:12:36 IST] [FAIL] Test 860/918 failed: Verify that 3 Menus are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 10:12:36 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+  ✘  856 [webkit] › tests\generated\www-myvi-in\ViPrepaidTalktimeAndTopUpPlansEasyOnlineMobileRecharge.spec.ts:248:3 › https://www.myvi.in/ - Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge - Regression Tests › Verify that 3 Menus are present on Vi Prepaid Talktime and Top-Up Plans| Easy Online Mobile Recharge @regression (7.9s)
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:12:36 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[PROGRESS] webkit: Test 249/306 running: Verify that 4 Inputs are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+[2026-06-12 10:12:37 IST] [PROGRESS] webkit: Test 249/306 running: Verify that 4 Inputs are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+[VERIFY] Verify that the button 'Recharge & Balance' exists in the DOM
+[2026-06-12 10:12:37 IST] [VERIFY] Verify that the button 'Recharge & Balance' exists in the DOM
+[VERIFY] Verify that the button 'Bills & Usage' exists in the DOM
+[2026-06-12 10:12:37 IST] [VERIFY] Verify that the button 'Bills & Usage' exists in the DOM
+[VERIFY] Verify that the button 'New To Vi' exists in the DOM
+[2026-06-12 10:12:38 IST] [VERIFY] Verify that the button 'New To Vi' exists in the DOM
+[VERIFY] Verify that the button 'Utility Payments' exists in the DOM
+[2026-06-12 10:12:38 IST] [VERIFY] Verify that the button 'Utility Payments' exists in the DOM
+[VERIFY] Verify that the button 'Roaming & ISD' exists in the DOM
+[2026-06-12 10:12:38 IST] [VERIFY] Verify that the button 'Roaming & ISD' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:12:38 IST] [STEP] Capture screenshot evidence
+[PASS] Test 861/918 passed: Verify that 30 Buttons are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+[2026-06-12 10:12:39 IST] [PASS] Test 861/918 passed: Verify that 30 Buttons are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+  ✓  860 [webkit] › tests\generated\www-myvi-in\ViProductServicesFaqsFrequentlyAskedQuestions.spec.ts:142:3 › https://www.myvi.in/ - Vi Product & Services FAQs, Frequently Asked Questions - Regression Tests › Verify that 30 Buttons are present on Vi Product & Services FAQs, Frequently Asked Questions @regression (4.2s)
+[PROGRESS] webkit: Test 250/306 running: Verify that 3 Menus are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+[2026-06-12 10:12:39 IST] [PROGRESS] webkit: Test 250/306 running: Verify that 3 Menus are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+[2026-06-12 10:12:40 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 40m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 40m 0s
+[VERIFY] Verify that the input 'search your query' exists in the DOM
+[2026-06-12 10:12:40 IST] [VERIFY] Verify that the input 'search your query' exists in the DOM
+[VERIFY] Verify that the input 'Type your query...' exists in the DOM
+[2026-06-12 10:12:41 IST] [VERIFY] Verify that the input 'Type your query...' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:12:41 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 862/918 failed: Verify that 93 Links are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+[2026-06-12 10:12:42 IST] [FAIL] Test 862/918 failed: Verify that 93 Links are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 10:12:42 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  859 [webkit] › tests\generated\www-myvi-in\ViProductServicesFaqsFrequentlyAskedQuestions.spec.ts:96:3 › https://www.myvi.in/ - Vi Product & Services FAQs, Frequently Asked Questions - Regression Tests › Verify that 93 Links are present on Vi Product & Services FAQs, Frequently Asked Questions @regression (8.2s)
+[PASS] Test 862/918 passed: Verify that 4 Inputs are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+[2026-06-12 10:12:42 IST] [PASS] Test 862/918 passed: Verify that 4 Inputs are present on Vi Product & Services FAQs, Frequently Asked Questions @regression
+  ✓  861 [webkit] › tests\generated\www-myvi-in\ViProductServicesFaqsFrequentlyAskedQuestions.spec.ts:188:3 › https://www.myvi.in/ - Vi Product & Services FAQs, Frequently Asked Questions - Regression Tests › Verify that 4 Inputs are present on Vi Product & Services FAQs, Frequently Asked Questions @regression (4.4s)
+[PROGRESS] webkit: Test 251/306 running: Verify that 11 Headings are present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+[2026-06-12 10:12:42 IST] [PROGRESS] webkit: Test 251/306 running: Verify that 11 Headings are present on Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today @regression
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 10:12:42 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[PROGRESS] webkit: Test 252/306 running: Verify that Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today loads successfully @regression
+[2026-06-12 10:12:43 IST] [PROGRESS] webkit: Test 252/306 running: Verify that Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today loads successfully @regression
+[VERIFY] Verify that the heading 'Unlimited Data, Calls & Internet Plans' exists in the DOM
+[2026-06-12 10:12:44 IST] [VERIFY] Verify that the heading 'Unlimited Data, Calls & Internet Plans' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:12:45 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the heading 'Unlimited Calling Plans & Data FAQs' exists in the DOM
+[2026-06-12 10:12:45 IST] [VERIFY] Verify that the heading 'Unlimited Calling Plans & Data FAQs' exists in the DOM
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:12:46 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:12:46 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the heading 'unlimited super-fast Data plans & calling plans' exists in the DOM
+[2026-06-12 10:12:46 IST] [VERIFY] Verify that the heading 'unlimited super-fast Data plans & calling plans' exists in the DOM
+[VERIFY] Verify that the heading 'Vi Unlimited 4G Data Plan benefits:' exists in the DOM
+[2026-06-12 10:12:46 IST] [VERIFY] Verify that the heading 'Vi Unlimited 4G Data Plan benefits:' exists in the DOM
+[VERIFY] Verify that the heading 'Vi Unlimited Calling Plan benefits:' exists in the DOM
+[2026-06-12 10:12:46 IST] [VERIFY] Verify that the heading 'Vi Unlimited Calling Plan benefits:' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:12:46 IST] [STEP] Capture screenshot evidence
+[PASS] Test 864/918 passed: Verify that Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today loads successfully @regression
+[2026-06-12 10:12:46 IST] [PASS] Test 864/918 passed: Verify that Vi Unlimited Data, Calls & Internet Plans – Choose Vi Unlimited Plans Today loads successfully @regression

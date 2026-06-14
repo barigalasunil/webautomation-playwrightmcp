@@ -1,0 +1,100 @@
+[VERIFY] Verify that the button '...' exists in the DOM
+[2026-06-12 09:42:22 IST] [VERIFY] Verify that the button '...' exists in the DOM
+[PROGRESS] chromium: Test 164/306 running: Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:22 IST] [PROGRESS] chromium: Test 164/306 running: Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:42:26 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the input 'search for topics' exists in the DOM
+[2026-06-12 09:42:27 IST] [VERIFY] Verify that the input 'search for topics' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:42:27 IST] [STEP] Capture screenshot evidence
+[PASS] Test 164/918 passed: Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:29 IST] [PASS] Test 164/918 passed: Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression
+  ✓  164 [chromium] › tests\generated\www-myvi-in\ViBlogGetLatestNewsInformationOnViNetwork.spec.ts:188:3 › https://www.myvi.in/ - Vi Blog | Get Latest News & Information on Vi Network - Regression Tests › Verify that 1 Input is present on Vi Blog | Get Latest News & Information on Vi Network @regression (4.6s)
+[PROGRESS] chromium: Test 165/306 running: Verify that 3 Menus are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:29 IST] [PROGRESS] chromium: Test 165/306 running: Verify that 3 Menus are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[FAIL] Test 165/918 failed: Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:29 IST] [FAIL] Test 165/918 failed: Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('heading', { name: 'theblogs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'theblogs' }).first()[22m
+[2026-06-12 09:42:29 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('heading', { name: 'theblogs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('heading', { name: 'theblogs' }).first()
+  ✘  161 [chromium] › tests\generated\www-myvi-in\ViBlogGetLatestNewsInformationOnViNetwork.spec.ts:50:3 › https://www.myvi.in/ - Vi Blog | Get Latest News & Information on Vi Network - Regression Tests › Verify that 6 Headings are present on Vi Blog | Get Latest News & Information on Vi Network @regression (9.2s)
+[FAIL] Test 165/918 failed: Verify that 5 Buttons are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:30 IST] [FAIL] Test 165/918 failed: Verify that 5 Buttons are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('button', { name: '...' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('button', { name: '...' }).first()[22m
+[2026-06-12 09:42:30 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('button', { name: '...' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('button', { name: '...' }).first()
+  ✘  162 [chromium] › tests\generated\www-myvi-in\ViBlogGetLatestNewsInformationOnViNetwork.spec.ts:142:3 › https://www.myvi.in/ - Vi Blog | Get Latest News & Information on Vi Network - Regression Tests › Verify that 5 Buttons are present on Vi Blog | Get Latest News & Information on Vi Network @regression (9.4s)
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:42:30 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[PROGRESS] chromium: Test 166/306 running: Verify that Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud loads successfully @regression
+[2026-06-12 09:42:31 IST] [PROGRESS] chromium: Test 166/306 running: Verify that Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud loads successfully @regression
+[PROGRESS] chromium: Test 167/306 running: Verify that 52 Headings are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[2026-06-12 09:42:32 IST] [PROGRESS] chromium: Test 167/306 running: Verify that 52 Headings are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[FAIL] Test 167/918 failed: Verify that 108 Links are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:34 IST] [FAIL] Test 167/918 failed: Verify that 108 Links are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:42:34 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  163 [chromium] › tests\generated\www-myvi-in\ViBlogGetLatestNewsInformationOnViNetwork.spec.ts:96:3 › https://www.myvi.in/ - Vi Blog | Get Latest News & Information on Vi Network - Regression Tests › Verify that 108 Links are present on Vi Blog | Get Latest News & Information on Vi Network @regression (10.7s)
+[PROGRESS] chromium: Test 168/306 running: Verify that 179 Links are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[2026-06-12 09:42:37 IST] [PROGRESS] chromium: Test 168/306 running: Verify that 179 Links are present on Vi Business - B2B: Mobility, Connectivity, Security, IoT & Cloud @regression
+[2026-06-12 09:42:39 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 10m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 10m 0s
+[FAIL] Test 168/918 failed: Verify that 3 Menus are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[2026-06-12 09:42:40 IST] [FAIL] Test 168/918 failed: Verify that 3 Menus are present on Vi Blog | Get Latest News & Information on Vi Network @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:42:40 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()

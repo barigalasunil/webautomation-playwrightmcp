@@ -1,0 +1,100 @@
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/utilities/electricity-bill-payment#"]').first()[22m
+[2026-06-12 10:10:12 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/utilities/electricity-bill-payment#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/utilities/electricity-bill-payment#"]').first()
+  ✘  793 [webkit] › tests\generated\www-myvi-in\ViElectricityBillPaymentQuickSecureOnlinePayment.spec.ts:80:3 › https://www.myvi.in/ - Vi Electricity Bill Payment | Quick & Secure Online Payment - Regression Tests › Verify that 158 Links are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression (9.2s)
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:10:12 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:10:12 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:10:12 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:10:12 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:10:12 IST] [STEP] Capture screenshot evidence
+[PASS] Test 798/918 passed: Verify that 37 Inputs are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+[2026-06-12 10:10:13 IST] [PASS] Test 798/918 passed: Verify that 37 Inputs are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression
+  ✓  795 [webkit] › tests\generated\www-myvi-in\ViElectricityBillPaymentQuickSecureOnlinePayment.spec.ts:172:3 › https://www.myvi.in/ - Vi Electricity Bill Payment | Quick & Secure Online Payment - Regression Tests › Verify that 37 Inputs are present on Vi Electricity Bill Payment | Quick & Secure Online Payment @regression (6.4s)
+[PROGRESS] webkit: Test 187/306 running: Verify that 158 Links are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:13 IST] [PROGRESS] webkit: Test 187/306 running: Verify that 158 Links are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 10:10:13 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[PROGRESS] webkit: Test 188/306 running: Verify that 1 Heading is present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:13 IST] [PROGRESS] webkit: Test 188/306 running: Verify that 1 Heading is present on Vi FASTag Recharge Online | Instant Recharge @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:10:14 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:10:15 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:10:16 IST] [STEP] Capture screenshot evidence
+[PASS] Test 800/918 passed: Verify that Vi FASTag Recharge Online | Instant Recharge loads successfully @regression
+[2026-06-12 10:10:17 IST] [PASS] Test 800/918 passed: Verify that Vi FASTag Recharge Online | Instant Recharge loads successfully @regression
+  ✓  798 [webkit] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:15:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that Vi FASTag Recharge Online | Instant Recharge loads successfully @regression (6.1s)
+[PROGRESS] webkit: Test 189/306 running: Verify that 19 Buttons are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:17 IST] [PROGRESS] webkit: Test 189/306 running: Verify that 19 Buttons are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:10:17 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the heading 'recharge your FASTag in seconds' exists in the DOM
+[2026-06-12 10:10:18 IST] [VERIFY] Verify that the heading 'recharge your FASTag in seconds' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:10:18 IST] [STEP] Capture screenshot evidence
+[PASS] Test 801/918 passed: Verify that 1 Heading is present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:18 IST] [PASS] Test 801/918 passed: Verify that 1 Heading is present on Vi FASTag Recharge Online | Instant Recharge @regression
+  ✓  800 [webkit] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:50:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 1 Heading is present on Vi FASTag Recharge Online | Instant Recharge @regression (4.7s)
+[PROGRESS] webkit: Test 190/306 running: Verify that 37 Inputs are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:18 IST] [PROGRESS] webkit: Test 190/306 running: Verify that 37 Inputs are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 10:10:20 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 10:10:20 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 10:10:20 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 10:10:20 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 10:10:20 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:10:20 IST] [STEP] Capture screenshot evidence
+[PASS] Test 802/918 passed: Verify that 19 Buttons are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:21 IST] [PASS] Test 802/918 passed: Verify that 19 Buttons are present on Vi FASTag Recharge Online | Instant Recharge @regression
+  ✓  801 [webkit] › tests\generated\www-myvi-in\ViFastagRechargeOnlineInstantRecharge.spec.ts:126:3 › https://www.myvi.in/ - Vi FASTag Recharge Online | Instant Recharge - Regression Tests › Verify that 19 Buttons are present on Vi FASTag Recharge Online | Instant Recharge @regression (4.5s)
+[PROGRESS] webkit: Test 191/306 running: Verify that 2 Forms are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:21 IST] [PROGRESS] webkit: Test 191/306 running: Verify that 2 Forms are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:10:22 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:10:22 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 10:10:22 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:10:22 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[VERIFY] Verify that the input 'Search' exists in the DOM
+[2026-06-12 10:10:22 IST] [VERIFY] Verify that the input 'Search' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:10:22 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 803/918 failed: Verify that 158 Links are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[2026-06-12 10:10:23 IST] [FAIL] Test 803/918 failed: Verify that 158 Links are present on Vi FASTag Recharge Online | Instant Recharge @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/utilities/fastag-recharge#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/utilities/fastag-recharge#"]').first()[22m
+[2026-06-12 10:10:23 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/utilities/fastag-recharge#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/utilities/fastag-recharge#"]').first()

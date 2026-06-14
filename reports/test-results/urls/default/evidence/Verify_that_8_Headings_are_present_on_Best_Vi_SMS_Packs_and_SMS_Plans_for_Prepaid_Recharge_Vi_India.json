@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Best Vi SMS Packs and SMS Plans for Prepaid Recharge|Vi India",
+  "pageUrl": "https://www.myvi.in/prepaid/sms-packs",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'Vi SMS Recharge Packs' exists in the DOM",
+    "Verify that the heading 'SMS Pack Recharge FAQs' exists in the DOM",
+    "Verify that the heading 'SMS Recharge Packs' exists in the DOM",
+    "Verify that the heading 'Vodafone Idea Limited' exists in the DOM",
+    "Verify that the heading 'about Vi' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_8_Headings_are_present_on_Best_Vi_SMS_Packs_and_SMS_Plans_for_Prepaid_Recharge_Vi_India_Best_Vi_SMS_Packs_and_SMS_Plans_for_Prepaid_Rechar_1781238876794.png"
+  ],
+  "status": "passed"
+}

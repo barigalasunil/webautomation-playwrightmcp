@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process",
+  "pageUrl": "https://www.myvi.in/new-connection/mobile-number-portability-mnp-online",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_Port_SIM_Number_to_Vi_Enjoy_Vi_Benefits_with_Easy_MNP_process_loads_successfully_Port_SIM_Number_to_Vi___Enjoy_Vi_Benefits_with_Eas_1781239100605.png"
+  ],
+  "status": "passed"
+}

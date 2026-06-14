@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vi (Vodafone Idea) Careers | Explore Career Opportunities at Vodafone Idea (Vi)",
+  "pageUrl": "https://www.myvi.in/careers",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\webkit\\Verify_that_Vi_Vodafone_Idea_Careers_Explore_Career_Opportunities_at_Vodafone_Idea_Vi_loads_successf_Vi__Vodafone_Idea__Careers___Explore_Career_Opport_1781239393833.png"
+  ],
+  "status": "passed"
+}

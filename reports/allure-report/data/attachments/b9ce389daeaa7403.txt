@@ -1,0 +1,100 @@
+[PASS] Test 93/918 passed: Verify that 25 Buttons are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[2026-06-12 09:38:44 IST] [PASS] Test 93/918 passed: Verify that 25 Buttons are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+  ✓   91 [chromium] › tests\generated\www-myvi-in\HowToActivateViEsimCardEasyOnlineSetupStepsViIndia.spec.ts:142:3 › https://www.myvi.in/ - How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India - Regression Tests › Verify that 25 Buttons are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression (11.6s)
+[PROGRESS] chromium: Test 94/306 running: Verify that 1 Menu is present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[2026-06-12 09:38:45 IST] [PROGRESS] chromium: Test 94/306 running: Verify that 1 Menu is present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[VERIFY] Verify that the table 'Data table' exists in the DOM
+[2026-06-12 09:38:47 IST] [VERIFY] Verify that the table 'Data table' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:38:47 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 94/918 failed: Verify that 170 Links are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[2026-06-12 09:38:47 IST] [FAIL] Test 94/918 failed: Verify that 170 Links are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/esim-activation#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/esim-activation#"]').first()[22m
+[2026-06-12 09:38:47 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/esim-activation#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/esim-activation#"]').first()
+  ✘   89 [chromium] › tests\generated\www-myvi-in\HowToActivateViEsimCardEasyOnlineSetupStepsViIndia.spec.ts:96:3 › https://www.myvi.in/ - How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India - Regression Tests › Verify that 170 Links are present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression (14.9s)
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 09:38:49 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[PROGRESS] chromium: Test 95/306 running: Verify that Investors Support Information Of Vi (Vodafone Idea Limited) loads successfully @regression
+[2026-06-12 09:38:49 IST] [PROGRESS] chromium: Test 95/306 running: Verify that Investors Support Information Of Vi (Vodafone Idea Limited) loads successfully @regression
+[PASS] Test 95/918 passed: Verify that 1 Table is present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[2026-06-12 09:38:49 IST] [PASS] Test 95/918 passed: Verify that 1 Table is present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+  ✓   93 [chromium] › tests\generated\www-myvi-in\HowToActivateViEsimCardEasyOnlineSetupStepsViIndia.spec.ts:264:3 › https://www.myvi.in/ - How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India - Regression Tests › Verify that 1 Table is present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression (7.4s)
+[PROGRESS] chromium: Test 96/306 running: Verify that 12 Headings are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[2026-06-12 09:38:50 IST] [PROGRESS] chromium: Test 96/306 running: Verify that 12 Headings are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[VERIFY] Verify that the heading 'Investors Support' exists in the DOM
+[2026-06-12 09:38:51 IST] [VERIFY] Verify that the heading 'Investors Support' exists in the DOM
+[VERIFY] Verify that the heading 'Bombay Stock Exchange Limited (BSE)' exists in the DOM
+[2026-06-12 09:38:52 IST] [VERIFY] Verify that the heading 'Bombay Stock Exchange Limited (BSE)' exists in the DOM
+[VERIFY] Verify that the heading 'National Stock Exchange of India Limited (NSE)' exists in the DOM
+[2026-06-12 09:38:52 IST] [VERIFY] Verify that the heading 'National Stock Exchange of India Limited (NSE)' exists in the DOM
+[VERIFY] Verify that the heading 'details of shares to IEPF' exists in the DOM
+[2026-06-12 09:38:52 IST] [VERIFY] Verify that the heading 'details of shares to IEPF' exists in the DOM
+[2026-06-12 09:38:52 IST] [VERIFY] Verify that the heading 'investors contact' exists in the DOM
+[VERIFY] Verify that the heading 'investors contact' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:38:52 IST] [STEP] Capture screenshot evidence
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:38:54 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:38:54 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:38:54 IST] [STEP] Capture screenshot evidence
+[PASS] Test 96/918 passed: Verify that 12 Headings are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[2026-06-12 09:38:54 IST] [PASS] Test 96/918 passed: Verify that 12 Headings are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+  ✓   96 [chromium] › tests\generated\www-myvi-in\InvestorsSupportInformationOfViVodafoneIdeaLimited.spec.ts:50:3 › https://www.myvi.in/ - Investors Support Information Of Vi (Vodafone Idea Limited) - Regression Tests › Verify that 12 Headings are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression (4.7s)
+[PROGRESS] chromium: Test 97/306 running: Verify that 45 Links are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[2026-06-12 09:38:54 IST] [PROGRESS] chromium: Test 97/306 running: Verify that 45 Links are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[PASS] Test 97/918 passed: Verify that Investors Support Information Of Vi (Vodafone Idea Limited) loads successfully @regression
+[2026-06-12 09:38:55 IST] [PASS] Test 97/918 passed: Verify that Investors Support Information Of Vi (Vodafone Idea Limited) loads successfully @regression
+  ✓   95 [chromium] › tests\generated\www-myvi-in\InvestorsSupportInformationOfViVodafoneIdeaLimited.spec.ts:15:3 › https://www.myvi.in/ - Investors Support Information Of Vi (Vodafone Idea Limited) - Regression Tests › Verify that Investors Support Information Of Vi (Vodafone Idea Limited) loads successfully @regression (5.4s)
+[PROGRESS] chromium: Test 98/306 running: Verify that 3 Menus are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[2026-06-12 09:38:56 IST] [PROGRESS] chromium: Test 98/306 running: Verify that 3 Menus are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:38:56 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'Personal' exists in the DOM
+[2026-06-12 09:38:56 IST] [VERIFY] Verify that the link 'Personal' exists in the DOM
+[VERIFY] Verify that the link 'Business' exists in the DOM
+[2026-06-12 09:38:56 IST] [VERIFY] Verify that the link 'Business' exists in the DOM
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:38:56 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the link 'Company Overview' exists in the DOM
+[2026-06-12 09:38:56 IST] [VERIFY] Verify that the link 'Company Overview' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:38:56 IST] [STEP] Capture screenshot evidence
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:38:57 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[FAIL] Test 98/918 failed: Verify that 1 Menu is present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[2026-06-12 09:38:57 IST] [FAIL] Test 98/918 failed: Verify that 1 Menu is present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:38:57 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘   94 [chromium] › tests\generated\www-myvi-in\HowToActivateViEsimCardEasyOnlineSetupStepsViIndia.spec.ts:294:3 › https://www.myvi.in/ - How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India - Regression Tests › Verify that 1 Menu is present on How to Activate Vi eSIM Card – Easy Online Setup & Steps | Vi India @regression (10.6s)
+[PASS] Test 98/918 passed: Verify that 45 Links are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression
+[2026-06-12 09:38:58 IST] [PASS] Test 98/918 passed: Verify that 45 Links are present on Investors Support Information Of Vi (Vodafone Idea Limited) @regression

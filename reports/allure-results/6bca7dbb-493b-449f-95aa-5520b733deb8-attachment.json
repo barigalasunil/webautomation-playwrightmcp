@@ -1,0 +1,18 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "firefox",
+  "pageName": "Vi Official Videos: Tips, Products & Updates",
+  "pageUrl": "https://www.myvi.in/videos",
+  "testObjective": "Verify page loads for regression",
+  "actionsPerformed": [
+    "Opened URL: https://www.myvi.in/"
+  ],
+  "validationsPerformed": [
+    "Verified URL is correct"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\screenshots\\latest\\default\\firefox\\Verify_that_Vi_Official_Videos_Tips_Products_Updates_loads_successfully_Vi_Official_Videos__Tips__Products___Updates_-_Fin_1781238664378.png"
+  ],
+  "status": "passed"
+}

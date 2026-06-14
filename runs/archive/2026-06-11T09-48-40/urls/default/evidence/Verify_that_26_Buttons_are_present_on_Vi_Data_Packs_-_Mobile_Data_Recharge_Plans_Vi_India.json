@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "Vi Data Packs - Mobile Data Recharge Plans | Vi India",
+  "pageUrl": "https://www.myvi.in/prepaid/mobile-data-packs",
+  "testObjective": "Verify Button elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM",
+    "Verify that the button 'buy' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_26_Buttons_are_present_on_Vi_Data_Packs_-_Mobile_Data_Recharge_Plans_Vi_India_Vi_Data_Packs_-_Mobile_Data_Recharge_Plans___Vi_In_1781171110820.png"
+  ],
+  "status": "passed"
+}

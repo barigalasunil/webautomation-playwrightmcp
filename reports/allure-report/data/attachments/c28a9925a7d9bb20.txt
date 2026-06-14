@@ -1,0 +1,100 @@
+[VERIFY] Verify that the heading 'call anywhere' exists in the DOM
+[2026-06-12 09:51:05 IST] [VERIFY] Verify that the heading 'call anywhere' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:51:05 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 305/306 running: Verify that 93 Links are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[2026-06-12 09:51:06 IST] [PROGRESS] chromium: Test 305/306 running: Verify that 93 Links are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[VERIFY] Verify that the input 'Input field' exists in the DOM
+[2026-06-12 09:51:07 IST] [VERIFY] Verify that the input 'Input field' exists in the DOM
+[PASS] Test 305/918 passed: Verify that 14 Headings are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[2026-06-12 09:51:08 IST] [PASS] Test 305/918 passed: Verify that 14 Headings are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+  ✓  303 [chromium] › tests\generated\www-myvi-in\WifiCallingOnViChooseVowifiForBetterVoiceQuality.spec.ts:50:3 › https://www.myvi.in/ - WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality - Regression Tests › Verify that 14 Headings are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression (5.2s)
+[PROGRESS] chromium: Test 306/306 running: Verify that 3 Menus are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[2026-06-12 09:51:08 IST] [PROGRESS] chromium: Test 306/306 running: Verify that 3 Menus are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[2026-06-12 09:51:10 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 18m 30s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 18m 30s
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 09:51:10 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[FAIL] Test 306/918 failed: Verify that 2 Menus are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[2026-06-12 09:51:12 IST] [FAIL] Test 306/918 failed: Verify that 2 Menus are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 09:51:12 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  301 [chromium] › tests\generated\www-myvi-in\Volte4gVolteCallsVoiceOverLteForHdVoiceCallsVi.spec.ts:264:3 › https://www.myvi.in/ - VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi - Regression Tests › Verify that 2 Menus are present on VoLTE | 4G VoLTE Calls - (Voice Over LTE) for HD Voice Calls | Vi @regression (12.9s)
+[PROGRESS] firefox: Test 1/306 running: Verify that About Vi - India's Largest Telecom Company loads successfully @regression
+[2026-06-12 09:51:14 IST] [PROGRESS] firefox: Test 1/306 running: Verify that About Vi - India's Largest Telecom Company loads successfully @regression
+[FAIL] Test 307/918 failed: Verify that 3 Inputs are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[2026-06-12 09:51:15 IST] [FAIL] Test 307/918 failed: Verify that 3 Inputs are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="mobileviapp"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="mobileviapp"]').first()[22m
+[2026-06-12 09:51:15 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="mobileviapp"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="mobileviapp"]').first()
+  ✘  304 [chromium] › tests\generated\www-myvi-in\WifiCallingOnViChooseVowifiForBetterVoiceQuality.spec.ts:142:3 › https://www.myvi.in/ - WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality - Regression Tests › Verify that 3 Inputs are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression (9.0s)
+[PROGRESS] firefox: Test 2/306 running: Verify that 3 Headings are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:51:16 IST] [PROGRESS] firefox: Test 2/306 running: Verify that 3 Headings are present on About Vi - India's Largest Telecom Company @regression
+[VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[2026-06-12 09:51:16 IST] [VERIFY] Verify that the menu 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' exists in the DOM
+[FAIL] Test 308/918 failed: Verify that 93 Links are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[2026-06-12 09:51:17 IST] [FAIL] Test 308/918 failed: Verify that 93 Links are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/"]').first()[22m
+[2026-06-12 09:51:17 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/"]').first()
+  ✘  305 [chromium] › tests\generated\www-myvi-in\WifiCallingOnViChooseVowifiForBetterVoiceQuality.spec.ts:96:3 › https://www.myvi.in/ - WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality - Regression Tests › Verify that 93 Links are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression (9.3s)
+[PROGRESS] firefox: Test 3/306 running: Verify that 164 Links are present on About Vi - India's Largest Telecom Company @regression
+[2026-06-12 09:51:19 IST] [PROGRESS] firefox: Test 3/306 running: Verify that 164 Links are present on About Vi - India's Largest Telecom Company @regression
+[FAIL] Test 309/918 failed: Verify that 3 Menus are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[2026-06-12 09:51:24 IST] [FAIL] Test 309/918 failed: Verify that 3 Menus are present on WiFi Calling on Vi: Choose VoWiFi for Better Voice Quality @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()[22m
+[2026-06-12 09:51:24 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'PrepaidPostpaidNew ConnectionInternational Roaming5GOTTs & MoreHelpDND & Service' }).first()

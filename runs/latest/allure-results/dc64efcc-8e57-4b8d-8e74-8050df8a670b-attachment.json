@@ -1,0 +1,16 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "chromium",
+  "pageName": "SonyLIV Subscription Plans with Vi | Watch Movies, Shows & Sports",
+  "pageUrl": "https://www.myvi.in/prepaid/sonyliv-subscription-recharge-plans",
+  "testObjective": "Verify Input elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the input 'Input field' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\chromium\\Verify_that_1_Input_is_present_on_SonyLIV_Subscription_Plans_with_Vi_Watch_Movies_Shows_Sports_SonyLIV_Subscription_Plans_with_Vi___Watch_Movies__1781175012413.png"
+  ],
+  "status": "passed"
+}

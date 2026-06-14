@@ -1,0 +1,100 @@
+Locator: locator('a[href="https://www.myvi.in/privacy-policy#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/privacy-policy#"]').first()[22m
+[2026-06-12 10:08:45 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/privacy-policy#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/privacy-policy#"]').first()
+  ✘  748 [webkit] › tests\generated\www-myvi-in\PrivacyPolicyVi.spec.ts:96:3 › https://www.myvi.in/ - Privacy Policy | Vi - Regression Tests › Verify that 185 Links are present on Privacy Policy | Vi @regression (9.7s)
+[PASS] Test 753/918 passed: Verify that 1 Form is present on Privacy Policy | Vi @regression
+[2026-06-12 10:08:46 IST] [PASS] Test 753/918 passed: Verify that 1 Form is present on Privacy Policy | Vi @regression
+  ✓  751 [webkit] › tests\generated\www-myvi-in\PrivacyPolicyVi.spec.ts:234:3 › https://www.myvi.in/ - Privacy Policy | Vi - Regression Tests › Verify that 1 Form is present on Privacy Policy | Vi @regression (5.2s)
+[PROGRESS] webkit: Test 142/306 running: Verify that 161 Links are present on Register for Postpaid EBill Online | Vi @regression
+[2026-06-12 10:08:46 IST] [PROGRESS] webkit: Test 142/306 running: Verify that 161 Links are present on Register for Postpaid EBill Online | Vi @regression
+[VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[2026-06-12 10:08:46 IST] [VERIFY] Verify that the menu 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' exists in the DOM
+[PROGRESS] webkit: Test 143/306 running: Verify that 3 Headings are present on Register for Postpaid EBill Online | Vi @regression
+[2026-06-12 10:08:47 IST] [PROGRESS] webkit: Test 143/306 running: Verify that 3 Headings are present on Register for Postpaid EBill Online | Vi @regression
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 10:08:47 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify the URL is correct
+[2026-06-12 10:08:48 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 10:08:48 IST] [STEP] Capture screenshot evidence
+[PASS] Test 755/918 passed: Verify that Register for Postpaid EBill Online | Vi loads successfully @regression
+[2026-06-12 10:08:49 IST] [PASS] Test 755/918 passed: Verify that Register for Postpaid EBill Online | Vi loads successfully @regression
+  ✓  753 [webkit] › tests\generated\www-myvi-in\RegisterForPostpaidEbillOnlineVi.spec.ts:15:3 › https://www.myvi.in/ - Register for Postpaid EBill Online | Vi - Regression Tests › Verify that Register for Postpaid EBill Online | Vi loads successfully @regression (5.7s)
+[PROGRESS] webkit: Test 144/306 running: Verify that 16 Buttons are present on Register for Postpaid EBill Online | Vi @regression
+[2026-06-12 10:08:49 IST] [PROGRESS] webkit: Test 144/306 running: Verify that 16 Buttons are present on Register for Postpaid EBill Online | Vi @regression
+[VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[2026-06-12 10:08:50 IST] [VERIFY] Verify that the link 'Navigation link' exists in the DOM
+[VERIFY] Verify that the heading 'E-bill registration' exists in the DOM
+[2026-06-12 10:08:51 IST] [VERIFY] Verify that the heading 'E-bill registration' exists in the DOM
+[VERIFY] Verify that the heading 'Activate Ebill. Go Paperless, Go Green' exists in the DOM
+[2026-06-12 10:08:51 IST] [VERIFY] Verify that the heading 'Activate Ebill. Go Paperless, Go Green' exists in the DOM
+[VERIFY] Verify that the heading 'hey, just to make sure it’s you' exists in the DOM
+[2026-06-12 10:08:51 IST] [VERIFY] Verify that the heading 'hey, just to make sure it’s you' exists in the DOM
+[FAIL] Test 756/918 failed: Verify that 3 Menus are present on Privacy Policy | Vi @regression
+[2026-06-12 10:08:52 IST] [FAIL] Test 756/918 failed: Verify that 3 Menus are present on Privacy Policy | Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()[22m
+[2026-06-12 10:08:52 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'open in Vi app Sign in Sign in Dashboard My Account Prepaid Recharge Data Packs' }).first()
+  ✘  752 [webkit] › tests\generated\www-myvi-in\PrivacyPolicyVi.spec.ts:264:3 › https://www.myvi.in/ - Privacy Policy | Vi - Regression Tests › Verify that 3 Menus are present on Privacy Policy | Vi @regression (9.5s)
+[VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[2026-06-12 10:08:52 IST] [VERIFY] Verify that the button 'Prepaid' exists in the DOM
+[VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[2026-06-12 10:08:53 IST] [VERIFY] Verify that the button 'Postpaid' exists in the DOM
+[VERIFY] Verify that the button 'New Connection' exists in the DOM
+[2026-06-12 10:08:53 IST] [VERIFY] Verify that the button 'New Connection' exists in the DOM
+[VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[2026-06-12 10:08:53 IST] [VERIFY] Verify that the button 'OTTs & More' exists in the DOM
+[VERIFY] Verify that the button 'Help' exists in the DOM
+[2026-06-12 10:08:53 IST] [VERIFY] Verify that the button 'Help' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 10:08:53 IST] [STEP] Capture screenshot evidence
+[PROGRESS] webkit: Test 145/306 running: Verify that 75 Inputs are present on Register for Postpaid EBill Online | Vi @regression
+[2026-06-12 10:08:53 IST] [PROGRESS] webkit: Test 145/306 running: Verify that 75 Inputs are present on Register for Postpaid EBill Online | Vi @regression
+[PASS] Test 757/918 passed: Verify that 16 Buttons are present on Register for Postpaid EBill Online | Vi @regression
+[2026-06-12 10:08:53 IST] [PASS] Test 757/918 passed: Verify that 16 Buttons are present on Register for Postpaid EBill Online | Vi @regression
+  ✓  756 [webkit] › tests\generated\www-myvi-in\RegisterForPostpaidEbillOnlineVi.spec.ts:134:3 › https://www.myvi.in/ - Register for Postpaid EBill Online | Vi - Regression Tests › Verify that 16 Buttons are present on Register for Postpaid EBill Online | Vi @regression (3.7s)
+[PROGRESS] webkit: Test 146/306 running: Verify that 4 Forms are present on Register for Postpaid EBill Online | Vi @regression
+[2026-06-12 10:08:53 IST] [PROGRESS] webkit: Test 146/306 running: Verify that 4 Forms are present on Register for Postpaid EBill Online | Vi @regression
+[FAIL] Test 758/918 failed: Verify that 161 Links are present on Register for Postpaid EBill Online | Vi @regression
+[2026-06-12 10:08:55 IST] [FAIL] Test 758/918 failed: Verify that 161 Links are present on Register for Postpaid EBill Online | Vi @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('a[href="https://www.myvi.in/online-ebill-registration#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('a[href="https://www.myvi.in/online-ebill-registration#"]').first()[22m
+[2026-06-12 10:08:55 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('a[href="https://www.myvi.in/online-ebill-registration#"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('a[href="https://www.myvi.in/online-ebill-registration#"]').first()

@@ -1,0 +1,20 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Vodafone Idea News (Vi): Latest Vi News, Press Releases &amp; Updates",
+  "pageUrl": "https://www.myvi.in/vodafone-idea/press-releases",
+  "testObjective": "Verify Heading elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the heading 'Vi (Vodafone Idea) Media Releases' exists in the DOM",
+    "Verify that the heading 'Vodafone Idea (Vi) News & Press Releases' exists in the DOM",
+    "Verify that the heading 'Vi launches 5G services in Coimbatore' exists in the DOM",
+    "Verify that the heading 'Vi launches 5G services in Bhopal' exists in the DOM",
+    "Verify that the heading 'Vi expands 5G footprint in Punjab' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_15_Headings_are_present_on_Vodafone_Idea_News_Vi_Latest_Vi_News_Press_Releases_amp_Updat_Vodafone_Idea_News__Vi___Latest_Vi_News__Press_Rel_1781177679350.png"
+  ],
+  "status": "passed"
+}

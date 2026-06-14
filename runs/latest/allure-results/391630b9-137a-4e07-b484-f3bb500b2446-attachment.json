@@ -1,0 +1,19 @@
+{
+  "application": "www.myvi.in",
+  "suite": "Regression Test Suite",
+  "browser": "webkit",
+  "pageName": "Register for Postpaid EBill Online | Vi",
+  "pageUrl": "https://www.myvi.in/online-ebill-registration",
+  "testObjective": "Verify Form elements are present",
+  "actionsPerformed": [],
+  "validationsPerformed": [
+    "Verify that the form 'Form' exists in the DOM",
+    "Verify that the form 'Form' exists in the DOM",
+    "Verify that the form 'Form' exists in the DOM",
+    "Verify that the form 'Form' exists in the DOM"
+  ],
+  "screenshots": [
+    "D:\\yt-tc\\runs\\latest\\urls\\default\\screenshots\\webkit\\Verify_that_4_Forms_are_present_on_Register_for_Postpaid_EBill_Online_Vi_Register_for_Postpaid_EBill_Online___Vi_-_Form_Ver_1781176971173.png"
+  ],
+  "status": "passed"
+}

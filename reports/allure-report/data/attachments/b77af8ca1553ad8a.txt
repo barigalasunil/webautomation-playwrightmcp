@@ -1,0 +1,100 @@
+Locator: getByRole('link', { name: 'view details' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('link', { name: 'view details' }).first()[22m
+[2026-06-12 09:40:39 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('link', { name: 'view details' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('link', { name: 'view details' }).first()
+  ✘  130 [chromium] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:96:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 38 Links are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (12.7s)
+[2026-06-12 09:40:39 IST] [PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 8m 0s
+[PROGRESS] regression execution across chromium, firefox, webkit still running... elapsed 8m 0s
+[FAIL] Test 133/918 failed: Verify that 138 Inputs are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 09:40:40 IST] [FAIL] Test 133/918 failed: Verify that 138 Inputs are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: locator('input[name="faq-drawer"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="faq-drawer"]').first()[22m
+[2026-06-12 09:40:40 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: locator('input[name="faq-drawer"]').first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for locator('input[name="faq-drawer"]').first()
+  ✘  131 [chromium] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:188:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 138 Inputs are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (13.1s)
+[VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[2026-06-12 09:40:40 IST] [VERIFY] Verify that the menu 'Navigation menu' exists in the DOM
+[VERIFY] Verify that the menu 'home new connection mobile number portability (MNP)' exists in the DOM
+[2026-06-12 09:40:40 IST] [VERIFY] Verify that the menu 'home new connection mobile number portability (MNP)' exists in the DOM
+[VERIFY] Verify that the form 'Form' exists in the DOM
+[2026-06-12 09:40:40 IST] [VERIFY] Verify that the form 'Form' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:40:40 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 134/306 running: Verify that Privacy Policy | Vi loads successfully @regression
+[2026-06-12 09:40:41 IST] [PROGRESS] chromium: Test 134/306 running: Verify that Privacy Policy | Vi loads successfully @regression
+[PROGRESS] chromium: Test 135/306 running: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:41 IST] [PROGRESS] chromium: Test 135/306 running: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+[PASS] Test 135/918 passed: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 09:40:43 IST] [PASS] Test 135/918 passed: Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+  ✓  132 [chromium] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:234:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 1 Form is present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (8.5s)
+[PROGRESS] chromium: Test 136/306 running: Verify that 185 Links are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:43 IST] [PROGRESS] chromium: Test 136/306 running: Verify that 185 Links are present on Privacy Policy | Vi @regression
+[VERIFY] Verify that the heading 'Privacy Matters' exists in the DOM
+[2026-06-12 09:40:48 IST] [VERIFY] Verify that the heading 'Privacy Matters' exists in the DOM
+[VERIFY] Verify that the heading 'privacy policy' exists in the DOM
+[2026-06-12 09:40:48 IST] [VERIFY] Verify that the heading 'privacy policy' exists in the DOM
+[2026-06-12 09:40:48 IST] [VERIFY] Verify that the heading 'Who we are :' exists in the DOM
+[VERIFY] Verify that the heading 'Who we are :' exists in the DOM
+[VERIFY] Verify that the heading 'Collection of personal information' exists in the DOM
+[2026-06-12 09:40:48 IST] [VERIFY] Verify that the heading 'Collection of personal information' exists in the DOM
+[STEP] Open URL: https://www.myvi.in/
+[2026-06-12 09:40:48 IST] [STEP] Open URL: https://www.myvi.in/
+[VERIFY] Verify that the heading 'Use of Personal Information' exists in the DOM
+[2026-06-12 09:40:48 IST] [VERIFY] Verify that the heading 'Use of Personal Information' exists in the DOM
+[STEP] Capture screenshot evidence
+[2026-06-12 09:40:48 IST] [STEP] Capture screenshot evidence
+[FAIL] Test 136/918 failed: Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[2026-06-12 09:40:49 IST] [FAIL] Test 136/918 failed: Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression
+[ERROR] Failure reason: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeAttached[2m([22m[2m)[22m failed
+Locator: getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+[2m  - Expect "toBeAttached" with timeout 5000ms[22m
+[2m  - waiting for getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()[22m
+[2026-06-12 09:40:49 IST] [ERROR] Failure reason: Error: expect(locator).toBeAttached() failed
+Locator: getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()
+Expected: attached
+Timeout: 5000ms
+Error: element(s) not found
+Call log:
+  - Expect "toBeAttached" with timeout 5000ms
+  - waiting for getByRole('navigation', { name: 'home new connection mobile number portability (MNP)' }).first()
+  ✘  133 [chromium] › tests\generated\www-myvi-in\PortSimNumberToViEnjoyViBenefitsWithEasyMnpProcess.spec.ts:264:3 › https://www.myvi.in/ - Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process - Regression Tests › Verify that 2 Menus are present on Port SIM Number to Vi | Enjoy Vi Benefits with Easy MNP process @regression (13.1s)
+[VERIFY] Verify the URL is correct
+[2026-06-12 09:40:50 IST] [VERIFY] Verify the URL is correct
+[STEP] Capture screenshot evidence
+[2026-06-12 09:40:50 IST] [STEP] Capture screenshot evidence
+[PROGRESS] chromium: Test 137/306 running: Verify that 15 Buttons are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:50 IST] [PROGRESS] chromium: Test 137/306 running: Verify that 15 Buttons are present on Privacy Policy | Vi @regression
+[PASS] Test 137/918 passed: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:50 IST] [PASS] Test 137/918 passed: Verify that 39 Headings are present on Privacy Policy | Vi @regression
+  ✓  135 [chromium] › tests\generated\www-myvi-in\PrivacyPolicyVi.spec.ts:50:3 › https://www.myvi.in/ - Privacy Policy | Vi - Regression Tests › Verify that 39 Headings are present on Privacy Policy | Vi @regression (7.8s)
+[PROGRESS] chromium: Test 138/306 running: Verify that 58 Inputs are present on Privacy Policy | Vi @regression
+[2026-06-12 09:40:51 IST] [PROGRESS] chromium: Test 138/306 running: Verify that 58 Inputs are present on Privacy Policy | Vi @regression
+[PASS] Test 138/918 passed: Verify that Privacy Policy | Vi loads successfully @regression
+[2026-06-12 09:40:53 IST] [PASS] Test 138/918 passed: Verify that Privacy Policy | Vi loads successfully @regression

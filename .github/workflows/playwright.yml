@@ -18,7 +18,11 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run framework tests (smoke)
-      run: npm run ai:smoke
+      # Explicitly force headless mode in CI. Without this, the per-browser config in
+      # src/config/test-input.json (browserMode.chromium: "headed") forces Chromium to
+      # launch headed, which requires an X server that ubuntu-latest runners don't have
+      # ("Missing X server or $DISPLAY"). --mode=headless overrides the config default.
+      run: npm run ai:smoke -- --mode=headless
       env:
         CI: true
     - name: Generate Allure Report

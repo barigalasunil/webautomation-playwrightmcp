@@ -6,6 +6,7 @@ import { ensureDir } from "../utils/fileUtils";
 import { ROOT, getTempUrlDir, getUrlRunDir, getGeneratedPagesDir, getGeneratedTestsDir, getGeneratedDir } from "../utils/pathUtils";
 import { buildRelativeImportPath } from "../utils/importPathBuilder";
 import { logger } from "../utils/logger";
+import { emitDashboardProgress } from "../utils/dashboardProgress";
 
 const MAX_PROPERTIES_PER_TYPE = 5;
 
@@ -198,7 +199,7 @@ function generateTestCode(pomInfo: POMInfo, siteMapPage: SiteMapPage, safeFolder
   const titleMatch = pageName.replace(/[.*+?^${}()|[\]\/]/g, '\\$&');
   const urlMatch = url.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 
-  const describeName = `${siteUrl} - ${pageName} - ${suite.charAt(0).toUpperCase() + suite.slice(1)} Tests`;
+  const describeName = `${pageName} (${siteUrl}) — ${suite.charAt(0).toUpperCase() + suite.slice(1)}`;
   lines.push(`test.describe(${toTsStringLiteral(describeName)}, () => {`);
   lines.push('  let appPage: ' + className + ';');
   lines.push('');
@@ -227,7 +228,7 @@ function generateSmokeTests(
   lines: string[], className: string, siteMapPage: SiteMapPage, properties: POMProperty[],
   appNameReadable: string, suiteLabel: string, siteUrl: string, domain: string, pageName: string, url: string, urlMatch: string, titleMatch: string
 ): void {
-  const pageLoadDesc = `Verify that ${siteUrl} opens successfully @smoke`;
+  const pageLoadDesc = `${pageName} — Verify ${pageName} (${siteUrl}) @smoke`;
   lines.push(`  test(${toTsStringLiteral(pageLoadDesc)}, async ({ page }, testInfo) => {`);
   generateAllureAnnotations(lines, suiteLabel, siteUrl, domain, pageName, 'Verify page loads successfully', 'critical', 'smoke');
   generateEvidenceObject(lines, appNameReadable, suiteLabel, pageName, url, 'Verify page loads successfully', true);
@@ -251,7 +252,7 @@ function generateSmokeTests(
   const headingProps = properties.filter(p => p.type === 'heading');
   if (headingProps.length > 0) {
     const hText = getReadableElementText(headingProps[0]);
-    lines.push(`  test(${toTsStringLiteral(`Verify that the main heading is visible on ${pageName} @smoke`)}, async ({ page }, testInfo) => {`);
+    lines.push(`  test(${toTsStringLiteral(`${pageName} — Verify heading '${hText}' on ${pageName} (${siteUrl}) @smoke`)}, async ({ page }, testInfo) => {`);
     generateAllureAnnotations(lines, suiteLabel, siteUrl, domain, pageName, 'Verify main heading is visible', 'critical', 'smoke');
     generateEvidenceObject(lines, appNameReadable, suiteLabel, pageName, url, 'Verify main heading is visible', true);
     lines.push('');
@@ -270,7 +271,7 @@ function generateSanityTests(
   lines: string[], className: string, siteMapPage: SiteMapPage, properties: POMProperty[],
   appNameReadable: string, suiteLabel: string, siteUrl: string, domain: string, pageName: string, url: string, urlMatch: string, titleMatch: string
 ): void {
-  lines.push(`  test(${toTsStringLiteral(`Verify that ${pageName} loads correctly @sanity`)}, async ({ page }, testInfo) => {`);
+  lines.push(`  test(${toTsStringLiteral(`${pageName} — Verify ${pageName} (${siteUrl}) @sanity`)}, async ({ page }, testInfo) => {`);
   generateAllureAnnotations(lines, suiteLabel, siteUrl, domain, pageName, 'Verify page loads correctly', 'normal', 'sanity');
   generateEvidenceObject(lines, appNameReadable, suiteLabel, pageName, url, 'Verify page loads correctly', true);
   lines.push('');
@@ -287,7 +288,7 @@ function generateSanityTests(
   lines.push('    });');
   lines.push('');
   lines.push('    await attachExecutionSummary(evidence, page, testInfo);');
-  lines.push('  }');
+  lines.push('  });');
 
   const propsByType: Record<string, POMProperty[]> = {};
   for (const prop of properties) {
@@ -305,7 +306,7 @@ function generateSanityTests(
     const displayProps = typeProps.slice(0, MAX_PROPERTIES_PER_TYPE);
     const typeLabelNoun = type.charAt(0).toUpperCase() + type.slice(1);
     const isPlural = count !== 1;
-    const desc = `Verify that ${count} ${typeLabelNoun}${isPlural ? 's' : ''} ${isPlural ? 'are' : 'is'} visible on ${pageName} @sanity`;
+    const desc = `${pageName} — Verify ${count} ${typeLabelNoun}${isPlural ? 's' : ''} on ${pageName} (${siteUrl}) @sanity`;
 
     lines.push(`  test(${toTsStringLiteral(desc)}, async ({ page }, testInfo) => {`);
     generateAllureAnnotations(lines, suiteLabel, siteUrl, domain, pageName, `Verify ${typeLabelNoun} elements are present`, 'normal', 'sanity');
@@ -331,7 +332,7 @@ function generateRegressionTests(
   lines: string[], className: string, siteMapPage: SiteMapPage, properties: POMProperty[],
   appNameReadable: string, suiteLabel: string, siteUrl: string, domain: string, pageName: string, url: string, urlMatch: string, titleMatch: string
 ): void {
-  lines.push(`  test(${toTsStringLiteral(`Verify that ${pageName} loads successfully @regression`)}, async ({ page }, testInfo) => {`);
+  lines.push(`  test(${toTsStringLiteral(`${pageName} — Verify ${pageName} (${siteUrl}) @regression`)}, async ({ page }, testInfo) => {`);
   generateAllureAnnotations(lines, suiteLabel, siteUrl, domain, pageName, 'Verify page loads for regression', 'minor', 'regression');
   generateEvidenceObject(lines, appNameReadable, suiteLabel, pageName, url, 'Verify page loads for regression', true);
   lines.push('');
@@ -370,7 +371,7 @@ function generateRegressionTests(
     const displayProps = typeProps.slice(0, MAX_PROPERTIES_PER_TYPE);
     const typeLabelNoun = type.charAt(0).toUpperCase() + type.slice(1);
     const isPlural = typeCount !== 1;
-    const desc = `Verify that ${typeCount} ${typeLabelNoun}${isPlural ? 's' : ''} ${isPlural ? 'are' : 'is'} present on ${pageName} @regression`;
+    const desc = `${pageName} — Verify ${typeCount} ${typeLabelNoun}${isPlural ? 's' : ''} on ${pageName} (${siteUrl}) @regression`;
 
     lines.push(`  test(${toTsStringLiteral(desc)}, async ({ page }, testInfo) => {`);
     generateAllureAnnotations(lines, suiteLabel, siteUrl, domain, pageName, story, sev, 'regression');
@@ -468,9 +469,11 @@ export function generateTests(safeFolder: string, domain: string, suite: string,
     fs.writeFileSync(specFilePath, testCode, 'utf-8');
     logger.debug(`Created: ${specFileName}`);
     generatedCount++;
+    emitDashboardProgress({ phase: 'generating', suite, domain, message: `Created test: ${specFileName}` });
   }
 
   logger.success(`Generated ${generatedCount} test files (${skippedCount} skipped)`);
+  emitDashboardProgress({ phase: 'generating', suite, domain, message: `Created ${generatedCount} test file(s) (${skippedCount} skipped)` });
 
   validateGeneratedImports(generatedTestsDir);
 
@@ -519,19 +522,20 @@ function generateJourneyTestFile(
   lines.push(`import { logProgress, logPass, logFail, logSkip, logError, logAction, logValidation } from '${progressImport}';`);
   lines.push('');
 
-  lines.push(`test.describe(${toTsStringLiteral(`${siteUrl} - Discovered Journeys - ${suite.charAt(0).toUpperCase() + suite.slice(1)}`)}, () => {`);
+  lines.push(`test.describe(${toTsStringLiteral(`Journeys — ${siteUrl} — ${suite.charAt(0).toUpperCase() + suite.slice(1)}`)}, () => {`);
   lines.push('');
 
   for (let i = 0; i < journeys.length; i++) {
     const j = journeys[i];
-    const testName = `${j.name} @${suite}`;
+    const targetDomain = j.targetUrl ? new URL(j.targetUrl).hostname : 'unknown';
+    const testName = `${j.action} → ${targetDomain} @${suite}`;
     const targetText = j.action.replace(/^Click\s+/i, '').trim();
 
     lines.push(`  test(${toTsStringLiteral(testName)}, async ({ page }, testInfo) => {`);
     lines.push(`    await label('suite', ${toTsStringLiteral(`${suite.charAt(0).toUpperCase() + suite.slice(1)} Test Suite`)});`);
     lines.push(`    await label('url', ${toTsStringLiteral(siteUrl)});`);
     lines.push(`    await label('domain', ${toTsStringLiteral(domain)});`);
-    lines.push(`    await feature(${toTsStringLiteral('Journey: ' + j.name)});`);
+    lines.push(`    await feature(${toTsStringLiteral('Journey: ' + j.action)});`);
     lines.push(`    await story(${toTsStringLiteral(j.expectedResult)});`);
     lines.push(`    await severity(${toTsStringLiteral('normal')});`);
     lines.push(`    await tag(${toTsStringLiteral(suite)});`);

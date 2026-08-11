@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --matrix-green: #00ff41;
+  --matrix-green-dim: #00cc33;
+  --matrix-green-glow: rgba(0, 255, 65, 0.4);
+  --matrix-green-subtle: rgba(0, 255, 65, 0.08);
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-card: #0d0d0d;
+  --border-dim: #1a1a1a;
+  --border-active: #00ff4133;
+  --text-primary: #e0e0e0;
+  --text-secondary: #888888;
+  --text-muted: #555555;
+  --fail-red: #ff3333;
+  --warn-amber: #ffaa00;
+  --skip-yellow: #ffdd00;
+}
+
+* {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+/* CRT Scanline overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+  animation: scanline-drift 8s linear infinite;
+}
+
+@keyframes scanline-drift {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(4px); }
+}
+
+/* Floating particles background */
+.particles {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: var(--matrix-green);
+  border-radius: 50%;
+  opacity: 0;
+  animation: float-up linear infinite;
+}
+
+@keyframes float-up {
+  0% {
+    opacity: 0;
+    transform: translateY(100vh) scale(0.5);
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10vh) scale(1.2);
+  }
+}
+
+/* Glow text effect */
+.glow-text {
+  text-shadow: 0 0 7px var(--matrix-green-glow), 0 0 14px var(--matrix-green-glow);
+}
+
+/* Glow border effect */
+.glow-border {
+  box-shadow: 0 0 8px var(--matrix-green-glow), inset 0 0 8px rgba(0, 255, 65, 0.05);
+  border-color: var(--matrix-green-dim) !important;
+}
+
+/* Phase pill pulsing glow */
+@keyframes phase-pulse {
+  0%, 100% {
+    box-shadow: 0 0 6px var(--matrix-green-glow);
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 16px var(--matrix-green-glow), 0 0 24px rgba(0, 255, 65, 0.2);
+    opacity: 0.9;
+  }
+}
+
+.phase-active {
+  animation: phase-pulse 2s ease-in-out infinite;
+}
+
+/* Phase transition flash */
+@keyframes phase-flash {
+  0% {
+    transform: scale(1.15);
+    box-shadow: 0 0 20px var(--matrix-green-glow), 0 0 40px rgba(0, 255, 65, 0.3);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 6px var(--matrix-green-glow);
+  }
+}
+
+.phase-complete {
+  animation: phase-flash 0.4s ease-out;
+}
+
+/* Count-up animation for bento numbers */
+@keyframes count-reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+    filter: blur(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.count-animate {
+  animation: count-reveal 0.5s ease-out forwards;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+/* Terminal-style cursor blink for header */
+@keyframes cursor-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink::after {
+  content: '█';
+  animation: cursor-blink 1s step-end infinite;
+  color: var(--matrix-green);
+  margin-left: 2px;
+}
+
+/* Button glow on hover */
+.btn-glow:hover {
+  box-shadow: 0 0 12px var(--matrix-green-glow), 0 0 24px rgba(0, 255, 65, 0.15);
+}
+
+/* Grid pattern background */
+.grid-pattern {
+  background-image:
+    linear-gradient(rgba(0, 255, 65, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 65, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}

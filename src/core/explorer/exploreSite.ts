@@ -6,6 +6,7 @@ import { autoScrollToBottom } from "./scrollExplorer";
 import { logger } from "../utils/logger";
 import { ensureDir, writeJsonFile } from "../utils/fileUtils";
 import { getSiteMapPath, getUrlRunDir, getTempUrlDir } from "../utils/pathUtils";
+import { emitDashboardProgress } from "../utils/dashboardProgress";
 
 interface SiteMapPage {
   title: string;
@@ -145,6 +146,7 @@ export async function exploreSite(siteUrl: string, safeFolder: string, depth: nu
 
   logger.info(`Exploring: ${siteUrl}`);
   logger.debug(`Depth: ${depth}, Max pages: ${maxPages}`);
+  emitDashboardProgress({ phase: 'exploring', url: siteUrl, domain: safeFolder, message: `Visiting ${siteUrl}` });
 
   const browserType: BrowserType<unknown> = chromium;
   const browser = await browserType.launch({ headless: true });
@@ -172,9 +174,11 @@ export async function exploreSite(siteUrl: string, safeFolder: string, depth: nu
       if (pageData) {
         siteMapPages.push(pageData);
         pagesExplored++;
+        emitDashboardProgress({ phase: 'exploring', url: siteUrl, domain: safeFolder, message: `Explored ${pagesExplored} page(s) — ${item.url}` });
         if (item.depth < depth) {
           const internalLinks = await collectInternalLinks(item.url, page);
           logger.debug(`Discovered ${internalLinks.length} internal links`);
+          emitDashboardProgress({ phase: 'exploring', url: siteUrl, domain: safeFolder, message: `Discovered ${internalLinks.length} internal links on ${item.url}` });
           for (const link of internalLinks) {
             const normalizedLink = link.replace(/\/$/, '');
             if (!visited.has(normalizedLink)) {
@@ -191,6 +195,8 @@ export async function exploreSite(siteUrl: string, safeFolder: string, depth: nu
       safeFolder,
       pages: siteMapPages,
     };
+
+    emitDashboardProgress({ phase: 'exploring', url: siteUrl, domain: safeFolder, message: `Exploration complete — ${siteMapPages.length} page(s) found` });
 
     const tempDir = getTempUrlDir(safeFolder);
     ensureDir(tempDir);

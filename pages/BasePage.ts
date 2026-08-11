@@ -10,11 +10,11 @@ export class BasePage {
   }
 
   async open(): Promise<void> {
-    await this.page.goto(this.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await this.page.goto(this.url, { waitUntil: 'domcontentloaded', timeout: 60000 });
   }
 
   async goto(url: string): Promise<void> {
-    await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await this.page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
   }
 
   async waitForPageLoad(): Promise<void> {

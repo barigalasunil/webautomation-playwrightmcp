@@ -4,6 +4,7 @@ import { normalizeVisibleText } from './textNormalizer';
 import { ensureDir } from '../utils/fileUtils';
 import { getTempUrlDir, getUrlRunDir } from '../utils/pathUtils';
 import { logger } from '../utils/logger';
+import { emitDashboardProgress } from '../utils/dashboardProgress';
 
 interface SiteMapPage {
   title: string;
@@ -273,6 +274,7 @@ export function generateTestCases(safeFolder: string, domain: string, suite: str
   }
 
   logger.debug(`Generated ${allTestCases.length} test cases for @${suite}`);
+  emitDashboardProgress({ phase: 'generating', suite, domain, message: `Created ${allTestCases.length} test case(s) for @${suite}` });
 
   const urlRunDir = getUrlRunDir(safeFolder);
   ensureDir(urlRunDir);

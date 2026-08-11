@@ -6,6 +6,7 @@ import { ensureDir } from '../utils/fileUtils';
 import { ROOT, getTempUrlDir, getUrlRunDir, getGeneratedPagesDir } from '../utils/pathUtils';
 import { buildRelativeImportPath } from '../utils/importPathBuilder';
 import { logger } from '../utils/logger';
+import { emitDashboardProgress } from '../utils/dashboardProgress';
 
 interface SiteMapPage {
   title: string;
@@ -30,8 +31,10 @@ function buildPOMClassName(title: string): string {
   const cleaned = title.replace(/[^a-zA-Z0-9 ]/g, ' ').trim();
   const words = cleaned.split(/\s+/).filter(Boolean);
   if (words.length === 0) return 'AppPage';
-  const className = words.map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join('');
-  return className.replace(/[^a-zA-Z0-9]/g, '');
+  let className = words.map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join('');
+  className = className.replace(/[^a-zA-Z0-9]/g, '');
+  if (/^\d/.test(className)) className = 'Page' + className;
+  return className;
 }
 
 function buildSafeFileName(className: string): string {
@@ -234,4 +237,5 @@ export function generatePOMs(safeFolder: string, domain: string, siteUrl: string
   }
 
   logger.success(`Generated ${createdFiles.length} POM files`);
+  emitDashboardProgress({ phase: 'generating', suite: '', domain, message: `Generated ${createdFiles.length} POM(s) for ${domain}` });
 }

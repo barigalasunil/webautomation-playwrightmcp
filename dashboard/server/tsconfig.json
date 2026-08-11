@@ -10,8 +10,8 @@
     "skipLibCheck": true,
     "noEmit": true,
     "isolatedModules": true,
-    "types": ["node", "@playwright/test"]
+    "types": ["node"]
   },
-  "include": ["src", "pages", "tests"],
-  "exclude": ["node_modules", "pages/generated", "tests/generated"]
+  "include": ["*.ts"],
+  "exclude": ["node_modules", "runReports"]
 }

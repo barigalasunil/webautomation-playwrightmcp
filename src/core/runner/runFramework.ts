@@ -30,8 +30,15 @@ import { setDebugEnabled, configureLogger, section, info, debug, warn, error as 
 import { ensureDir } from '../utils/fileUtils';
 import { ROOT, getAllureResultsDir, getAllureReportDir, getPlaywrightReportDir, getLogFilePath } from '../utils/pathUtils';
 import { runCommand } from './processRunner';
+import { collectEnvironmentInfo, writeAllureEnvironmentProperties } from '../utils/environmentInfo';
 
 let frameworkExiting = false;
+
+// Structured progress logging for dashboard integration
+// These JSON lines are emitted at phase transitions and can be parsed by the dashboard backend
+function emitProgress(event: Record<string, unknown>): void {
+  console.log(`__PROGRESS__${JSON.stringify(event)}`);
+}
 
 interface RunState {
   suite: string;
@@ -46,6 +53,7 @@ interface RunState {
   passed: number;
   failed: number;
   skipped: number;
+  startTime: number;
 }
 
 const runState: RunState = {
@@ -61,6 +69,7 @@ const runState: RunState = {
   passed: 0,
   failed: 0,
   skipped: 0,
+  startTime: 0,
 };
 
 function setProcessHandlers(allureMode: string): void {
@@ -253,6 +262,7 @@ function runAllureGenerateSync(allureMode: string): void {
 }
 
 async function runFramework(): Promise<number> {
+  runState.startTime = Date.now();
   const args = parseCliArgs();
   const config = await loadConfig();
 
@@ -314,6 +324,7 @@ async function runFramework(): Promise<number> {
   }
   if (available.length === 0) {
     logError('No browsers available for execution.');
+    emitProgress({ phase: 'error', message: 'No browsers available for execution' });
     printRunSummary(allureMode);
     return 1;
   }
@@ -337,10 +348,12 @@ async function runFramework(): Promise<number> {
     const maxPages = getMaxPages(config);
 
     step(`Exploring URL: ${url}`);
+    emitProgress({ phase: 'exploring', url, domain });
     await exploreSite(url, safeFolder, depth, maxPages);
     success('Exploration completed');
 
     step(`Generating tests for suite: ${suite}`);
+    emitProgress({ phase: 'generating', suite, domain });
     generateTestCases(safeFolder, domain, suite, url);
 
     generatePOMs(safeFolder, domain, url);
@@ -349,6 +362,24 @@ async function runFramework(): Promise<number> {
     generateTests(safeFolder, domain, suite, url, appNameReadable);
   }
   success('Test generation completed');
+
+  // Count generated test files for progress reporting
+  const generatedTestsDir = path.resolve(ROOT, 'tests', 'generated');
+  let generatedTestCount = 0;
+  try {
+    const countSpecFiles = (dir: string): void => {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const fullPath = path.join(dir, entry.name);
+        if (entry.isDirectory()) {
+          countSpecFiles(fullPath);
+        } else if (entry.name.endsWith('.spec.ts')) {
+          generatedTestCount++;
+        }
+      }
+    };
+    countSpecFiles(generatedTestsDir);
+  } catch { /* best effort */ }
+  emitProgress({ phase: 'generating', testsFound: generatedTestCount });
 
   step('Running TypeScript validation');
   const tscResult = await runCommand('npx', ['tsc', '--noEmit'], {
@@ -359,6 +390,7 @@ async function runFramework(): Promise<number> {
 
   if (tscResult.exitCode !== 0) {
     logError('TypeScript validation failed. Skipping Playwright test execution.');
+    emitProgress({ phase: 'error', message: 'TypeScript validation failed' });
     runState.hasFailures = true;
     printRunSummary(allureMode);
     return runState.tscExitCode || 2;
@@ -377,6 +409,7 @@ async function runFramework(): Promise<number> {
   const modeDisplayForPw = runState.mode ? runState.mode.charAt(0).toUpperCase() + runState.mode.slice(1) : 'Headless';
   const browserDisplay = orderedBrowsers.map(b => b.charAt(0).toUpperCase() + b.slice(1)).join(', ');
   step('Running Playwright tests');
+  emitProgress({ phase: 'running', total: generatedTestCount, completed: 0, passed: 0, failed: 0, suite, browsers: orderedBrowsers });
   info(`Suite: ${suite.charAt(0).toUpperCase() + suite.slice(1)}`);
   info(`Mode: ${modeDisplayForPw}`);
   info(`Browsers: ${browserDisplay}`);
@@ -462,6 +495,22 @@ async function runFramework(): Promise<number> {
 
   report('Playwright test execution completed.');
 
+  // Write environment.properties for Allure reports
+  try {
+    const envInfo = collectEnvironmentInfo({
+      applicationName: urlInfos.map(u => u.domain).join(', '),
+      targetUrl: urlInfos.map(u => u.url).join(', '),
+      browser: orderedBrowsers.join(', '),
+      headless: cliMode !== 'headed',
+    });
+    const envProps = writeAllureEnvironmentProperties(envInfo);
+    const envPath = path.join(allureResultsDir, 'environment.properties');
+    fs.writeFileSync(envPath, envProps, 'utf-8');
+    debug(`Wrote environment.properties to ${envPath}`);
+  } catch (err: any) {
+    debug(`Could not write environment.properties: ${err.message}`);
+  }
+
   report('Playwright HTML Report: playwright-report/index.html');
   const playwrightReportIndex = path.join(getPlaywrightReportDir(), 'index.html');
   if (!fs.existsSync(playwrightReportIndex)) {
@@ -512,6 +561,23 @@ async function runFramework(): Promise<number> {
     logError('Allure report was not generated.');
   }
 
+  // Emit final done event with summary
+  const summary = readTestSummary();
+  emitProgress({
+    phase: 'done',
+    summary: {
+      total: summary.passed + summary.failed + summary.skipped,
+      passed: summary.passed,
+      failed: summary.failed,
+      skipped: summary.skipped,
+      flaky: 0,
+      durationMs: Date.now() - runState.startTime,
+      browsers: orderedBrowsers,
+      suite,
+      url: urlInfos.map(u => u.url).join(', '),
+    },
+  });
+
   return playwrightExitCode || (runState.allureGenerated ? 0 : 1);
 }
 
@@ -522,6 +588,7 @@ runFramework()
   .catch((error: any) => {
     logError(`Framework execution failed: ${error.message}`);
     logError(error.stack || '');
+    emitProgress({ phase: 'error', message: error.message });
     printRunSummary('single-file');
     process.exit(1);
   });

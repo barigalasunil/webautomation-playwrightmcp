@@ -22,6 +22,12 @@ node_modules/
 # Logs
 /logs/
 
+# Run archives
+/runs/
+
+# Framework reports directory
+/reports/
+
 # IDE
 .vscode/
 .idea/
@@ -31,3 +37,20 @@ node_modules/
 # OS
 .DS_Store
 Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Allure
+allure-report/
+allure-results/
+
+# Package reports
+*.zip
+
+# Dashboard
+dashboard/server/runReports/
+dashboard/server/node_modules/
+dashboard/client/node_modules/
+dashboard/client/dist/

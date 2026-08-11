@@ -1,18 +1,33 @@
 import { test, expect } from '@playwright/test';
+import fs from 'fs';
+import path from 'path';
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+function getBaseUrl(): string {
+  try {
+    const configPath = path.resolve(process.cwd(), 'src', 'config', 'test-input.json');
+    const raw = fs.readFileSync(configPath, 'utf-8');
+    const config = JSON.parse(raw);
+    return config.urls?.[0]?.url || 'https://www.myvi.in/';
+  } catch {
+    return 'https://www.myvi.in/';
+  }
+}
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+test('page loads successfully', async ({ page }) => {
+  const baseUrl = getBaseUrl();
+  await page.goto(baseUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+  const title = await page.title();
+  expect(title).toBeTruthy();
+  expect(page.url()).toContain(new URL(baseUrl).hostname);
 });
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+test('page has no console errors', async ({ page }) => {
+  const baseUrl = getBaseUrl();
+  const errors: string[] = [];
+  page.on('console', msg => {
+    if (msg.type() === 'error') errors.push(msg.text());
+  });
+  await page.goto(baseUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
+  await page.waitForLoadState('networkidle', { timeout: 15000 }).catch(() => {});
+  expect(errors).toEqual([]);
 });

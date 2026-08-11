@@ -241,7 +241,7 @@ function generateSmokeTests(
   lines.push('');
   lines.push(`    await logValidation('Verify page title is displayed');`);
   lines.push(`    await test.step(${toTsStringLiteral('Verify the page title is displayed')}, async () => {`);
-  lines.push(`      await expect(appPage.page).toHaveTitle(/${titleMatch}/);`);
+  lines.push(`      await expect(appPage.page).toHaveTitle(/${titleMatch}/i);`);
   lines.push(`      evidence.validationsPerformed.push(${toTsStringLiteral('Verified title is correct')});`);
   lines.push('    });');
   lines.push('');
@@ -283,7 +283,7 @@ function generateSanityTests(
   lines.push('');
   lines.push(`    await logValidation('Verify page title is displayed');`);
   lines.push(`    await test.step(${toTsStringLiteral('Verify page title is displayed')}, async () => {`);
-  lines.push(`      await expect(appPage.page).toHaveTitle(/${titleMatch}/);`);
+  lines.push(`      await expect(appPage.page).toHaveTitle(/${titleMatch}/i);`);
   lines.push(`      evidence.validationsPerformed.push(${toTsStringLiteral('Verified title is correct')});`);
   lines.push('    });');
   lines.push('');

@@ -535,7 +535,9 @@ async function runFramework(): Promise<number> {
           singleFileFlag, '--clean', '-o', getAllureReportDir(),
         ].filter(Boolean), {
           label: 'Allure report generation',
-          timeoutMs: 120000,
+          // Single-file Allure bundles every attachment into one HTML; large
+          // runs (1000+ results, zip/video attachments) need well over 2 minutes.
+          timeoutMs: 600000,
         });
         if (result.exitCode === 0) {
           runState.allureGenerated = true;

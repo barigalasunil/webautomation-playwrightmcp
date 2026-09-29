@@ -1,14 +1,10 @@
 # yt-tc — AI-Powered Playwright Test Framework
 
-> Automatically explore any website, generate Page Objects and tagged test suites, execute them across Chromium, Firefox, and WebKit in parallel, and report results through Allure, Playwright HTML, and a live web dashboard.
+> Automatically explore any website, generate Page Objects and tagged test suites, execute them across Chromium, Firefox, and WebKit in parallel, and report results through Allure, Playwright HTML, and the global `adhoc-audit` CLI.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat&logo=node.js&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=flat&logo=tailwindcss&logoColor=white)
 ![License](https://img.shields.io/badge/License-ISC-blue)
 
 ---
@@ -22,7 +18,7 @@
 3. **Execute** — Validates the generated TypeScript and runs the suite across Chromium, Firefox, and WebKit with CPU-aware parallel workers.
 4. **Report** — Produces Allure, Playwright HTML, and list reports, with screenshots, videos, and traces retained on failure.
 
-The generation logic itself is **rule-based and makes no AI/LLM calls at runtime** — "AI-powered" refers to the AI coding assistants (via MCP servers) used to author and maintain the framework and its generated assets. Runs can be launched from the CLI or from a local web dashboard that streams live progress over SSE.
+The generation logic itself is **rule-based and makes no AI/LLM calls at runtime** — "AI-powered" refers to the AI coding assistants (via MCP servers) used to author and maintain the framework and its generated assets. Runs are launched from the CLI.
 
 ## Key Features
 
@@ -34,8 +30,8 @@ The generation logic itself is **rule-based and makes no AI/LLM calls at runtime
 - **Parallel Workers** — Auto-derived from CPU count (capped at 4); `WORKERS` env var or `--workers` CLI flag overrides.
 - **Type-Safe Generation** — Automatic `tsc --noEmit` validation gate before any Playwright run.
 - **Rich Reporting** — Allure, Playwright HTML, list reporter, plus custom `frameworkReporter` and `dashboardProgressReporter`; single-file Allure generation and ZIP packaging.
-- **Web Dashboard** — Trigger runs, watch phases in real time via SSE, review results, and download report bundles.
 - **CLI Overrides** — `--suite`, `--browsers`, `--urls`, `--mode`, `--runMode`, `--workers`, `--debug`.
+- **Ad-hoc Audit** — global `adhoc-audit` CLI (`npm link` once) with HighSmoke/Smoke/E2E presets, premium self-contained HTML/PDF reports, axe-core a11y audit, broken-link crawl, 10s mobile chaos pass behind an explicit-risk gate, and folding of the real framework run's results.
 - **CI Ready** — GitHub Actions workflow runs the smoke suite on push/PR and uploads reports as artifacts.
 
 ## Tech Stack
@@ -47,8 +43,6 @@ The generation logic itself is **rule-based and makes no AI/LLM calls at runtime
 | **Test Automation** | Playwright / @playwright/test |
 | **Orchestration** | `tsx`-based pipeline scripts |
 | **Reporting** | Allure (`allure-playwright` + `allure-commandline`), Playwright HTML |
-| **Dashboard Backend** | Express + CORS + SSE (port 4000) |
-| **Dashboard Frontend** | React 18 + Vite + Tailwind CSS (dev server port 5173) |
 | **CI/CD** | GitHub Actions |
 | **Authoring** | MCP servers (Playwright / Playwright test / GitHub Copilot) |
 
@@ -59,15 +53,14 @@ yt-tc/
 ├── src/
 │   ├── config/                 # Config loading/validation + test-input.json
 │   │   └── test-input.json     # Main config: URL, suite, browsers, timeouts
+│   ├── adhoc/                  # adhoc-audit global CLI (HighSmoke/Smoke/E2E presets,
+│   │   │                       #   self-contained premium report, E2E chaos + safety gate)
 │   └── core/
 │       ├── explorer/           # exploreSite, siteAnalyzer, journeyDiscovery, clickableRanker
 │       ├── generator/          # pomGenerator, testCaseGenerator, testGenerator, selectorBuilder
 │       ├── runner/             # runFramework (orchestrator), cliArgs, browserManager, runManager
 │       ├── reporting/          # frameworkReporter, dashboardProgressReporter, allureNarrator
 │       └── utils/              # logger, fileUtils, pathUtils, environmentInfo, dashboardProgress
-├── dashboard/
-│   ├── server/                 # Express API: POST /api/run, SSE progress, report downloads
-│   └── client/                 # React + Vite + Tailwind UI (RunForm, ProgressPanel, ResultsBento)
 ├── pages/
 │   ├── BasePage.ts             # Base page object (goto, click, fill, selectDropdown, ...)
 │   ├── generated/              # Auto-generated POMs per domain (gitignored)
@@ -195,14 +188,65 @@ npm run package-report           # ZIP all reports
 npm run fresh                    # Clean previous run artifacts
 ```
 
-### Web Dashboard
+### Ad-hoc Audit CLI (`adhoc-audit`)
+
+A standalone, CLI-only audit command that audits any URL on demand and produces a **premium self-contained HTML report** (`report.html`, plus `report.pdf` on Smoke/E2E) in a timestamped, hostname-tagged run folder. Three preset bundles:
+
+| Preset | What it runs |
+|--------|--------------|
+| `HighSmoke` | Desktop + mobile full-page screenshots, JS console errors, failed network requests (4xx/5xx). Fast, non-destructive, production-safe. |
+| `Smoke` | Everything in `HighSmoke`, plus: axe-core accessibility audit (violations grouped by severity with element snippets), broken-link crawl (up to 20 hrefs with status codes), PDF export of the report (A4), and the **real framework smoke pipeline** (explore → generate → validate → run) against the same URL — its pass/fail counts are folded into the ad-hoc report, which links to that run's Allure + Playwright HTML reports. |
+| `E2E` | Everything in `Smoke`, plus a **10-second random chaos-interaction pass** (random clicks, scrolls, text input) on the mobile context. **Destructive** — requires `--i-understand-the-risk`. |
+
+#### One-time global install
+
+From this repo (after `npm install`):
 
 ```bash
-npm run dashboard          # install + build + serve on http://localhost:4000
-npm run dashboard:dev      # dev mode (server 4000, client 5173)
+npm link
 ```
 
-The dashboard lets you kick off runs, select URL/mode/browsers/suite, watch real-time progress via SSE, and download packaged reports.
+This registers `adhoc-audit` as a **global command** on that machine. Anyone who clones this repo can do the same — the command resolves the framework's own code relative to the repo's installed location (never the current directory), so it works from anywhere.
+
+#### Usage (from any directory)
+
+```bash
+# Run folder created directly in the current directory (default):
+adhoc-audit --keyword=HighSmoke --url=https://www.myvi.in/
+
+# Or nested inside an explicit base folder:
+adhoc-audit --keyword=Smoke     --url=https://www.myvi.in/ --out=./adhoc-reports
+
+# E2E refuses to run without the explicit risk flag:
+adhoc-audit --keyword=E2E       --url=https://www.myvi.in/   # → warns and exits (exit code 1)
+
+# Only with the flag does the 10s chaos pass run:
+adhoc-audit --keyword=E2E       --url=https://www.myvi.in/ --i-understand-the-risk
+```
+
+- `--keyword` (required): `HighSmoke` | `Smoke` | `E2E` (case-insensitive).
+- `--url` (required): target URL to audit.
+- `--out` (optional): base output folder. **Default: the current directory** — each run creates a fresh timestamped, hostname-tagged subfolder like `audit_2026-09-29_14-05-12_www-myvi-in/` directly in it (previous runs are never overwritten). When `--out=<dir>` is given, the same run subfolder is created inside that folder instead.
+
+#### Dual reporting on Smoke/E2E
+
+A `Smoke`/`E2E` run produces **two complete, separate report sets**:
+
+1. The framework's own reports — Allure (`allure-report/index.html`) and Playwright HTML (`playwright-report/index.html`) — generated exactly as in a normal `npm run ai:smoke` run, in the repo folder.
+2. The premium ad-hoc report — `report.html` (+ `report.pdf`) in the timestamped run folder — desktop/mobile screenshots, console/network error lists, inline SVG pass/fail charts, an execution timeline, the a11y/broken-links/chaos sections, and clickable `file://` links to that same run's Allure/Playwright reports.
+
+The ad-hoc report is **fully self-contained and offline**: inline CSS, inline SVG charts, system font stack only — zero CDN scripts, links, or fonts (the only external references are the local screenshot files next to it).
+
+#### E2E safety gate
+
+The `E2E` chaos pass clicks, scrolls and types on the **real** site — it can submit real forms, trigger checkout/payment flows, send real emails, or mutate real backend data. Without `--i-understand-the-risk` the command prints a clear warning and exits without running anything. Only pass the flag when the target URL is safe to mutate (e.g. a test environment) or the random interaction risk is acceptable.
+
+#### Implementation notes
+
+- Framework subprocesses are invoked with `spawnSync` and an **args array** (no shell string interpolation).
+- PDF export runs in a dedicated fresh node subprocess (`src/adhoc/checks/pdfExportWorker.mjs`) — a failed PDF degrades to a "PDF failed" badge in the report and never crashes the run.
+- Framework-internal paths resolve relative to the package location (`import.meta.url`/env from the launcher), never `process.cwd()`; only `--out` resolves against `process.cwd()`.
+- The `Smoke`/`E2E` framework pipeline is the real, unmodified `ai:smoke` pipeline and can take a long time on large sites (exploration of ~50 pages plus a 3-browser run); the ad-hoc report renders as soon as it finishes. On this repo's default config against `www.myvi.in`, expect roughly 25–50 minutes for Smoke/E2E.
 
 ## Test Suites
 
@@ -224,7 +268,7 @@ Target URL ──> Explore ──> Site Map / Journeys ──> Generate POMs + S
                        Playwright run (Chromium | Firefox | WebKit)
                                                   │
                                                   ▼
-                        Allure + Playwright HTML + Dashboard SSE
+                        Allure + Playwright HTML reports
 ```
 
 ## CI/CD

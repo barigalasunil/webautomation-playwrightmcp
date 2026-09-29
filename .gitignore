@@ -48,9 +48,3 @@ allure-results/
 
 # Package reports
 *.zip
-
-# Dashboard
-dashboard/server/runReports/
-dashboard/server/node_modules/
-dashboard/client/node_modules/
-dashboard/client/dist/

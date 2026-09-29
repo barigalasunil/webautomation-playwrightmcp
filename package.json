@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "AI-Powered Playwright Test Framework",
   "main": "index.js",
+  "bin": {
+    "adhoc-audit": "./src/adhoc/adhoc-audit.mjs"
+  },
   "scripts": {
     "fresh": "tsx src/core/runner/cleanupManager.ts",
     "ai:test": "tsx src/core/runner/runFramework.ts",
@@ -20,25 +23,21 @@
     "report:playwright:open": "playwright show-report playwright-report",
     "package-report": "tsx src/core/runner/packageReport.ts",
     "test": "playwright test",
-    "dashboard:server-install": "cd dashboard/server && npm install",
-    "dashboard:client-install": "cd dashboard/client && npm install",
-    "dashboard:install": "npm run dashboard:server-install && npm run dashboard:client-install",
-    "dashboard:build": "cd dashboard/client && npm run build",
-    "dashboard": "npm run dashboard:install && npm run dashboard:build && cd dashboard/server && npm start",
-    "dashboard:dev": "concurrently \"cd dashboard/server && npm run dev\" \"cd dashboard/client && npm run dev\""
+    "adhoc-audit": "tsx src/adhoc/cli.ts",
+    "adhoc:link": "npm link"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.9.1",
     "allure-commandline": "^2.42.1",
     "allure-js-commons": "^3.10.0",
     "allure-playwright": "^3.10.0",
     "chalk": "^5.6.2",
-    "concurrently": "^9.2.4",
     "playwright": "^1.60.0",
     "tsx": "^3.12.7",
     "typescript": "^5.6.0"

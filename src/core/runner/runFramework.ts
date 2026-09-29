@@ -34,8 +34,8 @@ import { collectEnvironmentInfo, writeAllureEnvironmentProperties } from '../uti
 
 let frameworkExiting = false;
 
-// Structured progress logging for dashboard integration
-// These JSON lines are emitted at phase transitions and can be parsed by the dashboard backend
+// Structured progress logging (JSON lines emitted at phase transitions;
+// parsed/forwarded by tooling that wraps this runner)
 function emitProgress(event: Record<string, unknown>): void {
   console.log(`__PROGRESS__${JSON.stringify(event)}`);
 }

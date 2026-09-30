@@ -17,6 +17,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { spawnSync } from 'child_process';
+import { resolveActiveRunFolder } from '../core/runner/runFolder';
 
 /**
  * Repo root. When running as the bundled CJS CLI, esbuild rewrites __dirname to
@@ -61,7 +62,7 @@ function resolveTsxCommand(): { cmd: string; useShell: boolean } {
 
 function readTestSummary(): { total: number; passed: number; failed: number; skipped: number } | null {
   try {
-    const summaryPath = path.join(PKG_ROOT, 'test-results', 'test-summary.json');
+    const summaryPath = path.join(getRunFolder(), 'test-results', 'test-summary.json');
     if (!fs.existsSync(summaryPath)) return null;
     const raw = fs.readFileSync(summaryPath, 'utf-8');
     const data = JSON.parse(raw);
@@ -74,6 +75,17 @@ function readTestSummary(): { total: number; passed: number; failed: number; ski
   } catch {
     return null;
   }
+}
+
+/**
+ * This run's consolidated output folder (test-reports_<datetime>_<url>).
+ * The pipeline subprocess inherits FRAMEWORK_RUN_DIR, so resolution here must
+ * match how the pipeline itself resolves it — env first, newest-folder
+ * fallback second. Never a bare PKG_ROOT path (that was the pre-consolidation
+ * layout and now 404s).
+ */
+function getRunFolder(): string {
+  return resolveActiveRunFolder(PKG_ROOT);
 }
 
 function firstExisting(candidates: string[]): string | null {
@@ -104,6 +116,10 @@ export async function triggerFrameworkPipeline(url: string): Promise<FrameworkPi
     }
 
     // Args array only — never a shell-interpolated command string.
+    // ADHOC_PKG_ROOT lets the pipeline resolve the package; FRAMEWORK_RUN_DIR
+    // (already exported by the CLI's runFolder helper) makes the pipeline
+    // write all its artifacts into the SAME test-reports_* folder as the
+    // ad-hoc report.
     const spawnArgs = [tsxInfo.tsxCli, runnerPath, '--suite=smoke', `--urls=${url}`];
     console.log(`  [framework] ${path.basename(process.execPath)} ${path.join('src', 'core', 'runner', 'runFramework.ts')} --suite=smoke --urls=${url}`);
     console.log('  [framework] streaming framework output (explore → generate → validate → run)…');
@@ -117,6 +133,9 @@ export async function triggerFrameworkPipeline(url: string): Promise<FrameworkPi
         CHROMIUM_MODE: 'headless',
         FIREFOX_MODE: 'headless',
         WEBKIT_MODE: 'headless',
+        // Route the pipeline's artifacts into the ad-hoc run's folder
+        // (FRAMEWORK_RUN_DIR is set by the CLI's runFolder helper).
+        FRAMEWORK_RUN_DIR: process.env.FRAMEWORK_RUN_DIR || '',
       },
       stdio: ['ignore', 'inherit', 'inherit'],
       // The real pipeline (explore → generate → validate → run across 3 browsers)
@@ -129,13 +148,16 @@ export async function triggerFrameworkPipeline(url: string): Promise<FrameworkPi
 
     const exitCode = result.status ?? (result.error ? -1 : 0);
 
-    // The framework writes its summary + reports relative to its own cwd (PKG_ROOT).
+    // The pipeline writes every artifact into the run folder published via
+    // FRAMEWORK_RUN_DIR (inherited by this spawned process); resolve all
+    // report paths through the same helper the pipeline uses.
+    const runFolder = getRunFolder();
     const summary = readTestSummary();
     const allureReportPath = firstExisting([
-      path.join(PKG_ROOT, 'allure-report', 'index.html'),
+      path.join(runFolder, 'allure-report', 'index.html'),
     ]);
     const playwrightReportPath = firstExisting([
-      path.join(PKG_ROOT, 'playwright-report', 'index.html'),
+      path.join(runFolder, 'playwright-report', 'index.html'),
     ]);
 
     return {
@@ -145,8 +167,8 @@ export async function triggerFrameworkPipeline(url: string): Promise<FrameworkPi
       summary,
       allureReportPath,
       playwrightReportPath,
-      logPath: fs.existsSync(path.join(PKG_ROOT, 'logs', 'test.logs'))
-        ? path.join(PKG_ROOT, 'logs', 'test.logs')
+      logPath: fs.existsSync(path.join(runFolder, 'logs', 'test.logs'))
+        ? path.join(runFolder, 'logs', 'test.logs')
         : null,
       error: result.error ? String(result.error) : undefined,
     };

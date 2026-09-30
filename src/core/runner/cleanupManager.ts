@@ -1,43 +1,39 @@
 import fs from 'fs';
+import path from 'path';
 import { removeDir, ensureDir } from '../utils/fileUtils';
 import { logger } from '../utils/logger';
-import {
-  getAllureResultsDir, getAllureReportDir, getPlaywrightReportDir,
-  getTestResultsDir, getScreenshotsDir, getLogsDir,
-} from '../utils/pathUtils';
+import { ROOT } from '../utils/pathUtils';
 
-const ROOT = process.cwd();
-
-const dirsToDelete = [
-  { path: getAllureResultsDir(), description: 'Allure Results' },
-  { path: getAllureReportDir(), description: 'Allure Report' },
-  { path: getPlaywrightReportDir(), description: 'Playwright HTML Report' },
-  { path: getTestResultsDir(), description: 'Test Results' },
-  { path: getScreenshotsDir(), description: 'Screenshots' },
-  { path: getLogsDir(), description: 'Logs' },
-];
-
-const dirsToCreate = [
-  getAllureResultsDir(),
-  getAllureReportDir(),
-  getPlaywrightReportDir(),
-  getTestResultsDir(),
-  getScreenshotsDir(),
-  getLogsDir(),
+/**
+ * Cleanup: old run output lives in one folder per run —
+ * test-reports_<datetime>_<url-name>/ — plus legacy flat dirs from earlier
+ * versions (reports/, runs/, allure-report/, ...). Delete ALL of them so a
+ * fresh run starts clean; the next run creates a brand-new test-reports_*
+ * folder via runFramework.ts.
+ */
+const LEGACY_DIRS = [
+  'allure-results',
+  'allure-report',
+  'playwright-report',
+  'test-results',
+  'screenshots',
+  'logs',
+  'reports',
+  'runs',
 ];
 
 function cleanup(): void {
   logger.section('Framework Cleanup');
 
-  for (const entry of dirsToDelete) {
-    if (!fs.existsSync(entry.path)) continue;
-    logger.debug(`Removing ${entry.description}: ${entry.path}`);
-    removeDir(entry.path);
-  }
-
-  for (const dir of dirsToCreate) {
-    ensureDir(dir);
-    logger.debug(`Created ${dir}`);
+  // Remove every previous per-run folder and any legacy flat dirs.
+  for (const entry of fs.readdirSync(ROOT, { withFileTypes: true })) {
+    if (!entry.isDirectory()) continue;
+    const isRunFolder = entry.name.startsWith('test-reports_');
+    const isLegacy = LEGACY_DIRS.includes(entry.name);
+    if (!isRunFolder && !isLegacy) continue;
+    const fullPath = path.join(ROOT, entry.name);
+    logger.debug(`Removing: ${entry.name}`);
+    removeDir(fullPath);
   }
 
   logger.success('Cleanup completed.');

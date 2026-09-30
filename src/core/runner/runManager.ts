@@ -1,34 +1,19 @@
 import fs from 'fs';
-import { ensureDir, removeDir } from '../utils/fileUtils';
+import { ensureDir } from '../utils/fileUtils';
 import {
   getAllureResultsDir, getAllureReportDir, getPlaywrightReportDir,
-  getTestResultsDir, getScreenshotsDir, getLogsDir, getLogFilePath,
+  getTestResultsDir, getScreenshotsDir, getLogsDir,
 } from '../utils/pathUtils';
 import { logger } from '../utils/logger';
 
-const ROOT = process.cwd();
-
+/**
+ * Prepare the artifact subfolders inside the active run folder
+ * (test-reports_<datetime>_<url-name>/). The run folder itself was just
+ * created by runFramework.ts, so nothing is deleted here — all output for
+ * this run is fresh.
+ */
 export function cleanAndPrepareDirs(): void {
   logger.section('Preparing directories');
-
-  const dirsToDelete = [
-    getAllureResultsDir(),
-    getAllureReportDir(),
-    getPlaywrightReportDir(),
-    getTestResultsDir(),
-    getScreenshotsDir(),
-  ];
-
-  for (const dir of dirsToDelete) {
-    try {
-      if (fs.existsSync(dir)) {
-        removeDir(dir);
-        logger.debug(`Deleted: ${dir}`);
-      }
-    } catch (err: any) {
-      logger.debug(`Could not delete ${dir}: ${err.message}`);
-    }
-  }
 
   const dirsToCreate = [
     getAllureResultsDir(),

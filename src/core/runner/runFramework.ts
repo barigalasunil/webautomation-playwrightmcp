@@ -31,6 +31,7 @@ import { ensureDir } from '../utils/fileUtils';
 import { ROOT, getAllureResultsDir, getAllureReportDir, getPlaywrightReportDir, getLogFilePath } from '../utils/pathUtils';
 import { runCommand } from './processRunner';
 import { collectEnvironmentInfo, writeAllureEnvironmentProperties } from '../utils/environmentInfo';
+import { createRunFolder, resolveActiveRunFolder, resolveOrCreateRunFolder } from './runFolder';
 
 let frameworkExiting = false;
 
@@ -46,6 +47,7 @@ interface RunState {
   browsers: string[];
   skippedBrowsers: string[];
   urlInfos: { url: string; domain: string; safeFolder: string }[];
+  runFolder: string;
   tscExitCode: number | null;
   playwrightExitCode: number | null;
   allureGenerated: boolean;
@@ -62,6 +64,7 @@ const runState: RunState = {
   browsers: [],
   skippedBrowsers: [],
   urlInfos: [],
+  runFolder: '',
   tscExitCode: null,
   playwrightExitCode: null,
   allureGenerated: false,
@@ -128,7 +131,8 @@ function attemptInterruptRecovery(allureMode: string): void {
 
 function readTestSummary(): { passed: number; failed: number; skipped: number } {
   try {
-    const summaryPath = path.resolve(ROOT, 'test-results', 'test-summary.json');
+    const runDir = runState.runFolder || resolveActiveRunFolder(ROOT);
+    const summaryPath = path.join(runDir, 'test-results', 'test-summary.json');
     if (fs.existsSync(summaryPath)) {
       const raw = fs.readFileSync(summaryPath, 'utf-8');
       const data = JSON.parse(raw);
@@ -175,12 +179,16 @@ function printRunSummary(allureMode: string): void {
 
   console.log('');
   console.log('  Reports:');
+  const runFolderLabel = runState.runFolder
+    ? `${path.relative(ROOT, runState.runFolder) || runState.runFolder}/`
+    : `${path.relative(ROOT, resolveActiveRunFolder(ROOT)) || '.'}/`;
   const pwReport = path.join(getPlaywrightReportDir(), 'index.html');
   const alReport = path.join(getAllureReportDir(), 'index.html');
   const logFile = getLogFilePath();
-  report(`Playwright HTML: playwright-report/index.html${fs.existsSync(pwReport) ? '' : ' (NOT FOUND)'}`);
-  report(`Allure Single File: allure-report/index.html${fs.existsSync(alReport) ? '' : ' (NOT FOUND)'}`);
-  report(`Logs: logs/test.logs${fs.existsSync(logFile) ? '' : ' (NOT FOUND)'}`);
+  report(`Run folder: ${runFolderLabel}`);
+  report(`Playwright HTML: ${runFolderLabel}playwright-report/index.html${fs.existsSync(pwReport) ? '' : ' (NOT FOUND)'}`);
+  report(`Allure Single File: ${runFolderLabel}allure-report/index.html${fs.existsSync(alReport) ? '' : ' (NOT FOUND)'}`);
+  report(`Logs: ${runFolderLabel}logs/test.logs${fs.existsSync(logFile) ? '' : ' (NOT FOUND)'}`);
 
   console.log(`\n${line}\n`);
 }
@@ -300,6 +308,13 @@ async function runFramework(): Promise<number> {
     const safeFolder = deriveSafeFolderName(domain);
     return { url: uc.url, domain, safeFolder };
   }));
+
+  // One folder for this run's whole output: test-reports_<datetime>_<url-name>/
+  // Under the ad-hoc CLI, FRAMEWORK_RUN_DIR is already published and we must
+  // REUSE that folder (all artifacts in one place), not fork a second one.
+  const runFolder = resolveOrCreateRunFolder(urlInfos[0].url);
+  runState.runFolder = runFolder;
+  report(`Run folder: ${path.relative(ROOT, runFolder) || runFolder}`);
 
   runState.suite = suite;
   runState.mode = cliMode;

@@ -2,8 +2,8 @@ import { Reporter, TestCase, TestResult, FullResult } from '@playwright/test/rep
 
 /**
  * Custom Playwright reporter that emits __PROGRESS__ JSON lines to stdout.
- * These are parsed by the dashboard backend (runManager.ts) for real-time
- * test-level progress updates.
+ * These are parsed by tooling wrapping the runner (and were consumed by the
+ * former web dashboard) for real-time test-level progress updates.
  */
 export default class DashboardProgressReporter implements Reporter {
   private total = 0;

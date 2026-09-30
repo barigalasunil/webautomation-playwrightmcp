@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
 import { ROOT, getAllureReportDir, getPlaywrightReportDir, getLogFilePath } from '../utils/pathUtils';
+import { resolveActiveRunFolder } from './runFolder';
 
 function getTimestamp(): string {
   const now = new Date();
@@ -17,7 +18,8 @@ function packageReport(): void {
 
   const timestamp = getTimestamp();
   const zipName = `ExecutionReport_${timestamp}.zip`;
-  const zipPath = path.resolve(ROOT, zipName);
+  const runFolder = resolveActiveRunFolder(ROOT);
+  const zipPath = path.join(runFolder, zipName);
 
   const itemsToInclude: string[] = [];
 

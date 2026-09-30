@@ -1,5 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 import os from 'os';
+import path from 'path';
+import { resolveActiveRunFolder } from './src/core/runner/runFolder';
 
 const suiteTag = process.env.TEST_TAG || '@smoke|@sanity|@regression';
 const workersOverride = process.env.WORKERS;
@@ -14,6 +16,11 @@ function getBrowserMode(browser: string): boolean {
   return mode !== 'headed';
 }
 
+// All artifacts land inside the per-run folder: test-reports_<datetime>_<url-name>/
+// (FRAMEWORK_RUN_DIR is set by runFramework.ts; fall back to the newest
+// test-reports_* folder so bare `npx playwright test` also stays contained).
+const runFolder = resolveActiveRunFolder();
+
 export default defineConfig({
   testDir: './tests/generated',
   fullyParallel: true,
@@ -27,8 +34,10 @@ export default defineConfig({
   grep: [new RegExp(suiteTag)],
   reporter: [
     ['list'],
-    ['html', { outputFolder: 'playwright-report', open: 'never' }],
-    ['allure-playwright', { outputFolder: 'allure-results' }],
+    ['html', { outputFolder: path.join(runFolder, 'playwright-report'), open: 'never' }],
+    // NOTE: allure-playwright's option is `resultsDir` (it silently ignores
+    // `outputFolder` and falls back to ./allure-results in cwd).
+    ['allure-playwright', { resultsDir: path.join(runFolder, 'allure-results') }],
     ['./src/core/reporting/frameworkReporter.ts'],
     ['./src/core/reporting/dashboardProgressReporter.ts'],
   ],
@@ -40,7 +49,7 @@ export default defineConfig({
     navigationTimeout: 60000,
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
   },
-  outputDir: 'test-results',
+  outputDir: path.join(runFolder, 'test-results'),
   projects: [
     {
       name: 'chromium',

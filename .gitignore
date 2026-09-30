@@ -12,21 +12,17 @@ node_modules/
 /tests/generated/
 /generated/
 
-# Reports
+# Per-run output folders (test-reports_<datetime>_<url-name>/)
+test-reports_*/
+# Legacy flat output dirs from earlier versions
 /allure-results/
 /allure-report/
-
-# Screenshots
+/playwright-report/
+/test-results/
 /screenshots/
-
-# Logs
 /logs/
-
-# Run archives
-/runs/
-
-# Framework reports directory
 /reports/
+/runs/
 
 # IDE
 .vscode/

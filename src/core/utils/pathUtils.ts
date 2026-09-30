@@ -1,33 +1,44 @@
 import path from 'path';
+import { resolveActiveRunFolder } from '../runner/runFolder';
 
 export const ROOT = process.cwd();
 
+/**
+ * All run artifacts (results, reports, screenshots, logs) live inside the
+ * single per-run folder: test-reports_<datetime>_<url-name>/.
+ * resolveActiveRunFolder() prefers FRAMEWORK_RUN_DIR (set by the orchestrator
+ * for this exact run) and falls back to the newest test-reports_* folder.
+ */
+function runDir(): string {
+  return resolveActiveRunFolder(ROOT);
+}
+
 export function getAllureResultsDir(): string {
-  return path.resolve(ROOT, 'allure-results');
+  return path.join(runDir(), 'allure-results');
 }
 
 export function getAllureReportDir(): string {
-  return path.resolve(ROOT, 'allure-report');
+  return path.join(runDir(), 'allure-report');
 }
 
 export function getPlaywrightReportDir(): string {
-  return path.resolve(ROOT, 'playwright-report');
+  return path.join(runDir(), 'playwright-report');
 }
 
 export function getTestResultsDir(): string {
-  return path.resolve(ROOT, 'test-results');
+  return path.join(runDir(), 'test-results');
 }
 
 export function getScreenshotsDir(): string {
-  return path.resolve(ROOT, 'screenshots');
+  return path.join(runDir(), 'screenshots');
 }
 
 export function getLogsDir(): string {
-  return path.resolve(ROOT, 'logs');
+  return path.join(runDir(), 'logs');
 }
 
 export function getLogFilePath(): string {
-  return path.resolve(ROOT, 'logs', 'test.logs');
+  return path.join(runDir(), 'logs', 'test.logs');
 }
 
 export function getTempDir(): string {

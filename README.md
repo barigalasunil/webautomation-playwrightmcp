@@ -16,7 +16,7 @@
 1. **Explore** — Crawls the target site and analyzes headings, links, buttons, inputs, forms, tables, menus, cards, dropdowns, and text blocks.
 2. **Generate** — Discovers user journeys, ranks clickables, and produces Page Object Models (POMs) plus tagged Playwright specs.
 3. **Execute** — Validates the generated TypeScript and runs the suite across Chromium, Firefox, and WebKit with CPU-aware parallel workers.
-4. **Report** — Produces Allure, Playwright HTML, and list reports, with screenshots, videos, and traces retained on failure.
+4. **Report** — Produces Allure, Playwright HTML, and list reports, with screenshots, videos, and traces retained on failure. All output for a run is written into one folder: `test-reports_<datetime>_<url-name>/`.
 
 The generation logic itself is **rule-based and makes no AI/LLM calls at runtime** — "AI-powered" refers to the AI coding assistants (via MCP servers) used to author and maintain the framework and its generated assets. Runs are launched from the CLI.
 
@@ -185,7 +185,7 @@ npm run package-report           # ZIP all reports
 ### Cleanup
 
 ```bash
-npm run fresh                    # Clean previous run artifacts
+npm run fresh                    # Delete all previous test-reports_* run folders + legacy output dirs
 ```
 
 ### Ad-hoc Audit CLI (`adhoc-audit`)
@@ -226,14 +226,31 @@ adhoc-audit --keyword=E2E       --url=https://www.myvi.in/ --i-understand-the-ri
 
 - `--keyword` (required): `HighSmoke` | `Smoke` | `E2E` (case-insensitive).
 - `--url` (required): target URL to audit.
-- `--out` (optional): base output folder. **Default: the current directory** — each run creates a fresh timestamped, hostname-tagged subfolder like `audit_2026-09-29_14-05-12_www-myvi-in/` directly in it (previous runs are never overwritten). When `--out=<dir>` is given, the same run subfolder is created inside that folder instead.
+- `--out` (optional): base output folder. **Default: the current directory** — each run creates a fresh subfolder named `test-reports_<datetime>_<url-name>/` (e.g. `test-reports_2026-09-29_14-05-12_www-myvi-in/`) directly in it (previous runs are never overwritten). When `--out=<dir>` is given, the same run folder is created inside that folder instead.
 
 #### Dual reporting on Smoke/E2E
 
 A `Smoke`/`E2E` run produces **two complete, separate report sets**:
 
-1. The framework's own reports — Allure (`allure-report/index.html`) and Playwright HTML (`playwright-report/index.html`) — generated exactly as in a normal `npm run ai:smoke` run, in the repo folder.
-2. The premium ad-hoc report — `report.html` (+ `report.pdf`) in the timestamped run folder — desktop/mobile screenshots, console/network error lists, inline SVG pass/fail charts, an execution timeline, the a11y/broken-links/chaos sections, and clickable `file://` links to that same run's Allure/Playwright reports.
+1. The framework's own reports — Allure and Playwright HTML — generated exactly as in a normal `npm run ai:smoke` run, inside the same `test-reports_*` run folder.
+2. The premium ad-hoc report — `report.html` (+ `report.pdf`) in the same run folder — desktop/mobile screenshots (under `screenshots/`), console/network error lists, inline SVG pass/fail charts, an execution timeline, the a11y/broken-links/chaos sections, and clickable `file://` links to that same run's Allure/Playwright reports.
+
+#### Run folder layout
+
+Every run — framework (`ai:smoke`) or ad-hoc audit — writes everything into a single folder created next to where the command runs:
+
+```
+test-reports_2026-09-30_14-05-12_www-myvi-in/
+├── allure-results/        # raw Allure results
+├── allure-report/         # single-file Allure report (index.html)
+├── playwright-report/     # Playwright HTML report (index.html)
+├── screenshots/           # full-page + evidence screenshots
+├── test-results/          # raw Playwright output, evidence, test-summary.json
+├── logs/test.logs         # framework execution log
+└── report.html/.pdf       # ad-hoc premium report (Smoke/E2E ad-hoc runs)
+```
+
+`npm run fresh` deletes all previous `test-reports_*` folders (plus legacy flat dirs from older versions) before a new run.
 
 The ad-hoc report is **fully self-contained and offline**: inline CSS, inline SVG charts, system font stack only — zero CDN scripts, links, or fonts (the only external references are the local screenshot files next to it).
 

@@ -3,6 +3,7 @@
  * Screenshots are written into the run folder and referenced by the report
  * via relative paths only (keeps the report self-contained and offline).
  */
+import fs from 'fs';
 import path from 'path';
 import { AdhocSessions } from '../browserSessions';
 
@@ -34,12 +35,15 @@ export async function captureAllScreenshots(
     { key: 'mobile', label: 'Mobile', viewport: '390x844' },
   ];
 
+  const shotsDir = path.join(runDir, 'screenshots');
+  fs.mkdirSync(shotsDir, { recursive: true });
+
   for (const shot of shots) {
     const page = sessions[shot.key].page;
     const file = `${shot.label.toLowerCase()}_${ts}.png`;
-    const absPath = path.join(runDir, file);
+    const absPath = path.join(shotsDir, file);
     await page.screenshot({ path: absPath, fullPage: true });
-    entries.push({ label: shot.label, file, viewport: shot.viewport });
+    entries.push({ label: shot.label, file: `screenshots/${file}`, viewport: shot.viewport });
   }
 
   return { entries };

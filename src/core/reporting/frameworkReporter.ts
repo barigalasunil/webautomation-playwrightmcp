@@ -1,5 +1,6 @@
 import type { Reporter, TestCase, TestResult, Suite, FullConfig, FullResult } from '@playwright/test/reporter';
 import { logger } from '../utils/logger';
+import { resolveActiveRunFolder } from '../runner/runFolder';
 import fs from 'fs';
 import path from 'path';
 
@@ -128,7 +129,7 @@ class FrameworkReporter implements Reporter {
 
   private attachLogToTest(test: TestCase, result: TestResult): void {
     try {
-      const logPath = path.resolve(process.cwd(), 'logs', 'test.logs');
+      const logPath = path.join(resolveActiveRunFolder(), 'logs', 'test.logs');
       if (fs.existsSync(logPath)) {
         const logContent = fs.readFileSync(logPath, 'utf-8');
         const lines = logContent.split('\n').filter(l => l.trim());
@@ -193,7 +194,7 @@ class FrameworkReporter implements Reporter {
 
   private saveTestSummary(): void {
     try {
-      const summaryPath = path.resolve(process.cwd(), 'test-results', 'test-summary.json');
+      const summaryPath = path.join(resolveActiveRunFolder(), 'test-results', 'test-summary.json');
       const summary = {
         total: totalTests,
         passed: passedCount,

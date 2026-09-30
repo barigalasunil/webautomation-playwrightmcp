@@ -22,6 +22,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { buildRunFolderName, RUN_DIR_ENV } from '../core/runner/runFolder.js';
 import { captureAllScreenshots, ScreenshotResult } from './checks/screenshots.js';
 import { captureConsoleAndNetwork } from './checks/consoleNetwork.js';
 import { runAccessibilityAudit, AccessibilityResult } from './checks/accessibility.js';
@@ -176,34 +177,27 @@ function validateArgs(args: AdhocArgs): { keyword: Keyword; url: string } {
   return { keyword, url: args.url };
 }
 
-function timestampSlug(): string {
-  const d = new Date();
-  const p = (n: number): string => String(n).padStart(2, '0');
-  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}_${p(d.getHours())}-${p(d.getMinutes())}-${p(d.getSeconds())}`;
-}
-
-function hostnameSlug(): string {
-  return os.hostname().toLowerCase().replace(/[^a-z0-9-]+/g, '-').replace(/^-+|-+$/g, '') || 'localhost';
-}
-
 /**
  * Resolve the run folder. User-facing output: always relative to process.cwd().
- * Default (no --out): the timestamped+hostname-tagged run folder is created
- * directly in the current directory. With --out: it is created inside that
- * base folder. Same-second collisions get a numeric suffix — never overwrite.
+ * The folder is named test-reports_<datetime>_<url-name> (shared with the
+ * framework's runFolder helper). Default (no --out): created directly in the
+ * current directory. With --out: created inside that base folder. Same-second
+ * collisions get a numeric suffix — never overwrite a previous run.
  */
-function resolveRunDir(outArg: string): string {
+function resolveRunDir(outArg: string, url: string): string {
   const outBase = path.isAbsolute(outArg) ? outArg : path.resolve(process.cwd(), outArg);
-  const runDir = path.join(outBase, `audit_${timestampSlug()}_${hostnameSlug()}`);
+  const runDir = path.join(outBase, buildRunFolderName(url));
   if (fs.existsSync(runDir)) {
     // Same-second collision: add a numeric suffix, never overwrite a previous run.
     let i = 2;
     while (fs.existsSync(`${runDir}-${i}`)) i++;
     const suffixed = `${runDir}-${i}`;
     fs.mkdirSync(suffixed, { recursive: true });
+    process.env[RUN_DIR_ENV] = suffixed;
     return suffixed;
   }
   fs.mkdirSync(runDir, { recursive: true });
+  process.env[RUN_DIR_ENV] = runDir;
   return runDir;
 }
 
@@ -252,7 +246,7 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  const runDir = resolveRunDir(args.out);
+  const runDir = resolveRunDir(args.out, url);
   const domain = deriveDomain(url);
 
   console.log('');

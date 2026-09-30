@@ -28,32 +28,60 @@ export interface SiteMapPage {
 }
 
 /**
- * Builds a natural reading string for an element by joining its child text nodes and
- * child elements with a single space. Raw `.textContent` concatenates adjacent
- * descendant text with NO separator, so an element like
- * <div class="card"><h3>The</h3><p>Blogs</p></div> produced "TheBlogs" (and
- * "Our best selling plans now<block>with free SIM delivery</block>" produced
- * "nowwith"), which was then baked into generated assertions that could never match
- * the real page text. The final whitespace collapse keeps multi-space runs to one.
+ * Builds a string that mirrors what Playwright's getByRole name matching sees
+ * (the ARIA accessible name), so generated assertions can actually match.
  *
- * Trade-off: sibling elements are joined with a space even when the DOM has none
- * (e.g. "1<span>0</span>" becomes "1 0"). This is intentional - it matches how the
- * page renders visually distinct segments and fixes the reported corruption cases;
- * Playwright's name matching normalizes whitespace on both sides of the comparison.
+ * Rules (approximating the accessible-name computation):
+ *  - Text nodes are appended verbatim; the final whitespace collapse normalizes runs.
+ *  - `img` contributes its alt (or aria-label) as a standalone, space-padded token:
+ *    <h1><img alt="star"> the <img alt="vi-logo"> blogs</h1> is NAMED
+ *    "star the vi-logo blogs" — capturing only the text nodes ("the blogs") can
+ *    never match, because getByRole compares against the accessible name.
+ *  - Block-level children (block tags, or inline tags styled block via computed
+ *    display) are separated with a space, like a rendered box boundary:
+ *    <h3>The</h3><p>Blogs</p> reads "The Blogs", not "TheBlogs".
+ *  - Inline children (span/b/em/a/…) flow in with NO separator: matching the DOM,
+ *    FAQ<span>’s</span> reads "FAQ’s", not the bogus "FAQ ’s" an unconditional
+ *    join produced (which broke exact-ish name matching against the live page).
+ *
+ * Must stay self-contained: it is serialized via .toString() and rebuilt inside
+ * page.evaluate with `new Function` (see analyzePage) — helpers live in this body.
  */
-function collectReadableText(el: Element | null | undefined): string {
+export function collectReadableText(el: Element | null | undefined): string {
+  const INLINE_TAGS = new Set([
+    "SPAN", "B", "I", "EM", "STRONG", "A", "SMALL", "SUP", "SUB", "U", "MARK",
+    "ABBR", "CODE", "TIME", "Q", "CITE", "LABEL", "BUTTON", "SELECT", "DATA",
+    "KBD", "SAMP", "VAR", "RUBY", "DEL", "INS", "S", "WBR", "PICTURE", "SVG",
+  ]);
   if (!el) return "";
-  let text = "";
+  let out = "";
+  // NOTE: no named inner functions/arrows here — tsx (esbuild keepNames) would
+  // wrap them in __name(...), which leaks into .toString() and throws
+  // "__name is not defined" when this source is rebuilt inside page.evaluate.
   for (const child of el.childNodes) {
     if (child.nodeType === Node.TEXT_NODE) {
-      text += child.textContent ?? "";
+      out += child.textContent ?? "";
     } else if (child.nodeType === Node.ELEMENT_NODE) {
-      const tag = (child as Element).tagName;
+      const c = child as Element;
+      const tag = c.tagName;
       if (tag === "SCRIPT" || tag === "STYLE" || tag === "NOSCRIPT" || tag === "TEMPLATE") continue;
-      text += " " + collectReadableText(child as Element);
+      if (tag === "IMG" || tag === "AREA" || c.getAttribute("role") === "img") {
+        const alt = (c.getAttribute("alt") ?? c.getAttribute("aria-label") ?? "").replace(/\s+/g, " ").trim();
+        if (alt) { if (out && !/\s$/.test(out)) out += " "; out += alt + " "; }
+        continue;
+      }
+      let blockish = !INLINE_TAGS.has(tag);
+      if (!blockish) {
+        const view = (c.ownerDocument as Document | null)?.defaultView;
+        const display = view ? String(view.getComputedStyle(c).display || "inline") : "inline";
+        blockish = !display.startsWith("inline");
+      }
+      if (blockish && out && !/\s$/.test(out)) out += " ";
+      out += collectReadableText(c);
+      if (blockish) out += " ";
     }
   }
-  return text.replace(/\s+/g, " ").trim();
+  return out.replace(/\s+/g, " ").trim();
 }
 
 export async function analyzePage(page: Page): Promise<SiteMapPage> {
